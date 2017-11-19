@@ -1,6 +1,6 @@
 # Scansion project
 
-## [Download archive](https://dargones.github.io/Scansion_project/Archive.zip)
+## [Download archive](https://dargones.github.io/Scansion-project/Archive.zip)
 
 ## File by file description:
 * scansion.py
