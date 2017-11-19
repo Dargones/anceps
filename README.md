@@ -1,3 +1,5 @@
+# Description
+
 ## [Download archive](https://dargones.github.io/Scansion_project/Archive.zip)
 
 ## File by file description:
@@ -10,7 +12,7 @@
 * compare.py
 
   Prints the distribution of different meter patterns (a unigram) obtained from the output of scansion.py. Also, evaluates algorithm's performance, 
-  comparing its output against that from manual_result.txt.
+  comparing its output with the data from manual_result.txt.
 
 * input/input.txt
 
@@ -38,10 +40,11 @@
   ```
   Here, *input_file* is the name of the file that contains the output of scanasion.py, and *test_file* is the name of the file that 
   contains "answer key" for the scansion
+  
   Example (this will work with the files in the repository after running scansion.py): 
   ```
   python3 compare.py output/scanned_lines.txt input/manual_result.txt 
   ```
 
 ## Acknowledgements:
-The 1000 of scanned lines from Aeneid that I used for testing purposes were kindly shared by Professor Ben Johnson (who is administrating hexameter.co)
+The 1000 of scanned lines from Aeneid that I used for testing purposes were kindly shared with me by Professor Ben Johnson (who is administrating hexameter.co)
