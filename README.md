@@ -5,13 +5,11 @@
 ## File by file description:
 * scansion.py
 
-  The bulk of the algorithm. At first, scans all the lines, for which the longitude of vowels by position gives enough information
-  for determining the meter pattern. Then, builts a dictionary based on lines already scanned and uses the dictionary to scan the lines, for which
-  the meter pattern has not been determined. Repeats this procedure untill no further progress is done.
+  The bulk of the algorithm. At first it scans all the lines, for which the longitude of vowels by position gives enough information to determine the meter pattern. Then it builts a dictionary based on lines already scanned and uses the dictionary to scan those lines, for which the meter pattern has not been determined. The program repeats this procedure untill no further progress is done.
 
 * compare.py
 
-  Prints the distribution of different meter patterns (a unigram) obtained from the output of scansion.py. Also, evaluates algorithm's performance, 
+  The program prints the distribution of different meter patterns (a unigram) obtained from the output of scansion.py. It also evaluates algorithm's performance, 
   comparing its output with the data from manual_result.txt.
 
 * input/input.txt
@@ -38,7 +36,7 @@
   ```
   python3 compare.py input_file test_file
   ```
-  Here, *input_file* is the name of the file that contains the output of scanasion.py, and *test_file* is the name of the file that 
+  Here, *input_file* is the name of the file that contains the output of scansion.py, and *test_file* is the name of the file that 
   contains "answer key" for the scansion
   
   Example (this will work with the files in the repository after running scansion.py): 
@@ -47,4 +45,4 @@
   ```
 
 ## Acknowledgements:
-The 1000 of scanned lines from Aeneid that I used for testing purposes were kindly shared with me by Professor Ben Johnson (who is administrating hexameter.co)
+The 1000 scanned lines from Aeneid that I used for testing purposes were kindly shared with me by Professor Ben Johnson (who is administrating hexameter.co)
