@@ -5,7 +5,7 @@
 ## File by file description:
 * scansion.py
 
-  The bulk of the algorithm. At first it scans all the lines, for which the longitude of vowels by position gives enough information to determine the meter pattern. Then it builts a dictionary based on lines already scanned and uses the dictionary to scan those lines, for which the meter pattern has not been determined. The program repeats this procedure untill no further progress is done.
+  The bulk of the algorithm. At first, it scans all the lines, for which the longitude of vowels by position gives enough information to determine the meter pattern. Then, it builts a dictionary based on lines already scanned and uses the dictionary to scan those lines, for which the meter pattern has not been determined. The program repeats this procedure untill no further progress is done.
 
 * compare.py
 
