@@ -1,124 +1,27 @@
+"""
+This module contains the utilities that should help to evaluate algorithm's
+performance.
+python3 compare.py input_file_name test_file_name
+where input_file_name          is the name of the file that contains the lines
+                               scanned by scanasion.py
+      test_file_name           the name of the file that contains the answer key
+                               to some part of input file. The performance of
+                               the algorithm is evaluated by comparing
+                               input_file_name against test_file_name
+
+"""
+import sys
+
 from utilities import *
-
-MIN_LENGTH = 3
-
-def clear(string):
-    """
-    take a string, return its meter version
-    :param string:
-    :return:
-    """
-    string = re.sub(r'[^' + LONG_MARKED + SHORT_MARKED + ']', '', string)
-    string = re.sub(r'[' + SHORT + ']', SHORT, string)
-    return re.sub(r'[' + LONG + ']', LONG, string)
-
-
-def clear_file(text_name):
-    with open(text_name) as file:
-        lines = list(map(clear, file.readlines()))
-    with open(text_name, 'w') as file:
-        file.writelines(lines)
-
-
-def compare(man, auto, text):
-    countTrue = 0
-    countFalse = 0
-    countNotSizedId = 0
-    countNotSizedEp = 0
-    countNotSizedMult = 0
-    countEmpty = 0
-    countPTrue = 0
-    countPFalse = 0
-    with open(man) as file:
-        m = file.readlines()
-    with open(auto) as file:
-        a = file.readlines()
-    with open(text) as file:
-        t = file.readlines()
-    for i in range(len(m)):
-        m[i] = m[i].rstrip('\n')
-        a[i] = a[i].rstrip('\n')
-        t[i] = t[i].rstrip('\n')
-        if UNK in a[i]:
-            countEmpty += 1
-            if len(a[i]) != len(m[i]):
-                countNotSizedEp += 1
-                print(t[i], i, ' e\n')
-            continue
-        versions = a[i].split('|')
-        if len(versions) == 1:
-            if a[i] == m[i]:
-                countTrue += 1
-            else:
-                countFalse += 1
-                if len(a[i]) != len(m[i]):
-                    countNotSizedId += 1
-                    print(t[i], i, 'i\n')
-        else:
-            found = False
-            for version in versions:
-                if version == m[i]:
-                    found = True
-                    break
-            if found:
-                countPTrue += 1
-            else:
-                countPFalse += 1
-                if len(versions[-1]) != len(m[i]):
-                    countNotSizedMult += 1
-                    print(t[i], i, 'm\n')
-    den = (countFalse+countTrue+countPFalse+countPTrue+countEmpty)
-    cNSE = str(countNotSizedEp) + ' (' + str(round(
-        countNotSizedEp / countEmpty * 100, 1)) + '%)'
-    cNSI = str(countNotSizedId) + ' (' + str(round(
-        countNotSizedId / countFalse * 100, 1)) + '%)'
-    if countPFalse == 0:
-        cNSM = str(countNotSizedMult) + ' (0%)'
-    else:
-        cNSM = str(countNotSizedMult) + ' (' + str(round(
-            countNotSizedMult / countPFalse * 100, 1)) + '%)'
-    cT = str(countTrue) + ' (' + str(round(countTrue / den * 100, 1)) + '%)'
-    cF = str(countFalse) + ' (' + str(round(
-        countFalse / den * 100, 1)) + '%)\tof this syll-err: ' + cNSI
-    cPT = str(countPTrue) + ' (' + str(round(countPTrue / den * 100, 1)) + '%)'
-    cPF = str(countPFalse) + ' (' + str(round(
-        countPFalse / den * 100, 1)) + '%)\tof this syll-err: ' + cNSM
-    cE = str(countEmpty) + ' (' + str(
-        round(countEmpty / den * 100, 1)) + '%)\tof this syll-err: ' + cNSE
-    total_not_sized = countNotSizedMult + countNotSizedId + countNotSizedEp
-    cNST = str(total_not_sized) + ' (' + str(
-        round((total_not_sized) / (
-            countEmpty + countFalse + countPFalse) * 100, 1)) + '%)'
-
-    print("\n\ncTrue:    " + cT + "\ncFalse:   " + cF + "\ncPTrue:   " + cPT
-          + "\ncPFalse:  " + cPF + "\ncEmpty:   " + cE + "\ncNotSize: " + cNST)
-
-
-def compare_dictionaries(dict1, dict2):
-    with open(dict1) as file:
-        d1 = file.readlines()
-    with open(dict2) as file:
-        d2 = file.readlines()
-    i = 0
-    j = 0
-    while (i < len(d1)) and (j < len(d2)):
-        curr1 = d1[i].split(' ')
-        curr2 = d2[j].split(' ')
-        if curr1[0] < curr2[0]:
-            i += 1
-        elif curr1[0] > curr2[0]:
-            j += 1
-        else:
-            l1 = len(curr1[2].split('|'))
-            l2 = len(curr2[2].split('|'))
-            if UNK in merge_lists(curr1[1], curr2[1], True) and l1 >= MIN_LENGTH\
-                    and l2 >= MIN_LENGTH:
-                print(d1[i] + '\n' + d2[j] + '\n\n')
-            i += 1
-            j += 1
 
 
 def print_stats(text):
+    """
+    Print the statistics about the frequency of specific meter patterns
+    :param text: the output of teh algorithm
+    :return:
+    """
+    print("Distribution of meter patterns:")
     meters = {}
     with open(text) as file:
         lines = file.readlines()
@@ -140,6 +43,13 @@ def print_stats(text):
 
 
 def co_format(text, new_format_text):
+    """
+    Convert the LONG_SHORT format of algorithm's output to the DACTYL-SPONDEE
+    format. Example: _^^___^^_^^_^^_X = DSDD
+    :param text:
+    :param new_format_text:
+    :return:
+    """
     with open(text) as file:
         old = file.readlines()
     with open(new_format_text, 'w') as file:
@@ -160,7 +70,15 @@ def co_format(text, new_format_text):
             file.write(versions[-1][:4] + '\n')
 
 
-def compare_co_format(man, auto, text):
+def compare_co_format(man, auto):
+    """
+    Read the two files, one of which contains the output of the algorithm, and
+    the other the "correct" data from the testing set and report algorithm's
+    performance
+    :param man:  the file with correct results
+    :param auto: the file with algorithm's output
+    :return:
+    """
     countTrue = 0
     countFalse = 0
     countEmpty = 0
@@ -170,12 +88,9 @@ def compare_co_format(man, auto, text):
         m = file.readlines()
     with open(auto) as file:
         a = file.readlines()
-    with open(text) as file:
-        t = file.readlines()
     for i in range(len(m)):
-        m[i], rating = m[i].rstrip('\n ').split(' ')
+        m[i]= m[i].rstrip('\n ').split(' ')[0]
         a[i] = a[i].rstrip('\n')
-        t[i] = t[i].rstrip('\n')
         if a[i] == '':
             countEmpty += 1
             continue
@@ -184,7 +99,6 @@ def compare_co_format(man, auto, text):
             if a[i] == m[i]:
                 countTrue += 1
             else:
-                print(t[i], i, ' if\n')
                 countFalse += 1
         else:
             found = False
@@ -206,14 +120,22 @@ def compare_co_format(man, auto, text):
     cE = str(countEmpty) + ' (' + str(
         round(countEmpty / den * 100, 1)) + '%)'
 
-    print("\n\ncTrue:    " + cT + "\ncFalse:   " + cF + "\ncPTrue:   " + cPT
-          + "\ncPFalse:  " + cPF + "\ncEmpty:   " + cE)
+    print("\n\nIdentified correctly:    " + cT + "\nIdentified incorrectly:   "
+          + cF + "\nTwo or more possible versions given, among those there is a"
+                 " correct one:   " + cPT
+          + "\nTwo or more possible versions given, among those all are "
+            "incorrect:  " + cPF + "\nFailed to determine the meter:   " + cE)
 
 
-if __name__ == '__main__':
-    # clear_file(PATH_TO_TEST)
-    # compare(PATH_TO_TEST, PATH_TO_RESULT, PATH_TO_TEXT)
-    # compare_dictionaries(PATH_TO_AUTO_DICT, PATH_TO_AUTO_DICT2)
-    # print_stats(PATH_TO_RESULT)
-    co_format(PATH_TO_RESULT, PATH_TO_NEW_FORMAT)
-    compare_co_format(PATH_TO_TEST, PATH_TO_NEW_FORMAT, PATH_TO_TEXT)
+def main(path_to_result, path_to_test):
+    print_stats(path_to_result)
+    new_format_file_name = '.'.join(path_to_result.split('.')[:-1])+'.co.txt'
+    co_format(path_to_result, new_format_file_name)
+    compare_co_format(path_to_test, new_format_file_name)
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: %s program_output_file_name answer_key_file_name"
+              % sys.argv[0])
+        sys.exit(-1)
+    main(sys.argv[1], sys.argv[2])
