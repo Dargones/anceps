@@ -1,13 +1,28 @@
+"""
+This module is the bulk of the algorithm. Usage:
+python3 scansion.py input_file_name dict_output_file_name output_file_name
+where input_file_name          is the name of the file that contains the lines
+                               to be scanned
+      dict_output_file_name    the name of the file to which print the created
+                               dictionary
+      output_file_name         the name of the file to which to print the output
+
+"""
+
 import copy
 import math
+
+import sys
+
 from utilities import *
 
 # ------------- Global Variables -----------------------------------------------
 
-
-roots = {}
+roots = {}  # dictionary
 ALPHA = 1
-C_THRESHOLD = 0.7
+C_THRESHOLD = 0.7  # when the dictionary is printed out, only those words about
+# which the program is relatively certain will be printed out. C_THRESHOLD
+# defines what relatively certain means.
 
 # ------------------------------------------------------------------------------
 # ------------- The Root Class Definition --------------------------------------
@@ -19,7 +34,6 @@ class Root:
 
     MAX_ROOT_IN_LINE = 5  # the assumed number of maximum occurrences of a root
     # in a single line
-    LOW_DATA_PENALTY = 3
 
     def __init__(self, name):
         """
@@ -97,6 +111,28 @@ class Root:
             else:
                 imax = i_avg - 1
 
+    def calculate_probabilities(self):
+        """
+        The probability of a group is proportional to the number of endings
+        that match to this group (each ending is weighted by the number of
+        groups is matches to)
+        :return:
+        """
+        self.groups_p = []
+        for i in range(len(ALL) + 1):
+            self.groups_p.append(0)
+        n_matches = 0
+        for end in self.endings:
+            if end[0] == '':
+                self.groups_p[len(ALL)] += 1/ALPHA
+                n_matches += 1/ALPHA
+            else:
+                for group in ENDINGS[end[0]]:
+                    self.groups_p[group] += 1/math.log(len(ENDINGS[end[0]]) + 1)
+                    n_matches += 1/math.log(len(ENDINGS[end[0]]) + 1)
+        for i in range(len(ALL) + 1):
+            self.groups_p[i] /= n_matches
+
     def get_meter(self, ending, exact_match=False):
         """
         Find the most possible combination of long and short vowels in this root
@@ -118,7 +154,6 @@ class Root:
                 if meter is None:
                     meter = end[3]
                 else:
-                    # TODO: there should be some kind of probability inferencing here
                     meter = merge_lists(meter, end[3], True, DUMMY_TOKEN)
         return dummy_to_unk(meter)
 
@@ -159,28 +194,6 @@ class Root:
                 if confidence[i] != -1:
                     confidence[i] /= count
         return meter, confidence
-
-    def calculate_probabilities(self):
-        """
-        The probability of a group is proportionall to the number of endings
-        that match to this group (one ending can match to multiple groups)
-        :return:
-        """
-        self.groups_p = []
-        for i in range(len(ALL) + 1):
-            self.groups_p.append(0)
-        n_matches = 0
-        for end in self.endings:
-            if end[0] == '':
-                self.groups_p[len(ALL)] += 1/ALPHA
-                n_matches += 1/ALPHA
-            else:
-                for group in ENDINGS[end[0]]:
-                    # TODO: Do I use tf-idf correctly here?
-                    self.groups_p[group] += 1/math.log(len(ENDINGS[end[0]]) + 1)
-                    n_matches += 1/math.log(len(ENDINGS[end[0]]) + 1)
-        for i in range(len(ALL) + 1):
-            self.groups_p[i] /= n_matches
 
 
 # ------------------------------------------------------------------------------
@@ -285,7 +298,6 @@ class Word:
             # be equal even then calculated differently
             curr = round(curr * len(affix[0].endings)/total_occurances, 3)
             # longest ending 'wins', given equal probabilities
-            # TODO: is the statement above correct?
             if curr > likelihood or (curr == likelihood and len(affix[1]) > len(self.root[1])):
                 likelihood = curr
                 best_group = group
@@ -479,7 +491,7 @@ def scansion_versions(line, meter, meterIndex):
     return result
 
 
-def print_dic_stats(lines):
+def print_dic_stats(lines, path_to_dict):
     """
     Print the info about all the roots
     :param lines:
@@ -492,7 +504,7 @@ def print_dic_stats(lines):
                 roots2[word.root[0]] = [word.root[1]]
             else:
                 roots2[word.root[0]].append(word.root[1])
-    with open(PATH_TO_AUTO_DICT, 'w') as file:
+    with open(path_to_dict, 'w') as file:
         for root in sorted(roots2.keys()):
             meter, confidence = root.get_full_meter()
             if meter and (-1 not in confidence) and (
@@ -502,19 +514,21 @@ def print_dic_stats(lines):
                            '|'.join(roots2[root]) + '\n')
 
 
-if __name__ == "__main__":
-    with open(PATH_TO_TEXT) as file:
+def main(path_to_text, path_to_dict, path_to_result):
+    with open(path_to_text) as file:
         lines = file.readlines()
     for i in range(len(lines)):
         lines[i] = Line(lines[i])
+    print('Building the dictionary...')
     for i in range(len(lines)):
         lines[i].analyze()
     versions = 0
     run = 0
     change = -1
-    empty = 0
-    identified = 0
     while change != 0:
+        if change != 0:
+            print('This is run number ' + str(run) + '. Please, wait until the '
+                                                   'program terminates...')
         empty = 0
         identified = 0
         newVersion = 0
@@ -537,24 +551,33 @@ if __name__ == "__main__":
         change = newVersion - versions
         versions = newVersion
         run += 1
-        print("\n\naverage = " + str(versions / len(lines)) +
-            ' versions per line.\nidentified = ' + str(identified / len(lines)) +
-            '\nempty = ' + str(empty / len(lines)) + '\n\n')
-
-    print_dic_stats(lines)
-
-    with open(PATH_TO_RESULT, 'w') as file:
+        print('\naverage = ' + str(round(versions / len(lines), 4)) +
+              ' versions per line.\nidentified = ' +
+              str(round(identified / len(lines) * 100, 1)) + '%\nempty = ' +
+              str(round(empty / len(lines) * 100, 1)) + '%\n')
+    print('Printing the dictionary...')
+    print_dic_stats(lines, path_to_dict)
+    print('Printing the results...')
+    with open(path_to_result, 'w') as file:
         for i in range(len(lines)):
             curr = scansion_versions(lines[i].get_meter(), HEXAMETER, 0)
-            str = ''
+            to_print = ''
             j = 0
             if not curr:
                 curr = [lines[i].get_meter()]
                 curr[0][-1] = '?'
             while j < len(curr):
                 for char in curr[j]:
-                    str += char
+                    to_print += char
                 if j < len(curr) - 1:
-                    str += '|'
+                    to_print += '|'
                 j += 1
-            file.write(str + '\n')
+            file.write(to_print + '\n')
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 4:
+        print("Usage: %s input_file_name dict_output_file_name output_file_name"
+              % sys.argv[0])
+        sys.exit(-1)
+    main(sys.argv[1], sys.argv[2], sys.argv[3])
