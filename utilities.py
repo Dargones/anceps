@@ -1,5 +1,26 @@
 import re
 
+# ------------------- Paths and Directories ------------------------------------
+BASEDIR = '/Users/alexanderfedchin/PycharmProjects/sproj/'
+OUTDIR = BASEDIR + 'output/'
+INDIR = BASEDIR + 'input/'
+# PATH_TO_TEXT = INDIR + 'aeneid.txt'
+# PATH_TO_TEXT = INDIR + 'ovid.txt'
+# PATH_TO_TEXT = INDIR + 'eclogues1-5.txt'
+PATH_TO_TEXT = INDIR + 'query_text.csv'
+PATH_TO_NEW_FORMAT = OUTDIR + 'aeneid_scanned.co.txt'
+PATH_TO_RESULT = OUTDIR + 'aeneid_scanned.txt'
+# PATH_TO_RESULT = OUTDIR + 'metamorphoses_scanned.txt'
+# PATH_TO_TEST = INDIR + 'aeneid_test.txt'
+PATH_TO_TEST = INDIR + 'query_result.csv'
+PATH_TO_AUTO_DICT = OUTDIR + 'dict_vergil.txt'
+# PATH_TO_AUTO_DICT2 = OUTDIR + 'dict_ovid.txt'
+PATH_TO_DICT = INDIR + 'latin-analyses.txt'
+
+# ------------------- For Reading already Scanned Verses -----------------------
+SHORT_MARKED = 'ĂăĕĬĭŎŏŭŷ'
+LONG_MARKED = 'ĀāēĪīōŪūȳ'
+
 # ------------------- Info about Syllables and Vowel Lengths -------------------
 
 LONG = '_'

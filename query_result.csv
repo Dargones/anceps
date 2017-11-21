@@ -1,0 +1,1001 @@
+Work,Book,Line,Meter,Latin,Rating
+Aeneid,1,1,DDSS,"Arma virumque cano, Troiae qui primus ab oris",1116
+Aeneid,1,2,DSDS,"Italiam, fato profugus, Laviniaque venit",1738
+Aeneid,1,3,DSSS,"litora, multum ille et terris iactatus et alto",1246
+Aeneid,1,4,DSDS,vi superum saevae memorem Iunonis ob iram;,1085
+Aeneid,1,5,DSSS,"multa quoque et bello passus, dum conderet urbem,",1026
+Aeneid,1,6,SDDD,"inferretque deos Latio, genus unde Latinum,",983
+Aeneid,1,7,SDSS,"Albanique patres, atque altae moenia Romae.",1510
+Aeneid,1,8,DSDS,"Musa, mihi causas memora, quo numine laeso,",1151
+Aeneid,1,9,DSDS,"quidve dolens, regina deum tot volvere casus",1479
+Aeneid,1,10,SDDD,"insignem pietate virum, tot adire labores",1065
+Aeneid,1,11,DSDS,impulerit.  Tantaene animis caelestibus irae?,850
+Aeneid,1,12,SDDD,"Urbs antiqua fuit, Tyrii tenuere coloni,",1436
+Aeneid,1,13,SDSD,"Karthago, Italiam contra Tiberinaque longe",1315
+Aeneid,1,14,DDDS,"ostia, dives opum studiisque asperrima belli;",1079
+Aeneid,1,15,SSSD,quam Iuno fertur terris magis omnibus unam,1387
+Aeneid,1,16,DDDS,"posthabita coluisse Samo; hic illius arma,",1702
+Aeneid,1,17,SDSD,"hic currus fuit; hoc regnum dea gentibus esse,",1326
+Aeneid,1,18,SDSS,"si qua fata sinant, iam tum tenditque fovetque.",1263
+Aeneid,1,19,DDSS,Progeniem sed enim Troiano a sanguine duci,1577
+Aeneid,1,20,DDSS,"audierat, Tyrias olim quae verteret arces;",1205
+Aeneid,1,21,DSSS,hinc populum late regem belloque superbum,1088
+Aeneid,1,22,SDDS,venturum excidio Libyae:  sic volvere Parcas.,1410
+Aeneid,1,23,DDDS,"Id metuens, veterisque memor Saturnia belli,",1010
+Aeneid,1,24,DSSS,prima quod ad Troiam pro caris gesserat Argis-,1446
+Aeneid,1,25,DSSS,necdum etiam causae irarum saevique dolores,1442
+Aeneid,1,26,DDDS,exciderant animo:  manet alta mente repostum,975
+Aeneid,1,27,DDSS,"iudicium Paridis spretaeque iniuria formae,",1405
+Aeneid,1,28,DSSD,"et genus invisum, et rapti Ganymedis honores.",1381
+Aeneid,1,29,SDSS,"His accensa super, iactatos aequore toto",1366
+Aeneid,1,30,SDDS,"Troas, reliquias Danaum atque immitis Achilli,",1544
+Aeneid,1,31,SSDS,"arcebat longe Latio, multosque per annos",1077
+Aeneid,1,32,SSSD,"errabant, acti fatis, maria omnia circum.",1260
+Aeneid,1,33,SDSS,Tantae molis erat Romanam condere gentem!,1027
+Aeneid,1,34,SSDS,Vix e conspectu Siculae telluris in altum,770
+Aeneid,1,35,DSSD,"vela dabant laeti, et spumas salis aere ruebant,",1122
+Aeneid,1,36,SSSS,"cum Iuno, aeternum servans sub pectore vulnus,",1222
+Aeneid,1,37,SSSS,"haec secum: ?Mene incepto desistere victam,",1207
+Aeneid,1,38,SDSS,nec posse Italia Teucrorum avertere regem?,1372
+Aeneid,1,39,DSSS,Quippe vetor fatis.  Pallasne exurere classem,1079
+Aeneid,1,40,SSDS,"Argivum atque ipsos potuit submergere ponto,",1326
+Aeneid,1,41,DSDS,unius ob noxam et furias Aiacis Oilei?,1702
+Aeneid,1,42,DDDS,"Ipsa, Iovis rapidum iaculata e nubibus ignem,",1321
+Aeneid,1,43,SDSS,"disiecitque rates evertitque aequora ventis,",1598
+Aeneid,1,44,SSSS,illum expirantem transfixo pectore flammas,1100
+Aeneid,1,45,DDDS,turbine corripuit scopuloque infixit acuto.,1296
+Aeneid,1,46,DSSS,"Ast ego, quae divum incedo regina, Iovisque",1482
+Aeneid,1,47,DSSS,"et soror et coniunx, una cum gente tot annos",1444
+Aeneid,1,48,DSSS,bella gero! Et quisquam numen Iunonis adoret,1374
+Aeneid,1,49,DSSS,"praeterea, aut supplex aris imponet honorem? '",1103
+Aeneid,1,50,DSSD,Talia flammato secum dea corde volutans,1449
+Aeneid,1,51,SDDD,"nimborum in patriam, loca feta furentibus austris,",1384
+Aeneid,1,52,DDSS,Aeoliam venit.  Hic vasto rex Aeolus antro,982
+Aeneid,1,53,SSSS,luctantes ventos tempestatesque sonoras,500
+Aeneid,1,54,DDSS,imperio premit ac vinclis et carcere frenat.,926
+Aeneid,1,55,SSSS,Illi indignantes magno cum murmure montis,532
+Aeneid,1,56,SDSD,circum claustra fremunt; celsa sedet Aeolus arce,1397
+Aeneid,1,57,DSDS,"sceptra tenens, mollitque animos et temperat iras.",982
+Aeneid,1,58,DDSS,"Ni faciat, maria ac terras caelumque profundum",852
+Aeneid,1,59,DDSS,quippe ferant rapidi secum verrantque per auras.,1113
+Aeneid,1,60,DDSS,"Sed pater omnipotens speluncis abdidit atris,",797
+Aeneid,1,61,DSSS,"hoc metuens, molemque et montes insuper altos",1045
+Aeneid,1,62,DSDS,"imposuit, regemque dedit, qui foedere certo",1399
+Aeneid,1,63,DSSD,et premere et laxas sciret dare iussus habenas.,1311
+Aeneid,1,64,SSSS,Ad quem tum Iuno supplex his vocibus usa est:,1241
+Aeneid,1,65,DDSD,"Aeole, namque tibi divum pater atque hominum rex",1365
+Aeneid,1,66,SDSS,"et mulcere dedit fluctus et tollere vento,",780
+Aeneid,1,67,DDSS,"gens inimica mihi Tyrrhenum navigat aequor,",1231
+Aeneid,1,68,DDSS,Ilium in Italiam portans victosque Penates:,971
+Aeneid,1,69,DSSS,"incute vim ventis submersasque obrue puppes,",679
+Aeneid,1,70,DSSD,aut age diversos et disiice corpora ponto.,1428
+Aeneid,1,71,DSSS,"Sunt mihi bis septem praestanti corpore nymphae,",717
+Aeneid,1,72,SSSD,"quarum quae forma pulcherrima Deiopea,",1518
+Aeneid,1,73,DSDD,"conubio iungam stabili propriamque dicabo,",1322
+Aeneid,1,74,SSDS,omnis ut tecum meritis pro talibus annos,1105
+Aeneid,1,75,DSDS,"exigat, et pulchra faciat te prole parentem.'",835
+Aeneid,1,76,DSDS,"Aeolus haec contra: 'Tuus, O regina, quid optes",1266
+Aeneid,1,77,SDDD,explorare labor; mihi iussa capessere fas est.,1482
+Aeneid,1,78,DSSS,"Tu mihi, quodcumque hoc regni, tu sceptra Iovemque",1244
+Aeneid,1,79,DSDS,"concilias, tu das epulis accumbere divum,",1046
+Aeneid,1,80,SDSS,nimborumque facis tempestatumque potentem.',971
+Aeneid,1,81,DDSS,"Haec ubi dicta, cavum conversa cuspide montem",945
+Aeneid,1,82,DDSD,"impulit in latus:  ac venti, velut agmine facto,",780
+Aeneid,1,83,DDSS,"qua data porta, ruunt et terras turbine perflant.",794
+Aeneid,1,84,DDSS,"Incubuere mari, totumque a sedibus imis",1283
+Aeneid,1,85,SDDS,una Eurusque Notusque ruunt creberque procellis,1230
+Aeneid,1,86,DSSS,"Africus, et vastos volvunt ad litora fluctus.",637
+Aeneid,1,87,DSDS,Insequitur clamorque virum stridorque rudentum.,1135
+Aeneid,1,88,DDSS,Eripiunt subito nubes caelumque diemque,1022
+Aeneid,1,89,SDSS,Teucrorum ex oculis; ponto nox incubat atra.,1374
+Aeneid,1,90,DDSD,"Intonuere poli, et crebris micat ignibus aether,",1029
+Aeneid,1,91,SDSS,praesentemque viris intentant omnia mortem.,927
+Aeneid,1,92,SSSS,Extemplo Aeneae solvuntur frigore membra:,549
+Aeneid,1,93,DDSS,"ingemit, et duplicis tendens ad sidera palmas",1116
+Aeneid,1,94,DDSD,"talia voce refert: 'O terque quaterque beati,",1095
+Aeneid,1,95,SDSS,quis ante ora patrum Troiae sub moenibus altis,1460
+Aeneid,1,96,DDDS,contigit oppetere! O Danaum fortissime gentis,833
+Aeneid,1,97,SSDS,Tydide! Mene Iliacis occumbere campis,1590
+Aeneid,1,98,DDDS,"non potuisse, tuaque animam hanc effundere dextra,",1182
+Aeneid,1,99,DDSD,"saevus ubi Aeacidae telo iacet Hector, ubi ingens",1563
+Aeneid,1,100,SDDS,"Sarpedon, ubi tot Simois correpta sub undis",1565
+Aeneid,1,101,DDSD,scuta virum galeasque et fortia corpora volvit? ',1071
+Aeneid,1,102,DSSD,Talia iactanti stridens Aquilone procella,1312
+Aeneid,1,103,SDSS,"velum adversa ferit, fluctusque ad sidera tollit.",1211
+Aeneid,1,104,SSSS,"Franguntur remi; tum prora avertit, et undis",1136
+Aeneid,1,105,DDDS,dat latus; insequitur cumulo praeruptus aquae mons.,900
+Aeneid,1,106,SSSS,Hi summo in fluctu pendent; his unda dehiscens,571
+Aeneid,1,107,SSDD,terram inter fluctus aperit; furit aestus harenis.,1131
+Aeneid,1,108,DSSD,Tres Notus abreptas in saxa latentia torquet-,990
+Aeneid,1,109,DDDS,saxa vocant Itali mediis quae in fluctibus aras-,1174
+Aeneid,1,110,SDSS,dorsum immane mari summo; tres Eurus ab alto,1218
+Aeneid,1,111,DSSD,"in brevia et Syrtes urget, miserabile visu,",1138
+Aeneid,1,112,SDSD,inliditque vadis atque aggere cingit harenae.,1174
+Aeneid,1,113,SDSD,"Unam, quae Lycios fidumque vehebat Oronten,",1228
+Aeneid,1,114,DDSS,ipsius ante oculos ingens a vertice pontus,1028
+Aeneid,1,115,SDDS,in puppim ferit:  excutitur pronusque magister,960
+Aeneid,1,116,DDSS,volvitur in caput; ast illam ter fluctus ibidem,759
+Aeneid,1,117,DSDD,"torquet agens circum, et rapidus vorat aequore vortex.",1123
+Aeneid,1,118,SSSS,"Adparent rari nantes in gurgite vasto,",557
+Aeneid,1,119,DDSD,"arma virum, tabulaeque, et Troia gaza per undas.",1121
+Aeneid,1,120,DDSS,"Iam validam Ilionei navem, iam fortis Achati,",1650
+Aeneid,1,121,SDSS,"et qua vectus Abas, et qua grandaevus Aletes,",1026
+Aeneid,1,122,DSDS,vicit hiems; laxis laterum compagibus omnes,1160
+Aeneid,1,123,DDSS,"accipiunt inimicum imbrem, rimisque fatiscunt.",956
+Aeneid,1,124,DSSS,"Interea magno misceri murmure pontum,",1256
+Aeneid,1,125,SDSS,"emissamque hiemem sensit Neptunus, et imis",1114
+Aeneid,1,126,DDDS,"stagna refusa vadis, graviter commotus; et alto",794
+Aeneid,1,127,DSDD,"prospiciens, summa placidum caput extulit unda.",811
+Aeneid,1,128,SSSD,"Disiectam Aeneae, toto videt aequore classem,",1581
+Aeneid,1,129,DSSS,"fluctibus oppressos Troas caelique ruina,",1223
+Aeneid,1,130,DDSS,nec latuere doli fratrem Iunonis et irae.,1302
+Aeneid,1,131,SDDS,"Eurum ad se Zephyrumque vocat, dehinc talia fatur:",1741
+Aeneid,1,132,DDDS,Tantane vos generis tenuit fiducia vestri?,1423
+Aeneid,1,133,SSDD,"Iam caelum terramque meo sine numine, venti,",1058
+Aeneid,1,134,SSSS,"miscere, et tantas audetis tollere moles?",1100
+Aeneid,1,135,DSSS,Quos ego - sed motos praestat componere fluctus.,928
+Aeneid,1,136,DDSS,Post mihi non simili poena commissa luetis.,1085
+Aeneid,1,137,SDSS,"Maturate fugam, regique haec dicite vestro:",1513
+Aeneid,1,138,SDDS,"non illi imperium pelagi saevumque tridentem,",998
+Aeneid,1,139,DDDS,"sed mihi sorte datum.  Tenet ille immania saxa,",922
+Aeneid,1,140,SDSS,"vestras, Eure, domos; illa se iactet in aula",1500
+Aeneid,1,141,DSSS,"Aeolus, et clauso ventorum carcere regnet.'",962
+Aeneid,1,142,DSDD,"Sic ait, et dicto citius tumida aequora placat,",1218
+Aeneid,1,143,SDSS,"collectasque fugat nubes, solemque reducit.",1023
+Aeneid,1,144,DDSS,Cymothoe simul et Triton adnixus acuto,1699
+Aeneid,1,145,SSDD,detrudunt navis scopulo; levat ipse tridenti;,1059
+Aeneid,1,146,SDSS,"et vastas aperit syrtes, et temperat aequor,",933
+Aeneid,1,147,DSDS,atque rotis summas levibus perlabitur undas.,844
+Aeneid,1,148,DSDS,Ac veluti magno in populo cum saepe coorta est,1034
+Aeneid,1,149,DSDS,"seditio, saevitque animis ignobile vulgus,",1094
+Aeneid,1,150,DSDD,iamque faces et saxa volant-furor arma ministrat;,1178
+Aeneid,1,151,DDDS,"tum, pietate gravem ac meritis si forte virum quem",1327
+Aeneid,1,152,SDSS,"conspexere, silent, arrectisque auribus adstant;",1198
+Aeneid,1,153,DSDS,"ille regit dictis animos, et pectora mulcet,-",808
+Aeneid,1,154,SDDD,"sic cunctus pelagi cecidit fragor, aequora postquam",810
+Aeneid,1,155,DDSS,prospiciens genitor caeloque invectus aperto,1013
+Aeneid,1,156,DSDS,"flectit equos, curruque volans dat lora secundo.",864
+Aeneid,1,157,SDSD,"Defessi Aeneadae, quae proxima litora, cursu",1091
+Aeneid,1,158,SDDS,"contendunt petere, et Libyae vertuntur ad oras.",1217
+Aeneid,1,159,SSSD,Est in secessu longo locus:  insula portum,1115
+Aeneid,1,160,DSDD,"efficit obiectu laterum, quibus omnis ab alto",1447
+Aeneid,1,161,DDSS,frangitur inque sinus scindit sese unda reductos.,1176
+Aeneid,1,162,SSSD,Hinc atque hinc vastae rupes geminique minantur,1209
+Aeneid,1,163,SDSS,"in caelum scopuli, quorum sub vertice late",1071
+Aeneid,1,164,DDSS,aequora tuta silent; tum silvis scaena coruscis,899
+Aeneid,1,165,DSSD,desuper horrentique atrum nemus imminet umbra.,1354
+Aeneid,1,166,DSDS,"Fronte sub adversa scopulis pendentibus antrum,",800
+Aeneid,1,167,DSSD,"intus aquae dulces vivoque sedilia saxo,",1363
+Aeneid,1,168,SDSS,nympharum domus:  hic fessas non vincula naves,1358
+Aeneid,1,169,DSSD,"ulla tenent, unco non alligat ancora morsu.",845
+Aeneid,1,170,SSSS,Huc septem Aeneas collectis navibus omni,1225
+Aeneid,1,171,DDSS,ex numero subit; ac magno telluris amore,768
+Aeneid,1,172,SSDS,"egressi optata potiuntur Troes harena,",1523
+Aeneid,1,173,DSSS,et sale tabentes artus in litore ponunt.,714
+Aeneid,1,174,SDSS,"Ac primum silici scintillam excudit Achates,",1126
+Aeneid,1,175,SSDS,"succepitque ignem foliis, atque arida circum",1242
+Aeneid,1,176,SDDS,"nutrimenta dedit, rapuitque in fomite flammam.",1367
+Aeneid,1,177,DSSD,Tum Cererem corruptam undis Cerealiaque arma,1204
+Aeneid,1,178,DSSS,"expediunt fessi rerum, frugesque receptas",950
+Aeneid,1,179,SDSS,et torrere parant flammis et frangere saxo.,768
+Aeneid,1,180,SDDS,"Aeneas scopulum interea conscendit, et omnem",1271
+Aeneid,1,181,SSDD,"prospectum late pelago petit, Anthea si quem",1363
+Aeneid,1,182,SSDD,"iactatum vento videat Phrygiasque biremes,",1359
+Aeneid,1,183,DSSD,"aut Capyn, aut celsis in puppibus arma Caici.",1405
+Aeneid,1,184,SSSS,"Navem in conspectu nullam, tres litore cervos",1189
+Aeneid,1,185,DSSS,prospicit errantes; hos tota armenta sequuntur,1020
+Aeneid,1,186,SSSS,"a tergo, et longum per valles pascitur agmen.",900
+Aeneid,1,187,DSDD,"Constitit hic, arcumque manu celerisque sagittas",936
+Aeneid,1,188,DSSD,"corripuit, fidus quae tela gerebat Achates;",1413
+Aeneid,1,189,SSSD,"ductoresque ipsos primum, capita alta ferentes",1160
+Aeneid,1,190,DDSS,"cornibus arboreis, sternit, tum vulgus, et omnem",1204
+Aeneid,1,191,DSDS,miscet agens telis nemora inter frondea turbam;,1139
+Aeneid,1,192,DSSS,"nec prius absistit, quam septem ingentia victor",1118
+Aeneid,1,193,DDDS,"corpora fundat humi, et numerum cum navibus aequet.",1175
+Aeneid,1,194,SDDS,"Hinc portum petit, et socios partitur in omnes.",799
+Aeneid,1,195,DSDD,Vina bonus quae deinde cadis onerarat Acestes,1241
+Aeneid,1,196,DDDD,"litore Trinacrio dederatque abeuntibus heros,",1590
+Aeneid,1,197,DSSD,"dividit, et dictis maerentia pectora mulcet:",884
+Aeneid,1,198,DDSD,O socii-neque enim ignari sumus ante malorum-,1456
+Aeneid,1,199,SDDD,"O passi graviora, dabit deus his quoque finem.",1330
+Aeneid,1,200,SSDD,Vos et Scyllaeam rabiem penitusque sonantis,971
+Aeneid,1,201,SDSS,"accestis scopulos, vos et Cyclopea saxa",926
+Aeneid,1,202,SDDS,"experti:  revocate animos, maestumque timorem",836
+Aeneid,1,203,DDSD,mittite:  forsan et haec olim meminisse iuvabit.,1320
+Aeneid,1,204,DSSS,"Per varios casus, per tot discrimina rerum",1054
+Aeneid,1,205,DDSD,tendimus in Latium; sedes ubi fata quietas,1404
+Aeneid,1,206,SSSD,ostendunt; illic fas regna resurgere Troiae.,824
+Aeneid,1,207,SSSS,"Durate, et vosmet rebus servate secundis.'",1088
+Aeneid,1,208,DDSS,"Talia voce refert, curisque ingentibus aeger",997
+Aeneid,1,209,SDDS,"spem vultu simulat, premit altum corde dolorem.",800
+Aeneid,1,212,SDDD,pars in frusta secant veribusque trementia figunt;,1218
+Aeneid,1,219,SDSS,sive extrema pati nec iam exaudire vocatos.,1637
+Aeneid,1,223,SDSD,"Et iam finis erat, cum Iuppiter aethere summo",1384
+Aeneid,1,224,DDDS,despiciens mare velivolum terrasque iacentis,1083
+Aeneid,1,232,SDDS,"quid Troes potuere, quibus, tot funera passis,",1638
+Aeneid,1,234,SSSS,"Certe hinc Romanos olim, volventibus annis,",1432
+Aeneid,1,235,DSDS,"hinc fore ductores, revocato a sanguine Teucri,",1499
+Aeneid,1,240,DSDS,nunc eadem fortuna viros tot casibus actos,1008
+Aeneid,1,241,DSSS,"insequitur.  Quem das finem, rex magne, laborum?",1140
+Aeneid,1,245,DDSS,unde per ora novem vasto cum murmure montis,858
+Aeneid,1,257,DDDS,"Parce metu, Cytherea:  manent immota tuorum",1497
+Aeneid,1,258,DSSS,fata tibi; cernes urbem et promissa Lavini,1111
+Aeneid,1,260,DSDS,magnanimum Aenean; neque me sententia vertit.,1334
+Aeneid,1,261,DDSS,"Hic tibi (fabor enim, quando haec te cura remordet,",1106
+Aeneid,1,262,DSSS,longius et volvens fatorum arcana movebo),1377
+Aeneid,1,267,DDSS,"At puer Ascanius, cui nunc cognomen Iulo",1644
+Aeneid,1,273,DDSS,"gente sub Hectorea, donec regina sacerdos,",1348
+Aeneid,1,274,DDSD,"Marte gravis, geminam partu dabit Ilia prolem.",1360
+Aeneid,1,275,DSSS,Inde lupae fulvo nutricis tegmine laetus,1006
+Aeneid,1,276,DDSS,"Romulus excipiet gentem, et Mavortia condet",1046
+Aeneid,1,277,DSDS,"moenia, Romanosque suo de nomine dicet.",1401
+Aeneid,1,288,DSSS,"Iulius, a magno demissum nomen Iulo.",1634
+Aeneid,1,291,DDSS,Aspera tum positis mitescent saecula bellis;,1018
+Aeneid,1,293,DSSS,iura dabunt; dirae ferro et compagibus artis,1241
+Aeneid,1,295,DDSS,"saeva sedens super arma, et centum vinctus aenis",1660
+Aeneid,1,296,SSDD,"post tergum nodis, fremet horridus ore cruento.'",1270
+Aeneid,1,297,DSDS,"Haec ait, et Maia genitum demittit ab alto,",1799
+Aeneid,1,301,DSDD,"remigio alarum, ac Libyae citus adstitit oris.",1516
+Aeneid,1,307,SDSS,"explorare novos, quas vento accesserit oras,",1504
+Aeneid,1,308,DSDD,"qui teneant, nam inculta videt, hominesne feraene,",1343
+Aeneid,1,320,DSDS,"nuda genu, nodoque sinus collecta fluentis.",1495
+Aeneid,1,321,DSDS,"Ac prior, 'Heus' inquit' iuvenes, monstrate mearum",1442
+Aeneid,1,326,DSDD,Nulla tuarum audita mihi neque visa sororum-,1219
+Aeneid,1,327,SDSS,"O quam te memorem, virgo?  Namque haud tibi voltus",1245
+Aeneid,1,333,SSSS,"erramus, vento huc vastis et fluctibus acti:",1255
+Aeneid,1,339,SDDS,"sed fines Libyci, genus intractabile bello.",1287
+Aeneid,1,341,SDSS,"germanum fugiens.  Longa est iniuria, longae",1393
+Aeneid,1,351,SSDS,"germanae; factumque diu celavit, et aegram,",1401
+Aeneid,1,356,SSDD,"nudavit, caecumque domus scelus omne retexit.",1343
+Aeneid,1,368,SSSS,taurino quantum possent circumdare tergo.,1257
+Aeneid,1,371,SSDS,"suspirans, imoque trahens a pectore vocem:",1503
+Aeneid,1,375,SSSS,"Nos Troia antiqua, si vestras forte per auris",1383
+Aeneid,1,377,DDSS,forte sua Libycis tempestas adpulit oris.,1250
+Aeneid,1,383,SSSS,vix septem convolsae undis Euroque supersunt.,1218
+Aeneid,1,385,SDSS,Europa atque Asia pulsus.' Nec plura querentem,1424
+Aeneid,1,388,SSDS,"vitalis carpis, Tyriam qui adveneris urbem.",1348
+Aeneid,1,389,DSSS,"Perge modo, atque hinc te reginae ad limina perfer,",1657
+Aeneid,1,391,DSSD,"nuntio, et in tutum versis aquilonibus actam,",1385
+Aeneid,1,392,SDSD,ni frustra augurium vani docuere parentes.,1381
+Aeneid,1,393,DSSS,"Aspice bis senos laetantis agmine cycnos,",1111
+Aeneid,1,400,SDSD,aut portum tenet aut pleno subit ostia velo.,1278
+Aeneid,1,407,SDSS,"Quid natum totiens, crudelis tu quoque, falsis",1243
+Aeneid,1,415,DSDS,"Ipsa Paphum sublimis abit, sedesque revisit",1694
+Aeneid,1,418,DDDS,"Corripuere viam interea, qua semita monstrat.",1277
+Aeneid,1,419,SSSS,"Iamque ascendebant collem, qui plurimus urbi",1105
+Aeneid,1,420,DSSS,"imminet, adversasque adspectat desuper arces.",852
+Aeneid,1,421,SSSS,"Miratur molem Aeneas, magalia quondam,",1232
+Aeneid,1,422,SSDS,miratur portas strepitumque et strata viarum.,1097
+Aeneid,1,423,SSDS,"Instant ardentes Tyrii pars ducere muros,",1162
+Aeneid,1,424,SSDS,"molirique arcem et manibus subvolvere saxa,",1483
+Aeneid,1,425,SDSS,pars optare locum tecto et concludere sulco.,894
+Aeneid,1,426,DSDS,Iura magistratusque legunt sanctumque senatum;,1043
+Aeneid,1,427,SDDS,hic portus alii effodiunt; hic alta theatris,1048
+Aeneid,1,428,SDDS,"fundamenta locant alii, immanesque columnas",1166
+Aeneid,1,429,DSSD,"rupibus excidunt, scaenis decora alta futuris.",1051
+Aeneid,1,430,DSDS,Qualis apes aestate nova per florea rura,963
+Aeneid,1,431,SSDS,"exercet sub sole labor, cum gentis adultos",798
+Aeneid,1,432,SSSS,"educunt fetus, aut cum liquentia mella",979
+Aeneid,1,433,SSSS,"stipant et dulci distendunt nectare cellas,",439
+Aeneid,1,434,DDDS,"aut onera accipiunt venientum, aut agmine facto",1068
+Aeneid,1,435,SSDS,ignavum fucos pecus a praesepibus arcent:,1028
+Aeneid,1,436,DDDS,"fervet opus, redolentque thymo fragrantia mella.",1356
+Aeneid,1,437,SSSS,"O fortunati, quorum iam moenia surgunt!'",1219
+Aeneid,1,438,SDSD,"Aeneas ait, et fastigia suspicit urbis.",1606
+Aeneid,1,439,SSDS,"Infert se saeptus nebula, mirabile dictu,",1238
+Aeneid,1,440,DSDD,"per medios, miscetque viris, neque cernitur ulli.",966
+Aeneid,1,451,DSSS,"leniit, hic primum Aeneas sperare salutem",1393
+Aeneid,1,452,DSDS,"ausus, et adflictis melius confidere rebus.",951
+Aeneid,1,455,DDSD,artificumque manus inter se operumque laborem,1276
+Aeneid,1,461,DSDD,En Priamus! Sunt hic etiam sua praemia laudi;,1231
+Aeneid,1,464,DDSS,"Sic ait, atque animum pictura pascit inani,",1739
+Aeneid,1,466,DDSS,"Namque videbat, uti bellantes Pergama circum",943
+Aeneid,1,474,DDSS,"Parte alia fugiens amissis Troilus armis,",1104
+Aeneid,1,478,SSSS,"per terram, et versa pulvis inscribitur hasta.",1138
+Aeneid,1,479,DSSS,Interea ad templum non aequae Palladis ibant,939
+Aeneid,1,480,DDSS,"crinibus Iliades passis peplumque ferebant,",971
+Aeneid,1,486,DSSS,"ut spolia, ut currus, utque ipsum corpus amici,",1109
+Aeneid,1,491,DDDS,"Penthesilea furens, mediisque in milibus ardet,",1239
+Aeneid,1,492,DSSS,"aurea subnectens exsertae cingula mammae,",921
+Aeneid,1,494,SDSS,"Haec dum Dardanio Aeneae miranda videntur,",1078
+Aeneid,1,495,DSSS,"dum stupet, obtutuque haeret defixus in uno,",1317
+Aeneid,1,496,SSSS,"regina ad templum, forma pulcherrima Dido,",1053
+Aeneid,1,497,SSDS,incessit magna iuvenum stipante caterva.,976
+Aeneid,1,498,DSSS,Qualis in Eurotae ripis aut per iuga Cynthi,1292
+Aeneid,1,499,SSDS,"exercet Diana choros, quam mille secutae",1634
+Aeneid,1,500,SDDD,hinc atque hinc glomerantur oreades; illa pharetram,1282
+Aeneid,1,501,DDDD,"fert umero, gradiensque deas supereminet omnes:",932
+Aeneid,1,502,SDSS,Latonae tacitum pertemptant gaudia pectus:,784
+Aeneid,1,503,DSSS,"talis erat Dido, talem se laeta ferebat",1112
+Aeneid,1,504,DSDS,"per medios, instans operi regnisque futuris.",881
+Aeneid,1,505,DSDS,"Tum foribus divae, media testudine templi,",980
+Aeneid,1,506,SDSS,"saepta armis, solioque alte subnixa resedit.",1078
+Aeneid,1,507,DSDD,"Iura dabat legesque viris, operumque laborem",1334
+Aeneid,1,508,DSSS,"partibus aequabat iustis, aut sorte trahebat:",1166
+Aeneid,1,509,DSSS,cum subito Aeneas concursu accedere magno,1209
+Aeneid,1,510,DSDS,"Anthea Sergestumque videt fortemque Cloanthum,",913
+Aeneid,1,511,SDSS,"Teucrorumque alios, ater quos aequore turbo",1344
+Aeneid,1,512,DDDS,dispulerat penitusque alias avexerat oras.,1298
+Aeneid,1,513,DDDS,Obstipuit simul ipse simul perculsus Achates,1201
+Aeneid,1,514,DDDS,laetitiaque metuque; avidi coniungere dextras,1491
+Aeneid,1,515,SSDS,ardebant; sed res animos incognita turbat.,809
+Aeneid,1,516,DSDD,"Dissimulant, et nube cava speculantur amicti,",795
+Aeneid,1,517,SDSS,"quae fortuna viris, classem quo litore linquant,",1011
+Aeneid,1,518,DSSS,"quid veniant; cunctis nam lecti navibus ibant,",974
+Aeneid,1,519,SDSS,"orantes veniam, et templum clamore petebant.",1030
+Aeneid,1,520,SSSD,"Postquam introgressi et coram data copia fandi,",1221
+Aeneid,1,521,DDDS,maximus Ilioneus placido sic pectore coepit:,1207
+Aeneid,1,522,SDSD,"O Regina, novam cui condere Iuppiter urbem",1636
+Aeneid,1,523,DDSS,"iustitiaque dedit gentes frenare superbas,",1140
+Aeneid,1,524,SDSD,"Troes te miseri, ventis maria omnia vecti,",1497
+Aeneid,1,525,SDSS,"oramus, prohibe infandos a navibus ignis,",1431
+Aeneid,1,526,DDDS,"parce pio generi, et propius res aspice nostras.",1064
+Aeneid,1,527,SSDD,Non nos aut ferro Libycos populare Penatis,1171
+Aeneid,1,528,DSSD,"venimus, aut raptas ad litora vertere praedas;",797
+Aeneid,1,529,DDSD,"non ea vis animo, nec tanta superbia victis.",939
+Aeneid,1,530,DDSS,"Est locus, Hesperiam Grai cognomine dicunt,",1232
+Aeneid,1,531,SDSS,"terra antiqua, potens armis atque ubere glaebae;",1027
+Aeneid,1,532,SDDS,Oenotri coluere viri; nunc fama minores,935
+Aeneid,1,533,DSDS,Italiam dixisse ducis de nomine gentem.,1049
+Aeneid,1,535,DSSS,cum subito adsurgens fluctu nimbosus Orion,896
+Aeneid,1,536,DDDD,"in vada caeca tulit, penitusque procacibus austris",1061
+Aeneid,1,537,SDDS,"perque undas, superante salo, perque invia saxa",1000
+Aeneid,1,538,DSSS,dispulit; huc pauci vestris adnavimus oris.,681
+Aeneid,1,539,DDSS,Quod genus hoc hominum? Quaeve hunc tam barbara morem,1088
+Aeneid,1,540,SDDD,permittit patria?  Hospitio prohibemur harenae;,1388
+Aeneid,1,541,DSDS,"bella cient, primaque vetant consistere terra.",1411
+Aeneid,1,542,DSSD,Si genus humanum et mortalia temnitis arma,1524
+Aeneid,1,543,SDDS,at sperate deos memores fandi atque nefandi.,1386
+Aeneid,1,544,DSSS,"Rex erat Aeneas nobis, quo iustior alter,",1137
+Aeneid,1,545,DDSS,"nec pietate fuit, nec bello maior et armis.",1360
+Aeneid,1,546,SDSS,"Quem si fata virum servant, si vescitur aura",1099
+Aeneid,1,547,DDSD,"aetheria, neque adhuc crudelibus occubat umbris,",1483
+Aeneid,1,548,DDSS,non metus; officio nec te certasse priorem,805
+Aeneid,1,549,DSDD,poeniteat. Sunt et Siculis regionibus urbes,938
+Aeneid,1,550,DSSD,"armaque, Troianoque a sanguine clarus Acestes.",1667
+Aeneid,1,551,SSDS,"Quassatam ventis liceat subducere classem,",1043
+Aeneid,1,552,SSDS,et silvis aptare trabes et stringere remos:,1339
+Aeneid,1,553,DDDS,"si datur Italiam, sociis et rege recepto,",1042
+Aeneid,1,554,DDSD,"tendere, ut Italiam laeti Latiumque petamus;",1043
+Aeneid,1,555,SDSD,"sin absumpta salus, et te, pater optime Teucrum,",912
+Aeneid,1,556,DDSS,"pontus habet Libyae, nec spes iam restat Iuli,",1626
+Aeneid,1,557,DDSS,"at freta Sicaniae saltem sedesque paratas,",945
+Aeneid,1,558,SSSD,"unde huc advecti, regemque petamus Acesten.'",1412
+Aeneid,1,559,DDSD,Talibus Ilioneus; cuncti simul ore fremebant,1114
+Aeneid,1,561,DSSS,"Tum breviter Dido, vultum demissa, profatur:",1147
+Aeneid,1,562,DDSS,"Solvite corde metum, Teucri, secludite curas.",910
+Aeneid,1,563,SSDS,Res dura et regni novitas me talia cogunt,1401
+Aeneid,1,564,SSSS,"moliri, et late finis custode tueri.",1207
+Aeneid,1,565,DDSS,"Quis genus Aeneadum, quis Troiae nesciat urbem,",1092
+Aeneid,1,566,SDSS,"virtutesque virosque, aut tanti incendia belli?",1187
+Aeneid,1,567,SDSS,"Non obtusa adeo gestamus pectora Poeni,",1169
+Aeneid,1,568,SDDS,nec tam aversus equos Tyria Sol iungit ab urbe.,1546
+Aeneid,1,569,SDSS,"Seu vos Hesperiam magnam Saturniaque arva,",1107
+Aeneid,1,570,DSSS,"sive Erycis finis regemque optatis Acesten,",1315
+Aeneid,1,571,DSSD,"auxilio tutos dimittam, opibusque iuvabo.",1341
+Aeneid,1,572,DSDS,Vultis et his mecum pariter considere regnis;,1107
+Aeneid,1,573,SDSS,"urbem quam statuo vestra est, subducite navis;",937
+Aeneid,1,574,DDSS,Tros Tyriusque mihi nullo discrimine agetur.,1312
+Aeneid,1,575,DSDS,Atque utinam rex ipse Noto compulsus eodem,1218
+Aeneid,1,576,DSDS,adforet Aeneas! Equidem per litora certos,1507
+Aeneid,1,577,SDSS,"dimittam et Libyae lustrare extrema iubebo,",1403
+Aeneid,1,578,DSSS,si quibus eiectus silvis aut urbibus errat.',934
+Aeneid,1,589,DDDS,os umerosque deo similis; namque ipsa decoram,999
+Aeneid,1,590,DSDS,caesariem nato genetrix lumenque iuventae,1503
+Aeneid,1,591,DSDS,purpureum et laetos oculis adflarat honores:,1235
+Aeneid,1,592,DSDD,"quale manus addunt ebori decus, aut ubi flavo",964
+Aeneid,1,595,SDSS,"improvisus ait: ?Coram, quem quaeritis, adsum,",1676
+Aeneid,1,600,DDSS,"urbe, domo, socias, grates persolvere dignas",1133
+Aeneid,1,603,DDSS,"Di tibi, si qua pios respectant numina, si quid",981
+Aeneid,1,606,DSSD,saecula?  Qui tanti talem genuere parentes?,1252
+Aeneid,1,608,SSDS,"lustrabunt convexa, polus dum sidera pascet,",942
+Aeneid,1,612,DSDS,"post alios, fortemque Gyan fortemque Cloanthum.",1247
+Aeneid,1,613,DSSS,"Obstipuit primo aspectu Sidonia Dido,",1520
+Aeneid,1,616,DSSD,insequitur?  Quae vis immanibus applicat oris?,1030
+Aeneid,1,620,DSDD,"finibus expulsum patriis, nova regna petentem",1294
+Aeneid,1,622,SSSD,"vastabat Cyprum, et victor dicione tenebat.",1288
+Aeneid,1,628,DSDS,Me quoque per multos similis fortuna labores,932
+Aeneid,1,629,SSDS,iactatam hac demum voluit consistere terra.,1567
+Aeneid,1,631,DDSS,Sic memorat; simul Aenean in regia ducit,1247
+Aeneid,1,634,SSSS,"viginti tauros, magnorum horrentia centum",1372
+Aeneid,1,653,DSDS,"praeterea sceptrum, Ilione quod gesserat olim,",1256
+Aeneid,1,661,DDDD,quippe domum timet ambiguam Tyriosque bilinguis;,1487
+Aeneid,1,662,DSSS,"urit atrox Iuno, et sub noctem cura recursat.",1431
+Aeneid,1,667,DSDD,Frater ut Aeneas pelago tuus omnia circum,1229
+Aeneid,1,671,DDSS,"vocibus; et vereor, quo se Iunonia vertant",1217
+Aeneid,1,674,SDSS,"reginam meditor, ne quo se numine mutet,",1234
+Aeneid,1,677,DSSD,Regius accitu cari genitoris ad urbem,1510
+Aeneid,1,690,DSSS,"exuit, et gressu gaudens incedit Iuli.",1670
+Aeneid,1,692,DSDD,"inrigat, et fotum gremio dea tollit in altos",1166
+Aeneid,1,700,DSDS,"conveniunt, stratoque super discumbitur ostro.",1446
+Aeneid,1,702,DSDS,"expediunt, tonsisque ferunt mantelia villis.",987
+Aeneid,1,705,DDDS,"centum aliae totidemque pares aetate ministri,",1119
+Aeneid,1,707,SDSD,Nec non et Tyrii per limina laeta frequentes,1373
+Aeneid,1,709,SSSS,"Mirantur dona Aeneae, mirantur Iulum",1202
+Aeneid,1,713,SSDS,expleri mentem nequit ardescitque tuendo,1592
+Aeneid,1,716,SSSD,"et magnum falsi implevit genitoris amorem,",1145
+Aeneid,1,723,SDDS,"Postquam prima quies epulis, mensaeque remotae,",1156
+Aeneid,1,724,SSDS,crateras magnos statuunt et vina coronant.,1110
+Aeneid,1,725,DSSD,"Fit strepitus tectis, vocemque per ampla volutant",1113
+Aeneid,1,726,DSSD,atria; dependent lychni laquearibus aureis,1234
+Aeneid,1,733,DSSD,"esse velis, nostrosque huius meminisse minores.",1544
+Aeneid,1,734,SDSD,"Adsit laetitiae Bacchus dator, et bona Iuno;",959
+Aeneid,1,736,DSDS,"Dixit, et in mensam laticum libavit honorem,",1115
+Aeneid,1,737,DSSD,"primaque, libato, summo tenus attigit ore,",1500
+Aeneid,1,748,SDSS,Nec non et vario noctem sermone trahebat,1094
+Aeneid,2,5,DDSD,"eruerint Danai; quaeque ipse miserrima vidi,",1367
+Aeneid,2,7,DDSS,Myrmidonum Dolopumve aut duri miles Ulixi,1490
+Aeneid,2,9,DSDD,"praecipitat, suadentque cadentia sidera somnos.",1772
+Aeneid,2,12,DDSS,"quamquam animus meminisse horret, luctuque refugit,",1296
+Aeneid,2,14,SDSS,"ductores Danaum, tot iam labentibus annis,",1694
+Aeneid,2,17,SDDD,votum pro reditu simulant; ea fama vagatur.,1170
+Aeneid,2,21,SSDS,"Est in conspectu Tenedos, notissima fama",867
+Aeneid,2,40,DSSD,"Primus ibi ante omnis, magna comitante caterva,",974
+Aeneid,2,41,DSSS,"Laocoon ardens summa decurrit ab arce,",1560
+Aeneid,2,42,DDSS,"et procul: 'O miseri, quae tanta insania, cives?",870
+Aeneid,2,43,DSSS,Creditis avectos hostes? Aut ulla putatis,645
+Aeneid,2,44,DDDS,dona carere dolis Danaum? Sic notus Ulixes?,1536
+Aeneid,2,45,SSSS,"aut hoc inclusi ligno occultantur Achivi,",1117
+Aeneid,2,46,SSDS,aut haec in nostros fabricata est machina muros,1221
+Aeneid,2,47,SDSD,"inspectura domos venturaque desuper urbi,",940
+Aeneid,2,48,DDDS,"aut aliquis latet error; equo ne credite, Teucri.",903
+Aeneid,2,49,DDDS,"Quicquid id est, timeo Danaos et dona ferentes.'",1244
+Aeneid,2,50,SDSS,"Sic fatus, validis ingentem viribus hastam",1086
+Aeneid,2,51,DDSS,in latus inque feri curvam compagibus alvum,839
+Aeneid,2,52,SDDD,"contorsit: stetit illa tremens, uteroque recusso",1210
+Aeneid,2,53,DDDD,insonuere cavae gemitumque dedere cavernae.,842
+Aeneid,2,54,SDSS,"Et, si fata deum, si mens non laeva fuisset,",1426
+Aeneid,2,55,DSDS,"impulerat ferro Argolicas foedare latebras,",915
+Aeneid,2,56,DSDS,"Troiaque, nunc stares, Priamique arx alta, maneres.",1146
+Aeneid,2,57,DDDS,"Ecce, manus iuvenem interea post terga revinctum",1304
+Aeneid,2,62,SDSS,"seu versare dolos, seu certae occumbere morti.",1110
+Aeneid,2,68,DDDD,constitit atque oculis Phrygia agmina circumspexit:,1742
+Aeneid,2,75,DDSS,"quidve ferat, memoret, quae sit fiducia capto.",1108
+Aeneid,2,77,DDDS,"'Cuncta equidem tibi, Rex, fuerit quodcumque, fatebor",1261
+Aeneid,2,81,DSDS,Fando aliquod si forte tuas pervenit ad auris,1275
+Aeneid,2,84,SSDD,"insontem infando indicio, quia bella vetabat,",1224
+Aeneid,2,87,DDSS,"pauper in arma pater primis huc misit ab annis,",1141
+Aeneid,2,88,SSDS,dum stabat regno incolumis regumque vigebat,1244
+Aeneid,2,96,SSSD,"promisi ultorem, et verbis odia aspera movi.",1429
+Aeneid,2,99,SDSD,"in volgum ambiguas, et quaerere conscius arma.",1253
+Aeneid,2,101,DSSS,sed quid ego haec autem nequiquam ingrata revolvo?,1508
+Aeneid,2,104,DDSS,"hoc Ithacus velit, et magno mercentur Atridae.'",1352
+Aeneid,2,106,SDSS,ignari scelerum tantorum artisque Pelasgae.,1221
+Aeneid,2,115,DDSD,"mittimus, isque adytis haec tristia dicta reportat:",1241
+Aeneid,2,126,SDDS,"Bis quinos silet ille dies, tectusque recusat",1110
+Aeneid,2,127,DDSS,prodere voce sua quemquam aut opponere morti.,1240
+Aeneid,2,129,DSSS,"composito rumpit vocem, et me destinat arae.",1301
+Aeneid,2,130,SSSD,"Adsensere omnes, et, quae sibi quisque timebat,",1223
+Aeneid,2,131,DDDS,unius in miseri exitium conversa tulere.,1104
+Aeneid,2,133,SSSS,"et salsae fruges, et circum tempora vittae:",1025
+Aeneid,2,137,DDSS,"Nec mihi iam patriam antiquam spes ulla videndi,",1379
+Aeneid,2,145,DSDD,"His lacrimis vitam damus, et miserescimus ultro.",1393
+Aeneid,2,155,SDSS,"testor numen' ait 'vos arae ensesque nefandi,",1478
+Aeneid,2,156,SSDS,"quos fugi, vittaeque deum, quas hostia gessi:",1545
+Aeneid,2,161,DSDS,"Troia fidem, si vera feram, si magna rependam.",1384
+Aeneid,2,163,DDSD,Palladis auxiliis semper stetit. Impius ex quo,1001
+Aeneid,2,169,SDSS,ex illo fluere ac retro sublapsa referri,1088
+Aeneid,2,171,DDDS,Nec dubiis ea signa dedit Tritonia monstris.,1290
+Aeneid,2,172,DSDS,"Vix positum castris simulacrum, arsere coruscae",1219
+Aeneid,2,173,DSSS,"luminibus flammae arrectis, salsusque per artus",895
+Aeneid,2,177,SDSS,"nec posse Argolicis exscindi Pergama telis,",1133
+Aeneid,2,185,DSSS,Hanc tamen immensam Calchas attollere molem,830
+Aeneid,2,188,DSSD,neu populum antiqua sub religione tueri.,1584
+Aeneid,2,189,SDDS,"Nam si vestra manus violasset dona Minervae,",1103
+Aeneid,2,191,SDDD,convertant!) Priami imperio Phrygibusque futurum;,1259
+Aeneid,2,192,DSSS,"sin manibus vestris vestram ascendisset in urbem,",1102
+Aeneid,2,194,SSDD,"venturam, et nostros ea fata manere nepotes.'",1378
+Aeneid,2,198,SDDS,"non anni domuere decem, non mille carinae.",1055
+Aeneid,2,201,DSSS,"Laocoon, ductus Neptuno sorte sacerdos,",1241
+Aeneid,2,202,SSSS,sollemnes taurum ingentem mactabat ad aras.,880
+Aeneid,2,203,SDDS,Ecce autem gemini a Tenedo tranquilla per alta?,1022
+Aeneid,2,204,SDSS,horresco referens?immenses orbibus angues,962
+Aeneid,2,205,SDDS,"incumbunt pelago, pariterque ad litora tendunt;",1001
+Aeneid,2,206,DSSS,pectora quorum inter fluctus arrecta iubaeque,1142
+Aeneid,2,207,DDSS,sanguineae superant undas; pars cetera pontum,1303
+Aeneid,2,208,DDSD,"pone legit, sinuatque immensa volumine terga.",1003
+Aeneid,2,209,DSDS,"Fit sonitus spumante salo; iamque arva tenebant,",1206
+Aeneid,2,210,SDSS,"ardentesque oculos suffecti sanguine et igni,",1137
+Aeneid,2,211,DSSS,sibila lambebant linguis vibrantibus ora.,683
+Aeneid,2,212,DSSS,Diffugimus visu exsangues: illi agmine certo,1260
+Aeneid,2,213,DDSS,Laocoonta petunt; et primum parva duorum,1132
+Aeneid,2,214,DSSS,corpora natorum serpens amplexus uterque,1022
+Aeneid,2,215,DDSS,"implicat, et miseros morsu depascitur artus;",1005
+Aeneid,2,216,SDDS,post ipsum auxilio subeuntem ac tela ferentem,1578
+Aeneid,2,217,DSDS,"corripiunt, spirisque ligant ingentibus; et iam",1170
+Aeneid,2,218,DSSS,"bis medium amplexi, bis collo squamea circum",1203
+Aeneid,2,219,DDDS,"terga dati, superant capite et cervicibus altis.",825
+Aeneid,2,220,DDSS,"Ille simul manibus tendit divellere nodos,",881
+Aeneid,2,221,SDSS,"perfusus sanie vittas atroque veneno,",1190
+Aeneid,2,222,SDSS,clamores simul horrendos ad sidera tollit:,1087
+Aeneid,2,223,SSSS,"quales mugitus, fugit cum saucius aram",480
+Aeneid,2,224,DSSS,"taurus, et incertam excussit cervice securim.",1211
+Aeneid,2,225,DSSS,At gemini lapsu delubra ad summa dracones,1302
+Aeneid,2,226,DSDS,"effugiunt saevaeque petunt Tritonidis arcem,",1021
+Aeneid,2,227,DDDD,sub pedibusque deae clipeique sub orbe teguntur.,1581
+Aeneid,2,228,SDDS,Tum vero tremefacta novus per pectora cunctis,956
+Aeneid,2,229,DDDS,"insinuat pavor, et scelus expendisse merentem",804
+Aeneid,2,230,DDSS,"Laocoonta ferunt, sacrum qui cuspide robur",1222
+Aeneid,2,231,DSDS,"laeserit, et tergo sceleratam intorserit hastam.",1104
+Aeneid,2,232,SSDS,Ducendum ad sedes simulacrum orandaque divae,1295
+Aeneid,2,234,DSSD,Dividimus muros et moenia pandimus urbis.,1184
+Aeneid,2,235,SSDD,"Accingunt omnes operi, pedibusque rotarum",804
+Aeneid,2,236,DSSD,"subiciunt lapsus, et stuppea vincula collo",914
+Aeneid,2,237,SSSS,"intendunt: scandit fatalis machina muros,",536
+Aeneid,2,238,SDSS,feta armis. Pueri circum innuptaeque puellae,1225
+Aeneid,2,239,DSDS,"sacra canunt, funemque manu contingere gaudent.",1074
+Aeneid,2,240,DDDS,"Illa subit, mediaeque minans inlabitur urbi.",879
+Aeneid,2,241,DSDD,"O patria, O divum domus Ilium, et incluta bello",1481
+Aeneid,2,242,DDDS,"moenia Dardanidum, quater ipso in limine portae",1118
+Aeneid,2,243,DDDD,"substitit, atque utero sonitum quater arma dedere:",965
+Aeneid,2,244,SDDS,"instamus tamen inmemores caecique furore,",1039
+Aeneid,2,245,SSSS,et monstrum infelix sacrata sistimus arce.,1234
+Aeneid,2,246,DSDS,Tunc etiam fatis aperit Cassandra futuris,1301
+Aeneid,2,247,DSSS,"ora, dei iussu non umquam credita Teucris.",1567
+Aeneid,2,248,SDDD,"Nos delubra deum miseri, quibus ultimus esset",1511
+Aeneid,2,249,DSSS,"ille dies, festa velamus fronde per urbem.",1257
+Aeneid,2,258,SDDS,inclusos utero Danaos et pinea furtim,1514
+Aeneid,2,259,SDSD,laxat claustra Sinon. Illos patefactus ad auras,869
+Aeneid,2,262,SSSD,"demissum lapsi per funem, Acamasque, Thoasque,",1232
+Aeneid,2,268,DSDS,"Tempus erat, quo prima quies mortalibus aegris",948
+Aeneid,2,269,DSSS,"incipit, et dono divum gratissima serpit.",1095
+Aeneid,2,270,SSDS,"In somnis, ecce, ante oculos maestissimus Hector",1181
+Aeneid,2,271,DDSS,"visus adesse mihi, largosque effundere fletus,",914
+Aeneid,2,272,SSSS,"raptatus bigis, ut quondam, aterque cruento",1257
+Aeneid,2,273,DDSS,"pulvere, perque pedes traiectus lora tumentes.",1337
+Aeneid,2,274,DDSS,"Ei mihi, qualis erat, quantum mutatus ab illo",1105
+Aeneid,2,275,DDDS,"Hectore, qui redit exuvias indutus Achilli,",940
+Aeneid,2,276,DDDS,"vel Danaum Phrygios iaculatus puppibus ignis,",1542
+Aeneid,2,277,SSSS,squalentem barbam et concretos sanguine crinis,1221
+Aeneid,2,278,DDSS,"vulneraque illa gerens, quae circum plurima muros",975
+Aeneid,2,279,SDSS,accepit patrios. Ultro flens ipse videbar,1316
+Aeneid,2,280,SDSS,Compellare virum et maestas expromere voces:,1065
+Aeneid,2,281,SDSS,"'O lux Dardaniae, spes O fidissima Teucrum,",1012
+Aeneid,2,282,SDDD,quae tantae tenuere morae ? quibus Hector ab oris,1148
+Aeneid,2,283,SDSS,exspectate venis? Ut te post multa tuorum,796
+Aeneid,2,284,DDDS,"funera, post varios hominumque urbisque labores",989
+Aeneid,2,285,SDSS,defessi aspicimus! Quae causa indigna serenos,900
+Aeneid,2,286,SSSS,foedavit vultus? Aut cur haec vulnera cerno?',919
+Aeneid,2,287,DSSS,"Ille nihil, nec me quaerentem vana moratur,",899
+Aeneid,2,288,DDSS,"sed graviter gemitus imo de pectore ducens,",1317
+Aeneid,2,289,DDSD,"'Heu fuge, nate dea, teque his, ait, eripe flammis.",1634
+Aeneid,2,290,DSDS,Hostis habet muros; ruit alto a culmine Troia.,1446
+Aeneid,2,291,DDDS,Sat patriae Priamoque datum: si Pergama dextra,1287
+Aeneid,2,292,SSDS,"defendi possent, etiam hac defensa fuissent.",987
+Aeneid,2,293,DDSS,Sacra suosque tibi commendat Troia penates:,1133
+Aeneid,2,294,DSDS,"hos cape fatorum comites, his moenia quaere",1350
+Aeneid,2,295,DSDS,"magna, pererrato statues quae denique ponto.'",1077
+Aeneid,2,296,DDSS,"Sic ait, et manibus vittas Vestamque potentem",1232
+Aeneid,2,297,SDSD,aeternumque adytis effert penetralibus ignem.,1400
+Aeneid,2,300,SDDS,"Anchisae domus arboribusque obtecta recessit,",1044
+Aeneid,2,308,DDSS,accipiens sonitum saxi de vertice pastor.,1023
+Aeneid,2,313,DSDS,Exoritur clamorque virum clangorque tubarum.,1032
+Aeneid,2,319,SDSS,"Panthus Othryades, arcis Phoebique sacerdos,",1282
+Aeneid,2,321,DSSS,"ipse trahit, cursuque amens ad limina tendit.",1517
+Aeneid,2,325,DDSD,"Dardaniae: fuimus Troes, fuit Ilium et ingens",1560
+Aeneid,2,331,DSSS,milia quot magnis umquam venere Mycenis;,1234
+Aeneid,2,334,DDSS,"stricta, parata neci; vix primi proelia temptant",1514
+Aeneid,2,337,SDDS,"in flammas et in arma feror, quo tristis Erinys,",1022
+Aeneid,2,343,DSSS,"venerat, insano Cassandrae incensus amore,",1396
+Aeneid,2,344,DDDD,"et gener auxilium Priamo Phrygibusque ferebat,",963
+Aeneid,2,347,DSSS,"Quos ubi confertos audere in proelia vidi,",1281
+Aeneid,2,348,DDDS,"incipio super his: 'Iuvenes, fortissima frustra",1139
+Aeneid,2,349,DSSS,"pectora, si vobis audentem extrema cupido",1365
+Aeneid,2,353,SDDD,incensae; moriamur et in media arma ruamus.,962
+Aeneid,2,355,DDDD,"Sic animis iuvenum furor additus: inde, lupi ceu",1015
+Aeneid,2,361,SSSS,"Quis cladem illius noctis, quis funera fando",1364
+Aeneid,2,362,DSDS,"explicet, aut possit lacrimis aequare labores?",1258
+Aeneid,2,363,SDSD,"Urbs antiqua ruit, multos dominata per annos;",1454
+Aeneid,2,369,DDSD,"luctus, ubique pavor, et plurima mortis imago.",1228
+Aeneid,2,383,DSSS,"Inruimus, densis et circumfundimur armis,",1277
+Aeneid,2,388,DSSS,"monstrat iter, quoque ostendit se dextra, sequamur",1273
+Aeneid,2,389,SDDS,"mutemus clipeos, Danaumque insignia nobis",1731
+Aeneid,2,391,DSSS,"Arma dabunt ipsi.' Sic fatus, deinde comantem",1446
+Aeneid,2,392,DDDS,Androgei galeam clipeique insigne decorum,1681
+Aeneid,2,399,DDSS,"Diffugiunt alii ad navis, et litora cursu",1336
+Aeneid,2,400,DSSS,fida petunt: pars ingentem formidine turpi,789
+Aeneid,2,412,SDSS,armorum facie et Graiarum errore iubarum.,1700
+Aeneid,2,415,DSDS,"et gemini Atridae, Dolopumque exercitus omnis;",1128
+Aeneid,2,416,SSSS,adversi rupto ceu quondam turbine venti,824
+Aeneid,2,417,SDDS,"confligunt, Zephyrusque Notusque et laetus Eois",1452
+Aeneid,2,427,DSSS,qui fuit in Teucris et servantissimus aequi:,1521
+Aeneid,2,431,DDSS,"Iliaci cineres et flamma extrema meorum,",1019
+Aeneid,2,435,DDSS,"Iphitus et Pelias mecum, quorum Iphitus aevo",1384
+Aeneid,2,436,DDSD,"iam gravior, Pelias et volnere tardus Ulixi;",1239
+Aeneid,2,437,DSDS,protinus ad sedes Priami clamore vocati.,1145
+Aeneid,2,443,SDDS,"nituntur gradibus, clipeosque ad tela sinistris",1119
+Aeneid,2,446,DSSS,"culmina convellunt; his se, quando ultima cernunt,",1158
+Aeneid,2,451,SDSS,"Instaurati animi, regis succurrere tectis,",1353
+Aeneid,2,456,DDSD,saepius Andromache ferre incomitata solebat,1363
+Aeneid,2,464,SDDS,"iuncturas tabulata dabant, convellimus altis",1360
+Aeneid,2,467,DDDS,"incidit: ast alii subeunt, nec saxa, nec ullum",1405
+Aeneid,2,475,DSSD,"arduus ad solem, et linguis micat ore trisulcis.",1421
+Aeneid,2,476,SDDD,"Una ingens Periphas et equorum agitator Achillis,",1384
+Aeneid,2,477,DDSS,"armiger Automedon, una omnis Scyria pubes",1295
+Aeneid,2,478,SSSS,"succedunt tecto, et flammas ad culmina iactant.",1092
+Aeneid,2,483,SDDD,"Adparet domus intus, et atria longa patescunt;",1131
+Aeneid,2,492,SSDD,custodes sufferre valent; labat ariete crebro,1284
+Aeneid,2,495,SDSD,"immissi Danai, et late loca milite complent.",1704
+Aeneid,2,497,DDSS,"exiit, oppositasque evicit gurgite moles,",1273
+Aeneid,2,498,DDDS,"fertur in arva furens cumulo, camposque per omnis",822
+Aeneid,2,507,DSSS,Urbis uti captae casum convolsaque vidit,1125
+Aeneid,2,511,DSSD,"cingitur, ac densos fertur moriturus in hostis.",800
+Aeneid,2,515,DSSS,"Hic Hecuba et natae nequiquam altaria circum,",1422
+Aeneid,2,516,DSSS,"praecipites atra ceu tempestate columbae,",1057
+Aeneid,2,518,SSDD,Ipsum autem sumptis Priamum iuvenalibus armis,1339
+Aeneid,2,523,SSSD,"Huc tandem concede; haec ara tuebitur omnis,",1115
+Aeneid,2,530,DSDD,"insequitur, iam iamque manu tenet et premit hasta.",1443
+Aeneid,2,531,SDSD,"Ut tandem ante oculos evasit et ora parentum,",1637
+Aeneid,2,541,DDDS,talis in hoste fuit Priamo; sed iura fidemque,1548
+Aeneid,2,546,SDSS,e summo clipei nequiquam umbone pependit.,1689
+Aeneid,2,553,DDDD,"extulit, ac lateri capulo tenus abdidit ensem.",777
+Aeneid,2,559,SSSS,At me tum primum saevus circumstetit horror,508
+Aeneid,2,560,DDSD,"Obstipui; subiit cari genitoris imago,",1454
+Aeneid,2,561,SSSS,ut regem aequaevum crudeli vulnere vidi,1260
+Aeneid,2,562,SSDS,"vitam exhalantem; subiit deserta Creusa,",1430
+Aeneid,2,563,SDSS,"et direpta domus, et parvi casus Iuli.",1609
+Aeneid,2,564,DSSS,"Respicio, et quae sit me circum copia lustro.",869
+Aeneid,2,565,DSSS,"Deseruere omnes defessi, et corpora saltu",1028
+Aeneid,2,566,SSSD,ad terram misere aut ignibus aegra dedere.,1404
+Aeneid,2,567,DDDS,"Iamque adeo super unus eram, cum limina Vestae",1245
+Aeneid,2,568,SDSS,servantem et tacitam secreta in sede latentem,1231
+Aeneid,2,569,DDSS,Tyndarida aspicio: dant clara incendia lucem,1014
+Aeneid,2,570,SSDS,erranti passimque oculos per cuncta ferenti.,963
+Aeneid,2,571,DSSS,Illa sibi infestos eversa ob Pergama Teucros,1301
+Aeneid,2,572,SDSS,et poenas Danaum et deserti coniugis iras,1690
+Aeneid,2,573,DSDS,"praemetuens, Troiae et patriae communis Erinys,",1445
+Aeneid,2,574,DSSS,abdiderat sese atque aris invisa sedebat.,1182
+Aeneid,2,575,SSDD,Exarsere ignes animo; subit ira cadentem,1005
+Aeneid,2,576,SDDS,ulcisci patriam et sceleratas sumere poenas.,1342
+Aeneid,2,577,DSDD,'Scilicet haec Spartam incolumis patriasque Mycenas,1358
+Aeneid,2,578,DSSS,"aspiciet, partoque ibit regina triumpho,",1219
+Aeneid,2,579,DDDS,"coniugiumque, domumque, patres, natosque videbit,",1361
+Aeneid,2,580,DSDD,Iliadum turba et Phrygiis comitata ministris?,1345
+Aeneid,2,581,DSDS,"Occiderit ferro Priamus, Troia arserit igni?",1450
+Aeneid,2,582,DDSS,Dardanium totiens sudarit sanguine litus?,1292
+Aeneid,2,583,DSSD,Non ita: namque etsi nullum memorabile nomen,1005
+Aeneid,2,584,DSDS,"feminea in poena est, nec habet victoria laudem,",1574
+Aeneid,2,585,SDDS,extinxisse nefas tamen et sumpsisse merentis,788
+Aeneid,2,586,SSDS,"laudabor poenas, animumque explesse iuvabit",1400
+Aeneid,2,587,SSDD,"ultricis flammae, et cineres satiasse meorum.'",1197
+Aeneid,2,588,DSDS,"Talia iactabam, et furiata mente ferebar:",1520
+Aeneid,2,589,DSDS,"cum mihi se, non ante oculis tam clara, videndam",1166
+Aeneid,2,590,DSSS,obtulit et pura per noctem in luce refulsit,1306
+Aeneid,2,591,DSDS,"alma parens, confessa deam, qualisque videri",984
+Aeneid,2,592,DSDS,"caelicolis et quanta solet, dextraque prehensum",821
+Aeneid,2,593,DDSD,"continuit, roseoque haec insuper addidit ore:",1401
+Aeneid,2,594,DDSD,"'Nate, quis indomitas tantus dolor excitat iras?",946
+Aeneid,2,595,DSSD,"Quid furis, aut quonam nostri tibi cura recessit?",887
+Aeneid,2,596,DDDS,"Non prius aspicies, ubi fessum aetate parentem",986
+Aeneid,2,597,DSDS,"liqueris Anchisen; superet coniunxne Creusa,",1414
+Aeneid,2,598,DDSS,Ascaniusque puer? Quos omnes undique Graiae,1074
+Aeneid,2,599,SDSD,"circum errant acies, et, ni mea cura resistat,",1249
+Aeneid,2,600,SDDD,iam flammae tulerint inimicus et hauserit ensis.,1148
+Aeneid,2,601,DDDS,Non tibi Tyndaridis facies invisa Lacaenae,1005
+Aeneid,2,602,SDSS,"culpatusve Paris: divum inclementia, divum,",1231
+Aeneid,2,603,SDSS,has evertit opes sternitque a culmine Troiam.,1179
+Aeneid,2,604,DSSS,"Aspice - namque omnem, quae nunc obducta tuenti",883
+Aeneid,2,605,SDSD,mortalis hebetat visus tibi et umida circum,1450
+Aeneid,2,606,SSDS,"caligat, nubem eripiam; tu ne qua parentis",1383
+Aeneid,2,607,DSSS,"iussa time, neu praeceptis parere recusa: ?",1324
+Aeneid,2,608,DSSS,"hic, ubi disiectas moles avulsaque saxis",1580
+Aeneid,2,609,DSSS,saxa vides mixtoque undantem pulvere fumum.,867
+Aeneid,2,610,SSSS,Neptunus muros magnoque emota tridenti,1098
+Aeneid,2,611,SDSS,"fundamenta quatit, totamque a sedibus urbem",1222
+Aeneid,2,612,DSSS,eruit; hic Iuno Scaeas saevissima portas,1295
+Aeneid,2,613,DDDS,"prima tenet, sociumque furens a navibus agmen",965
+Aeneid,2,615,SSSD,"Iam summas arces Tritonia, respice, Pallas",1219
+Aeneid,2,616,SSSS,"insedit, nimbo effulgens et Gorgone saeva.",1074
+Aeneid,2,617,DDDS,Ipse pater Danais animos viresque secundas,984
+Aeneid,2,618,DDSD,"sufficit, ipse deos in Dardana suscitat arma.",815
+Aeneid,2,619,DDSS,"Eripe, nate, fugam, finemque impone labori.",1089
+Aeneid,2,620,DSDS,"Nusquam abero, et tutum patrio te limine sistam.'",1473
+Aeneid,2,621,DSSS,"Dixerat, et spissis noctis se condidit umbris.",680
+Aeneid,2,622,SSDD,Adparent dirae facies inimicaque Troiae,1140
+Aeneid,2,626,DSSS,ac veluti summis antiquam in montibus ornum,1141
+Aeneid,2,630,DSSS,"volneribus donec paulatim evicta, supremum",1550
+Aeneid,2,635,SDDS,"antiquasque domos, genitor, quem tollere in altos",1264
+Aeneid,2,637,DSSS,abnegat excisa vitam producere Troia,1554
+Aeneid,2,639,DDDS,"sanguis,' ait 'solidaeque suo stant robore vires,",1676
+Aeneid,2,651,SSDS,"Nos contra effusi lacrimis, coniunxque Creusa",1694
+Aeneid,2,666,DSDS,Ascanium patremque meum iuxtaque Creusam,1667
+Aeneid,2,671,SSSD,Hinc ferro accingor rursus clipeoque sinistram,1075
+Aeneid,2,672,SSSS,"insertabam aptans, meque extra tecta ferebam.",1297
+Aeneid,2,673,SSDS,Ecce autem complexa pedes in limine coniunx,1469
+Aeneid,2,674,SSDS,"haerebat, parvumque patri tendebat Iulum:",1676
+Aeneid,2,676,DSSS,"sin aliquam expertus sumptis spem ponis in armis,",969
+Aeneid,2,677,SSDS,"hanc primum tutare domum. Cui parvus Iulus,",1686
+Aeneid,2,679,DDDS,"Talia vociferans gemitu tectum omne replebat,",1101
+Aeneid,2,682,DSSD,ecce levis summo de vertice visus Iuli,1656
+Aeneid,2,686,DSSD,excutere et sanctos restinguere fontibus ignis.,1002
+Aeneid,2,695,SDSS,"Illam, summa super labentem culmina tecti,",1070
+Aeneid,2,696,DSSS,cernimus Idaea claram se condere silva,1022
+Aeneid,2,710,DSDD,una salus ambobus erit. Mihi parvus Iulus,1639
+Aeneid,2,713,SSDS,Est urbe egressis tumulus templumque vetustum,1014
+Aeneid,2,721,SSDS,"Haec fatus, latos umeros subiectaque colla",1697
+Aeneid,2,723,SDSS,succedoque oneri; dextrae se parvus Iulus,1666
+Aeneid,2,726,SSSS,"et me, quem dudum non ulla iniecta movebant",1701
+Aeneid,2,728,SSSD,"nunc omnes terrent aurae, sonus excitat omnis",785
+Aeneid,2,733,DSSD,"prospiciens; 'Nate' exclamat, 'fuge nate, propinquant.",1427
+Aeneid,2,734,SDSD,Ardentis clipeos atque aera micantia cerno!'?,1274
+Aeneid,2,740,SSDS,incertum; nec post oculis est reddita nostris.,780
+Aeneid,2,763,SSSD,praedam adservabant. Huc undique Troia gaza,1763
+Aeneid,2,765,SSDS,"crateresque auro solidi, captivaque vestis",1244
+Aeneid,2,766,DDDS,congeritur; pueri et pavidae longo ordine matres,1244
+Aeneid,2,768,SDSS,Ausus quin etiam voces iactare per umbram,1349
+Aeneid,2,774,DDDS,"Obstipui, steteruntque comae et vox faucibus haesit.",1540
+Aeneid,2,775,SSSS,Tum sic adfari et curas his demere dictis:,1253
+Aeneid,2,777,SSSD,O dulcis coniunx? Non haec sine numine divom,1625
+Aeneid,2,782,DDSD,inter opima virum leni fluit agmine Thybris:,1457
+Aeneid,2,794,DSDD,par levibus ventis volucrique simillima somno.,1304
+Aeneid,2,801,DSSS,Iamque iugis summae surgebat Lucifer Idae,1439
+Aeneid,3,1,SDDS,Postquam res Asiae Priamique evertere gentem,1492
+Aeneid,3,7,SSDD,"incerti, quo fata ferant, ubi sistere detur,",1381
+Aeneid,3,8,DDSS,"contrahimusque viros. Vix prima inceperat aestas,",1163
+Aeneid,3,10,DDDS,litora cum patriae lacrimans portusque relinquo,1227
+Aeneid,3,16,SDDS,"dum Fortuna fuit. Feror huc, et litore curvo",1504
+Aeneid,3,17,DDSS,"moenia prima loco, fatis ingressus iniquis,",1539
+Aeneid,3,19,DSSS,Sacra Dionaeae matri divisque ferebam,1477
+Aeneid,3,24,SDDS,"Accessi, viridemque ab humo convellere silvam",1315
+Aeneid,3,26,SSDS,horrendum et dictu video mirabile monstrum.,1375
+Aeneid,3,27,SDSS,"Nam, quae prima solo ruptis radicibus arbos",1240
+Aeneid,3,28,DSSS,"vellitur, huic atro liquuntur sanguine guttae,",1809
+Aeneid,3,30,DDDS,"membra quatit, gelidusque coit formidine sanguis.",1150
+Aeneid,3,33,DDDS,ater et alterius sequitur de cortice sanguis.,1236
+Aeneid,3,34,DDSD,Multa movens animo nymphas venerabar agrestis,1014
+Aeneid,3,41,DSDS,"Quid miserum, Aenea, laceras? Iam parce sepulto;",1638
+Aeneid,3,42,DDDS,parce pias scelerare manus. Non me tibi Troia,1110
+Aeneid,3,44,DSSD,"Heu, fuge crudelis terras, fuge litus avarum:",1624
+Aeneid,3,45,DDSS,nam Polydorus ego; hic confixum ferrea texit,1129
+Aeneid,3,50,SDSS,infelix Priamus furtim mandarat alendum,930
+Aeneid,3,51,DSSS,"Threicio regi, cum iam diffideret armis",1472
+Aeneid,3,54,DDSD,"res Agamemnonias victriciaque arma secutus,",952
+Aeneid,3,60,DDDS,"Omnibus idem animus, scelerata excedere terra,",1299
+Aeneid,3,61,SSDD,"linqui pollutum hospitium, et dare classibus austros.",1464
+Aeneid,3,80,DSDS,"Rex Anius, rex idem hominum Phoebique sacerdos",1389
+Aeneid,3,81,SSDS,"vittis et sacra redimitus tempora lauro,",1857
+Aeneid,3,94,DSSS,"Dardanidae duri, quae vos a stirpe parentum",1262
+Aeneid,3,103,SDDS,"Audite, O proceres' ait 'et spes discite vestras:",1828
+Aeneid,3,105,SDSS,"mons Idaeus ubi, et gentis cunabula nostrae.",1277
+Aeneid,3,111,SSDD,hinc mater cultrix Cybeli Corybantiaque aera,1395
+Aeneid,3,127,DSDD,"Cycladas, et crebris legimus freta consita terris.",1218
+Aeneid,3,128,DDDS,Nauticus exoritur vario certamine clamor;,886
+Aeneid,3,132,DSSS,"Ergo avidus muros optatae molior urbis,",1279
+Aeneid,3,133,DDSS,"Pergameamque voco, et laetam cognomine gentem",1022
+Aeneid,3,144,SDDD,"hortatur pater ire mari, veniamque precari:",1251
+Aeneid,3,153,SSSS,tum sic adfari et curas his demere dictis:,1230
+Aeneid,3,157,DSSS,"nos tumidum sub te permensi classibus aequor,",823
+Aeneid,3,163,DDSS,"Est locus, Hesperiam Grai cognomine dicunt,",1497
+Aeneid,3,171,DSDD,Ausonias; Dictaea negat tibi Iuppiter arva.',1228
+Aeneid,3,174,SDSD,velatasque comas praesentiaque ora videbar;,1149
+Aeneid,3,175,DSSS,tum gelidus toto manabat corpore sudor,1236
+Aeneid,3,177,SSDS,"ad caelum cum voce manus, et munera libo",1151
+Aeneid,3,184,DDSD,"Nunc repeto haec generi portendere debita nostro,",1284
+Aeneid,3,189,DSSS,"Sic ait, et cuncti dicto paremus ovantes.",1487
+Aeneid,3,194,DDSD,"tum mihi caeruleus supra caput adstitit imber,",1649
+Aeneid,3,196,DSSD,"Continuo venti volvunt mare, magnaque surgunt",1109
+Aeneid,3,200,DSSS,"Excutimur cursu, et caecis erramus in undis.",1109
+Aeneid,3,202,DDDD,nec meminisse viae media Palinurus in unda.,1009
+Aeneid,3,206,DDSS,"visa, aperire procul montis, ac volvere fumum.",1360
+Aeneid,3,207,DSSD,"Vela cadunt, remis insurgimus; haud mora nautae",1620
+Aeneid,3,209,SSDS,Servatum ex undis Strophadum me litora primum,1443
+Aeneid,3,213,DSDS,"clausa domus, mensasque metu liquere priores.",1310
+Aeneid,3,215,DDDS,pestis et ira deum Stygiis sese extulit undis.,1541
+Aeneid,3,224,DDDD,"exstruimusque toros, dapibusque epulamur opimis.",1265
+Aeneid,3,240,DSDD,"aere cavo. Invadunt socii, et nova proelia temptant,",1284
+Aeneid,3,243,DDDS,"accipiunt, celerique fuga sub sidera lapsae",1107
+Aeneid,3,246,SSSS,"infelix vates, rumpitque hanc pectore vocem:",1253
+Aeneid,3,249,DSSS,et patrio Harpyias insontis pellere regno?,2032
+Aeneid,3,254,DDSS,"ibitis Italiam, portusque intrare licebit;",1061
+Aeneid,3,256,SDSS,quam vos dira fames nostraeque iniuria caedis,1481
+Aeneid,3,257,SDSS,ambesas subigat malis absumere mensas.',1121
+Aeneid,3,258,DSSS,"Dixit, et in silvam pennis ablata refugit.",932
+Aeneid,3,259,DDDS,At sociis subita gelidus formidine sanguis,995
+Aeneid,3,260,DDDS,"deriguit; cecidere animi, nec iam amplius armis,",1682
+Aeneid,3,264,DDDS,"numina magna vocat, meritosque indicit honores:",1110
+Aeneid,3,270,DSSD,Iam medio adparet fluctu nemorosa Zacynthos,1398
+Aeneid,3,272,DDDS,"Effugimus scopulos Ithacae, Laertia regna,",1863
+Aeneid,3,277,DSDS,"ancora de prora iacitur, stant litore puppes.",1517
+Aeneid,3,278,SSSS,"Ergo insperata tandem tellure potiti,",1266
+Aeneid,3,282,SDDS,nudati socii; iuvat evasisse tot urbes,1681
+Aeneid,3,290,SDDD,certatim socii feriunt mare et aequora verrunt.,1319
+Aeneid,3,292,DSDS,litoraque Epiri legimus portuque subimus,1609
+Aeneid,3,293,DSSS,"Chaonio, et celsam Buthroti accedimus urbem.",1122
+Aeneid,3,296,DDSS,"coniugio Aeacidae Pyrrhi sceptrisque potitum,",1125
+Aeneid,3,298,DSSS,"Obstipui, miroque incensum pectus amore,",1526
+Aeneid,3,302,SSSD,ante urbem in luco falsi Simoentis ad undam,1784
+Aeneid,3,312,DSDS,"Hector ubi est?' Dixit, lacrimasque effudit et omnem",1381
+Aeneid,3,315,DSSD,"vivo equidem, vitamque extrema per omnia duco;",1394
+Aeneid,3,318,DSDS,"excipit, aut quae digna satis fortuna revisit",1068
+Aeneid,3,324,SDDS,nec victoris eri tetigit captiva cubile!,820
+Aeneid,3,325,DSSD,"nos, patria incensa, diversa per aequora vectae,",1593
+Aeneid,3,327,DSDS,"servitio enixae, tulimus: qui deinde, secutus",1354
+Aeneid,3,331,DDDD,"coniugis et scelerum Furiis agitatus, Orestes",1251
+Aeneid,3,335,DSSS,"Chaoniamque omnem Troiano a Chaone dixit,",1578
+Aeneid,3,339,DDDS,"Quid puer Ascanius? superatne et vescitur aura,",1106
+Aeneid,3,343,DSDD,et pater Aeneas et avunculus excitat Hector?',1627
+Aeneid,3,346,DSDD,"Priamides multis Helenus comitantibus adfert,",996
+Aeneid,3,350,DSSS,"Pergama, et arentem Xanthi cognomine rivum",1013
+Aeneid,3,354,SDSS,"aulai medio libabant pocula Bacchi,",1641
+Aeneid,3,355,DSDD,"impositis auro dapibus, paterasque tenebant.",954
+Aeneid,3,356,DSDS,"Iamque dies alterque dies processit, et aurae",1287
+Aeneid,3,368,DSSD,Quidve sequens tantos possim superare labores?',856
+Aeneid,3,369,DSSS,"Hic Helenus, caesis primum de more iuvencis,",1389
+Aeneid,3,371,SDSD,"sacrati capitis, meque ad tua limina, Phoebe,",1496
+Aeneid,3,373,SDSS,atque haec deinde canit divino ex ore sacerdos:,1580
+Aeneid,3,377,DSSD,"pauca tibi e multis, quo tutior hospita lustres",1383
+Aeneid,3,378,DDSS,"aequora et Ausonio possis considere portu,",1163
+Aeneid,3,382,SSDS,"vicinosque, ignare, paras invadere portus,",1147
+Aeneid,3,383,DSDD,longa procul longis via dividit invia terris.,1289
+Aeneid,3,396,SSDS,"Has autem terras, Italique hanc litoris oram,",1223
+Aeneid,3,401,DDSD,Lyctius Idomeneus; hic illa ducis Meliboei,1487
+Aeneid,3,402,DSSD,parva Philoctetae subnixa Petelia muro.,1334
+Aeneid,3,403,DSDS,"Quin, ubi transmissae steterint trans aequora classes,",1140
+Aeneid,3,406,SSSD,ne qua inter sanctos ignis in honore deorum,1234
+Aeneid,3,409,SDSD,hac casti maneant in religione nepotes.,1102
+Aeneid,3,412,DSSS,laeva tibi tellus et longo laeva petantur,1010
+Aeneid,3,417,DSDS,una foret; venit medio vi pontus et undis,1129
+Aeneid,3,418,DDDD,"Hesperium Siculo latus abscidit, arvaque et urbes",865
+Aeneid,3,422,DSSS,"sorbet in abruptum fluctus, rursusque sub auras",714
+Aeneid,3,423,DSSD,erigit alternos et sidera verberat unda.,976
+Aeneid,3,438,SDDD,"Iunoni cane vota libens, dominamque potentem",1589
+Aeneid,3,444,DDDS,"fata canit, foliisque notas et nomina mandat.",1146
+Aeneid,3,446,DDSS,"digerit in numerum, atque antro seclusa relinquit.",1228
+Aeneid,3,456,DSDS,quin adeas vatem precibusque oracula poscas,1249
+Aeneid,3,457,DSDS,"ipsa canat, vocemque volens atque ora resolvat.",1123
+Aeneid,3,458,DDDS,"Illa tibi Italiae populos venturaque bella,",951
+Aeneid,3,463,SSSS,"Quae postquam vates sic ore effatus amico est,",1385
+Aeneid,3,464,DSDS,dona dehinc auro gravia sectoque elephanto,1060
+Aeneid,3,475,DSDS,"Coniugio, Anchise, Veneris dignate superbo,",1580
+Aeneid,3,477,DDSS,ecce tibi Ausoniae tellus; hanc arripe velis.,1019
+Aeneid,3,480,DSSD,Vade' ait 'O felix nati pietate. Quid ultra,1563
+Aeneid,3,482,DDSS,Nec minus Andromache digressu maesta supremo,1694
+Aeneid,3,483,SSSS,fert picturatas auri subtemine vestes,1025
+Aeneid,3,489,DDDD,O mihi sola mei super Astyanactis imago:,1676
+Aeneid,3,490,DSDS,"sic oculos, sic ille manus, sic ora ferebat;",983
+Aeneid,3,498,SSDD,"quam vestrae fecere manus, melioribus, opto,",1622
+Aeneid,3,506,DDSD,"Provehimur pelago vicina Ceraunia iuxta,",1657
+Aeneid,3,508,DDSS,Sol ruit interea et montes umbrantur opaci;,1515
+Aeneid,3,510,SSSS,"sortiti remos, passimque in litore sicco",1321
+Aeneid,3,511,DSSD,corpora curamus; fessos sopor inrigat artus.,1225
+Aeneid,3,512,SDSS,Necdum orbem medium Nox horis acta subibat:,1406
+Aeneid,3,515,DDDS,"sidera cuncta notat tacito labentia caelo,",1105
+Aeneid,3,519,SSSS,"dat clarum e puppi signum; nos castra movemus,",1418
+Aeneid,3,533,DSSS,"Portus ab Euroo fluctu curvatus in arcum,",1295
+Aeneid,3,535,DDSS,ipse latet; gemino demittunt bracchia muro,1122
+Aeneid,3,539,DSSS,"Et pater Anchises: 'Bellum, O terra hospita, portas",1472
+Aeneid,3,540,SDSS,"bello armantur equi, bellum haec armenta minantur.",1224
+Aeneid,3,543,SDSD,spes et pacis' ait. Tum numina sancta precamur,1350
+Aeneid,3,547,SSSD,Iunoni Argivae iussos adolemus honores.,1484
+Aeneid,3,548,DDSS,"Haud mora, continuo perfectis ordine votis,",872
+Aeneid,3,551,DDSS,Hinc sinus Herculei (si vera est fama) Tarenti,1667
+Aeneid,3,552,DSSD,"cernitur; attollit se diva Lacinia contra,",1455
+Aeneid,3,554,DSSD,"Tum procul e fluctu Trinacria cernitur Aetna,",1277
+Aeneid,3,559,DDSS,"hos Helenus scopulos, haec saxa horrenda canebat.",1115
+Aeneid,3,561,DSDS,"Haud minus ac iussi faciunt, primusque rudentem",1172
+Aeneid,3,562,SSSD,contorsit laevas proram Palinurus ad undas.,1053
+Aeneid,3,566,DSSD,Ter scopuli clamorem inter cava saxa dedere:,1501
+Aeneid,3,570,DSSS,Portus ab accessu ventorum immotus et ingens,1220
+Aeneid,3,576,DSDD,"erigit eructans, liquefactaque saxa sub auras",1019
+Aeneid,3,578,SDSS,Fama est Enceladi semustum fulmine corpus,1235
+Aeneid,3,580,DSSS,impositam ruptis flammam exspirare caminis;,1054
+Aeneid,3,585,DSSS,"Nam neque erant astrorum ignes, nec lucidus aethra",1364
+Aeneid,3,587,SSSS,et lunam in nimbo nox intempesta tenebat.,1403
+Aeneid,3,588,DDSS,"Postera iamque dies primo surgebat Eoo,",1462
+Aeneid,3,596,DDDS,Isque ubi Dardanios habitus et Troia vidit,1437
+Aeneid,3,598,DDSS,continuitque gradum; mox sese ad litora praeceps,1400
+Aeneid,3,601,DSSS,"tollite me, Teucri; quascumque abducite terras;",1063
+Aeneid,3,611,DDSS,"dat iuveni, atque animum praesenti pignore firmat.",1267
+Aeneid,3,615,DSDS,paupere-mansissetque utinam fortuna!-profectus.,1094
+Aeneid,3,624,DSDD,"prensa manu magna, medio resupinus in antro,",1097
+Aeneid,3,631,SSDD,"cervicem inflexam posuit, iacuitque per antrum",1580
+Aeneid,3,633,SSDS,"per somnum commixta mero, nos magna precati",784
+Aeneid,3,636,SSSS,"ingens, quod torva solum sub fronte latebat,",539
+Aeneid,3,637,DDSS,"Argolici clipei aut Phoebeae lampadis instar,-",1407
+Aeneid,3,641,SSDD,Nam qualis quantusque cavo Polyphemus in antro,1385
+Aeneid,3,653,SDSS,addixi: satis est gentem effugisse nefandam.,1147
+Aeneid,3,654,DDSS,Vos animam hanc potius quocumque absumite leto.',1345
+Aeneid,3,656,SDSS,ipsum inter pecudes vasta se mole moventem,1386
+Aeneid,3,660,DDDD,lanigerae comitantur oves-ea sola voluptas,1109
+Aeneid,3,662,SDSD,"Postquam altos tetigit fluctus et ad aequora venit,",1217
+Aeneid,3,665,DSSD,"iam medium, necdum fluctus latera ardua tinxit.",1220
+Aeneid,3,666,DDDD,"Nos procul inde fugam trepidi celerare, recepto",862
+Aeneid,3,675,DSSS,At genus e silvis Cyclopum et montibus altis,1320
+Aeneid,3,676,SDSS,excitum ruit ad portus et litora complent.,1481
+Aeneid,3,677,DSSS,Cernimus adstantis nequiquam lumine torvo,1110
+Aeneid,3,680,DSSD,"aeriae quercus, aut coniferae cyparissi",1780
+Aeneid,3,682,DDDS,Praecipites metus acer agit quocumque rudentis,1105
+Aeneid,3,684,SDDS,Contra iussa monent Heleni Scyllam atque Charybdin,1407
+Aeneid,3,685,DDSS,"inter, utramque viam leti discrimine parvo,",1354
+Aeneid,3,688,DSSD,missus adest. Vivo praetervehor ostia saxo,1221
+Aeneid,3,690,DSDS,Talia monstrabat relegens errata retrorsus,1110
+Aeneid,3,692,DSDD,Sicanio praetenta sinu iacet insula contra,1238
+Aeneid,3,693,DSSS,Plemyrium undosum; nomen dixere priores,1280
+Aeneid,3,698,DSDS,exsupero praepingue solum stagnantis Helori.,912
+Aeneid,3,708,DDSS,"accipit. Hic, pelagi tot tempestatibus actis,",862
+Aeneid,3,710,SSSD,"amitto Anchisen: hic me, pater optume, fessum",1337
+Aeneid,3,712,SDSS,"Nec vates Helenus, cum multa horrenda moneret,",1439
+Aeneid,3,713,DSSS,"hos mihi praedixit luctus, non dira Celaeno.",1000
+Aeneid,3,715,SSSD,Hinc me digressum vestris deus adpulit oris.,1432
+Aeneid,4,1,SDSS,At regina gravi iamdudum saucia cura,1628
+Aeneid,4,6,DSSS,"Postera Phoebea lustrabat lampade terras,",1375
+Aeneid,4,7,SSDS,"umentemque Aurora polo dimoverat umbram,",1377
+Aeneid,4,8,SDDD,cum sic unanimam adloquitur male sana sororem:,1528
+Aeneid,4,11,SDSS,"quem sese ore ferens, quam forti pectore et armis!",1427
+Aeneid,4,13,DDDD,"Degeneres animos timor arguit: heu, quibus ille",1414
+Aeneid,4,15,DDSS,"Si mihi non animo fixum immotumque sederet,",1284
+Aeneid,4,16,SSSD,"ne cui me vinclo vellem sociare iugali,",1346
+Aeneid,4,17,SDSS,postquam primus amor deceptam morte fefellit;,1100
+Aeneid,4,19,SSDS,huic uni forsan potui succumbere culpae.,1664
+Aeneid,4,20,DDDS,"Anna, fatebor enim, miseri post fata Sychaei",1231
+Aeneid,4,21,DSSS,"coniugis et sparsos fraterna caede Penatis,",1268
+Aeneid,4,23,DSDS,impulit: adgnosco veteris vestigia flammae.,813
+Aeneid,4,26,SSDS,"pallentis umbras Erebi noctemque profundam,",789
+Aeneid,4,36,DSDS,"non Libyae, non ante Tyro; despectus Iarbas",1566
+Aeneid,4,37,SDSD,"ductoresque alii, quos Africa terra triumphis",1349
+Aeneid,4,38,DDDS,dives alit: placitone etiam pugnabis amori?,1241
+Aeneid,4,43,SSDS,"Barcaei. Quid bella Tyro surgentia dicam,",1249
+Aeneid,4,49,DSSS,Punica se quantis attollet gloria rebus!,912
+Aeneid,4,50,DDDS,"Tu modo posce deos veniam, sacrisque litatis",907
+Aeneid,4,52,DSDD,"dum pelago desaevit hiemps et aquosus Orion,",1363
+Aeneid,4,54,SSDS,"His dictis incensum animum inflammavit amore,",1235
+Aeneid,4,55,DDSS,"spemque dedit dubiae menti, solvitque pudorem.",1111
+Aeneid,4,60,DSDS,"Ipsa, tenens dextra pateram, pulcherrima Dido",809
+Aeneid,4,64,DDSD,pectoribus inhians spirantia consulit exta.,1286
+Aeneid,4,65,SSSS,"Heu vatum ignarae mentes! quid vota furentem,",1334
+Aeneid,4,68,DSSS,"Uritur infelix Dido, totaque vagatur",1253
+Aeneid,4,69,DSSS,"urbe furens, qualis coniecta cerva sagitta,",1580
+Aeneid,4,70,DSDS,quam procul incautam nemora inter Cresia fixit,879
+Aeneid,4,73,SSDS,Dictaeos; haeret lateri letalis arundo.,1343
+Aeneid,4,75,DSDS,Sidoniasque ostentat opes urbemque paratam;,1014
+Aeneid,4,80,DSSS,"Post, ubi digressi, lumenque obscura vicissim",1235
+Aeneid,4,81,DSDD,"luna premit suadentque cadentia sidera somnos,",1773
+Aeneid,4,82,DSDS,"sola domo maeret vacua, stratisque relictis",1127
+Aeneid,4,84,DDDD,"aut gremio Ascanium, genitoris imagine capta,",1108
+Aeneid,4,86,SSSS,"Non coeptae adsurgunt turres, non arma iuventus",1222
+Aeneid,4,87,SSSS,"exercet, portusve aut propugnacula bello",876
+Aeneid,4,89,SSSD,murorum ingentes aequataque machina caelo.,1307
+Aeneid,4,90,DSSS,Quam simul ac tali persensit peste teneri,1360
+Aeneid,4,96,DSDS,Nec me adeo fallit veritam te moenia nostra,1361
+Aeneid,4,100,SDSS,"exercemus? Habes, tota quod mente petisti:",1347
+Aeneid,4,101,DSSD,"ardet amans Dido, traxitque per ossa furorem.",1140
+Aeneid,4,102,SSDD,Communem hunc ergo populum paribusque regamus,1325
+Aeneid,4,104,SDDS,dotalisque tuae Tyrios permittere dextrae.',1257
+Aeneid,4,107,SSDS,sic contra est ingressa Venus: 'Quis talia demens,1219
+Aeneid,4,108,DSSS,"abnuat, aut tecum malit contendere bello,",1002
+Aeneid,4,116,DSSS,"confieri possit, paucis, adverte, docebo.",945
+Aeneid,4,123,DDSD,Diffugient comites et nocte tegentur opaca:,882
+Aeneid,4,124,SSSS,speluncam Dido dux et Troianus eandem,1393
+Aeneid,4,126,DSDD,"[conubio iungam stabili propriamque dicabo,]",1567
+Aeneid,4,128,DDSD,"adnuit, atque dolis risit Cytherea repertis.",1588
+Aeneid,4,129,DDSS,Oceanum interea surgens Aurora reliquit.,1294
+Aeneid,4,131,DDSS,"retia rara, plagae, lato venabula ferro,",1533
+Aeneid,4,133,SDSS,Reginam thalamo cunctantem ad limina primi,1228
+Aeneid,4,134,SSSS,"Poenorum exspectant, ostroque insignis et auro",1381
+Aeneid,4,135,DSDS,"stat sonipes, ac frena ferox spumantia mandit.",919
+Aeneid,4,138,DSSS,"Cui pharetra ex auro, crines nodantur in aurum,",1553
+Aeneid,4,140,SDDS,Nec non et Phrygii comites et laetus Iulus,1327
+Aeneid,4,141,SSDS,incedunt. Ipse ante alios pulcherrimus omnis,1192
+Aeneid,4,142,SDSS,infert se socium Aeneas atque agmina iungit.,1423
+Aeneid,4,145,SDSS,"instauratque choros, mixtique altaria circum",1384
+Aeneid,4,151,SSSS,"Postquam altos ventum in montis atque invia lustra,",1338
+Aeneid,4,152,DSSS,"ecce ferae, saxi deiectae vertice, caprae",1220
+Aeneid,4,155,DDDS,pulverulenta fuga glomerant montisque relinquunt.,803
+Aeneid,4,160,DSSS,Interea magno misceri murmure caelum,1250
+Aeneid,4,161,DDSS,incipit; insequitur commixta grandine nimbus;,807
+Aeneid,4,162,DDSS,et Tyrii comites passim et Troiana iuventus,1438
+Aeneid,4,163,DDDS,Dardaniusque nepos Veneris diversa per agros,1027
+Aeneid,4,164,DDDS,tecta metu petiere; ruunt de montibus amnes.,1019
+Aeneid,4,165,SSSS,Speluncam Dido dux et Troianus eandem,1364
+Aeneid,4,166,DSSS,deveniunt: prima et Tellus et pronuba Iuno,1142
+Aeneid,4,167,SSSS,dant signum; fulsere ignes et conscius aether,945
+Aeneid,4,168,DSDS,"conubiis, summoque ulularunt vertice nymphae.",1091
+Aeneid,4,169,DSSS,Ille dies primus leti primusque malorum,1091
+Aeneid,4,170,DDDS,"causa fuit; neque enim specie famave movetur,",1533
+Aeneid,4,171,SSSD,nec iam furtivum Dido meditatur amorem:,1386
+Aeneid,4,172,DDSS,coniugium vocat; hoc praetexit nomine culpam.,1266
+Aeneid,4,173,SDSS,Extemplo Libyae magnas it Fama per urbes-,1265
+Aeneid,4,174,DSDS,"Fama, malum qua non aliud velocius ullum;",1249
+Aeneid,4,175,DDSS,"mobilitate viget, viresque adquirit eundo,",1437
+Aeneid,4,176,DSSS,"parva metu primo, mox sese attollit in auras,",1364
+Aeneid,4,177,DDDS,"ingrediturque solo, et caput inter nubila condit.",1079
