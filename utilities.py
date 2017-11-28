@@ -20,6 +20,9 @@ SHORT_COMBINATIONS += '|ns|dh|rh|nh|ch|sh|ph|th|mh)'
 
 VOWELS = 'aeiouy'
 # these are diphthongs according to Allen and Greenough
+SHORT_BY_NATURE = 'aey'  # This will be used as a last resort
+# SOURCE: Gildersleeve and Lodge
+LONG_BY_NATURE = 'oiu'
 DIPHTHONGS = 'ae|au|ei|eu|oe|ui'
 # early latin diphthong (same source)
 DIPHTHONGS += '|ai|oi|ou'
@@ -38,7 +41,7 @@ HEXAMETER = [[[H_FOOT, H_FOOT, H_FOOT, H_FOOT, H_FOOT, H_SIXTH_FOOT]]]
 
 # These are prefixes that are very likely to be prefixes and not parts of some
 # roots. Id est, this list is very subjective.
-PREFIXES = '(circum|post|ante|infra|inter|con|com|juxta|extra|dis|intra|intro|' \
+PREFIXES = '(circum|post|ante|infra|inter|con|com|juxta|extra|dis|intro|' \
            'preter|quasi|retro|trans|super|ultra)'
 
 

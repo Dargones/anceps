@@ -11,8 +11,9 @@ where input_file_name          is the name of the file that contains the lines
 
 import copy
 import math
-
+import random
 import sys
+import timeit
 
 from utilities import *
 
@@ -146,15 +147,30 @@ class Root:
         if ending == '':
             exact_match = True
         elif not exact_match:
+            """mathcing_group = []
+            for i in range(len(self.groups_p) - 1):
+                if (self.groups_p[i] > 0) and ending in ALL[i]:
+                    mathcing_group.append(ALL[i])"""
             mathcing_group = ALL[self.ending_prob(ending)[1]]
         meter = None
         for end in self.endings:
-            if (end[0] == ending) or (not exact_match and (
-                        end[0] in mathcing_group)):
+            # if end[0] == ending:
+            if (end[0] == ending) or (not exact_match and (end[0] in mathcing_group)):
                 if meter is None:
                     meter = end[3]
                 else:
                     meter = merge_lists(meter, end[3], True, DUMMY_TOKEN)
+                    continue
+            """if exact_match:
+                continue
+            for group in mathcing_group:
+                if end[0] in group:
+                    if meter is None:
+                        meter = end[3]
+                    else:
+                        meter = merge_lists(meter, end[3], True, DUMMY_TOKEN)
+                    break"""
+
         return dummy_to_unk(meter)
 
     def get_full_meter(self):
@@ -213,13 +229,16 @@ class Vowel:
         The basic constructor. Assigns LONG or UNK value to the vowel based
         on its position
         :param vowel:       the vowel itself
-        :param follow   the set of characters between this vowel and the
+        :param follow:   the set of characters between this vowel and the
                             next one
+        :param is_in_the_root: True, if this vowel is part of the root
         """
         self.vowel = vowel
         self.elided = False
         self.longitude = UNK
         self.reason = Vowel.NOT_DECIDED
+        self.follow = follow
+        # self.followed_by_vowel = (follow == '') or (follow == 'h')
 
         if re.match(r'[m]? [h]?$', follow) is not None:
             self.elided = True
@@ -232,12 +251,26 @@ class Vowel:
             self.longitude = LONG
             self.reason = Vowel.POSITION
 
-    def update(self, new_longitude, new_reason):
+    def update(self, new_longitude, new_reason, force_heuristics=False):
         """Update information about the longitude of a vowel"""
         if ((self.reason != self.POSITION) and (self.reason != self.METER)) or (
                     self.longitude == UNK):
-            self.reason = new_reason
-            self.longitude = new_longitude
+            if (new_longitude == UNK) and force_heuristics and (
+                        len(self.follow) > 0) and (self.follow[-1] == ' '):
+                # if self.followed_by_vowel:
+                # SOURCE - Gildersleeve & Lodge, p. 447 - but this rule has a
+                # lot of exceptions
+                # self.longitude = SHORT
+                # self.reason = Vowel.POSITION
+                if self.vowel in LONG_BY_NATURE:
+                    self.longitude = LONG
+                    self.reason = Vowel.POSITION
+                elif self.vowel in SHORT_BY_NATURE:
+                    self.longitude = SHORT
+                    self.reason = Vowel.POSITION
+            else:
+                self.reason = new_reason
+                self.longitude = new_longitude
 
 
 # ------------------------------------------------------------------------------
@@ -305,9 +338,9 @@ class Word:
 
         self.vowels = list(re.finditer(SYLLAB, self.root[0].name))
         for i in range(len(self.vowels) - 1):
-            str = self.word[self.vowels[i].start():self.vowels[i].end()]
+            letter = self.word[self.vowels[i].start():self.vowels[i].end()]
             follow = self.word[self.vowels[i].end():self.vowels[i + 1].start()]
-            self.vowels[i] = Vowel(str, follow)
+            self.vowels[i] = Vowel(letter, follow)
 
         if best_group == len(ALL):
             end = []
@@ -315,40 +348,46 @@ class Word:
             end = ALL[best_group][self.root[1]]
         self.ending_meter = end
         if self.vowels:
-            str = self.word[self.vowels[-1].start():self.vowels[-1].end()]
+            letter = self.word[self.vowels[-1].start():self.vowels[-1].end()]
             follow = self.root[0].name[self.vowels[-1].end():]
             if not end:
                 follow += self.root[1]
                 if nextWord is not None:
                     follow += ' ' + list(re.findall(r'^[' + CONSONANTS + ']*', nextWord))[0]
-                self.vowels[-1] = Vowel(str, follow)
+                self.vowels[-1] = Vowel(letter, follow)
                 return
             follow += list(re.findall(r'^[' + CONSONANTS + ']*', self.root[1]))[0]
-            self.vowels[-1] = Vowel(str, follow)
+            self.vowels[-1] = Vowel(letter, follow)
             if self.vowels[-1].elided:
                 self.root_length = len(self.vowels) - 1
             else:
                 self.root_length = len(self.vowels)
         for i in range(len(end) - 1):
-            self.vowels.append(Vowel('a',''))
+            self.vowels.append(Vowel('a',''))  # TODO, a here is not exactly
+                                                # correct
         follow = list(re.findall(r'[' + CONSONANTS + ']*$', self.root[1]))[0]
         if nextWord is not None:
             follow += ' ' + list(re.findall(r'^[' + CONSONANTS + ']*', nextWord))[0]
-        self.vowels.append(Vowel('a', follow))
+        if len(end) == 0:
+            print('Error at line ' + str(self.line_id) +
+                  '. Please remove all empty lines from the file. \n' +
+                  'Specifics: word = ' + self.initial_orthography + ' end = ' +
+                  self.root[1])
+        self.vowels.append(Vowel(self.root[1].rstrip(CONSONANTS)[-1], follow))
 
-    def ending_more_info(self):
+    def ending_more_info(self, force_heuristics=False):
         """Try to infer teh lengths of endings"""
         for i in range(len(self.ending_meter)):
             self.vowels[len(self.vowels) - len(self.ending_meter) + i].update(
-                self.ending_meter[i], Vowel.NATURE)
+                self.ending_meter[i], Vowel.NATURE, force_heuristics)
 
-    def load_meter(self, load_endings=False):
+    def load_meter(self, load_endings=False, force_heuristics=False):
         """Load info from the root and update lengths of the vowels"""
         new_meter = self.root[0].get_meter(self.root[1])
         for i in range(len(new_meter)):
             self.vowels[i].update(new_meter[i], Vowel.NATURE)
         if load_endings:
-            self.ending_more_info()
+            self.ending_more_info(force_heuristics)
 
     def update_meter(self, meter):
         for i in range(len(meter)):
@@ -418,14 +457,14 @@ class Line:
             self.line[i].form_vowels(self.line[i + 1].word)
         self.line[-1].form_vowels(None)
 
-    def new_trial(self, ending_info=False):
+    def new_trial(self, ending_info=False, force_heuristics=False):
         """
         Tries to do the scansion one more time
         :return:
         """
         if not self.scanned:
             for i in range(len(self.line)):
-                self.line[i].load_meter(ending_info)
+                self.line[i].load_meter(ending_info, force_heuristics)
         return self.get_meter()
 
     def get_meter(self):
@@ -514,9 +553,15 @@ def print_dic_stats(lines, path_to_dict):
                            '|'.join(roots2[root]) + '\n')
 
 
-def main(path_to_text, path_to_dict, path_to_result):
+def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
+    Line.curr_index = 0
+    global roots
+    roots = {}
     with open(path_to_text) as file:
         lines = file.readlines()
+    if not all:
+        begin = random.randint(0, len(lines) - sectionSize)
+        lines = lines[begin:begin + sectionSize]
     for i in range(len(lines)):
         lines[i] = Line(lines[i])
     print('Building the dictionary...')
@@ -525,6 +570,7 @@ def main(path_to_text, path_to_dict, path_to_result):
     versions = 0
     run = 0
     change = -1
+    lastRun = False
     while change != 0:
         if change != 0:
             print('This is run number ' + str(run) + '. Please, wait until the '
@@ -537,7 +583,8 @@ def main(path_to_text, path_to_dict, path_to_result):
                 curr = scansion_versions(lines[i].get_meter(), HEXAMETER, 0)
             else:
                 if run > 1:
-                    curr = scansion_versions(lines[i].new_trial(True), HEXAMETER, 0)
+                    curr = scansion_versions(lines[i].new_trial(True, False),
+                                                 HEXAMETER, 0)
                 else:
                     curr = scansion_versions(lines[i].new_trial(), HEXAMETER, 0)
             newVersion += len(curr)
@@ -549,6 +596,9 @@ def main(path_to_text, path_to_dict, path_to_result):
                     identified += 1
             lines[i].update_root_lengths(curr)
         change = newVersion - versions
+        # if (change == 0) and not lastRun:
+            # lastRun = True
+            # change = 1
         versions = newVersion
         run += 1
         print('\naverage = ' + str(round(versions / len(lines), 4)) +
@@ -576,8 +626,14 @@ def main(path_to_text, path_to_dict, path_to_result):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
+    """if len(sys.argv) != 4:
         print("Usage: %s input_file_name dict_output_file_name output_file_name"
               % sys.argv[0])
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
+    main(sys.argv[1], sys.argv[2], sys.argv[3])"""
+    main('input/input.txt', 'output/dict.txt', 'output/scanned.txt')
+    """ls = [8000]
+    result = []
+    for l in ls:
+        result.append(timeit.timeit(lambda: main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt', False, l), number=50))
+    print(result)"""
