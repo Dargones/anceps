@@ -11,7 +11,7 @@
 * compare.py
 
   The program prints the distribution of different meter patterns (a unigram) obtained from the output of scansion.py. It also evaluates algorithm's performance, 
-  comparing its output with the data from manual_result.txt.
+  comparing its output with manually obtained data.
 
 * ngram.py
 
