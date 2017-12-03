@@ -15,16 +15,15 @@ LONG_CONSONANTS = ['z', 'x']
 SHORT_COMBINATIONS = '(pl|bl|tl|dl|cl|gl|fl|pr|br|tr|dr|cr|gr|fr'
 # because v is a semivowel
 SHORT_COMBINATIONS += '|qv|sv|gv'
-# these were found empirically or on other sites
 SHORT_COMBINATIONS += '|ns|dh|rh|nh|ch|sh|ph|th|mh)'
 
 VOWELS = 'aeiouy'
-# these are diphthongs according to Allen and Greenough
 SHORT_BY_NATURE = 'aey'  # This will be used as a last resort
 # SOURCE: Gildersleeve and Lodge
 LONG_BY_NATURE = 'oiu'
+# these are diphthongs according to Allen and Greenough
 DIPHTHONGS = 'ae|au|ei|eu|oe|ui'
-# early latin diphthong (same source)
+# early latin diphthongs (same source)
 DIPHTHONGS += '|ai|oi|ou'
 # these are diphthongs in a sense that the vowel is always long in these cases
 SYLLAB = r'('+DIPHTHONGS+'|['+VOWELS+'])'

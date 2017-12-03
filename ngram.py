@@ -1,12 +1,26 @@
-" this module is a tool for automatic creation of n-grams for newsela data "
+"""
+This module is a tool for simple author detection using ngram-language-models
+Usage: python3 ngram.py model1 model2 sample1 sample2 sampleSize timesToRepeat
+where model1    is the name of the file on which to build the first language
+                model (it will be automatically scanned by the program). This
+                file should be in the input folder. If the file is input/x.txt,
+                then the parameter should be just x.txt. The same holds for the
+                rest of the parameters
+      model2    --- "" --- same for the second model
+      sample1   is the name of the file from which to take testing samples that
+                    are written by the same author as model1
+      sample2       --- "" --- same for the second model
+      sampleSize    the size of the samples on which to evaluate the perplexity
+      timesToRepeat the number of samples to draw from each of sample1 and
+                    sample2
+
+"""
 import math
 import random
-
+import sys
 
 import scansion
 import compare
-import sys
-is_py2 = sys.version[0] == '2'
 
 # ------------------------------------------------------------------------------
 # ------------- The Language Model Class Definition ----------------------------
@@ -53,21 +67,6 @@ class LanguageModel:
                     elif not LanguageModel.CONSIDER_AMBIGUOUS or \
                                     len(lines[i]) != LanguageModel.WORD_LENGTH:
                         self.addNGram([lines[i]], 0)
-        """to_print = [""] * (len(self.ngrams[0].keys()) + 1)
-        for key, value in self.ngrams[0].items():
-            p1 = str(round(value / self.total * 100, 2))
-            to_print[0] += key + ": " + p1 + "," + " " * (8 - len(p1))
-            j = 0
-            for k in self.ngrams[0].keys():
-                j += 1
-                if k + key in self.ngrams[1]:
-                    p2 = str(round(self.ngrams[1][k + key] /
-                                   self.ngrams[0][k] * 100, 2))
-                else:
-                    p2 = '0'
-                to_print[j] += key + ": " + p2 + "," + " " * (8 - len(p2))
-        for line in to_print:
-            print(line)"""
 
     def addNGram(self, lines, order, weight=1, start=0):
         """
@@ -173,10 +172,8 @@ class LanguageModel:
                 newWeigths[-1] += LanguageModel.WEIGTHS[j]
                 j += 1
             break
-        # result = 1
         result = 0
         for i in range(len(probs)):
-            # result *= pow(probs[i], newWeigths[i])
             result += probs[i]* newWeigths[i]
         return result
 
@@ -193,9 +190,9 @@ def prepare(l, recompute=True, trace=False):
         if trace:
             print('Preparing ' + file + '...')
         if recompute:
-            scansion.main('input/' + file, 'output/dict.txt', 'output/usual/' +
-                     file)
-            compare.co_format('output/usual/' + file, 'output/usual/' + file)
+            scansion.main('input/' + file, 'output/' +
+                     file, trace=False)
+            compare.co_format('output/' + file, 'output/' + file)
 
 
 def comp_lms(m1, m2, samples1, samples2, sSize, sN, recompute=False,
@@ -214,13 +211,10 @@ def comp_lms(m1, m2, samples1, samples2, sSize, sN, recompute=False,
     :return: the overall accuracy
     """
     if trace:
-        print("Scanning...")
-    prepare(samples1 + samples2, recompute, trace)
-    if trace:
         print("Evaluating the first model...")
     u1_count = 0
     for sample in samples1:
-        sample = 'output/usual/' + sample
+        sample = 'output/' + sample
         if trace:
             print("File: " + sample)
         with open(sample) as file:
@@ -244,7 +238,7 @@ def comp_lms(m1, m2, samples1, samples2, sSize, sN, recompute=False,
     if trace:
         print("Evaluating the second model...")
     for sample in samples2:
-        sample = 'output/usual/' + sample
+        sample = 'output/' + sample
         if trace:
             print("File: " + sample)
         with open(sample) as file:
@@ -274,47 +268,36 @@ def comp_lms(m1, m2, samples1, samples2, sSize, sN, recompute=False,
     return accuracy
 
 
-if __name__ == '__main__':
-    TIMES_TO_REPEAT = 100
-    # samples1 = ['6', '7', '8', '9', '10', '11', '12']
-    # samples2 = ['6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
-    samples1 = ['s6_12']
-    samples2 = ['s6_15']
-    m1_prefix = 'Aeneid/book'
-    m2_prefix = 'Metamorphoses/book'
-    m1_postfix = '.txt'
-    m2_postfix = '.txt'
-    m_names = ['Aeneid/books1_5.txt', 'Metamorphoses/books1_5.txt']
-    prepare(m_names, False)
-    for i in range(len(samples1)):
-        samples1[i] = m1_prefix + samples1[i] + m1_postfix
-    for i in range(len(samples2)):
-        samples2[i] = m2_prefix + samples2[i] + m2_postfix
-    """avg = 3 * [0]
+def main(m_names, samples1, samples2, samplesSize, timesToRepeat):
+    """
+    See the description at the top of the file
+    :param m_names:
+    :param samples1:
+    :param samples2:
+    :param samplesSize:
+    :param timesToRepeat:
+    :return:
+    """
+    RECOMPUTE = True
+    print('Scanning the models...')
+    prepare(m_names, RECOMPUTE, True)
+    print('Scanning the samples...')
+    prepare(samples1 + samples2, RECOMPUTE, True)
+    avg = 3 * [0]
     for i in range(len(avg)):
-        m1 = LanguageModel('output/usual/' + m_names[0], i + 1)
-        m2 = LanguageModel('output/usual/' + m_names[1], i + 1)
+        m1 = LanguageModel('output/' + m_names[0], i + 1)
+        m2 = LanguageModel('output/' + m_names[1], i + 1)
         print("Testing " + str(i + 1) + "-grams...")
-        for j in range(TIMES_TO_REPEAT):
-            print(str(round(j/TIMES_TO_REPEAT * 100, 0)) + "% done...")
-            avg[i] += comp_lms(m1, m2, samples1, samples2,
-                               30, 100, False)
-        avg[i] /= TIMES_TO_REPEAT
-    print(avg)"""
-    sampleSizes = [1, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-    results = []
-    m1 = LanguageModel('output/usual/' + m_names[0], 1)
-    m2 = LanguageModel('output/usual/' + m_names[1], 1)
-    for size in sampleSizes:
-        print("Testing size of " + str(size))
-        threshold = 0
-        threshold_step = 0.2
-        tmp = 0
-        for j in range(TIMES_TO_REPEAT):
-            if j / TIMES_TO_REPEAT >= threshold:
-                print(str(round(j / TIMES_TO_REPEAT * 100, 0)) + "% done...")
-                threshold += threshold_step
-            tmp += comp_lms(m1, m2, samples1, samples2, size, 100, False)
-        results.append(tmp/TIMES_TO_REPEAT)
-    print(results)
+        avg[i] = comp_lms(m1, m2, samples1, samples2,
+                           samplesSize, timesToRepeat, False)
+    for i in range(len(avg)):
+        print("Accuracy for " + str(i+1) + "-grams: " + str(
+            round(avg[i] * 100, 1)) + "%")
 
+if __name__ == '__main__':
+    if len(sys.argv) != 7:
+        print("Usage: %s model1 model2 sample1 sample2 sampleSize timesToRepeat"
+              % sys.argv[0])
+        sys.exit(-1)
+    main([sys.argv[1], sys.argv[2]], [sys.argv[3]], [sys.argv[4]],
+         int(sys.argv[5]), int(sys.argv[6]))

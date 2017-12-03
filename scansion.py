@@ -1,10 +1,8 @@
 """
 This module is the bulk of the algorithm. Usage:
-python3 scansion.py input_file_name dict_output_file_name output_file_name
+python3 scansion.py input_file_name output_file_name
 where input_file_name          is the name of the file that contains the lines
                                to be scanned
-      dict_output_file_name    the name of the file to which print the created
-                               dictionary
       output_file_name         the name of the file to which to print the output
 
 """
@@ -14,16 +12,12 @@ import math
 import random
 import sys
 import timeit
-
 from utilities import *
 
 # ------------- Global Variables -----------------------------------------------
 
 roots = {}  # dictionary
 ALPHA = 1
-C_THRESHOLD = 0.7  # when the dictionary is printed out, only those words about
-# which the program is relatively certain will be printed out. C_THRESHOLD
-# defines what relatively certain means.
 ELEGIAC = False
 
 # ------------------------------------------------------------------------------
@@ -148,69 +142,17 @@ class Root:
         if ending == '':
             exact_match = True
         elif not exact_match:
-            """mathcing_group = []
-            for i in range(len(self.groups_p) - 1):
-                if (self.groups_p[i] > 0) and ending in ALL[i]:
-                    mathcing_group.append(ALL[i])"""
             mathcing_group = ALL[self.ending_prob(ending)[1]]
         meter = None
         for end in self.endings:
-            # if end[0] == ending:
             if (end[0] == ending) or (not exact_match and (end[0] in mathcing_group)):
                 if meter is None:
                     meter = end[3]
                 else:
                     meter = merge_lists(meter, end[3], True, DUMMY_TOKEN)
                     continue
-            """if exact_match:
-                continue
-            for group in mathcing_group:
-                if end[0] in group:
-                    if meter is None:
-                        meter = end[3]
-                    else:
-                        meter = merge_lists(meter, end[3], True, DUMMY_TOKEN)
-                    break"""
 
         return dummy_to_unk(meter)
-
-    def get_full_meter(self):
-        """
-        Try to find the meter that fits all of teh versions of the root
-        :param ending:
-        :return:
-        """
-        meter = None
-        confidence = None
-        count = 0
-        for end in self.endings:
-                if not end[3]:
-                    continue
-                count += 1
-                if meter is None:
-                    meter = end[3]
-                    confidence = len(meter) * [0]
-                    for i in range(len(meter)):
-                        if meter[i] != UNK:
-                            confidence[i] = 1
-                else:
-                    for i in range(len(end[3])):
-                        if meter[i] == UNK:
-                            if end[3][i] != UNK:
-                                if confidence[i] != -1:
-                                    confidence[i] = 1
-                                    meter[i] = end[3][i]
-                        else:
-                            if end[3][i] == meter[i]:
-                                confidence[i] += 1
-                            else:
-                                confidence[i] = -1
-                                meter[i] = UNK
-        if confidence:
-            for i in range(len(confidence)):
-                if confidence[i] != -1:
-                    confidence[i] /= count
-        return meter, confidence
 
 
 # ------------------------------------------------------------------------------
@@ -238,8 +180,6 @@ class Vowel:
         self.elided = False
         self.longitude = UNK
         self.reason = Vowel.NOT_DECIDED
-        self.follow = follow
-        # self.followed_by_vowel = (follow == '') or (follow == 'h')
 
         if re.match(r'[m]? [h]?$', follow) is not None:
             self.elided = True
@@ -252,26 +192,12 @@ class Vowel:
             self.longitude = LONG
             self.reason = Vowel.POSITION
 
-    def update(self, new_longitude, new_reason, force_heuristics=False):
+    def update(self, new_longitude, new_reason):
         """Update information about the longitude of a vowel"""
         if ((self.reason != self.POSITION) and (self.reason != self.METER)) or (
                     self.longitude == UNK):
-            if (new_longitude == UNK) and force_heuristics and (
-                        len(self.follow) > 0) and (self.follow[-1] == ' '):
-                # if self.followed_by_vowel:
-                # SOURCE - Gildersleeve & Lodge, p. 447 - but this rule has a
-                # lot of exceptions
-                # self.longitude = SHORT
-                # self.reason = Vowel.POSITION
-                if self.vowel in LONG_BY_NATURE:
-                    self.longitude = LONG
-                    self.reason = Vowel.POSITION
-                elif self.vowel in SHORT_BY_NATURE:
-                    self.longitude = SHORT
-                    self.reason = Vowel.POSITION
-            else:
-                self.reason = new_reason
-                self.longitude = new_longitude
+            self.reason = new_reason
+            self.longitude = new_longitude
 
 
 # ------------------------------------------------------------------------------
@@ -376,19 +302,19 @@ class Word:
                   self.root[1])
         self.vowels.append(Vowel(self.root[1].rstrip(CONSONANTS)[-1], follow))
 
-    def ending_more_info(self, force_heuristics=False):
+    def ending_more_info(self):
         """Try to infer teh lengths of endings"""
         for i in range(len(self.ending_meter)):
             self.vowels[len(self.vowels) - len(self.ending_meter) + i].update(
-                self.ending_meter[i], Vowel.NATURE, force_heuristics)
+                self.ending_meter[i], Vowel.NATURE)
 
-    def load_meter(self, load_endings=False, force_heuristics=False):
+    def load_meter(self, load_endings=False):
         """Load info from the root and update lengths of the vowels"""
         new_meter = self.root[0].get_meter(self.root[1])
         for i in range(len(new_meter)):
             self.vowels[i].update(new_meter[i], Vowel.NATURE)
         if load_endings:
-            self.ending_more_info(force_heuristics)
+            self.ending_more_info()
 
     def update_meter(self, meter):
         for i in range(len(meter)):
@@ -458,14 +384,14 @@ class Line:
             self.line[i].form_vowels(self.line[i + 1].word)
         self.line[-1].form_vowels(None)
 
-    def new_trial(self, ending_info=False, force_heuristics=False):
+    def new_trial(self, ending_info=False):
         """
         Tries to do the scansion one more time
         :return:
         """
         if not self.scanned:
             for i in range(len(self.line)):
-                self.line[i].load_meter(ending_info, force_heuristics)
+                self.line[i].load_meter(ending_info)
         return self.get_meter()
 
     def get_meter(self):
@@ -532,30 +458,7 @@ def scansion_versions(line, meter, meterIndex):
     return result
 
 
-def print_dic_stats(lines, path_to_dict):
-    """
-    Print the info about all the roots
-    :param lines:
-    :return:
-    """
-    roots2 = {}
-    for line in lines:
-        for word in line.line:
-            if word.root[0] not in roots2:
-                roots2[word.root[0]] = [word.root[1]]
-            else:
-                roots2[word.root[0]].append(word.root[1])
-    with open(path_to_dict, 'w') as file:
-        for root in sorted(roots2.keys()):
-            meter, confidence = root.get_full_meter()
-            if meter and (-1 not in confidence) and (
-                            float(sum(confidence)/len(confidence)) > C_THRESHOLD):
-                meter = ''.join(meter)
-                file.write(root.name + ' ' + meter + ' ' +
-                           '|'.join(roots2[root]) + '\n')
-
-
-def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
+def main(path_to_text, path_to_result, all=True, sectionSize=20, trace=True):
     Line.curr_index = 0
     global roots
     roots = {}
@@ -571,15 +474,15 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
         lines = lines[begin:begin + sectionSize]
     for i in range(len(lines)):
         lines[i] = Line(lines[i])
-    print('Building the dictionary...')
+    if trace:
+        print('Building the dictionary...')
     for i in range(len(lines)):
         lines[i].analyze()
     versions = 0
     run = 0
     change = -1
-    lastRun = False
     while change != 0:
-        if change != 0:
+        if change != 0 and trace:
             print('This is run number ' + str(run) + '. Please, wait until the '
                                                    'program terminates...')
         empty = 0
@@ -594,7 +497,7 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
                 curr = scansion_versions(lines[i].get_meter(), METER, 0)
             else:
                 if run > 1:
-                    curr = scansion_versions(lines[i].new_trial(True, False),
+                    curr = scansion_versions(lines[i].new_trial(True),
                                                  METER, 0)
                 else:
                     curr = scansion_versions(lines[i].new_trial(), METER, 0)
@@ -607,20 +510,17 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
                     identified += 1
             lines[i].update_root_lengths(curr)
         change = newVersion - versions
-        # if (change == 0) and not lastRun:
-            # lastRun = True
-            # change = 1
         versions = newVersion
         run += 1
-        print('\naverage = ' + str(round(versions / len(lines), 4)) +
-              ' versions per line.\nidentified = ' +
-              str(round(identified / len(lines) * 100, 1)) + '%\nempty = ' +
-              str(round(empty / len(lines) * 100, 1)) + '%\n')
+        if trace:
+            print('\naverage = ' + str(round(versions / len(lines), 4)) +
+                ' versions per line.\nidentified = ' +
+                str(round(identified / len(lines) * 100, 1)) + '%\nempty = ' +
+                str(round(empty / len(lines) * 100, 1)) + '%\n')
     if not all:
         return identified / len(lines)
-    print('Printing the dictionary...')
-    print_dic_stats(lines, path_to_dict)
-    print('Printing the results...')
+    if trace:
+        print('Printing the results...')
     with open(path_to_result, 'w') as file:
         for i in range(len(lines)):
             curr = scansion_versions(lines[i].get_meter(), HEXAMETER, 0)
@@ -639,12 +539,12 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
 
 
 if __name__ == "__main__":
-    """if len(sys.argv) != 4:
-        print("Usage: %s input_file_name dict_output_file_name output_file_name"
+    if len(sys.argv) != 3:
+        print("Usage: %s input_file_name output_file_name"
               % sys.argv[0])
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2], sys.argv[3])"""
-    main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt')
+    main(sys.argv[1], sys.argv[2])
+    # main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt')
     """ls = [2, 4, 8, 10, 20, 25, 30, 35, 40, 50, 100, 300, 500, 2000]
     result = []
     for l in ls:
