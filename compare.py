@@ -106,25 +106,27 @@ def compare(man, auto, text):
         a = file.readlines()
     with open(text) as file:
         t = file.readlines()
-    for i in range(len(m)):
+    for i in range(len(m[i])):
         m[i] = m[i].rstrip('\n')
         a[i] = a[i].rstrip('\n')
         t[i] = t[i].rstrip('\n')
+        print(str(i) + ":\t" + t[i])
         if UNK in a[i]:
+            print("[] - failed to determine the meter\n")
             countEmpty += 1
             if len(a[i]) != len(m[i]):
                 countNotSizedEp += 1
-                print(t[i], i, ' e\n')
             continue
         versions = a[i].split('|')
         if len(versions) == 1:
             if a[i] == m[i]:
                 countTrue += 1
+                print(a[i] + " - correct\n")
             else:
+                print(a[i] + " - incorrect\n")
                 countFalse += 1
                 if len(a[i]) != len(m[i]):
                     countNotSizedId += 1
-                    print(t[i], i, 'i\n')
         else:
             found = False
             for version in versions:
@@ -133,11 +135,12 @@ def compare(man, auto, text):
                     break
             if found:
                 countPTrue += 1
+                print(a[i] + ", of which " + m[i] + " is correct\n")
             else:
+                print(a[i] + ", of which no are correct\n")
                 countPFalse += 1
                 if len(versions[-1]) != len(m[i]):
                     countNotSizedMult += 1
-                    print(t[i], i, 'm\n')
     den = (countFalse+countTrue+countPFalse+countPTrue+countEmpty)
     cNSE = str(countNotSizedEp) + ' (' + str(round(
         countNotSizedEp / countEmpty * 100, 1)) + '%)'
@@ -318,7 +321,7 @@ if __name__ == "__main__":
               % sys.argv[0])
         sys.exit(-1)
     main(sys.argv[1], sys.argv[2])"""
-    main('output/scanned.txt', 'input/manual_result.txt', 'input/input.txt')
+    # main('output/scanned.txt', 'input/manual_result.txt', 'input/input.txt')
     # clear_file('input/small_test.txt')
-    # compare('input/small_test.txt', 'output/scanned.txt', 'input/aeneid.txt')
+    compare('input/small_test.txt', 'output/scanned.txt', 'input/aeneid.txt')
     # compare_dictionaries('output/dict.txt', 'output/dict_2.txt')

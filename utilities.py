@@ -36,6 +36,7 @@ DACTYL = [[LONG, SHORT, SHORT]]
 H_SIXTH_FOOT = [[LONG, ANCEPS]]
 H_FOOT = [[SPONDEE], [DACTYL]]
 HEXAMETER = [[[H_FOOT, H_FOOT, H_FOOT, H_FOOT, H_FOOT, H_SIXTH_FOOT]]]
+PENTAMETER = [[[H_FOOT, H_FOOT, LONG, H_FOOT, H_FOOT, LONG]]]
 
 # ------------------- Morphology -----------------------------------------------
 

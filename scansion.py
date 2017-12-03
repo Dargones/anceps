@@ -24,6 +24,7 @@ ALPHA = 1
 C_THRESHOLD = 0.7  # when the dictionary is printed out, only those words about
 # which the program is relatively certain will be printed out. C_THRESHOLD
 # defines what relatively certain means.
+ELEGIAC = False
 
 # ------------------------------------------------------------------------------
 # ------------- The Root Class Definition --------------------------------------
@@ -475,7 +476,8 @@ class Line:
         result = []
         for word in self.line:
             result += word.get_meter()
-        result[-1] = ANCEPS
+        if not ELEGIAC:
+            result[-1] = ANCEPS
         return result
 
     def update_root_lengths(self, scansion_result):
@@ -561,6 +563,11 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
         lines = file.readlines()
     if not all:
         begin = random.randint(0, len(lines) - sectionSize)
+        if ELEGIAC and begin%2 == 1:
+            if begin + sectionSize <= len(lines):
+                begin += 1
+            else:
+                begin -= 1
         lines = lines[begin:begin + sectionSize]
     for i in range(len(lines)):
         lines[i] = Line(lines[i])
@@ -579,18 +586,22 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
         identified = 0
         newVersion = 0
         for i in range(len(lines)):
+            if ELEGIAC and i%2 == 1:
+                METER = PENTAMETER
+            else:
+                METER = HEXAMETER
             if change == -1:
-                curr = scansion_versions(lines[i].get_meter(), HEXAMETER, 0)
+                curr = scansion_versions(lines[i].get_meter(), METER, 0)
             else:
                 if run > 1:
                     curr = scansion_versions(lines[i].new_trial(True, False),
-                                                 HEXAMETER, 0)
+                                                 METER, 0)
                 else:
-                    curr = scansion_versions(lines[i].new_trial(), HEXAMETER, 0)
+                    curr = scansion_versions(lines[i].new_trial(), METER, 0)
             newVersion += len(curr)
             if len(curr) == 0:
                 empty += 1
-                curr = scansion_versions(lines[i].get_meter(), HEXAMETER, 0)
+                curr = scansion_versions(lines[i].get_meter(), METER, 0)
             else:
                 if len(curr) == 1:
                     identified += 1
@@ -605,6 +616,8 @@ def main(path_to_text, path_to_dict, path_to_result, all=True, sectionSize=20):
               ' versions per line.\nidentified = ' +
               str(round(identified / len(lines) * 100, 1)) + '%\nempty = ' +
               str(round(empty / len(lines) * 100, 1)) + '%\n')
+    if not all:
+        return identified / len(lines)
     print('Printing the dictionary...')
     print_dic_stats(lines, path_to_dict)
     print('Printing the results...')
@@ -631,9 +644,13 @@ if __name__ == "__main__":
               % sys.argv[0])
         sys.exit(-1)
     main(sys.argv[1], sys.argv[2], sys.argv[3])"""
-    main('input/input.txt', 'output/dict.txt', 'output/scanned.txt')
-    """ls = [8000]
+    main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt')
+    """ls = [2, 4, 8, 10, 20, 25, 30, 35, 40, 50, 100, 300, 500, 2000]
     result = []
     for l in ls:
-        result.append(timeit.timeit(lambda: main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt', False, l), number=50))
+        # result.append(timeit.timeit(lambda: main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt', False, l), number=50))
+        result.append(0)
+        for i in range(int(ls[-1]/l)):
+            result[-1] += (main('input/tristia.txt', 'output/dict.txt', 'output/scanned.txt', False, l))
+        result[-1] /= ls[-1]/l
     print(result)"""
