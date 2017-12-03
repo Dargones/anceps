@@ -15,7 +15,7 @@
 
 * ngram.py
 
-  The program builds two language models (e.g. one based on the first five book of the Aeneid and another based on the first five books of Metamorphoses) and then tries to classify samples that it is given into Vergilian or Ovidian. It then prints the accuracy for ngram models of different orders. Currently the unigrams have the highest accuracy, which is probably due to the fact that scansion.py has too low precision. I plan to use a digitized Latin dictionary in future to increase the accuracy of scansion.py and take advantage of bi- and trgram models.
+  The program builds two language models (e.g. one based on the first five books of the Aeneid and another based on the first five books of Metamorphoses) and then tries to classify samples that it is given into Vergilian or Ovidian. It then prints the accuracy for ngram models of different orders. Currently the unigrams have the highest accuracy, which is probably due to the fact that scansion.py has too low precision. I plan to use a digitized Latin dictionary in future to increase the accuracy of scansion.py and take advantage of bi- and trgram models.
   
 * input/input.txt
 
