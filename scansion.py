@@ -7,6 +7,7 @@ where input_file_name          is the name of the file that contains the lines
 
 """
 
+from __future__ import division
 import copy
 import math
 import random

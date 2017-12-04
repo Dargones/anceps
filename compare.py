@@ -15,6 +15,7 @@ where input_file_name          is the name of the file that contains the lines
                                the test file should be DDDS
 
 """
+from __future__ import division
 import sys
 
 from utilities import *

@@ -15,6 +15,7 @@ where model1    is the name of the file on which to build the first language
                     sample2
 
 """
+from __future__ import division
 import math
 import random
 import sys
