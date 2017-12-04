@@ -1,7 +1,6 @@
 # Scansion project
 
 ## [Download archive](https://dargones.github.io/Scansion-project/Archive.zip)
-  Some of the files might not work with python2 (I am planning to add python2 compatibility).
 
 ## File by file description:
 * scansion.py
