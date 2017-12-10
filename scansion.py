@@ -125,8 +125,10 @@ class Root:
                 n_matches += 1/ALPHA
             else:
                 for group in ENDINGS[end[0]]:
-                    self.groups_p[group] += 1/math.log(len(ENDINGS[end[0]]) + 1)
-                    n_matches += 1/math.log(len(ENDINGS[end[0]]) + 1)
+                    # self.groups_p[group] += 1/math.log(len(ENDINGS[end[0]]) + 1)
+                    # n_matches += 1/math.log(len(ENDINGS[end[0]]) + 1)
+                    self.groups_p[group] += len(ALL)/len(ENDINGS[end[0]])
+                    n_matches += len(ALL)/len(ENDINGS[end[0]])
         for i in range(len(ALL) + 1):
             self.groups_p[i] /= n_matches
 
@@ -545,7 +547,7 @@ if __name__ == "__main__":
               % sys.argv[0])
         sys.exit(-1)
     main(sys.argv[1], sys.argv[2])
-    # main('input/aeneid.txt', 'output/dict.txt', 'output/scanned.txt')
+    # main('input/aeneid.txt', 'output/scanned.txt')
     """ls = [2, 4, 8, 10, 20, 25, 30, 35, 40, 50, 100, 300, 500, 2000]
     result = []
     for l in ls:

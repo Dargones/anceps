@@ -228,8 +228,15 @@ def compare_co_format(man, auto):
           + "\nTwo or more possible versions given, among those all are "
             "incorrect:  " + cPF + "\nFailed to determine the meter:   " + cE)
     print("\nConfusion matrix:")
-    for r in result.values():
-        print(r.values())
+    line = "     "
+    for key in result.keys():
+        line += key + " "
+    print(line)
+    for key, value in result.items():
+        line = key + " "
+        for v in value.values():
+            line += str(v) + (5 - len(str(v))) * " "
+        print(line)
 
 
 def main(path_to_result, path_to_test, path_to_text, format):
