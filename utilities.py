@@ -171,9 +171,27 @@ ENDINGS = {}  # Endings['ending'] = list of groups in which this ending can
 # ------------------- Various Functions ----------------------------------------
 
 
+def decide_on_logitude(vowel, follow):
+    """
+    decide whether a vowel/diphthong 'vowel' followed by consonants 'follow'
+    will be long
+    :param vowel:    something from SYLLAB
+    :param follow:   a string consisting of consonants or LONG and SHORT tokens
+                     that mark the length of the vowel explicitly
+    :return:
+    """
+    if SHORT in follow:
+        return SHORT
+    if (len(vowel) > 1) or (len(follow) > 2) or ((len(follow) == 2) and (
+                re.match(SHORT_COMBINATIONS, follow) is None)) or (
+                follow in LONG_CONSONANTS) or (LONG in follow):
+        return LONG
+    return UNK
+
+
 def merge_lists(list1, list2, maximize=True, problem=UNK):
     """
-    Take and merge two lists. Lists should only have UNK, ANCEPS, LONG, SHORTM
+    Take and merge two lists. Lists should only have UNK, ANCEPS, LONG, SHORT
     Merging mechanism depends on the value of maximize. If maximize == True,
     then whenever at a certain position the longitude is known for one of the
     lists, but unknown in the other, the resulting value will be that in the

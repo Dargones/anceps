@@ -13,6 +13,7 @@ import math
 import random
 import sys
 import timeit
+from perseus import dictionary
 from utilities import *
 
 # ------------- Global Variables -----------------------------------------------
@@ -188,11 +189,8 @@ class Vowel:
             self.elided = True
             return
         follow = re.sub(r' |' + PSEUDO_CONSONANT, '', follow)
-        if (len(self.vowel) > 1) or (len(follow) > 2) or (
-                    (len(follow) == 2) and (re.match(SHORT_COMBINATIONS, follow)
-                                            is None)) or (
-            follow in LONG_CONSONANTS):
-            self.longitude = LONG
+        self.longitude = decide_on_logitude(self.vowel, follow)
+        if self.longitude == LONG:
             self.reason = Vowel.POSITION
 
     def update(self, new_longitude, new_reason):
@@ -229,6 +227,8 @@ class Word:
         self.root_length = 0
         self.ending_meter = None
 
+        self.dict_used = False
+
         if self.word not in roots:
             roots[self.word] = Root(self.word)
         roots[self.word].add_ending('', line_id, word_id)
@@ -248,6 +248,23 @@ class Word:
         :param nextWord:
         :return:
         """
+        meter = dictionary.look_up(self.initial_orthography)
+        if meter:
+            self.dict_used = True
+            self.vowels = []
+            for i in range(len(meter) - 1):
+                self.vowels.append(Vowel('a', ''))
+                self.vowels[-1].update(meter[i], Vowel.POSITION)
+
+            follow = list(re.findall(r'[' + CONSONANTS + ']*$', self.word))[0]
+            if nextWord is not None:
+                follow += ' ' + list(re.findall(
+                    r'^[' + CONSONANTS + ']*', nextWord))[0]
+            self.vowels.append(Vowel('a', follow))
+            self.vowels[-1].update(meter[-1], Vowel.POSITION)
+            return
+
+
         likelihood = -1
         best_group = 0
         total_occurances = 0
@@ -304,6 +321,7 @@ class Word:
                   'Specifics: word = ' + self.initial_orthography + ' end = ' +
                   self.root[1])
         self.vowels.append(Vowel(self.root[1].rstrip(CONSONANTS)[-1], follow))
+        # TODO: if the last 'vowel' is a diphthong?
 
     def ending_more_info(self):
         """Try to infer teh lengths of endings"""
@@ -313,6 +331,8 @@ class Word:
 
     def load_meter(self, load_endings=False):
         """Load info from the root and update lengths of the vowels"""
+        if self.dict_used:
+            return
         new_meter = self.root[0].get_meter(self.root[1])
         for i in range(len(new_meter)):
             self.vowels[i].update(new_meter[i], Vowel.NATURE)
@@ -320,6 +340,8 @@ class Word:
             self.ending_more_info()
 
     def update_meter(self, meter):
+        if self.dict_used:
+            return
         for i in range(len(meter)):
             self.vowels[i].update(meter[i], Vowel.METER)
         meter = meter[:self.root_length]
@@ -383,6 +405,8 @@ class Line:
             self.line[i] = Word(self.line[i], self.index, i)
 
     def analyze(self):
+        if self.index == 307:
+            print('debug')
         for i in range(len(self.line) - 1):
             self.line[i].form_vowels(self.line[i + 1].word)
         self.line[-1].form_vowels(None)
@@ -542,12 +566,12 @@ def main(path_to_text, path_to_result, all=True, sectionSize=20, trace=True):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    """ if len(sys.argv) != 3:
         print("Usage: %s input_file_name output_file_name"
               % sys.argv[0])
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2])
-    # main('input/aeneid.txt', 'output/scanned.txt')
+    main(sys.argv[1], sys.argv[2])"""
+    main('texts/input.txt', 'output/input.txt')
     """ls = [2, 4, 8, 10, 20, 25, 30, 35, 40, 50, 100, 300, 500, 2000]
     result = []
     for l in ls:

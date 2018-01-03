@@ -134,10 +134,16 @@ def compare(man, auto, text):
                 if len(versions[-1]) != len(m[i]):
                     countNotSizedMult += 1
     den = (countFalse+countTrue+countPFalse+countPTrue+countEmpty)
-    cNSE = str(countNotSizedEp) + ' (' + str(round(
-        countNotSizedEp / countEmpty * 100, 1)) + '%)'
-    cNSI = str(countNotSizedId) + ' (' + str(round(
-        countNotSizedId / countFalse * 100, 1)) + '%)'
+    if countEmpty == 0:
+        cNSE = '0'
+    else:
+        cNSE = str(countNotSizedEp) + ' (' + str(round(
+            countNotSizedEp / countEmpty * 100, 1)) + '%)'
+    if countFalse == 0:
+        cNSI = '0'
+    else:
+        cNSI = str(countNotSizedId) + ' (' + str(round(
+            countNotSizedId / countFalse * 100, 1)) + '%)'
     if countPFalse == 0:
         cNSM = str(countNotSizedMult) + ' (0%)'
     else:
@@ -152,9 +158,12 @@ def compare(man, auto, text):
     cE = str(countEmpty) + ' (' + str(
         round(countEmpty / den * 100, 1)) + '%)\tof this syll-err: ' + cNSE
     total_not_sized = countNotSizedMult + countNotSizedId + countNotSizedEp
-    cNST = str(total_not_sized) + ' (' + str(
-        round((total_not_sized) / (
-            countEmpty + countFalse + countPFalse) * 100, 1)) + '%)'
+    if countEmpty + countFalse + countPFalse == 0:
+        cNST = '0'
+    else:
+        cNST = str(total_not_sized) + ' (' + str(
+            round((total_not_sized) / (
+                countEmpty + countFalse + countPFalse) * 100, 1)) + '%)'
 
     print("\n\nIdentified correctly:    " + cT + "\nIdentified incorrectly:   "
           + cF + "\nTwo or more possible versions given, among those there is a"
@@ -164,7 +173,7 @@ def compare(man, auto, text):
           cE + "\ncNotSize: " + cNST)
 
 
-def compare_co_format(man, auto):
+def compare_co_format(man, auto, text):
     """
     Read the two files, one of which contains the output of the algorithm, and
     the other the "correct" data from the testing set and report algorithm's
@@ -189,6 +198,8 @@ def compare_co_format(man, auto):
         m = file.readlines()
     with open(auto) as file:
         a = file.readlines()
+    with open(text) as file:
+        t = file.readlines()
     for i in range(len(m)):
         m[i] = m[i].rstrip('\n ').split(' ')[0]
         a[i] = a[i].rstrip('\n')
@@ -202,6 +213,7 @@ def compare_co_format(man, auto):
                 countTrue += 1
             else:
                 countFalse += 1
+                print(t[i] + ' auto:' + a[i] + ' man:' + m[i] + ' id:' + str(i))
         else:
             found = False
             for version in versions:
@@ -245,16 +257,18 @@ def main(path_to_result, path_to_test, path_to_text, format):
         new_format_file_name = '.'.join(path_to_result.split('.')[:-1]) + \
                                '.co.txt'
         co_format(path_to_result, new_format_file_name)
-        compare_co_format(path_to_test, new_format_file_name)
+        compare_co_format(path_to_test, new_format_file_name, path_to_text)
     else:
         compare(path_to_test, path_to_result, path_to_text)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
+    """if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
                 sys.argv[4] != 'dactylspondee')):
         print("Usage: " + sys.argv[0] + " program_output_file_name " +
               "answer_key_file_name text_file_name format" +
               "[longshort|dactylspondee]")
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')
+    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')"""
+    main("output/input.txt", "testing_data/input_test.txt", "texts/input.txt",
+         False)
