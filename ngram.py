@@ -3,7 +3,7 @@ This module is a tool for simple author detection using ngram-language-models
 Usage: python3 ngram.py model1 model2 sample1 sample2 sampleSize timesToRepeat
 where model1    is the name of the file on which to build the first language
                 model (it will be automatically scanned by the program). This
-                file should be in the input folder. If the file is input/x.txt,
+                file should be in the texts folder. If the file is texts/x.txt,
                 then the parameter should be just x.txt. The same holds for the
                 rest of the parameters
       model2    --- "" --- same for the second model
@@ -191,7 +191,7 @@ def prepare(l, recompute=True, trace=False):
         if trace:
             print('Preparing ' + file + '...')
         if recompute:
-            scansion.main('input/' + file, 'output/' +
+            scansion.main('texts/' + file, 'output/' +
                      file, trace=False)
             compare.co_format('output/' + file, 'output/' + file)
 

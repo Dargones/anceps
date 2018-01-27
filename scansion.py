@@ -248,7 +248,7 @@ class Word:
         :param nextWord:
         :return:
         """
-        meter = dictionary.look_up(self.initial_orthography)
+        """meter = dictionary.look_up(self.initial_orthography)
         if meter:
             self.dict_used = True
             self.vowels = []
@@ -262,7 +262,7 @@ class Word:
                     r'^[' + CONSONANTS + ']*', nextWord))[0]
             self.vowels.append(Vowel('a', follow))
             self.vowels[-1].update(meter[-1], Vowel.POSITION)
-            return
+            return"""
 
 
         likelihood = -1
@@ -320,8 +320,11 @@ class Word:
                   '. Please remove all empty lines from the file. \n' +
                   'Specifics: word = ' + self.initial_orthography + ' end = ' +
                   self.root[1])
-        self.vowels.append(Vowel(self.root[1].rstrip(CONSONANTS)[-1], follow))
-        # TODO: if the last 'vowel' is a diphthong?
+        tmp = self.root[1].rstrip(CONSONANTS)
+        if len(tmp) > 1 and tmp[-2:] in DIPHTHONGS:
+            self.vowels.append(Vowel(tmp[-2:], follow))
+        else:
+            self.vowels.append(Vowel(tmp[-1], follow))
 
     def ending_more_info(self):
         """Try to infer teh lengths of endings"""
@@ -396,6 +399,7 @@ class Line:
         line = re.sub(r'[ ]+', ' ', line)
         line = line.rstrip(' ').lstrip(' ')
         line = re.sub(r'([a-z])que( |$)', r'\1 que\2', line)
+        line = re.sub(r'([a-z])ne( |$)', r'\1 ne\2', line)
         # make the ending 'que' into a separate word
         line = re.sub(r'( |^)' + PREFIXES + '([a-z])', r'\1\2w \3', line)
         # make certain perfixes into separate words
@@ -405,7 +409,7 @@ class Line:
             self.line[i] = Word(self.line[i], self.index, i)
 
     def analyze(self):
-        if self.index == 307:
+        if self.index == 32:
             print('debug')
         for i in range(len(self.line) - 1):
             self.line[i].form_vowels(self.line[i + 1].word)
