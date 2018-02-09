@@ -20,7 +20,7 @@
 
   The whole of the Aeneid. 
 
-* testing_dataaeneid_test.txt
+* testing_data/aeneid_test.txt
 
   The "answer key" for the first 123 lines of the Aeneid. This data was first obtained from hands-up-education.org and then verified by myself. The difference between this anser key and that from hexameter.co is that the former is more detailed. 
   
