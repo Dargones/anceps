@@ -36,15 +36,15 @@
 
   These are the corresponding books from corresponding texts.
   
-  * utilities.py
+* utilities.py
 
   Various utilities and constants
   
-  *Full_Description.pdf
+* Full_Description.pdf
   
   Short moderation paper that describes how algorithm works and provides statistical overview of its performance.
   
-  *work_in_progress
+* work_in_progress
   
   Contains source files that should extract information from perseus database (not currently used by algorithm). This code may contain bugs, is untested, and requires access to perseus files. Files from this folder are on GitHub for storing purposes only.
   
