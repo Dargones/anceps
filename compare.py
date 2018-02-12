@@ -263,12 +263,12 @@ def main(path_to_result, path_to_test, path_to_text, format):
 
 
 if __name__ == "__main__":
-    """if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
+    if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
                 sys.argv[4] != 'dactylspondee')):
         print("Usage: " + sys.argv[0] + " program_output_file_name " +
               "answer_key_file_name text_file_name format" +
               "[longshort|dactylspondee]")
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')"""
-    main("output/input.txt", "testing_data/input_test.txt", "texts/input.txt",
-         False)
+    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')
+    """main("output/input.txt", "testing_data/input_test.txt", "texts/input.txt",
+         False)"""

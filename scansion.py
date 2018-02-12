@@ -13,7 +13,7 @@ import math
 import random
 import sys
 import timeit
-from perseus import dictionary
+# from perseus import dictionary
 from utilities import *
 
 # ------------- Global Variables -----------------------------------------------
@@ -409,8 +409,6 @@ class Line:
             self.line[i] = Word(self.line[i], self.index, i)
 
     def analyze(self):
-        if self.index == 32:
-            print('debug')
         for i in range(len(self.line) - 1):
             self.line[i].form_vowels(self.line[i + 1].word)
         self.line[-1].form_vowels(None)
@@ -570,12 +568,12 @@ def main(path_to_text, path_to_result, all=True, sectionSize=20, trace=True):
 
 
 if __name__ == "__main__":
-    """ if len(sys.argv) != 3:
+    if len(sys.argv) != 3:
         print("Usage: %s input_file_name output_file_name"
               % sys.argv[0])
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2])"""
-    main('texts/input.txt', 'output/input.txt')
+    main(sys.argv[1], sys.argv[2])
+    # main('texts/input.txt', 'output/input.txt')
     """ls = [2, 4, 8, 10, 20, 25, 30, 35, 40, 50, 100, 300, 500, 2000]
     result = []
     for l in ls:
