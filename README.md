@@ -34,7 +34,7 @@
   
 * texts/Aeneid/books1_5.txt, texts/Aeneid/books6_12.txt, texts/Metamorphoses/books1_5.txt, and texts/Metamorphoses/books6_15.txt..
 
-  These the corresponding books from corresponding texts.
+  These are the corresponding books from corresponding texts.
   
   * utilities.py
 
