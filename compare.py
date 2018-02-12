@@ -213,7 +213,7 @@ def compare_co_format(man, auto, text):
                 countTrue += 1
             else:
                 countFalse += 1
-                print(t[i] + ' auto:' + a[i] + ' man:' + m[i] + ' id:' + str(i))
+                # print(t[i] + ' auto:' + a[i] + ' man:' + m[i] + ' id:' + str(i))
         else:
             found = False
             for version in versions:

@@ -1,6 +1,6 @@
 # Scansion project
 
-## [Full description of methods used](https://dargones.github.io/Scansion-project/Full_Description.pdf)
+## [Full description of the problem and the methods employed](https://dargones.github.io/Scansion-project/Full_Description.pdf)
 
 ## File by file description:
 * scansion.py
