@@ -1,6 +1,6 @@
 # Scansion project
 
-## [Download archive](https://dargones.github.io/Scansion-project/Archive.zip)
+## [Full description of methods used](https://dargones.github.io/Scansion-project/Full_Description.pdf)
 
 ## File by file description:
 * scansion.py
@@ -16,25 +16,48 @@
 
   The program builds two language models (e.g. one based on the first five books of the Aeneid and another based on the first five books of Metamorphoses) and then tries to classify samples that it is given into Vergilian or Ovidian. It then prints the accuracy for ngram models of different orders. Currently the unigrams have the highest accuracy, which is probably due to the fact that scansion.py has too low precision. I plan to use a digitized Latin dictionary in future to increase the accuracy of scansion.py and take advantage of bi- and trgram models.
   
+ * texts/input.txt
+
+  A 1000 lines from the first four books of Aeneid followed by the rest of the Aeneid and Eclogues. 
+
+* testing_data/input_test.txt
+
+  The "answer key" for the first 1000 lines from input.txt, courtesy of Professor Ben Johnson (hexameter.co). 
+  
 * texts/aeneid.txt
 
   The whole of the Aeneid. 
 
 * testing_data/aeneid_test.txt
 
-  The "answer key" for the first 123 lines of the Aeneid. This data was first obtained from hands-up-education.org and then verified by myself. The difference between this anser key and that from hexameter.co is that the former is more detailed. 
+  The "answer key" for the first 123 lines of the Aeneid. This data was first obtained from hands-up-education.org and then verified by myself. The difference between this answer key and that from hexameter.co is that the former is more detailed. 
   
 * texts/Aeneid/books1_5.txt, texts/Aeneid/books6_12.txt, texts/Metamorphoses/books1_5.txt, and texts/Metamorphoses/books6_15.txt..
 
   These the corresponding books from corresponding texts.
   
+  * utilities.py
+
+  Various utilities and constants
+  
+  *Full_Description.pdf
+  
+  Short moderation paper that describes how algorithm works and provides statistical overview of its performance.
+  
+  *work_in_progress
+  
+  Contains source files that should extract information from perseus database (not currently used by algorithm). This code may contain bugs, is untested, and requires access to perseus files. Files from this folder are on GitHub for storing purposes only.
+  
 ## Running the program:
-* To scan latin poetry run scansion.py:
+* To scan Latin poetry run scansion.py:
   ```
   python3 scansion.py input output
   ```
   Here, *input* is the name of the file that contains the lines to be scanned and *output* is the name of the file to which the program should print the scanned lines.   
   Example (this will work with the files in the repository): 
+   ```
+  python3 scansion.py texts/input.txt output/input_scanned.txt
+  ```
   ```
   python3 scansion.py texts/aeneid.txt output/aeneid_scanned.txt
   ```
@@ -49,6 +72,9 @@
   ```
   python3 compare.py output/aeneid_scanned.txt testing_data/aeneid_test.txt texts/aeneid.txt longshort
   ```
+  ```
+  python3 compare.py output/input_scanned.txt testing_data/input_test.txt texts/input.txt dactylspondee
+  ```
   
 * To test the autorship classification algorithm run ngram.py:
   ```
@@ -62,4 +88,4 @@
   ```
 
 ## Acknowledgements:
-The 1000 scanned lines from Aeneid that I used for testing purposes (this data is not included on GitHub) were kindly shared with me by Professor Ben Johnson (who is administrating hexameter.co)
+The 1000 scanned lines from Aeneid that I used for testing purposes were kindly shared with me by Professor Ben Johnson (who is administrating hexameter.co)
