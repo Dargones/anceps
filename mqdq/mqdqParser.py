@@ -13,6 +13,7 @@ vowel quantities from the scanned mqdq texts. Can be used in 3 different ways:
     the subsequent lines are pairs of FILE CLEANED_FILE
 """
 
+from cltk.stem.lemma import LemmaReplacer
 import sys
 sys.path.append("../")
 from utilities import *
@@ -49,6 +50,9 @@ final_u = re.compile('u([^\\'+ SHORT + LONG + '\\' + UNK + '].*\n.)')
 SETUP_COMPLETED = False
 DICT_NAME = "dictionary.txt"
 dictionary = {}
+lemmas = {}
+
+lemmatizer = LemmaReplacer('latin')
 
 
 # ------------------------------------------------------------------------------
@@ -64,12 +68,14 @@ class Entry:
                 'g': '', 'h': '', 'j': '', 'k': '', 'l': '', 'z': '', 'x': '',
                 'c': '', 'v': '', 'b': '', 'n': '', 'm': '', '[': ''}
 
-    def __init__(self, tc, versions):
+    def __init__(self, tc, versions, entry_str):
         """
-        :param total_count: 
-        :param versions: 
+        :param total_count:
+        :param versions:
         """
+        self.entry_str = entry_str
         self.versions = []
+        self.initial = versions
         for v in versions:
             self.versions.append((multireplace(v[0],
                                                Entry.to_quant), v[1] / tc))
@@ -77,7 +83,7 @@ class Entry:
     def get_quantities(self):
         return self.versions
 
-        
+
 # ------------------------------------------------------------------------------
 # ------------- The Line Class Definition --------------------------------------
 # ------------------------------------------------------------------------------
@@ -139,9 +145,9 @@ def clean(input_file_name, output_file_name):
         lines = file.readlines()
     with open(output_file_name, 'w') as file:
         for i in range(len(lines)):
-            if output_file_name == "clean/Lucretius4.txt":
-                if i == 814:
-                    print('debug')
+            # if output_file_name == "clean/Lucretius4.txt":
+                # if i == 814:
+                    # print('debug')
             line = lines[i]
             line = line.rstrip('DS \n\t')
             if i != len(lines) - 1:
@@ -191,7 +197,10 @@ def merge(files, dict_name):
                     dict[key] = [[value, 1]]
     with open(dict_name, 'w') as file:
         for key in sorted(dict.keys()):
-            file.write(key + ' ')
+            lemma = lemmatizer.lemmatize(key)
+            if not lemma or len(lemma) > 1:
+                print("Lemmatizing error: " + key + str(lemma))
+            file.write(key + ' ' + lemma[0] + ' ')
             sum = 0
             for value in dict[key]:
                 sum += value[1]
@@ -207,13 +216,18 @@ def setup():
         for line in file:
             line = line.split(' ')
             key = line[0]
-            total_count = int(line[1])
-            i = 2
+            lemma = line[1]
+            total_count = int(line[2])
+            i = 3
             versions = []
             while i < len(line) - 1:
                 versions.append((line[i], int(line[i + 1])))
                 i += 2
-            dictionary[key] = Entry(total_count, versions)
+            dictionary[key] = Entry(total_count, versions, key)
+            if lemma in lemmas:
+                lemmas[lemma] += [dictionary[key]]
+            else:
+                lemmas[lemma] = [dictionary[key]]
     global SETUP_COMPLETED
     SETUP_COMPLETED = True
 
@@ -230,9 +244,68 @@ def get_quantities(word):
     cleaned = multireplace(word, {'v': 'u', 'j': 'i'})
     if cleaned in dictionary:
         return dictionary[cleaned].get_quantities()
+    lemma = lemmatizer.lemmatize(cleaned)[0]
+    if lemma in lemmas:
+        return [(best_guess(lemmas[lemma], cleaned), 1)]
+
+
+def best_guess(cognates, word, trace=False):
+    """
+    Given the list of entries in a dictionary of words cognate to that given,
+    return a possible scansion of that word
+    :param cognates:
+    :param word:
+    :param trace: If True, will print various stats
+    :return:
+    """
+    to_print = "Word: " + word + "\nCognates: "
+    for form in cognates:
+        to_print += form.entry_str + ' '
+    best_form = None
+    best = 0
+    for form in cognates:
+        i = 0
+        while (i < len(word)) and i < len(form.entry_str) and (
+                    form.entry_str[i] == word[i]):
+            i += 1
+        if i > best:
+            best = i
+            best_form = form
+    if not best_form:
+        if trace:
+            print(to_print + "\nNo best form found")
+        return None
+    info = best_form.initial[0][0]
+    i = len(info) - 1
+    rest = word[best:]
+    count = len(best_form.entry_str) - best
+    to_print += "\nBest: " + str(best) + ", best form: " + best_form.entry_str \
+                + ", meter: " + best_form.initial[0][0] + ", rest: " + rest
+    while count > 0:
+        if info[i] == ']':
+            i -= 4
+        elif info[i] in [LONG, SHORT, UNK]:
+            i -= 2
+        else:
+            i -= 1
+        count -= 1
+    meter = multireplace(info[0: i + 1], Entry.to_quant)
+    vowels = list(re.finditer(SYLLAB, rest))
+    for i in range(len(vowels) - 1):
+        letter = rest[vowels[i].start():vowels[i].end()]
+        follow = rest[vowels[i].end():vowels[i + 1].start()]
+        meter += (decide_on_length(letter, follow))
+    if len(vowels) != 0:
+        letter = rest[vowels[-1].start():vowels[-1].end()]
+        follow = rest[vowels[-1].end():]
+        meter += (decide_on_length(letter, follow))
+    if trace:
+        print(to_print + "\nFinal meter: " + str(meter) + "\n")
+    return meter
+
 
 if __name__ == "__main__":
-    """if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
+    if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
                 len(sys.argv) < 4)) or ((sys.argv[1] == 'merge') and (
                 len(sys.argv) < 4)) or ((sys.argv[1] != 'automatic') and (
                 sys.argv[1] != 'merge') and (sys.argv[1] != 'clean')):
@@ -258,8 +331,8 @@ if __name__ == "__main__":
                 names = lines[i].rstrip('\n \t').split('\t')
                 clean(names[0], names[1])
                 list_of_files.append(names[1])
-            merge(list_of_files, lines[0].rstrip('\n'))"""
-    with open('task_description.txt') as file:
+            merge(list_of_files, lines[0].rstrip('\n'))
+    """with open('task_description.txt') as file:
         lines = file.readlines()
         if len(lines) < 2:
             print("Not enough lines in the file")
@@ -269,5 +342,4 @@ if __name__ == "__main__":
             names = lines[i].rstrip('\n \t').split('\t')
             clean(names[0], names[1])
             list_of_files.append(names[1])
-        merge(list_of_files, lines[0].rstrip('\n'))
-    # initialize_endings("dictionary.txt")
+        merge(list_of_files, lines[0].rstrip('\n'))"""

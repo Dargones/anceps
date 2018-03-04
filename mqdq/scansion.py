@@ -30,7 +30,7 @@ MODES = [(MQDQ, False)]
 # The program only attempts to rescan already scanned lines
 # if MODES[i][1] == True.
 
-LINES_TO_DEBUG = [10]
+LINES_TO_DEBUG = []
 
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
@@ -168,7 +168,7 @@ class Line:
         string = string.split(' ')
 
         if self.id in LINES_TO_DEBUG:
-            # print('debug_here')
+            print('debug_here')
             pass
 
         for i in range(len(string)):
@@ -367,11 +367,11 @@ if __name__ == "__main__":
         sys.exit(-1)
     result = main(sys.argv[1], [HEXAMETER], False)
     print_results(result, sys.argv[2], [HEXAMETER])"""
-    # result = main('../texts/Seneca.txt', [TRIMETER], True)
-    # print_results(result, '../output/Seneca.txt')
+    result = main('../texts/Seneca.txt', [TRIMETER], True)
+    print_results(result, '../output/Seneca.txt')
     # result = main('../texts/Thyestes.txt', [TRIMETER], False)
     # print_results(result, '../output/Thyestes.txt')
-    result = main('../texts/Ovid_mqdq.txt', [HEXAMETER], True)
-    print_results(result, '../output/Ovid_mqdq.txt')
+    # result = main('../texts/Ovid_mqdq.txt', [HEXAMETER], True)
+    # print_results(result, '../output/Ovid_mqdq.txt')
     # result = main('../texts/Aeneid_mqdq.txt', [HEXAMETER], True)
     # print_results(result, '../output/Aeneid_mqdq.txt')
