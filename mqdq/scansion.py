@@ -17,7 +17,11 @@ sys.path.append("../")
 from work_in_progress import uproblem
 from utilities import *
 
-MODES = [(mqdqParser.Entry.CERTAIN, True), (mqdqParser.Entry.MOST_PROBABLE, False), None]
+MQDQ = 0
+REPEAT = 1
+MAX_ATTEMPT = 300
+
+MODES = [(MQDQ, False)]
 # each time the program makes an attempt to scan the lines it can employ a
 # different method to do so. On the i-th attempt, method MODES[i] shall be
 # employed. If MODES[-1] is None, the program will terminate after the
@@ -26,7 +30,7 @@ MODES = [(mqdqParser.Entry.CERTAIN, True), (mqdqParser.Entry.MOST_PROBABLE, Fals
 # The program only attempts to rescan already scanned lines
 # if MODES[i][1] == True.
 
-LINES_TO_DEBUG = [9835]
+LINES_TO_DEBUG = [10]
 
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
@@ -35,6 +39,11 @@ LINES_TO_DEBUG = [9835]
 
 class Word:
     """Represents a word"""
+
+    mqdqit = 0
+    total = 0
+    A_VOWEL = 'a'
+
 
     def __init__(self, word):
         """
@@ -47,9 +56,11 @@ class Word:
         if word_trial:
             if word_trial != self.word:
                 self.word = word_trial
+        self.mid = 0
         self.meter = []
         self.in_dict = False
         self.elision = False
+        self.long_by_pos = False
 
     def analyse(self, next_word):
         """
@@ -57,9 +68,10 @@ class Word:
         :param next_word:
         :return:
         """
-        self.meter = mqdqParser.get_quantities(self.word,
-                                               mqdqParser.Entry.CERTAIN)
+        Word.total += 1
+        self.meter = mqdqParser.get_quantities(self.word)
         if self.meter:
+            Word.mqdqit += 1
             self.in_dict = True
             if next_word:
                 vowels = list(re.finditer(SYLLAB, self.word))
@@ -68,6 +80,9 @@ class Word:
                     r'^[' + CONSONANTS + ']*', next_word))[0]
                 if re.match(r'[m]? [h]?$', follow) is not None:
                     self.elision = True
+                elif decide_on_length(Word.A_VOWEL,
+                                      re.sub(' ', '', follow)) == LONG:
+                    self.long_by_pos = True
             return
 
         self.meter = []
@@ -91,13 +106,31 @@ class Word:
         :param mode: see MODES in the beginning of this file
         :return: meter in form of the list of LONG, SHORT, UNK
         """
-        if mode != mqdqParser.Entry.REPEAT:
-            if self.in_dict:
-                if self.elision:
-                    self.meter = mqdqParser.get_quantities(self.word, mode)[:-1]
-                else:
-                    self.meter = mqdqParser.get_quantities(self.word, mode)
+        if mode == MQDQ and self.in_dict:
+            self.meter = mqdqParser.get_quantities(self.word)[self.mid][0]
+            if self.elision:
+                self.meter = self.meter[:-1]
+            elif self.long_by_pos:
+                self.meter = self.meter[:-1] + LONG
         return self.meter
+
+    def get_metrics(self):
+        if self.in_dict:
+            if not self.elision and not self.long_by_pos:
+                return [x[1] for x in mqdqParser.get_quantities(self.word)]
+            quant = mqdqParser.get_quantities(self.word)
+            if len(quant[0][0]) < 2:
+                return [1]
+            result = []
+            for version in quant:
+                if not ((version[0][:-1] + LONG in result)
+                        or (version[0][:-1] + UNK in result)
+                        or (version[0][:-1] + SHORT in result)):
+                    result.append(version[1])
+                else:
+                    result.append(0)
+            return result
+        return [1]
         
 
 # ------------------------------------------------------------------------------
@@ -130,12 +163,13 @@ class Line:
         # string = re.sub(r'([a-z])que( |$)', r'\1 que\2', string)
         # string = re.sub(r'([a-z])ne( |$)', r'\1 ne\2', string)
         # string = re.sub(r'( |^)' + PREFIXES + '([a-z])', r'\1\2w \3', string)
-        # make certain perfixes into separate words
+        # make certain prefixes into separate words
 
         string = string.split(' ')
 
         if self.id in LINES_TO_DEBUG:
-            print('debug_here')
+            # print('debug_here')
+            pass
 
         for i in range(len(string)):
             self.line.append(Word(string[i]))
@@ -143,30 +177,45 @@ class Line:
             self.line[i].analyse(self.line[i + 1].word)
         self.line[-1].analyse(None)
 
-        if self.id in LINES_TO_DEBUG:
-            print('id: ' + str(self.id) + '\n' + ' '.join(string))
-            self.get_meter(mqdqParser.Entry.REPEAT)
+        self.mqdq = [(1, [])]
+        metrics = [x.get_metrics() for x in self.line]
+        for word in metrics:
+            mqdqNew = []
+            for i in range(len(word)):
+                if word[i] != 0:
+                    for seq in self.mqdq:
+                        mqdqNew.append((seq[0] * word[i], seq[1] + [i]))
+            self.mqdq = mqdqNew
+        self.mqdq = sorted(self.mqdq, key=lambda x: -x[0])
+        self.mqdq_id = 0
 
     def get_meter(self, mode):
         """
         Return the longitude of all vowels if known as a list
         :return:
         """
-        if self.id in LINES_TO_DEBUG:
+        if mode != REPEAT and self.id in LINES_TO_DEBUG and \
+                (mode != MQDQ or self.mqdq_id < len(self.mqdq)):
             print('debug_here')
+            pass
+
+        if mode == MQDQ and self.mqdq_id < len(self.mqdq):
+            for i in range(len(self.line)):
+                self.line[i].mid = self.mqdq[self.mqdq_id][1][i]
+            self.mqdq_id += 1
 
         result = []
         for word in self.line:
             result += word.get_meter(mode)
 
-        if self.id in LINES_TO_DEBUG:
+        if mode != REPEAT and self.id in LINES_TO_DEBUG and \
+                (mode != MQDQ or self.mqdq_id < len(self.mqdq)):
             print('id: ' + str(self.id) + '\n')
             print(' '.join(result))
             for i in range(len(self.line)):
                 print(self.line[i].word + ': ' + ' '.join(
-                    self.line[i].get_meter(mqdqParser.Entry.REPEAT)))
+                    self.line[i].get_meter(REPEAT)))
             print('')
-
         return result
 
 
@@ -210,18 +259,25 @@ def main(path_to_text, meters, trace=True):
     :param meters: What meter should be used for scanning. E.g., use [HEXAMETER]
     for hexameters and [HEXAMETER, PENTAMETER] for elegiacs
     :param trace: Print statistics?
-    :return: the list of Line objects
+    :return: list of possible scansions for each line
     """
     lines = []
+    result = []
     with open(path_to_text) as file:
         for line in file:
             lines.append(Line(line))
+            result.append([])
+
+    print(Word.mqdqit/Word.total)
 
     progress = -1
     attempt_n = 0
     versions_total = 0
+    possible_progress = False
 
-    while progress != 0:
+    while (progress != 0 or possible_progress) and (
+                    attempt_n < MAX_ATTEMPT or MAX_ATTEMPT == -1):
+        possible_progress = False
         if attempt_n >= len(MODES):
             mode = MODES[-1]
         else:
@@ -239,14 +295,32 @@ def main(path_to_text, meters, trace=True):
                 continue
             meter = meters[i % len(meters)]
             curr = scansion_versions(lines[i].get_meter(mode[0]), meter, 0)
-            versions_total_new += len(curr)
             if len(curr) == 1:
+                versions_total += 1
                 identified += 1
                 lines[i].scanned = True
+                result[i] = curr
             else:
+                if lines[i].mqdq_id < len(lines[i].mqdq):
+                    possible_progress = True
                 lines[i].scanned = False
-                if len(curr) == 0:
+                if len(curr) == 0 and not result[i]:
                     empty += 1
+                elif not result[i]:
+                    result[i] = curr
+                    versions_total += len(curr)
+                else:
+                    new_result = []
+                    for v in result[i]:
+                        if v in curr:
+                            new_result.append(v)
+                    if new_result:
+                        result[i] = new_result
+                    versions_total += len(result)
+
+            if i in LINES_TO_DEBUG:
+                print(result[i])
+
         progress = versions_total_new - versions_total
         versions_total = versions_total_new
         attempt_n += 1
@@ -255,10 +329,15 @@ def main(path_to_text, meters, trace=True):
                   ' versions per line.\nidentified = ' +
                   str(round(identified / len(lines) * 100, 1)) + '%\nempty = ' +
                   str(round(empty / len(lines) * 100, 1)) + '%')
-    return lines
+
+    for i in range(len(lines)):
+        if not result[i]:
+            lines[i].mqdq_id = 0
+            result[i] = [lines[i].get_meter(MQDQ)[:-1] + [UNK]]
+    return result
 
 
-def print_results(lines, output_file, meters):
+def print_results(lines, output_file):
     """
     Print the results of scansion into the file indicated
     :param lines: Lines to print
@@ -269,14 +348,9 @@ def print_results(lines, output_file, meters):
     """
     with open(output_file, 'w') as file:
         for i in range(len(lines)):
-            meter = meters[i % len(meters)]
-            curr = scansion_versions(lines[i].get_meter(mqdqParser.Entry.
-                                                        REPEAT), meter, 0)
+            curr = lines[i]
             to_print = ''
             j = 0
-            if not curr:
-                curr = [lines[i].get_meter(mqdqParser.Entry.REPEAT)]
-                curr[0][-1] = '?'
             while j < len(curr):
                 for char in curr[j]:
                     to_print += char
@@ -293,8 +367,11 @@ if __name__ == "__main__":
         sys.exit(-1)
     result = main(sys.argv[1], [HEXAMETER], False)
     print_results(result, sys.argv[2], [HEXAMETER])"""
-    # result = main('../texts/Seneca.txt', [TRIMETER], False)
-    # result = main('../texts/Thyestes.txt', [TRIMETER], True)
-    # print_results(result, '../output/Thyestes.txt', [TRIMETER])
-    result = main('../texts/Aeneid_mqdq.txt', [HEXAMETER], True)
-    print_results(result, '../output/Aeneid_mqdq.txt', [HEXAMETER])
+    # result = main('../texts/Seneca.txt', [TRIMETER], True)
+    # print_results(result, '../output/Seneca.txt')
+    # result = main('../texts/Thyestes.txt', [TRIMETER], False)
+    # print_results(result, '../output/Thyestes.txt')
+    result = main('../texts/Ovid_mqdq.txt', [HEXAMETER], True)
+    print_results(result, '../output/Ovid_mqdq.txt')
+    # result = main('../texts/Aeneid_mqdq.txt', [HEXAMETER], True)
+    # print_results(result, '../output/Aeneid_mqdq.txt')

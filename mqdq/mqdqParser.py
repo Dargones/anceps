@@ -17,15 +17,17 @@ import sys
 sys.path.append("../")
 from utilities import *
 
-charOK = re.compile('[^a-z\[\]\n\(\-\') \"\t*\.\?!;:0-9\\,' + SHORT + LONG + ']')
+charOK = re.compile('[^a-z\[\]<>\n†\(\-\') \"\t*\.\?!;:0-9\\,' +
+                    SHORT + LONG + UNK + ']')
 # These are characters that do not need special treatment. I.e., they either
 # will be deleted or used later
 
-unused = re.compile('[^a-z\[\]\n\\' + SHORT + LONG + ']')
+unused = re.compile('[^a-z\[\]\n\\' + SHORT + LONG + UNK + ']')
 # All the character that should be deleted after replacement. Ideally, what
 # matches unused will be a subset of charOK
 
-replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', '‿': '\n', '  ': '\n', ' ': '\n',
+replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', '  ': '\n', ' ': '\n',
+           'm‿h': '&m\nh', '‿h': '&\nh', 'm‿': '&m\n', '‿': '&\n',
            'ā': 'a_', 'ă': 'a^', 'Ā': 'a_', 'Ă': 'a^', 'Ā́': 'a_', 'ā́': 'a_',
            'ḗ': 'e_', 'ē': 'e_', 'ĕ': 'e^', 'Ḗ': 'e_', 'Ē': 'e_', 'Ĕ': 'e^',
            'ī': 'i_', 'ĭ': 'i^', 'Ī': 'i_', 'Ĭ': 'i^', 'ī́': 'i_', 'Ī́': 'i_',
@@ -42,7 +44,7 @@ long_by_position = re.compile('_([' + CONSONANTS + ']\n[' + CONSONANTS +
                               ']|\n[' + CONSONANTS + ']{2}|\n[' +
                               ''.join(LONG_CONSONANTS) + '])')
 
-final_u = re.compile('u([^\\'+ SHORT + LONG +'].*\n.)')
+final_u = re.compile('u([^\\'+ SHORT + LONG + '\\' + UNK + '].*\n.)')
 
 SETUP_COMPLETED = False
 DICT_NAME = "dictionary.txt"
@@ -62,95 +64,18 @@ class Entry:
                 'g': '', 'h': '', 'j': '', 'k': '', 'l': '', 'z': '', 'x': '',
                 'c': '', 'v': '', 'b': '', 'n': '', 'm': '', '[': ''}
 
-    DIPHTONG = '['
-    DIPHTONG_CLOSE = ']'
-
-    REPEAT = 3
-
-    CERTAIN = 0  # Only load the vowels with very high certainty
-    CERTAIN_THRESHOLD = 2
-
-    MOST_PROBABLE = 1 # choose the most probable version
-
-    def __init__(self, total_count, versions):
+    def __init__(self, tc, versions):
         """
         :param total_count: 
         :param versions: 
         """
-        self.total_count = total_count
-        self.versions = versions
-        # self.turn_to_mode(Entry.CERTAIN)
-        self.quantities = None
-        self.mode = None
+        self.versions = []
+        for v in versions:
+            self.versions.append((multireplace(v[0],
+                                               Entry.to_quant), v[1] / tc))
 
-    def get_quantities(self, mode):
-        if (not self.mode or self.mode != mode) and mode != Entry.REPEAT:
-            self.turn_to_mode(mode)
-            self.mode = mode
-        return self.quantities
-
-    def turn_to_mode(self, mode):
-        self.quantities = []
-        if mode == Entry.CERTAIN:
-            mind_quantities = self.total_count > Entry.CERTAIN_THRESHOLD
-            last_vowel = 0
-            inds = []
-            for i in range(len(self.versions)):
-                inds.append(0)
-            while inds[0] < len(self.versions[0][0]):
-                quan_long = 0
-                quan_short = 0
-                quan = 0
-                alph = 0
-                diph = 0
-                for i in range(len(self.versions)):
-                    if inds[i] >= len(self.versions[i][0]):
-                        continue
-                    if self.versions[i][0][inds[i]] == Entry.DIPHTONG:
-                        diph += 1
-                    elif self.versions[i][0][inds[i]] == LONG:
-                        quan += 1
-                        quan_long += 1
-                    elif self.versions[i][0][inds[i]] == SHORT:
-                        quan += 1
-                        quan_short += 1
-                    else:
-                        alph += 1
-                if (diph + quan) == 0:
-                    inds = [x + 1 for x in inds]
-                elif (diph + alph) == 0:
-                    if not mind_quantities or quan_long * quan_short != 0:
-                        self.quantities.append(UNK)
-                    else:
-                        self.quantities.append(self.versions[0][0][inds[0]])
-                    last_vowel = inds[0] + 1
-                    inds = [x + 1 for x in inds]
-                elif diph == 0:
-                    if self.versions[0][0][inds[0]] == LONG or \
-                                    self.versions[0][0][inds[0]] == SHORT:
-                        self.quantities.append(UNK)
-                        last_vowel = inds[0] + 1
-                    for i in range(len(self.versions)):
-                        if inds[i] >= len(self.versions[i][0]):
-                            continue
-                        if self.versions[i][0][inds[i]] == LONG or \
-                                        self.versions[i][0][inds[i]] == SHORT:
-                            inds[i] += 1
-                elif (alph + quan) == 0:
-                    last_vowel = inds[0] + 4
-                    self.quantities.append(LONG)
-                    inds = [x + 4 for x in inds]
-                else:
-                    return self.turn_to_mode(Entry.MOST_PROBABLE)
-        elif mode == Entry.MOST_PROBABLE:
-            last_vowel = len(self.versions[0][0]) - 1
-            while not self.versions[0][0][last_vowel] in \
-                    [LONG, SHORT, Entry.DIPHTONG_CLOSE] and last_vowel != 0:
-                last_vowel -= 1
-            self.quantities = multireplace(self.versions[0][0], Entry.to_quant)
-        if len(re.findall(r'[' + VOWELS + ']',
-                          self.versions[0][0][last_vowel:])) != 0:
-            self.quantities += UNK
+    def get_quantities(self):
+        return self.versions
 
         
 # ------------------------------------------------------------------------------
@@ -214,6 +139,9 @@ def clean(input_file_name, output_file_name):
         lines = file.readlines()
     with open(output_file_name, 'w') as file:
         for i in range(len(lines)):
+            if output_file_name == "clean/Lucretius4.txt":
+                if i == 814:
+                    print('debug')
             line = lines[i]
             line = line.rstrip('DS \n\t')
             if i != len(lines) - 1:
@@ -222,10 +150,15 @@ def clean(input_file_name, output_file_name):
             line = line.lower()
             check_validity(line, i + 1, input_file_name)
             line = unused.sub('', line)
-            # print(line)
+            last_vowel = len(line) - 1
+            while not line[last_vowel] in [LONG, SHORT, UNK, ']'] \
+                    and last_vowel != 0:
+                last_vowel -= 1
+            line = line[:last_vowel + 1] + \
+                   re.sub(r'([' + VOWELS + '])', r'\1' + UNK,
+                          line[last_vowel + 1:], count=1)
             line = final_u.sub(r'v\1', line)
-            # print(line)
-            line = long_by_position.sub(r'\1', line)
+            line = long_by_position.sub(r'' + UNK + r'\1', line)
             file.write(line)
 
 
@@ -285,7 +218,7 @@ def setup():
     SETUP_COMPLETED = True
 
 
-def get_quantities(word, mode):
+def get_quantities(word):
     """
     Get the information about the vowel quantities in a certain word
     :param word:
@@ -296,7 +229,7 @@ def get_quantities(word, mode):
         setup()
     cleaned = multireplace(word, {'v': 'u', 'j': 'i'})
     if cleaned in dictionary:
-        return dictionary[cleaned].get_quantities(mode)
+        return dictionary[cleaned].get_quantities()
 
 if __name__ == "__main__":
     """if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
@@ -337,3 +270,4 @@ if __name__ == "__main__":
             clean(names[0], names[1])
             list_of_files.append(names[1])
         merge(list_of_files, lines[0].rstrip('\n'))
+    # initialize_endings("dictionary.txt")
