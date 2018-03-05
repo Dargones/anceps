@@ -5,10 +5,10 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET
 
-BASE_DIR = '/Users/alexanderfedchin/PycharmProjects/sproj/Scansion_project/perseus/'
+BASE_DIR = '/Users/alexanderfedchin/PycharmProjects/sproj/Scansion_project/work_in_progress/'
 LEWIS_SHORT_FILE_NAME = BASE_DIR + '1999.04.0059.xml'
 PERSEUS_DATA_FILE_NAME = BASE_DIR + 'latin-analyses.txt'
-OUTPUT_FILE_NAME = BASE_DIR + 'final_dict.txt'
+OUTPUT_FILE_NAME = BASE_DIR + 'final_quantities.txt'
 
 IS_SET_UP = False
 

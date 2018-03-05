@@ -62,14 +62,14 @@ class Word:
         self.elision = False
         self.long_by_pos = False
 
-    def analyse(self, next_word):
+    def analyse(self, next_word, trace=False):
         """
         Decide on the length of the vowels
         :param next_word:
         :return:
         """
         Word.total += 1
-        self.meter = mqdqParser.get_quantities(self.word)
+        self.meter = mqdqParser.get_quantities(self.word, trace)
         if self.meter:
             Word.mqdqit += 1
             self.in_dict = True
@@ -91,14 +91,15 @@ class Word:
             letter = self.word[vowels[i].start():vowels[i].end()]
             follow = self.word[vowels[i].end():vowels[i + 1].start()]
             self.meter.append(decide_on_length(letter, follow))
-        letter = self.word[vowels[-1].start():vowels[-1].end()]
-        follow = self.word[vowels[-1].end():]
-        if next_word:
-            follow += ' ' + list(re.findall(
-                r'^[' + CONSONANTS + ']*', next_word))[0]
-        if re.match(r'[m]? [h]?$', follow) is None:
-            follow = re.sub(' ', '', follow)
-            self.meter.append(decide_on_length(letter, follow))
+        if len(vowels) > 0:
+            letter = self.word[vowels[-1].start():vowels[-1].end()]
+            follow = self.word[vowels[-1].end():]
+            if next_word:
+                follow += ' ' + list(re.findall(
+                    r'^[' + CONSONANTS + ']*', next_word))[0]
+            if re.match(r'[m]? [h]?$', follow) is None:
+                follow = re.sub(' ', '', follow)
+                self.meter.append(decide_on_length(letter, follow))
 
     def get_meter(self, mode):
         """
@@ -174,8 +175,9 @@ class Line:
         for i in range(len(string)):
             self.line.append(Word(string[i]))
         for i in range(len(self.line) - 1):
-            self.line[i].analyse(self.line[i + 1].word)
-        self.line[-1].analyse(None)
+            self.line[i].analyse(self.line[i + 1].word,
+                                 self.id in LINES_TO_DEBUG)
+        self.line[-1].analyse(None, self.id in LINES_TO_DEBUG)
 
         self.mqdq = [(1, [])]
         metrics = [x.get_metrics() for x in self.line]
@@ -284,7 +286,9 @@ def main(path_to_text, meters, trace=True):
             mode = MODES[attempt_n]
             if mode is None:
                 break
-        print('This is the ' + str(attempt_n) + 'st/nd/th scansion attempt...')
+        if trace:
+            print('This is the ' + str(attempt_n) +
+                  'st/nd/th scansion attempt...')
         empty = 0
         identified = 0
         versions_total_new = 0
@@ -337,7 +341,7 @@ def main(path_to_text, meters, trace=True):
     return result
 
 
-def print_results(lines, output_file):
+def print_results(lines, output_file, all_meters=None, printDistribution=False):
     """
     Print the results of scansion into the file indicated
     :param lines: Lines to print
@@ -346,6 +350,9 @@ def print_results(lines, output_file):
     for hexameters and [HEXAMETER, PENTAMETER] for elegiacs
     :return:
     """
+    dict = {}
+    for meter in all_meters:
+        dict[' '.join(meter)] = 0
     with open(output_file, 'w') as file:
         for i in range(len(lines)):
             curr = lines[i]
@@ -357,7 +364,12 @@ def print_results(lines, output_file):
                 if j < len(curr) - 1:
                     to_print += '|'
                 j += 1
+            if len(curr) == 1 and UNK not in curr[0]:
+                dict[' '.join(curr[0])] += 1
             file.write(to_print + '\n')
+    if printDistribution:
+        for key in dict.keys():
+            print(str(dict[key]))
 
 
 if __name__ == "__main__":
@@ -367,8 +379,15 @@ if __name__ == "__main__":
         sys.exit(-1)
     result = main(sys.argv[1], [HEXAMETER], False)
     print_results(result, sys.argv[2], [HEXAMETER])"""
-    result = main('../texts/Seneca.txt', [TRIMETER], True)
-    print_results(result, '../output/Seneca.txt')
+    all_trimeters = []
+    for i in range(12, 21):
+        all_trimeters += scansion_versions(UNK * i, TRIMETER, 0)
+    for t in ["Medea", "Troades", "Phaedra", "Oedipus", "Agamemnon",
+              "Thyestes_full", "Hercules_Oetaeus", "Hercules_furens",
+              "Octavia"]:
+        print("\n\n\n" + t)
+        result = main('../texts/' + t + ".txt", [TRIMETER], False)
+        print_results(result, '../output/' + t + ".txt", all_trimeters, True)
     # result = main('../texts/Thyestes.txt', [TRIMETER], False)
     # print_results(result, '../output/Thyestes.txt')
     # result = main('../texts/Ovid_mqdq.txt', [HEXAMETER], True)

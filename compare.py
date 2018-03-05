@@ -69,11 +69,22 @@ def co_format(text, new_format_text):
                 version = versions[i]
                 version = re.sub(LONG + '\\' + SHORT + '\\' + SHORT, 'D', version)
                 version = re.sub(r'(' + LONG + LONG + '|' + LONG + ANCEPS + ')','S', version)
-                file.write(version[:4] + '|')
+                file.write(version[:5] + '|')
             versions[-1] = re.sub(LONG + '\\' + SHORT + '\\' + SHORT, 'D', versions[-1])
             versions[-1] = re.sub(r'(' + LONG + LONG + '|' + LONG + ANCEPS + ')',
                              'S', versions[-1])
-            file.write(versions[-1][:4] + '\n')
+            file.write(versions[-1][:5] + '\n')
+
+
+def equal(m1, m2):
+    if len(m1) != len(m2):
+        return False
+    i = 0
+    while i < len(m1):
+        if m1[i] != m2[i] and m1[i] != ANCEPS and m2[i] != ANCEPS:
+            return False
+        i += 1
+    return True
 
 
 def compare(man, auto, text):
@@ -111,18 +122,18 @@ def compare(man, auto, text):
             continue
         versions = a[i].split('|')
         if len(versions) == 1:
-            if a[i] == m[i]:
+            if equal(a[i], m[i]):
                 countTrue += 1
                 print(a[i] + " - correct\n")
             else:
-                print(a[i] + " - incorrect\n")
+                print(a[i] + " - incorrect, should be " + m[i] + "\n")
                 countFalse += 1
                 if len(a[i]) != len(m[i]):
                     countNotSizedId += 1
         else:
             found = False
             for version in versions:
-                if version == m[i]:
+                if equal(version, m[i]):
                     found = True
                     break
             if found:
@@ -182,13 +193,17 @@ def compare_co_format(man, auto, text):
     :param auto: the file with algorithm's output
     :return:
     """
-    versions = ['DDDD', 'DDDS', 'DDSD', 'DDSS', 'DSDD', 'DSDS', 'DSSD', 'DSSS',
-                'SDDD', 'SDDS', 'SDSD', 'SDSS', 'SSDD', 'SSDS', 'SSSD', 'SSSS']
+    versions = ['DDDDD', 'DDDSD', 'DDSDD', 'DDSSD', 'DSDDD', 'DSDSD', 'DSSDD', 'DSSSD',
+                'SDDDD', 'SDDSD', 'SDSDD', 'SDSSD', 'SSDDD', 'SSDSD', 'SSSDD', 'SSSSD',
+                'DDDDS', 'DDDSS', 'DDSDS', 'DDSSS', 'DSDDS', 'DSDSS', 'DSSDS', 'DSSSS',
+                'SDDDS', 'SDDSS', 'SDSDS', 'SDSSS', 'SSDDS', 'SSDSS', 'SSSDS', 'SSSSS'
+                ]
     countTrue = 0
     countFalse = 0
     countEmpty = 0
     countPTrue = 0
     countPFalse = 0
+    cNotSize = 0;
     result = {}
     for v in versions:
         result[v] = {}
@@ -203,17 +218,22 @@ def compare_co_format(man, auto, text):
     for i in range(len(m)):
         m[i] = m[i].rstrip('\n ').split(' ')[0]
         a[i] = a[i].rstrip('\n')
+        if len(m[i]) == 4:
+            m[i] += 'D'
         if a[i] == '':
             countEmpty += 1
             continue
         versions = a[i].split('|')
+
         if len(versions) == 1:
             result[m[i]][a[i]] += 1
             if a[i] == m[i]:
                 countTrue += 1
             else:
                 countFalse += 1
-                # print(t[i] + ' auto:' + a[i] + ' man:' + m[i] + ' id:' + str(i))
+                print(t[i] + ' auto:' + a[i] + ' man:' + m[i] + ' id:' + str(i))
+                if len(list(re.finditer('S', m[i]))) != len(list(re.finditer('S', a[i]))):
+                    cNotSize += 1;
         else:
             found = False
             for version in versions:
@@ -239,6 +259,8 @@ def compare_co_format(man, auto, text):
                  " correct one:   " + cPT
           + "\nTwo or more possible versions given, among those all are "
             "incorrect:  " + cPF + "\nFailed to determine the meter:   " + cE)
+    print("\nNot right number of syllables: " + str(cNotSize) + " ("
+          + str(round(cNotSize / countFalse * 100, 1)) + "%)");
     print("\nConfusion matrix:")
     line = "     "
     for key in result.keys():
@@ -247,7 +269,7 @@ def compare_co_format(man, auto, text):
     for key, value in result.items():
         line = key + " "
         for v in value.values():
-            line += str(v) + (5 - len(str(v))) * " "
+            line += str(v) + (6 - len(str(v))) * " "
         print(line)
 
 

@@ -13,6 +13,9 @@ vowel quantities from the scanned mqdq texts. Can be used in 3 different ways:
     the subsequent lines are pairs of FILE CLEANED_FILE
 """
 
+STEMTIZING_FAILED = "FAIL"
+
+from cltk.stem.latin.stem import Stemmer
 from cltk.stem.lemma import LemmaReplacer
 import sys
 sys.path.append("../")
@@ -52,6 +55,7 @@ DICT_NAME = "dictionary.txt"
 dictionary = {}
 lemmas = {}
 
+stemmer = Stemmer()
 lemmatizer = LemmaReplacer('latin')
 
 
@@ -70,12 +74,13 @@ class Entry:
 
     def __init__(self, tc, versions, entry_str):
         """
-        :param total_count:
-        :param versions:
+        :param total_count: 
+        :param versions: 
         """
         self.entry_str = entry_str
         self.versions = []
         self.initial = versions
+        self.tc = tc
         for v in versions:
             self.versions.append((multireplace(v[0],
                                                Entry.to_quant), v[1] / tc))
@@ -83,7 +88,7 @@ class Entry:
     def get_quantities(self):
         return self.versions
 
-
+        
 # ------------------------------------------------------------------------------
 # ------------- The Line Class Definition --------------------------------------
 # ------------------------------------------------------------------------------
@@ -197,10 +202,18 @@ def merge(files, dict_name):
                     dict[key] = [[value, 1]]
     with open(dict_name, 'w') as file:
         for key in sorted(dict.keys()):
+            """stem = stemmer.stem(key)[:-1]
+            if not stem:
+                print("stemtizing error: " + key + str(stem))
+                file.write(key + ' ' + STEMTIZING_FAILED + ' ')
+            else:
+                file.write(key + ' ' + stem + ' ')"""
             lemma = lemmatizer.lemmatize(key)
             if not lemma or len(lemma) > 1:
-                print("Lemmatizing error: " + key + str(lemma))
-            file.write(key + ' ' + lemma[0] + ' ')
+                print("lemmatizing error: " + key + str(lemma))
+                file.write(key + ' ' + STEMTIZING_FAILED + ' ')
+            else:
+                file.write(key + ' ' + lemma[0] + ' ')
             sum = 0
             for value in dict[key]:
                 sum += value[1]
@@ -208,6 +221,15 @@ def merge(files, dict_name):
             for value in sorted(dict[key], key=lambda x: -x[1]):
                 file.write(value[0] + ' ' + str(value[1]) + ' ')
             file.write('\n')
+
+
+def stem_it(word):
+    i = len(word) - 1
+    end = ENDINGS
+    while (i > 0) and word[i] in end:
+        end = end[word[i]]
+        i -= 1
+    return word[:i+1]
 
 
 def setup():
@@ -224,6 +246,8 @@ def setup():
                 versions.append((line[i], int(line[i + 1])))
                 i += 2
             dictionary[key] = Entry(total_count, versions, key)
+            if lemma == STEMTIZING_FAILED:
+                continue
             if lemma in lemmas:
                 lemmas[lemma] += [dictionary[key]]
             else:
@@ -232,7 +256,7 @@ def setup():
     SETUP_COMPLETED = True
 
 
-def get_quantities(word):
+def get_quantities(word, trace=False):
     """
     Get the information about the vowel quantities in a certain word
     :param word:
@@ -244,68 +268,93 @@ def get_quantities(word):
     cleaned = multireplace(word, {'v': 'u', 'j': 'i'})
     if cleaned in dictionary:
         return dictionary[cleaned].get_quantities()
-    lemma = lemmatizer.lemmatize(cleaned)[0]
+    # stem = stemmer.stem(cleaned)[:-1]
+    lemma = lemmatizer.lemmatize(cleaned)
+    if not lemma or len(lemma) > 1:
+        print("lemmatizing error: " + cleaned + " " + str(lemma))
+        return
+    lemma = lemma[0]
     if lemma in lemmas:
-        return [(best_guess(lemmas[lemma], cleaned), 1)]
+        meter, rest = best_guess(lemmas[lemma], cleaned, trace)
+        if not meter:
+            return None
+        vowels = list(re.finditer(SYLLAB, rest))
+        ending =""
+        for i in range(len(vowels) - 1):
+            letter = rest[vowels[i].start():vowels[i].end()]
+            follow = rest[vowels[i].end():vowels[i + 1].start()]
+            ending += decide_on_length(letter, follow)
+        if len(vowels) != 0:
+            letter = rest[vowels[-1].start():vowels[-1].end()]
+            follow = rest[vowels[-1].end():]
+            ending += decide_on_length(letter, follow)
+        return [(x[0] + ending, x[1]) for x in meter]
 
 
 def best_guess(cognates, word, trace=False):
     """
-    Given the list of entries in a dictionary of words cognate to that given,
-    return a possible scansion of that word
+    Given the list of entries in a dictionary of words cognate to that given
+    return a possible scansion of the stem
     :param cognates:
     :param word:
     :param trace: If True, will print various stats
     :return:
     """
-    to_print = "Word: " + word + "\nCognates: "
+    to_print = "Word: " + word + "\nCognates:\n"
     for form in cognates:
-        to_print += form.entry_str + ' '
+        to_print += form.entry_str + ' ' + str(form.tc) + ' ' + \
+                    stem_it(form.entry_str) + '\n'
     best_form = None
     best = 0
+    stem = stem_it(word)
+    to_print += "\nStem: " + stem
     for form in cognates:
-        i = 0
-        while (i < len(word)) and i < len(form.entry_str) and (
-                    form.entry_str[i] == word[i]):
-            i += 1
-        if i > best:
-            best = i
-            best_form = form
+        if stem_it(form.entry_str) == stem:
+            if form.tc > best:
+                best = form.tc
+                best_form = form
     if not best_form:
         if trace:
-            print(to_print + "\nNo best form found")
-        return None
-    info = best_form.initial[0][0]
-    i = len(info) - 1
-    rest = word[best:]
-    count = len(best_form.entry_str) - best
+            print(to_print +
+                  "\nNo word with the same stem. Choosing among lemmas")
+        return choose_among_lemmas(cognates, word, trace)
+
     to_print += "\nBest: " + str(best) + ", best form: " + best_form.entry_str \
-                + ", meter: " + best_form.initial[0][0] + ", rest: " + rest
-    while count > 0:
-        if info[i] == ']':
-            i -= 4
-        elif info[i] in [LONG, SHORT, UNK]:
-            i -= 2
-        else:
-            i -= 1
-        count -= 1
-    meter = multireplace(info[0: i + 1], Entry.to_quant)
-    vowels = list(re.finditer(SYLLAB, rest))
-    for i in range(len(vowels) - 1):
-        letter = rest[vowels[i].start():vowels[i].end()]
-        follow = rest[vowels[i].end():vowels[i + 1].start()]
-        meter += (decide_on_length(letter, follow))
-    if len(vowels) != 0:
-        letter = rest[vowels[-1].start():vowels[-1].end()]
-        follow = rest[vowels[-1].end():]
-        meter += (decide_on_length(letter, follow))
+                + ", meter: " + best_form.initial[0][0] + ", rest: " + \
+                word[len(stem):]
+    meter = []
+    for version in best_form.initial:
+        info = version[0]
+        count = len(best_form.entry_str) - len(stem)
+        i = len(info) - 1
+        while count > 0:
+            if info[i] == ']':
+                i -= 4
+            elif info[i] in [LONG, SHORT, UNK]:
+                i -= 2
+            else:
+                i -= 1
+            count -= 1
+        new_v = multireplace(info[0: i + 1], Entry.to_quant)
+        found = False
+        for v in meter:
+            if v[0] == new_v:
+                v[1] += version[1]
+                found = True
+        if not found:
+            meter.append([multireplace(info[0: i + 1], Entry.to_quant),
+                          version[1]])
     if trace:
         print(to_print + "\nFinal meter: " + str(meter) + "\n")
-    return meter
+    return meter, word[len(stem):]
+
+
+def choose_among_lemmas(cognates, word, trace):
+    return None, None
 
 
 if __name__ == "__main__":
-    if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
+    """if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
                 len(sys.argv) < 4)) or ((sys.argv[1] == 'merge') and (
                 len(sys.argv) < 4)) or ((sys.argv[1] != 'automatic') and (
                 sys.argv[1] != 'merge') and (sys.argv[1] != 'clean')):
@@ -331,8 +380,8 @@ if __name__ == "__main__":
                 names = lines[i].rstrip('\n \t').split('\t')
                 clean(names[0], names[1])
                 list_of_files.append(names[1])
-            merge(list_of_files, lines[0].rstrip('\n'))
-    """with open('task_description.txt') as file:
+            merge(list_of_files, lines[0].rstrip('\n'))"""
+    with open('task_description.txt') as file:
         lines = file.readlines()
         if len(lines) < 2:
             print("Not enough lines in the file")
@@ -342,4 +391,4 @@ if __name__ == "__main__":
             names = lines[i].rstrip('\n \t').split('\t')
             clean(names[0], names[1])
             list_of_files.append(names[1])
-        merge(list_of_files, lines[0].rstrip('\n'))"""
+        merge(list_of_files, lines[0].rstrip('\n'))
