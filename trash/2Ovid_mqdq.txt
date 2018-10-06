@@ -1,0 +1,678 @@
+DSDD   	X _ U _ X _ U _ X _ U X
+DDDS   	X _ U _ X _ U _ X U U U X
+DSSD   	X _ U _ X _ U _ U U _ U X
+DSSD   	X _ U _ X _ U U U X _ U X
+DSSD   	X _ U _ X U U U _ X _ U X
+DDSS   	X _ U _ U U _ U _ X _ U X
+SDSS   	X _ U U U X _ U _ X _ U X
+DSSD   	X U U U _ X _ U _ X _ U X
+DDSS   	U U _ U _ X _ U _ X _ U X
+DSSS   	X _ U _ X _ U _ U U U U U X
+DSSS   	X _ U _ X _ U U U X U U U X
+DDSS   	X _ U _ X _ U U U U U _ U X
+DSSS   	X _ U _ X U U U _ X U U U X
+DDDS   	X _ U _ X U U U _ U U _ U X
+DSSS   	X _ U _ X U U U U U X _ U X
+DSSS   	X _ U _ U U _ U _ X U U U X
+DDSS   	X _ U _ U U _ U _ U U _ U X
+SDDS   	X _ U _ U U _ U U U X _ U X
+DDSD   	X _ U _ U U U U U _ X _ U X
+DDDS   	X _ U U U X _ U _ X U U U X
+DDSD   	X _ U U U X _ U _ U U _ U X
+DDSS   	X _ U U U X _ U U U X _ U X
+SDDS   	X _ U U U X U U U _ X _ U X
+DSSS   	X _ U U U U U _ U _ X _ U X
+DDSD   	X U U U _ X _ U _ X U U U X
+SDDS   	X U U U _ X _ U _ U U _ U X
+DDSS   	X U U U _ X _ U U U X _ U X
+DDSS   	X U U U _ X U U U _ X _ U X
+DSSS   	X U U U _ U U _ U _ X _ U X
+DSDS   	X U U U U U X _ U _ X _ U X
+SSDS   	U U _ U _ X _ U _ X U U U X
+SDSS   	U U _ U _ X _ U _ U U _ U X
+SDSS   	U U _ U _ X _ U U U X _ U X
+DDSS   	U U _ U _ X U U U _ X _ U X
+DSDD   	U U _ U _ U U _ U _ X _ U X
+DSDS   	U U _ U U U X _ U _ X _ U X
+DSDS   	U U U U U _ X _ U _ X _ U X
+DSSD   	X _ U _ X _ U U U U U U U U X
+SDSS   	X _ U _ X U U U _ U U U U U X
+DDSS   	X _ U _ X U U U U U X U U U X
+SDSS   	X _ U _ X U U U U U U U _ U X
+DDSS   	X _ U _ U U _ U _ U U U U U X
+DSDS   	X _ U _ U U _ U U U X U U U X
+DSSS   	X _ U _ U U _ U U U U U _ U X
+DDDD   	X _ U _ U U U U U _ X U U U X
+DDSD   	X _ U _ U U U U U _ U U _ U X
+DDDS   	X _ U _ U U U U U U U X _ U X
+DSDD   	X _ U U U X _ U _ U U U U U X
+DDSS   	X _ U U U X _ U U U X U U U X
+SDSS   	X _ U U U X _ U U U U U _ U X
+SDDS   	X _ U U U X U U U _ X U U U X
+DSSD   	X _ U U U X U U U _ U U _ U X
+DSSS   	X _ U U U X U U U U U X _ U X
+DDSS   	X _ U U U U U _ U _ X U U U X
+DDSD   	X _ U U U U U _ U _ U U _ U X
+DDSS   	X _ U U U U U _ U U U X _ U X
+DDDS   	X _ U U U U U U U U _ X _ U X
+DSSD   	X U U U _ X _ U _ U U U U U X
+DSSS   	X U U U _ X _ U U U X U U U X
+DSDS   	X U U U _ X _ U U U U U _ U X
+DSSD   	X U U U _ X U U U _ X U U U X
+SSDS   	X U U U _ X U U U _ U U _ U X
+SDSD   	X U U U _ X U U U U U X _ U X
+DSDS   	X U U U _ U U _ U _ X U U U X
+SDSS   	X U U U _ U U _ U _ U U _ U X
+DSDS   	X U U U _ U U _ U U U X _ U X
+DDSD   	X U U U _ U U U U U _ X _ U X
+SDDS   	X U U U U U X _ U _ X U U U X
+DSSS   	X U U U U U X _ U _ U U _ U X
+DDDS   	X U U U U U X _ U U U X _ U X
+DDSD   	X U U U U U X U U U _ X _ U X
+SDSS   	X U U U U U U U _ U _ X _ U X
+DSSS   	U U _ U _ X _ U _ U U U U U X
+DSDS   	U U _ U _ X _ U U U X U U U X
+DDDS   	U U _ U _ X _ U U U U U _ U X
+DSSD   	U U _ U _ X U U U _ X U U U X
+DSSD   	U U _ U _ X U U U _ U U _ U X
+DSDS   	U U _ U _ X U U U U U X _ U X
+SDDS   	U U _ U _ U U _ U _ X U U U X
+DSSD   	U U _ U _ U U _ U _ U U _ U X
+SSSS   	U U _ U _ U U _ U U U X _ U X
+SDSS   	U U _ U _ U U U U U _ X _ U X
+SDDD   	U U _ U U U X _ U _ X U U U X
+DDDS   	U U _ U U U X _ U _ U U _ U X
+DDDD   	U U _ U U U X _ U U U X _ U X
+DDSD   	U U _ U U U X U U U _ X _ U X
+SDDD   	U U _ U U U U U _ U _ X _ U X
+DSDS   	U U U U U _ X _ U _ X U U U X
+SSSD   	U U U U U _ X _ U _ U U _ U X
+SDSD   	U U U U U _ X _ U U U X _ U X
+SSSD   	U U U U U _ X U U U _ X _ U X
+DDSS   	U U U U U _ U U _ U _ X _ U X
+DSDD   	U U U U U U U X _ U _ X _ U X
+SSSS   	X _ U _ X U U U U U U U U U U X
+DSSS   	X _ U _ U U _ U U U U U U U U X
+DSDS   	X _ U _ U U U U U _ U U U U U X
+DSSS   	X _ U _ U U U U U U U X U U U X
+DDSD   	X _ U _ U U U U U U U U U _ U X
+DSDS   	X _ U U U X _ U U U U U U U U X
+DSSD   	X _ U U U X U U U _ U U U U U X
+DDSS   	X _ U U U X U U U U U X U U U X
+DSDD   	X _ U U U X U U U U U U U _ U X
+DSDS   	X _ U U U U U _ U _ U U U U U X
+DDSD   	X _ U U U U U _ U U U X U U U X
+DDSS   	X _ U U U U U _ U U U U U _ U X
+DDDS   	X _ U U U U U U U U _ X U U U X
+DSDS   	X _ U U U U U U U U _ U U _ U X
+SSSS   	X _ U U U U U U U U U U X _ U X
+SDDD   	X U U U _ X _ U U U U U U U U X
+DSSS   	X U U U _ X U U U _ U U U U U X
+DDSD   	X U U U _ X U U U U U X U U U X
+SDDS   	X U U U _ X U U U U U U U _ U X
+DDDS   	X U U U _ U U _ U _ U U U U U X
+DSSS   	X U U U _ U U _ U U U X U U U X
+DSDD   	X U U U _ U U _ U U U U U _ U X
+DSSS   	X U U U _ U U U U U _ X U U U X
+DDDD   	X U U U _ U U U U U _ U U _ U X
+DSDD   	X U U U _ U U U U U U U X _ U X
+DSDD   	X U U U U U X _ U _ U U U U U X
+DSSD   	X U U U U U X _ U U U X U U U X
+DSDS   	X U U U U U X _ U U U U U _ U X
+DSSS   	X U U U U U X U U U _ X U U U X
+DSSD   	X U U U U U X U U U _ U U _ U X
+DDSS   	X U U U U U X U U U U U X _ U X
+DDDS   	X U U U U U U U _ U _ X U U U X
+SDDS   	X U U U U U U U _ U _ U U _ U X
+DDDS   	X U U U U U U U _ U U U X _ U X
+DDSD   	X U U U U U U U U U U _ X _ U X
+DDDS   	U U _ U _ X _ U U U U U U U U X
+DDSS   	U U _ U _ X U U U _ U U U U U X
+DDSS   	U U _ U _ X U U U U U X U U U X
+DSSD   	U U _ U _ X U U U U U U U _ U X
+DDSS   	U U _ U _ U U _ U _ U U U U U X
+SDSS   	U U _ U _ U U _ U U U X U U U X
+DDSD   	U U _ U _ U U _ U U U U U _ U X
+DSSS   	U U _ U _ U U U U U _ X U U U X
+DSDS   	U U _ U _ U U U U U _ U U _ U X
+DDDS   	U U _ U _ U U U U U U U X _ U X
+SSSS   	U U _ U U U X _ U _ U U U U U X
+DSDD   	U U _ U U U X _ U U U X U U U X
+DSSS   	U U _ U U U X _ U U U U U _ U X
+DDDS   	U U _ U U U X U U U _ X U U U X
+DDDD   	U U _ U U U X U U U _ U U _ U X
+DDSD   	U U _ U U U X U U U U U X _ U X
+DSDD   	U U _ U U U U U _ U _ X U U U X
+SDSS   	U U _ U U U U U _ U _ U U _ U X
+DSSS   	U U _ U U U U U _ U U U X _ U X
+DSDS   	U U _ U U U U U U U U _ X _ U X
+DSDS   	U U U U U _ X _ U _ U U U U U X
+DSSS   	U U U U U _ X _ U U U X U U U X
+DSDS   	U U U U U _ X _ U U U U U _ U X
+SDSD   	U U U U U _ X U U U _ X U U U X
+DDDS   	U U U U U _ X U U U _ U U _ U X
+DSDD   	U U U U U _ X U U U U U X _ U X
+SDSS   	U U U U U _ U U _ U _ X U U U X
+DSDD   	U U U U U _ U U _ U _ U U _ U X
+DSSS   	U U U U U _ U U _ U U U X _ U X
+DDSS   	U U U U U _ U U U U U _ X _ U X
+DDSS   	U U U U U U U X _ U _ X U U U X
+DDSS   	U U U U U U U X _ U _ U U _ U X
+DDSD   	U U U U U U U X _ U U U X _ U X
+DSSS   	U U U U U U U X U U U _ X _ U X
+DSSD   	U U U U U U U U U _ U _ X _ U X
+DSSS   	X _ U _ U U U U U U U U U U U U X
+DDSDS   	X _ U U U X U U U U U U U U U U X
+DDDD   	X _ U U U U U _ U U U U U U U U X
+DSSS   	X _ U U U U U U U U _ U U U U U X
+DSSS   	X _ U U U U U U U U U U X U U U X
+SDSS   	X _ U U U U U U U U U U U U _ U X
+DDSD   	X U U U _ X U U U U U U U U U U X
+SSSS   	X U U U _ U U _ U U U U U U U U X
+DSSS   	X U U U _ U U U U U _ U U U U U X
+DDDS   	X U U U _ U U U U U U U X U U U X
+DSSD   	X U U U _ U U U U U U U U U _ U X
+DDSD   	X U U U U U X _ U U U U U U U U X
+DSSD   	X U U U U U X U U U _ U U U U U X
+DSSS   	X U U U U U X U U U U U X U U U X
+DSDS   	X U U U U U X U U U U U U U _ U X
+DDSS   	X U U U U U U U _ U _ U U U U U X
+DDSD   	X U U U U U U U _ U U U X U U U X
+DDDS   	X U U U U U U U _ U U U U U _ U X
+DDDS   	X U U U U U U U U U U _ X U U U X
+DSSS   	X U U U U U U U U U U _ U U _ U X
+DSDS   	X U U U U U U U U U U U U X _ U X
+DSDD   	U U _ U _ X U U U U U U U U U U X
+DDSS   	U U _ U _ U U _ U U U U U U U U X
+SSDS   	U U _ U _ U U U U U _ U U U U U X
+SDDD   	U U _ U _ U U U U U U U X U U U X
+SSSS   	U U _ U _ U U U U U U U U U _ U X
+DSSS   	U U _ U U U X _ U U U U U U U U X
+DDSD   	U U _ U U U X U U U _ U U U U U X
+SDDS   	U U _ U U U X U U U U U X U U U X
+DSDS   	U U _ U U U X U U U U U U U _ U X
+DSSD   	U U _ U U U U U _ U _ U U U U U X
+DDDS   	U U _ U U U U U _ U U U X U U U X
+DSDS   	U U _ U U U U U _ U U U U U _ U X
+SDDD   	U U _ U U U U U U U U _ X U U U X
+SDDS   	U U _ U U U U U U U U _ U U _ U X
+SDSD   	U U _ U U U U U U U U U U X _ U X
+DDSD   	U U U U U _ X _ U U U U U U U U X
+DSSS   	U U U U U _ X U U U _ U U U U U X
+DSSS   	U U U U U _ X U U U U U X U U U X
+DDDS   	U U U U U _ X U U U U U U U _ U X
+DDSD   	U U U U U _ U U _ U _ U U U U U X
+DDSS   	U U U U U _ U U _ U U U X U U U X
+DDSS   	U U U U U _ U U _ U U U U U _ U X
+DDSS   	U U U U U _ U U U U U _ X U U U X
+DSSS   	U U U U U _ U U U U U _ U U _ U X
+DSDS   	U U U U U _ U U U U U U U X _ U X
+DSSD   	U U U U U U U X _ U _ U U U U U X
+DDDS   	U U U U U U U X _ U U U X U U U X
+SDSD   	U U U U U U U X _ U U U U U _ U X
+DSDD   	U U U U U U U X U U U _ X U U U X
+DDSD   	U U U U U U U X U U U _ U U _ U X
+SDSD   	U U U U U U U X U U U U U X _ U X
+DSDD   	U U U U U U U U U _ U _ X U U U X
+DSSD   	U U U U U U U U U _ U _ U U _ U X
+DSDS   	U U U U U U U U U _ U U U X _ U X
+DSSD   	U U U U U U U U U U U U _ X _ U X
+DDDD   	X _ U U U U U U U U U U U U U U U X
+SDDS   	X U U U _ U U U U U U U U U U U U X
+DSDD   	X U U U U U X U U U U U U U U U U X
+DSDS   	X U U U U U U U _ U U U U U U U U X
+DSDD   	X U U U U U U U U U U _ U U U U U X
+SDSS   	X U U U U U U U U U U U U X U U U X
+DDSD   	X U U U U U U U U U U U U U U _ U X
+DSDD   	U U _ U _ U U U U U U U U U U U U X
+DDSS   	U U _ U U U X U U U U U U U U U U X
+DSSD   	U U _ U U U U U _ U U U U U U U U X
+DSSD   	U U _ U U U U U U U U _ U U U U U X
+SDSS   	U U _ U U U U U U U U U U X U U U X
+DSDD   	U U _ U U U U U U U U U U U U _ U X
+DSDS   	U U U U U _ X U U U U U U U U U U X
+DDSS   	U U U U U _ U U _ U U U U U U U U X
+SDDS   	U U U U U _ U U U U U _ U U U U U X
+DDDS   	U U U U U _ U U U U U U U X U U U X
+DDSS   	U U U U U _ U U U U U U U U U _ U X
+DSSD   	U U U U U U U X _ U U U U U U U U X
+DSSS   	U U U U U U U X U U U _ U U U U U X
+DSSD   	U U U U U U U X U U U U U X U U U X
+DDDS   	U U U U U U U X U U U U U U U _ U X
+DSSD   	U U U U U U U U U _ U _ U U U U U X
+DSSS   	U U U U U U U U U _ U U U X U U U X
+DDDS   	U U U U U U U U U _ U U U U U _ U X
+SDDS   	U U U U U U U U U U U U _ X U U U X
+SDSS   	U U U U U U U U U U U U _ U U _ U X
+DDDD   	U U U U U U U U U U U U U U X _ U X
+DDSD   	X U U U U U U U U U U U U U U U U U X
+DSDD   	U U _ U U U U U U U U U U U U U U U X
+DDDS   	U U U U U _ U U U U U U U U U U U U X
+DDSD   	U U U U U U U X U U U U U U U U U U X
+DSSD   	U U U U U U U U U _ U U U U U U U U X
+DSDD   	U U U U U U U U U U U U _ U U U U U X
+DDDS   	U U U U U U U U U U U U U U X U U U X
+DSSS   	U U U U U U U U U U U U U U U U _ U X
+DSSS   	U U U U U U U U U U U U U U U U U U U X
+DSSD   	Dumque ea Cephenum medio Danaeius heros
+DDDS   	Agmine commemorat fremida regalia turba
+DSSS   	Atria conplentur nec coniugialia festa
+DDSS   	Qui canat est clamor sed qui fera nuntiet arma
+DDDS   	Inque repentinos conuiuia uersa tumultus
+DSSD   	Adsimilare freto possis quod saeua quietum
+DDSS   	Ventorum rabies motis exasperat undis
+SDSD   	Primus in his Phineus belli temerarius auctor
+SSSDS   	Fraxineam quatiens aeratae cuspidis hastam
+DDSS   	En ait en adsum praereptae coniugis ultor
+SDDD   	Nec mihi te pennae nec falsum uersus in aurum
+DSSS   	Iuppiter eripiet conanti mittere Cepheus
+DSDS   	Quid facis exclamat quae te germane furentem
+SSDS   	Mens agit in facinus meritisne haec gratia tantis
+DDDS   	Redditur hac uitam seruatae dote rependis
+SSSD   	Quam tibi non Perseus uerum si quaeris ademit
+DSDD   	Sed graue Nereidum numen sed corniger Ammon
+DSSS   	Sed quae uisceribus ueniebat belua ponti
+DSSS   	Exsaturanda meis illo tibi tempore rapta est
+DDSD   	Quo peritura fuit nisi si crudelis id ipsum
+DDSD   	Exigis ut pereat luctuque leuabere nostro
+DSSD   	Scilicet haud satis est quod te spectante reuincta est
+DSDS   	Et nullam quod opem patruus sponsusue tulisti
+DSDS   	Insuper a quoquam quod sit seruata dolebis
+DDSD   	Praemiaque eripies quae si tibi magna uidentur
+DSDD   	Ex illis scopulis ubi erant adfixa petisses
+DDSS   	Nunc sine qui petiit per quem haec non orba senectus
+DDSS   	Ferre quod et meritis et uoce est pactus eumque
+DSSD   	Non tibi sed certae praelatum intellege morti
+DSDS   	Ille nihil contra sed et hunc et Persea uultu
+DDSD   	Alterno spectans petat hunc ignorat an illum
+DSSS   	Cunctatusque breui contortam uiribus hastam
+DSDD   	Quantas ira dabat nequiquam in Persea misit
+DSDD   	Vt stetit illa toro stratis tum denique Perseus
+DSSS   	Exsiluit teloque ferox inimica remisso
+DSSS   	Pectora rupisset nisi post altaria Phineus
+DDDS   	Isset et indignum scelerato profuit ara
+DSSD   	Fronte tamen Rhoeti non inrita cuspis adhaesit
+DSSD   	Qui postquam cecidit ferrumque ex osse reuulsum est
+DSSS   	Calcitrat et positas adspergit sanguine mensas
+DDDD   	Tum uero indomitas ardescit uulgus in iras
+DDDD   	Telaque coniciunt et sunt qui Cephea dicunt
+DSDS   	Cum genero debere mori sed limine tecti
+SSDD   	Exierat Cepheus testatus iusque fidemque
+SDSS   	Hospitiique deos ea se prohibente moueri
+DDSS   	Bellica Pallas adest et protegit aegide fratrem
+DSSD   	Datque animos erat Indus Athis quem flumine Gange
+SDDD   	Edita Limnaee uitreis peperisse sub undis
+DDDS   	Creditur egregius forma quam diuite cultu
+DDSD   	Augebat bis adhuc octonis integer annis
+DSSS   	Indutus chlamydem Tyriam quam limbus obibat
+DSSS   	Aureus ornabant aurata monilia collum
+DSSS   	Et madidos murra curuum crinale capillos
+DSDS   	Ille quidem iaculo quamuis distantia misso
+SDDS   	Figere doctus erat sed tendere doctior arcus
+DSDS   	Tum quoque lenta manu flectentem cornua Perseus
+SDSD   	Stipite qui media positus fumabat in ara
+SSDS   	Perculit et fractis confudit in ossibus ora
+DSDS   	Hunc ubi laudatos iactantem in sanguine uultus
+DSSS   	Assyrius uidit Lycabas iunctissimus illi
+DSSD   	Et comes et ueri non dissimulator amoris
+DDSS   	Postquam exhalantem sub acerbo uulnere uitam 
+DDSD   	Deplorauit Athin quos ille tetenderat arcus
+DDSS   	Adripit et mecum tibi sint certamina dixit
+SSSD   	Nec longum pueri fato laetabere quo plus
+DSDS   	Inuidiae quam laudis habes haec omnia nondum
+DSSS   	Dixerat emicuit neruo penetrabile telum
+DSSD   	Vitatumque tamen sinuosa ueste pependit
+DDSD   	Vertit in hunc harpen spectatam caede Medusae
+SSDS   	Acrisioniades adigitque in pectus at ille
+DSSD   	Iam moriens oculis sub nocte natantibus atra
+DSDS   	Circumspexit Athin seque adclinauit ad illum
+DSSD   	Et tulit ad manes iunctae solacia mortis
+DSDS   	Ecce Suenites genitus Metione Phorbas
+DDSD   	Et Libys Amphimedon auidi committere pugnam
+DDSD   	Sanguine quo late tellus madefacta tepebat
+DDSD   	Conciderant lapsi surgentibus obstitit ensis
+SSDD   	Alterius costis iugulo Phorbantis adactus
+DSDD   	At non Actoriden Erytum cui lata bipennis
+DDDS   	Telum erat admoto Perseus petit ense sed altis
+DDSS   	Exstantem signis multaeque in pondere massae
+DSDS   	Ingentem manibus tollit cratera duabus
+DDSS   	Infligitque uiro rutilum uomit ille cruorem
+SSSS   	Et resupinus humum moribundo uertice pulsat
+DSSS   	Inde Semiramio Polydegmona sanguine cretum
+DSDD   	Caucasiumque Abarim Sperchionidenque Lycetum
+DSDS   	Intonsumque comas Helicem Phlegyamque Clytumque
+DDSD   	Sternit et exstructos morientum calcat aceruos
+DDSD   	Nec Phineus ausus concurrere comminus hosti
+DSSS   	Intorquet iaculum quod detulit error in Idan
+DSSS   	Expertem frustra belli et neutra arma secutum
+DSSD   	Ille tuens oculis inmitem Phinea toruis
+DDSD   	Quandoquidem in partes ait abstrahor accipe Phineu
+DDDS   	Quem fecisti hostem pensaque hoc uulnere uulnus
+DDDS   	Iamque remissurus tractum de uulnere telum
+DDSD   	Sanguine defectos cecidit conlapsus in artus
+SSDD   	Tum quoque Cephenum post regem primus Hodites
+DSSS   	Ense iacet Clymeni Prothoenora percutit Hypseus
+DSSD   	Hypsea Lyncides fuit et grandaeuus in illis
+DSSD   	Emathion aequi cultor timidusque deorum
+DSDD   	Qui quoniam prohibent anni bellare loquendo
+SDDS   	Pugnat et incessit scelerataque deuouet arma
+DSDS   	Huic Chromis amplexo tremulis altaria palmis
+DSSS   	Decutit ense caput quod protinus incidit arae
+SDSS   	Atque ibi semianimi uerba exsecrantia lingua
+SSDD   	Edidit et medios animam exspirauit in ignes
+DDDD   	Hinc gemini fratres Broteasque et caestibus Ammon
+DDSS   	Inuicti uinci si possent caestibus enses
+DDDD   	Phinea cecidere manu Cererisque sacerdos
+DDSD   	Ampycus albenti uelatus tempora uitta
+DSDS   	Tu quoque Lampetide non hos adhibendus ad usus
+DSSD   	Sed qui pacis opus citharam cum uoce moueres
+DSDS   	Iussus eras celebrare dapes festumque canendo
+DSDS   	Quem procul adstantem plectrumque inbelle tenentem
+DSSS   	Paetalus inridens Stygiis cane cetera dixit
+DSDS   	Manibus et laeuo mucronem tempore fixit
+DSSD   	Concidit et digitis morientibus ille retemptat
+DSSD   	Fila lyrae casuque fuit miserabile carmen
+DDDS   	Nec sinit hunc inpune ferox cecidisse Lycormas
+SDDD   	Raptaque de dextro robusta repagula posti
+DDSS   	Ossibus inlisit mediae ceruicis at ille 
+SDSS   	Procubuit terrae mactati more iuuenci
+DDSD   	Demere temptabat laeui quoque robora postis
+DDSS   	Cinyphius Pelates temptanti dextera fixa est
+SDSD   	Cuspide Marmaridae Corythi lignoque cohaesit
+DSSD   	Haerenti latus hausit Abas nec corruit ille
+DDSS   	Sed retinente manum moriens e poste pependit
+DSSD   	Sternitur et Melaneus Perseia castra secutus
+DSDS   	Et Nasamoniaci Dorylas ditissimus agri
+DDSS   	Diues agri Dorylas quo non possederat alter
+DSSD   	Latius aut totidem tollebat turis aceruos
+DDSD   	Huius in obliquo missum stetit inguine ferrum
+DSSS   	Letifer ille locus quem postquam uulneris auctor
+DSDD   	Singultantem animam et uersantem lumina uidit
+DSSS   	Bactrius Halcyoneus hoc quod premis inquit habeto
+DDSD   	De tot agris terrae corpusque exsangue reliquit
+DSDD   	Torquet in hunc hastam calido de uulnere raptam
+DSSD   	Vltor Abantiades media quae nare recepta
+DSSD   	Ceruice exacta est in partesque eminet ambas
+DSDD   	Dumque manum Fortuna iuuat Clytiumque Claninque
+SDSS   	Matre satos una diuerso uulnere fudit
+DSSD   	Nam Clytii per utrumque graui librata lacerto
+SSDD   	Fraxinus acta femur iaculum Clanis ore momordit
+DDDD   	Occidit et Celadon Mendesius occidit Astreus
+DDSS   	Matre Palaestina dubio genitore creatus
+DSSD   	Aethionque sagax quondam uentura uidere
+SDSS   	Tunc aue deceptus falsa regisque Thoactes
+DSSS   	Armiger et caeso genitore infamis Agyrtes
+DSDD   	Plus tamen exhausto superest namque omnibus unum
+DSSS   	Opprimere est animus coniurata undique pugnant
+SDDS   	Agmina pro causa meritum inpugnante fidemque
+DSDS   	Hac pro parte socer frustra pius et noua coniunx
+DSSS   	Cum genetrice fauent ululatuque atria conplent
+DSSS   	Sed sonus armorum superat gemitusque cadentum
+DSSD   	Pollutosque simul multo Bellona penates
+SDDD   	Sanguine perfundit renouataque proelia miscet
+DDSD   	Circueunt unum Phineus et mille secuti
+SDSD   	Phinea tela uolant hiberna grandine plura
+DSDD   	Praeter utrumque latus praeterque et lumen et aures
+DDSS   	Adplicat hic umeros ad magnae saxa columnae
+DSSS   	Tutaque terga gerens aduersaque in agmina uersus
+SDDS   	Sustinet instantes instabat parte sinistra
+DSSS   	Chaonius Molpeus dextra Nabataeus Echemmon
+DSDS   	Tigris ut auditis diuersa ualle duorum
+DSDS   	Exstimulata fame mugitibus armentorum
+SDSS   	Nescit utro potius ruat et ruere ardet utroque
+DDSS   	Sic dubius Perseus dextra laeuane feratur
+SSDS   	Molpea traiecti summouit uulnere cruris
+DSDS   	Contentusque fuga est neque enim dat tempus Echemmon
+DSSS   	Sed furit et cupiens alto dare uulnera collo
+DDDS   	Non circumspectis exactum uiribus ensem
+SDSD   	Fregit et extrema percussae parte columnae
+DDSS   	Lammina dissiluit dominique in gutture fixa est
+DSSD   	Non tamen ad letum causas satis illa ualentes
+DSDD   	Plaga dedit trepidum Perseus et inertia frustra
+DSDS   	Bracchia tendentem Cyllenide confodit harpe
+DDSS   	Verum ubi uirtutem turbae succumbere uidit
+DSDS   	Auxilium Perseus quoniam sic cogitis ipsi
+DDDS   	Dixit ab hoste petam uultus auertite uestros
+DSDS   	Siquis amicus adest et Gorgonis extulit ora
+DSDS   	Quaere alium tua quem moueant oracula dixit
+DDSS   	Thescelus utque manu iaculum fatale parabat
+DSSS   	Mittere in hoc haesit signum de marmore gestu
+SSDS   	Proximus huic Ampyx animi plenissima magni
+SSSD   	Pectora Lyncidae gladio petit inque petendo
+DSDS   	Dextera deriguit nec citra mota nec ultra est
+DSDD   	At Nileus qui se genitum septemplice Nilo
+DDDS   	Ementitus erat clipeo quoque flumina septem
+DSSS   	Argento partim partim caelauerat auro
+DDSD   	Adspice ait Perseu nostrae primordia gentis
+DSSS   	Magna feres tacitas solacia mortis ad umbras
+DSDS   	A tanto cecidisse uiro  pars ultima uocis
+DSDS   	In medio suppressa sono est adapertaque uelle
+DSSD   	Ora loqui credas nec sunt ea peruia uerbis
+DDSD   	Increpat hos uitio que animi non uiribus inquit
+DDSD   	Gorgoneis torpetis Eryx incurrite mecum
+SSSS   	Et prosternite humi iuuenem magica arma mouentem
+DSSS   	Incursurus erat tenuit uestigia tellus
+DDSD   	Inmotusque silex armataque mansit imago
+DSSS   	Hi tamen ex merito poenas subiere sed unus
+DSSS   	Miles erat Persei pro quo dum pugnat Aconteus
+DSDS   	Gorgone conspecta saxo concreuit oborto
+SSSD   	Quem ratus Astyages etiamnum uiuere longo
+DDDS   	Ense ferit sonuit tinnitibus ensis acutis
+DDSS   	Dum stupet Astyages naturam traxit eandem
+DSSS   	Marmoreoque manet uultus mirantis in ore
+DDSS   	Nomina longa mora est media de plebe uirorum
+DDSD   	Dicere bis centum restabant corpora pugnae
+DDDS   	Gorgone bis centum riguerunt corpora uisa
+DSDS   	Paenitet iniusti tunc denique Phinea belli
+DDSD   	Sed quid agat simulacra uidet diuersa figuris
+DDDS   	Agnoscitque suos et nomine quemque uocatum
+SDSS   	Poscit opem credensque parum sibi proxima tangit
+DSSS   	Corpora marmor erant auertitur atque ita supplex
+DSSS   	Confessasque manus obliquaque bracchia tendens
+DSDS   	Vincis ait Perseu remoue tua monstra tuaeque
+DDSS   	Saxificos uultus quaecumque ea tolle Medusae
+DDSD   	Tolle precor non nos odium regnique cupido
+SDSS   	Conpulit ad bellum pro coniuge mouimus arma
+DDSS   	Causa fuit meritis melior tua tempore nostra
+DSSS   	Non cessisse piget nihil o fortissime praeter
+DDDS   	Hanc animam concede mihi tua cetera sunto
+DDSD   	Talia dicenti neque eum quem uoce rogabat
+DDDD   	Respicere audenti quod ait timidissime Phineu
+DSSS   	Et possum tribuisse et magnum est munus inerti
+DSDD   	Pone metum tribuam nullo uiolabere ferro
+DDDD   	Quin etiam mansura dabo monimenta per aeuum
+DSDD   	Inque domo soceri semper spectabere nostri
+DDDD   	Vt mea se sponsi soletur imagine coniunx
+DSDS   	Dixit et in partem Phorcynida transtulit illam
+DSSD   	Ad quam se trepido Phineus obuerterat ore
+SDSD   	Tum quoque conanti sua uertere lumina ceruix
+DSSS   	Deriguit saxoque oculorum induruit umor
+SDSS   	Sed tamen os timidum uultusque in marmore supplex
+DSDS   	Submissaeque manus faciesque obnoxia mansit
+DDDS   	Victor Abantiades patrios cum coniuge muros
+SDSS   	Intrat et inmeriti uindex ultorque parentis
+DDSD   	Adgreditur Proetum nam fratre per arma fugato
+DDDS   	Acrisioneas Proetus possederat arces
+DDSD   	Sed nec ope armorum nec quam male ceperat arce
+DSSS   	Torua colubriferi superauit lumina monstri
+DSSD   	Te tamen o paruae rector Polydecta Seriphi
+DDDS   	Nec iuuenis uirtus per tot spectata labores
+SDSS   	Nec mala mollierant sed inexorabile durus
+SDDD   	Exerces odium nec iniqua finis in ira est
+DSSS   	Detrectas etiam laudem fictamque Medusae
+DSSD   	Arguis esse necem dabimus tibi pignora ueri
+SDSS   	Parcite luminibus Perseus ait oraque regis
+DSSS   	Ore Medusaeo silicem sine sanguine fecit
+DSDS   	Hactenus aurigenae comitem Tritonia fratri
+SDDS   	Se dedit inde caua circumdata nube Seriphon
+DSSS   	Deserit a dextra Cythno Gyaroque relictis
+DSDS   	Quaque super pontum uia uisa breuissima Thebas
+DDDD   	Virgineumque Helicona petit quo monte potita
+DDSD   	Constitit et doctas sic est adfata sorores
+DDDS   	Fama noui fontis nostras peruenit ad aures 
+DSDD   	Dura Medusaei quem praepetis ungula rupit
+DSSD   	Is mihi causa uiae uolui mirabile factum
+DDSS   	Cernere uidi ipsum materno sanguine nasci
+DDSD   	Excipit Vranie quaecumque est causa uidendi
+DSSS   	Has tibi diua domos animo gratissima nostro es
+SDSD   	Vera tamen fama est est Pegasus huius origo
+DDSD   	Fontis et ad latices deduxit Pallada sacros
+DDDS   	Quae mirata diu factas pedis ictibus undas
+DDDS   	Siluarum lucos circumspicit antiquarum
+DDSD   	Antraque et innumeris distinctas floribus herbas
+DSSS   	Felicesque uocat pariter studioque locoque
+DSSD   	Mnemonidas quam sic adfata est una sororum
+DDSS   	O nisi te uirtus opera ad maiora tulisset
+DDSD   	In partem uentura chori Tritonia nostri
+DDSS   	Vera refers meritoque probas artesque locumque
+DSSS   	Et gratam sortem tutae modo simus habemus
+SDDS   	Sed uetitum est adeo sceleri nihil omnia terrent
+DDSS   	Virgineas mentes dirusque ante ora Pyreneus
+DSSS   	Vertitur et nondum tota me mente recepi
+DSSS   	Daulida Threicio Phoceaque milite rura
+DDSS   	Ceperat ille ferox iniustaque regna tenebat
+DDDS   	Templa petebamus Parnasia uidit euntes
+DSSS   	Nostraque fallaci ueneratus numina uultu
+DSSD   	Mnemonides cognorat enim consistite dixit
+DSSS   	Nec dubitate precor tecto graue sidus et imbrem
+DDSS   	Imber erat uitare meo subiere minores
+DSSS   	Saepe casas superi dictis et tempore motae
+DSSS   	Adnuimusque uiro primasque intrauimus aedes
+DDSD   	Desierant imbres uictoque aquilonibus austro
+DDDS   	Fusca repurgato fugiebant nubila caelo
+DSDS   	Inpetus ire fuit claudit sua tecta Pyreneus
+DSDD   	Vimque parat quam nos sumptis effugimus alis
+SSSD   	Ipse secuturo similis stetit arduus arce
+DSSD   	Qua que uia est uobis erit et mihi dixit eadem
+DSSD   	Seque iacit uecors e summae culmine turris
+DSDD   	Et cadit in uultus discussisque ossibus oris
+DDSS   	Tundit humum moriens scelerato sanguine tinctam
+SSSS   	Musa loquebatur pennae sonuere per auras
+DDSS   	Voxque salutantum ramis ueniebat ab altis
+DDSD   	Suspicit et linguae quaerit tam certa loquentes
+DDSD   	Vnde sonent hominemque putat Ioue nata locutum
+DDSS   	Ales erat numeroque nouem sua fata querentes
+DDSS   	Institerant ramis imitantes omnia picae
+SSSS   	Miranti sic orsa deae dea nuper et istae
+DSSS   	Auxerunt uolucrum uictae certamine turbam
+DSSS   	Pieros has genuit Pellaeis diues in aruis
+SDDD   	Paeonis Euippe mater fuit illa potentem
+SSDS   	Lucinam nouiens nouiens paritura uocauit
+DDSS   	Intumuit numero stolidarum turba sororum
+DSSS   	Perque tot Haemonias et per tot Achaidas urbes
+DSSS   	Huc uenit et tali committit proelia uoce
+DSDS   	Desinite indoctum uana dulcedine uulgus
+DSSS   	Fallere nobiscum siqua est fiducia uobis
+DSSS   	Thespiades certate deae nec uoce nec arte
+SSDS   	Vincemur totidemque sumus uel cedite uictae
+DSDS   	Fonte Medusaeo et Hyantea Aganippe
+DDSD   	Vel nos Emathiis ad Paeonas usque niuosos
+DSSS   	Cedamus campis dirimant certamina nymphae
+DDSS   	Turpe quidem contendere erat sed cedere uisum
+DDSS   	Turpius electae iurant per flumina nymphae
+DDSD   	Factaque de uiuo pressere sedilia saxo
+DSSD   	Tunc sine sorte prior quae se certare professa est
+DDDS   	Bella canit superum falsoque in honore Gigantas
+DSDS   	Ponit et extenuat magnorum facta deorum
+DSSD   	Emissumque ima de sede Typhoea terrae
+DSDD   	Caelitibus fecisse metum cunctosque dedisse
+SDDD   	Terga fugae donec fessos Aegyptia tellus
+SSSD   	Ceperit et septem discretus in ostia Nilus
+SDSS   	Huc quoque terrigenam uenisse Typhoea narrat
+DDDS   	Et se mentitis superos celasse figuris
+DSDD   	Dux que gregis dixit fit Iuppiter unde recuruis
+DDSD   	Nunc quoque formatus Libys est cum cornibus Ammon
+DSDS   	Delius in coruo est proles Semeleia capro
+DSDD   	Fele soror Phoebi niuea Saturnia uacca
+DDDD   	Pisce Venus latuit Cyllenius ibidis alis
+DDSD   	Hactenus ad citharam uocalia mouerat ora
+DDSS   	Poscimur Aonides  sed forsitan otia non sint
+DDSD   	Nec nostris praebere uacet tibi cantibus aures
+DSSS   	Ne dubita uestrumque mihi refer ordine carmen
+SSDS   	Pallas ait nemorisque leui consedit in umbra
+DDDS   	Musa refert dedimus summam certaminis uni
+DSDS   	Surgit et inmissos hedera collecta capillos
+DDSD   	Calliope querulas praetemptat pollice chordas
+DSSD   	Atque haec percussis subiungit carmina neruis
+DDSS   	Prima Ceres unco glaebam dimouit aratro
+DSDS   	Prima dedit fruges alimentaque mitia terris 
+DDDS   	Prima dedit leges Cereris sunt omnia munus
+DDSD   	Illa canenda mihi est utinam modo dicere possim
+DDDD   	Carmina digna dea certe dea carmine digna est
+DDSD   	Vasta Giganteis ingesta est insula membris
+DDSD   	Trinacris et magnis subiectum molibus urget
+DSSD   	Aetherias ausum sperare Typhoea sedes
+DDSD   	Nititur ille quidem pugnatque resurgere saepe
+DDDS   	Dextra sed Ausonio manus est subiecta Peloro
+DDSDS   	Laeua Pachyne tibi Lilybaeo crura premuntur
+DDDD   	Degrauat Aetna caput sub qua resupinus harenas
+DDSS   	Eiectat flammamque ferox uomit ore Typhoeus
+DDSD   	Saepe remoliri luctatur pondera terrae
+DSDD   	Oppidaque et magnos deuoluere corpore montes
+DSDS   	Inde tremit tellus et rex pauet ipse silentum
+DSSD   	Ne pateat latoque solum retegatur hiatu
+DSSS   	Inmissusque dies trepidantes terreat umbras
+DSDD   	Hanc metuens cladem tenebrosa sede tyrannus
+SDDS   	Exierat curruque atrorum uectus equorum
+SSSD   	Ambibat Siculae cautus fundamina terrae
+DDDS   	Postquam exploratum satis est loca nulla labare
+DSDS   	Depositoque metu uidet hunc Erycina uagantem
+DSSD   	Monte suo residens natumque amplexa uolucrem
+DSDS   	Arma manusque meae mea nate potentia dixit
+DSSS   	Illa quibus superas omnes cape tela Cupido
+DSSD   	Inque dei pectus celeres molire sagittas
+DSDD   	Cui triplicis cessit fortuna nouissima regni
+DDDD   	Tu superos ipsumque Iouem tu numina ponti
+DDDD   	Victa domas ipsumque regit qui numina ponti
+DSSD   	Tartara quid cessant cur non matrisque tuumque
+DSDS   	Imperium profers agitur pars tertia mundi
+DSSD   	Et tamen in caelo quae iam patientia nostra est
+DSDS   	Spernimur ac mecum uires minuuntur Amoris
+DDSS   	Pallada nonne uides iaculatricemque Dianam
+DSSD   	Abscessisse mihi Cereris quoque filia uirgo
+DDSS   	Si patiemur erit nam spes adfectat easdem
+DSSD   	At tu pro socio siqua est ea gratia regno
+DDSD   	Iunge deam patruo dixit Venus ille pharetram
+DSDS   	Soluit et arbitrio matris de mille sagittis
+DDDS   	Vnam seposuit sed qua nec acutior ulla
+DDSD   	Nec minus incerta est nec quae magis audiat arcum
+DDSD   	Oppositoque genu curuauit flexile cornum
+DDSS   	Inque cor hamata percussit harundine Ditem
+DDSS   	Haud procul Hennaeis lacus est a moenibus altae
+DDDD   	Nomine Pergus aquae non illo plura Caystros
+DSSD   	Carmina cygnorum labentibus edit in undis
+DSSD   	Silua coronat aquas cingens latus omne suisque
+DSSD   	Frondibus ut uelo Phoebeos submouet ictus
+DSDD   	Frigora dant rami Tyrios humus umida flores
+DSSD   	Perpetuum uer est quo dum Proserpina luco
+DSSD   	Ludit et aut uiolas aut candida lilia carpit
+DDDS   	Dumque puellari studio calathosque sinumque
+DDSD   	Inplet et aequales certat superare legendo
+DSDS   	Paene simul uisa est dilectaque raptaque Diti
+DDSD   	Vsque adeo est properatus amor dea territa maesto
+DSSS   	Et matrem et comites sed matrem saepius ore
+DSDD   	Clamat et ut summa uestem laniarat ab ora
+DDSS   	Conlecti flores tunicis cecidere remissis
+DSDD   	Tantaque simplicitas puerilibus adfuit annis
+DSSS   	Haec quoque uirgineum mouit iactura dolorem
+DDDS   	Raptor agit currus et nomine quemque uocando
+DSSS   	Exhortatur equos quorum per colla iubasque
+DSSD   	Excutit obscura tinctas ferrugine habenas
+DDSD   	Perque lacus altos et olentia sulphure fertur
+DSSS   	Stagna Palicorum rupta feruentia terra 
+SSDD   	Et qua Bacchiadae bimari gens orta Corintho
+SSDS   	Inter inaequales posuerunt moenia portus
+DDSS   	Est medium Cyanes et Pisaeae Arethusae
+DDDS   	Quod coit angustis inclusum cornibus aequor
+DSDD   	Hic fuit a cuius stagnum quoque nomine dictum est
+DSSD   	Inter Sicelidas Cyane celeberrima nymphas
+SDSD   	Gurgite quae medio summa tenus exstitit aluo
+SDSS   	Agnouitque deam nec longius ibitis inquit
+SDSS   	Non potes inuitae Cereris gener esse roganda
+SDDS   	Non rapienda fuit quodsi conponere magnis
+DDDS   	Parua mihi fas est et me dilexit Anapis
+DDDS   	Exorata tamen nec ut haec exterrita nupsi
+DSSD   	Dixit et in partes diuersas bracchia tendens
+DSDS   	Obstitit haud ultra tenuit Saturnius iram
+DDSD   	Terribilesque hortatus equos in gurgitis ima
+DDDS  	Contortum ualido sceptrum regale lacerto
