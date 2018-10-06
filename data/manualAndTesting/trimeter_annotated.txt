@@ -1,0 +1,239 @@
+/*
+Created by alexanderfedchin on 03/17/17.
+
+These are manually scanned trimeters from:
+
+Medea (ed. O. Zwierlein, 1986, source:mqdq.it)
+Thyestes (id.)
+Phaedra (id.)
+Octavia (id.)
+Agamemnon (id.)
+
+Short syllables are marked with '^',
+Long syllables are marked with '_',
+Monosyllabic-ancipites are marked with '&',
+All resolutions are marked as two short syllables.
+/*
+
+*Medea 1-55*
+Di& co_niu^ga_le&s tu_que^ ge^ni^a&li_s to^ri&,
+Lu&ci_na^, cu_sto&s quae_que^ do^mi^tu&ra_m fre^ta&
+Ti&phy_n no^ua_m fre&na_re^ do^cu^i&sti_ ra^te&m,
+E&t tu_, pro^fu_ndi& sae_ue^ do^mi^na&to_r ma^ri&s,
+Cla&ru_mque^ Ti_ta&n di_ui^de_ns o&rbi_ di^e&m,
+Ta&ci^ti_sque^ prae_be&ns co_nsci^u_m sa&cri_s iu^ba&r
+He^ca^te_ tri^fo_rmi&s, quo_sque^ iu_ra&ui_t mi^hi&
+De&o_s I^a_so&n, quo_sque^ Me_de&ae_ ma^gi&s
+Fa&s e_st pre^ca_ri&: no_cti^s ae_te&rnae_ cha^o&s,
+A&ue_rsa^ su^pe^ri&s re_gna^ ma_ne&sque i_mpi^o&s
+Do^mi^nu_mque^ re_gni& tri_sti^s e_t do^mi^na_m fi^de&
+Me^li^o_re^ ra_pta&m, uo_ce^ no_n fau&sta_ pre^co&r.
+Nu&nc, nu_nc a^de_ste& sce^le^ri^s u_ltri&ce_s de^ae&,
+Cri&ne_m so^lu_ti&s squa_li^dae_ se&rpe_nti^bu&s,
+A&tra_m cru^e_nti&s ma^ni^bu^s a_mple&xae_ fa^ce&m,
+A&de_ste^, tha^la^mi&s ho_rri^dae_ quo&nda_m me^i&s
+Qua&le_s ste^ti_sti&s: co_niu^gi_ le&tu_m no^uae&
+Le&tu_mque^ so^ce^ro e&t re_gi^ae_ sti&rpi_ da^te&.
+Nu&m pe_iu^s a^li^qui&d? quo_d pre^ce_r spo&nso_ ma^lu&m?
+Vi&ua_t; pe^r u_rbe&s e_rre^t i_gno&ta_s e^ge&ns
+E&xu_l pa^ue_ns i&nui_su^s i_nce&rti_ la^ri&s,
+Ia&m no_tu^s ho_spe&s li_me^n a^li^e&num e_xpe^ta&t;
+Me& co_niu^gem o_pto&, quo_que^ no_n a^li^u_d que^a&m
+Pei&u_s pre^ca_ri&, li_be^ro_s si^mi^le_s pa^tri&
+Si^mi^le_sque^ ma_tri& - pa_rta^ ia_m, pa&rta u_lti^o e&st:
+Pe^pe^ri_. Que^re_la&s ue_rba^que i_n c&assu_m se^ro&?
+No&n i_bo i^n ho_ste&s? ma^ni^bu^s e_xcu^ti^a_m fa^ce&s
+Cae&lo_que^ lu_ce&m - spe_cta^t ho_c no&stri_ sa^to&r
+So&l ge^ne^ri^s, e_t spe&cta_tu^r, e_t cu&rru i_nsi^de&ns
+Pe&r so^li^ta^ pu_ri& spa^ti^a^ de_cu&rri_t po^li&?
+No&n re^di^t i^n o_rtu&s e_t re^me_ti&tu_r di^e&m?
+Da&, da_ pe^r au_ra&s cu_rri^bu_s pa^tri^i_s ue^hi&,
+Co&mmi_tte ha^be_na&s, ge^ni^to^r, e_t fla&gra_nti^bu&s
+I&gni^fe^ra^ lo_ri&s tri^bu^e^ mo^de^ra&ri_ iu^ga&:
+Ge^mi^no_ Co^ri_ntho&s li_to^ri o_ppo&ne_ns mo^ra&s
+Cre&ma_ta^ fla_mmi&s ma^ri^a^ co_mmi&tta_t du^o&.
+Ho&c re_sta^t u_nu&m, pro_nu^ba_m tha^la^mo_ fe^ra&m
+V&t i_psa^ pi_nu&m po_stque^ sa_cri^fi^ca_s pre^ce&s
+Cae&da_m di^ca_ti&s ui_cti^ma_s a&lta_ri^bu&s.
+Pe&r ui_sce^ra i_psa& quae_re^ su_ppli^ci^o_ ui^a&m,
+Si& ui_ui^s, a^ni^me&, si_ qui^d a_nti&qui_ ti^bi&
+Re^ma^ne_t ui^go_ri&s; pe_lle^ fe_mi^ne^o_s me^tu&s
+E^t i^nho_spi^ta_le&m Ca_uca^su_m me&nte i_ndu^e&.
+Quo&dcu_mque^ ui_di&t Pha_si^s au_t Po&ntu_s ne^fa&s,
+Vi&de_bi^t I_sthmo&s. e_ffe^ra i_gno&ta ho_rri^da&,
+Tre&me_nda^ cae_lo& pa^ri^te^r a_c te&rri_s ma^la&
+Me&ns i_ntu^s a^gi^ta&t: uu_lne^ra e_t cae&dem e_t ua^gu&m
+Fu&nu_s pe^r a_rtu&s - le^ui^a^ me^mo^ra&ui_ ni^mi&s:
+Hae&c ui_rgo^ fe_ci&; gra^ui^o^r e_xu&rga_t do^lo&r:
+Ma&io_ra^ ia_m me& sce^le^ra^ po_st pa&rtu_s de^ce&nt.
+A&cci_nge^re i_ra& te_que i^n e_xi^ti^u_m pa^ra&
+Fu&ro_re^ to_to&. pa^ri^a^ na_rre&ntu_r tu^a&
+Re&pu^di^a^ tha^la^mi&s: quo_ ui^ru_m li&nque_s mo^do&?
+Ho&c quo_ se^cu_ta e&s. ru_mpe^ ia_m se&gne_s mo^ra&s:
+Quae& sce^le^re^ pa_rta e&st, sce^le^re^ li_nque&nda e_st do^mu&s.
+
+*Thyestes speech*
+O Phoebe patiens, fugeris retro licet &_^^^&_^_&_^&
+medioque raptum merseris caelo diem, ^^_^_&_^_&_^&
+sero occidisti – lancinat gnatos pater &_^_&_^_&_^&
+artusque mandit ore funesto suos; &_^_&_^_&_^&
+nitet fluente madidus unguento comam &_^_&^^^_&_^&
+grauisque uino; saepe praeclusae cibum &_^_&_^_&_^&
+tenuere fauces – in malis unum hoc tuis ^^_^_&_^_&_^&
+bonum est, Thyesta, quod mala ignoras tua. &_^_&_^_&_^&
+sed et hoc peribit. uerterit currus licet ^^_^_&_^_&_^&
+sibi ipse Titan obuium ducens iter &_^_&_^_&_^&
+tenebrisque facinus obruat taetrum nouis ^^_^^^&_^_&_^&
+nox missa ab ortu tempore alieno grauis, &_^_&_^^^&_^&
+tamen uidendum est. tota patefient mala. &_^_&_^^^&_^&
+
+*Phaedra 1213-1280*
+I&n ho_c re^di_mu&s? pa^tu^i^t a_d cae&lu_m ui^a&,
+Bi&na u_t ui^de_re&m fu_ne^ra e_t ge^mi^na_m ne^ce&m,
+Cae&le_bs e^t o_rbu&s fu_ne^bre_s u&na_ fa^ce&
+V&t co_ncre^ma_re&m pro_li^s a_c tha^la^mi_ ro^go&s?
+Do&na_to^r a_trae& lu_ci^s, A_lci&de_, tu^u&m
+Di&ti_ re^mi_tte& mu_nu^s; e_re&pto_s mi^hi&
+Re&sti^tu^e^ ma_ne&s. - i_mpi^u_s fru&stra i_nuo^co&
+Mo&rte_m re^li_cta&m: cru_du^s e_t le&ti a_rti^fe&x,
+E&xi^ti^a^ ma_chi&na_tu^s i_nso^li^ta e_ffe^ra&,
+Nu&nc ti^bi^me^t i_pse& iu_sta^ su_ppli^ci^a i_rro^ga&.
+Pi&nu_s co^a_cto& ue_rti^ce a_tti&nge_ns hu^mu&m
+Cae&lo_ re^mi_ssu&m fi_nda^t i_n ge^mi^na_s tra^be&s,
+Mi&tta_rue^ prae_ce&ps sa_xa^ pe_r Sci&ro_ni^a&?
+Gra^ui^o_ra^ ui_di&, quae_ pa^ti_ clau&so_s iu^be&t
+Phle^ge^tho_n no^ce_nte&s i_gne^o_ ci&nge_ns ua^do&.
+Quae& poe_na^ me_me&t ma^ne^a^t e_t se&de_s, sci^o&:
+V&mbrae_ no^ce_nte&s, ce_di^te e_t ce&rui_ci^bu&s
+Hi&s, hi_s re^po^si^tu&m de_gra^ue_t fe&ssa_s ma^nu&s
+Sa&xu_m, se^ni_ pe&re_nni^s Ae_o^li^o_ la^bo&r;
+Me& lu_da^t a_mni&s o_ra^ ui_ci&na a_llu^e&ns;
+Vu&ltu_r re^li_cto& tra_nsuo^le_t Ti^ty^o_ fe^ru&s
+Me&u_mque^ poe_nae& se_mpe^r a_ccre&sca_t ie^cu&r;
+E&t tu_ me^i_ re^qui^e_sce^ Pi_ri^tho^i_ pa^te&r:
+Hae&c i_nci^ta_ti&s me_mbra^ tu_rbi^ni^bu_s fe^ra&t
+Nu&squa_m re^si_ste&ns o_rbe^ re^uo^lu&to_ ro^ta&.
+De&hi_sce^ te_llu&s, re^ci^pe^ me_ di&ru_m cha^o&s,
+Re^ci^pe, hae_c a^d u_mbra&s iu_sti^o_r no&bi_s ui^a e&st:
+Gna&tu_m se^quo_r - ne& me^tu^e^ qui_ ma&ne_s re^gi&s:
+Ca&sti_ ue^ni_mu&s; re^ci^pe^ me ae_te&rna_ do^mo&
+No&n e_xi^tu_ru&m. - no_n mo^ue_nt di&uo_s pre^ce&s;
+A&t, si_ ro^ga_re&m sce^le^ra^, qua_m pro&ni_ fo^re&nt!
+The&seu_, que^re_li&s te_mpu^s ae_te&rnu_m ma^ne&t:
+Nu&nc iu_sta^ na_to& so_lue e^t a_bsco&nde o_ci^u&s
+Di&spe_rsa^ foe_de& me_mbra^ la^ni^a&tu e_ffe^ro&.
+Hu&c, hu_c, re^li^qui^a&s ue^hi^te^ ca_ri& co_rpo^ri&s
+Po&ndu_sque e^t a_rtu&s te^me^re^ co_nge&sto_s da^te&.
+Hi&ppo^ly^tu^s hi_c e&st? cri_me^n a_gno&sco_ me^u&m:
+E^go^ te_ pe^re_mi&; neu_ no^ce_ns ta&ntu_m se^me&l
+So&lu_sue^ fi^e^re&m, fa^ci^nu^s au_su&ru_s pa^re&ns
+Pa&trem a_duo^ca_ui&. mu_ne^re e_n pa^tri^o_ fru^o&r.
+O& tri_ste^ fra_cti&s o_rbi^ta_s a&nni_s ma^lu&m!
+Co&mple_cte^re a_rtu&s, quo_dque^ de_ na&to e_st su^pe&r,
+Mi^se^ra_nde^, mae_sto& pe_cto^re i_ncu&mbe_ns, fo^ue&.
+Di&sie_cta^, ge^ni^to&r, me_mbra^ la^ce^ri& co_rpo^ri&s
+I&n o_rdi^ne_m di&spo_ne e^t e_rra&nte_s lo^co&
+Re&sti^tu^e^ pa_rte&s: fo_rti^s hi_c de&xtrae_ lo^cu&s,
+Hi&c lae_ua^ fre_ni&s do_cta^ mo^de^ra&ndi_s ma^nu&s
+Po&ne_nda^: lae_ui& la^te^ri^s a_gno&sco_ no^ta&s.
+Qua&m ma_gna^ la^cri^mi&s pa_rs a^dhu_c no&stri_s a^be&st!
+Du&ra_te^ tre^pi^dae& lu_gu^bri o_ffi^ci^o_ ma^nu&s,
+Fle&tu_sque^ la_rgo&s si_sti^te, a_re&nte_s ge^nae&,
+Du&m me_mbra^ na_to& ge^ni^to^r a_dnu^me^ra_t su^o&
+Co&rpu_sque^ fi_ngi&t. ho_c qui^d e_st fo&rma_ ca^re&ns
+E&t tu_rpe^, mu_lto& uu_lne^re a_bru&ptum u_ndi^que&?
+Quae& pa_rs tu^i_ si&t du^bi^to^; se_d pa&rs e_st tu^i&:
+Hi&c, hi_c re^po_ne&, no_n su^o, a_t ua^cu^o_ lo^co&.
+Hae&cne i_lla^ fa^ci^e&s i_gne^ si_de^re^o_ ni^te&ns,
+I^ni^mi_ca^ fle_cte&ns lu_mi^na? hu_c ce^ci^di_t de^co&r?
+O& di_ra^ fa_ta&, nu_mi^num o_ sae&uu_s fa^uo&r!
+Si&c a_d pa^re_nte&m na_tu^s e_x uo&to_ re^di&t?
+E&n hae_c su^pre_ma& do_na^ ge^ni^to&ri_s ca^pe&,
+Sae&pe e_ffe^re_ndu&s; i_nte^rim hae_c i&gne_s fe^ra&nt.
+Pa^te^fa^ci^te a^ce_rba&m cae_de^ fu_ne&sta_ do^mu&m;
+Mo&pso^pi^a^ cla_ri&s to_ta^ la_me&nti_s so^ne&t.
+Vo&s a_ppa^ra_te& re_gi^i_ fla&mma_m ro^gi&;
+A&t uo_s pe^r a_gro&s co_rpo^ri_s pa&rte_s ua^ga&s
+I&nqui_ri^te. - i_sta&m te_rra^ de_fo&ssa_m pre^ma&t,
+Gra&ui_sque^ te_llu&s i_mpi^o_ ca^p^iti i_ncu^be&t.
+
+*Octavia 222-272*
+Iu&nge_ntu^r a_nte& sae_ua^ si_de^ri^bu_s fre^ta&
+E&t i_gni^s u_ndae&, Ta_rta^ro_ tri&sti_ po^lu&s,
+Lu&x a_lma^ te^ne^bri&s, ro_sci^dae_ no&cti_ di^e&s,
+Qua&m cu_m sce^le_sti& co_niu^gi_s me&nte i_mpi^a&
+Me&ns no_stra^, se_mpe&r fra_tri^s e_xti&ncti_ me^mo&r.
+V^ti^na_m ne^fa_ndi& pri_nci^pi_s di&ru_m ca^pu&t
+O&bru^e^re^ fla_mmi&s cae_li^tu_m re&cto_r pa^re&t,
+Qui& sae_pe^ te_rra&s fu_lmi^ne i_nfe&sto_ qua^ti&t
+Me&nte_sque^ no_stra&s i_gni^bu_s te&rre_t sa^cri&s
+No&u_isque^ mo_nstri&s; ui_di^mu_s cae&lo_ iu^ba&r
+A&rde_ns co^me_te&n pa_nde^re i_nfau&sta_m fa^ce&m,
+Qua& plau_stra^ ta_rdu&s no_cti^s a_lte&rna_ ui^ce&
+Re&gi_t Bo^o_te&s, fri_go^re _Arcto&o_ ri^ge&ns:
+E&n i_pse^ di_ro& spi_ri^tu_ sae&ui_ du^ci&s
+Po&llu^i^tu^r ae_the&r, ge_nti^bu_s cla&de_s no^ua&s
+Mi&na_ntu^r a_stra&, qua_s re^gi_t du&x i_mpi^u&s.
+No&n ta_m fe^ru_m Ty&pho_na^ ne_gle&cto_ Io^ue&
+I&ra_ta^ Te_llu&s e_di^di_t quo&nda_m pa^re&ns:
+Hae&c gra^ui^o^r i_llo& pe_sti^s, hi_c ho&sti_s de^u&m
+Ho^mi^nu_mque^ te_mpli&s e_xpu^li_t su^pe^ro_s su^i&s
+Ci&ue_sque^ pa^tri^a&, spi_ri^tu_m fra&tri a_bstu^li&t,
+Hau&si_t cru^o_re&m ma_tri^s - e_t lu&ce_m ui^de&t
+Fru^i^tu_rque^ ui_ta& no_xi^am a_tque a^ni^ma_m tra^hi&t!
+Pro& su_mme^ ge^ni^to&r, te_la^ cu_r fru&stra_ ia^ci&s
+I&nui_cta^ to^ti^e&ns te^me^re^ re_ga&li_ ma^nu&?
+I&n ta_m no^ce_nte&m de_xtra^ cu_r ce&ssa_t tu^a&?
+V^ti^na_m su^o_ru&m fa^ci^no^ru_m poe&na_s lu^a&t
+Ne&ro i_nsi^ti_uu&s, Do^mi^ti^o_ ge^ni^tu_s pa^tre&,
+O&rbi_s ty^ra_nnu&s, que_m pre^mi_t tu&rpi_ iu^go&
+Mo&ru_mque^ ui^ti^i&s no_me^n Au_gu&stum i_nqui^na&t!
+I&ndi_gnu^s i_lle&, fa^te^o^r, e_st tha^la^mi_s tu^i&s;
+Se&d ce_de^ fa_ti&s a_tque^ fo_rtu&nae_ tu^ae&,
+A&lu_mna^, quae_so&, ne_ue^ ui^o^le&nti_ mo^ue&
+I&ra_m ma^ri_ti&. fo_rsi^ta_n ui&nde_x de^u&s
+E&xi_ste^t a^li^qui&s, lae_tu^s e_t ue^ni^e_t di^e&s.
+Gra&ui_ de^o_ru&m no_stra^ ia_m pri&de_m do^mu&s
+V&rge_tu^r i_ra&, pri_ma^ qua_m pre&ssi_t Ve^nu&s
+Fu&ro_re^ mi^se^rae& du_ra^ ge^ne^tri&ci_s me^ae&,
+Quae& nu_pta^ de_me&ns nu_psi^t i_nce&sta_ fa^ce&,
+O&bli_ta^ no_stri&, co_niu^gi_s, le&gum i_mme^mo&r.
+I&llo_s so^lu_ta& cri_ne^, su_cci&ncta a_ngui^bu&s
+V&ltri_x E^ri_ny&s ue_ni^t a_d Sty^gi^o_s to^ro&s
+Ra&pta_sque^ tha^la^mi&s sa_ngui^ne e_xti&nxi_t fa^ce&s;
+I&nce_ndi^t i_ra& pri_nci^pi_s pe&ctu_s tru^ci&
+Cae&dem i_n ne^fa_nda&m: ce^ci^di^t i_nfe&li_x pa^re&ns,
+Heu&, no_stra^ fe_rro& me_que^ pe_rpe^tu^o o_bru^i&t
+E&xti_ncta^ lu_ctu&; co_niu^ge_m tra&xi_t su^u&m
+Na&tu_mque a^d u_mbra&s, pro_di^di_t la&psa_m do^mu&m.
+Re^no^ua_re^ lu_ctu&s pa_rce^ cu_m fle&tu_ pi^o&s,
+Ma&ne_s pa^re_nti&s ne_ue^ so_lli^ci^ta_ tu^ae&,
+Gra&ue_s fu^ro_ri&s quae_ su^i_ poe&na_s de^di&t.
+
+*Agamemnon 782-807*
+Ta_nde_m re^ue_rto_r so_spe^s a_d pa^tri^o_s la^re&s;
+O_ ca_ra^ sa_lue& te_rra^! ti^bi^ to_t ba_rba^rae_
+De&de_re^ ge_nte_s spo^li^a^, ti^bi^ fe&li_x di^u&
+Po&te_nti^s A^si^ae_ do^mi^n^a su_mmi&si_t ma^nu&s.
+Qui&d i_sta^ ua_te_s co_rpu^s e_ffu&sa a_c tre^me&ns
+Du^bi^a_ la^ba_t ce_rui_ce^? fa^mu^li, a_tto_lli^te&,
+Re^fo^ue_te^ ge^li^do& la^ti^ce^. ia_m re^ci^pi_t di^e_m
+Ma_rce_nte^ ui_su&. Su_sci^ta_ se_nsu_s tu^o_s:
+O_pta_tu^s i_lle& po_rtu^s ae_ru_mni_s a^de&st.
+Fe_stu_s di^e_s e_st.  Fe_stu^s e_t Tro_iae_ fu^i&t.
+Ve^ne^re_mu^r a_ra_s.  Ce^ci^di^t a_nte a_ra_s pa^te&r.
+Io&ue_m pre^ce_mu_r pa^ri^te^r.  He_rce&u_m Io^ue&m?
+Cre&di_s ui^de_re& te I_li^um?  E_t Pri^a^mu_m si^mu&l.
+Hi_c Tro_ia^ no_n e_st.  V^bi He^le^na e_st, Tro&ia_m pu^ta&.
+Ne& me^tu^e^ do^mi^na_m fa^mu^la^.  Li_be_rta_s a^de&st.
+Se_cu_ra^ ui_ue&.  Mi^hi^ mo^ri e_st se_cu_ri^ta_s.
+Nu_llum e_st pe^ri_clu_m ti^bi^me^t.  A_t ma_gnu_m ti^bi&.
+Vi_cto_r ti^me_re& qui_d po^te_st?  Quo_d no_n ti^me&t.
+Ha_nc fi_da^ fa^mu^li& tu_rba^, dum e_xcu^ti^a_t de^u&m,
+Re^ti^ne_te^ ne_ qui&d i_mpo^te_ns pe_cce_t fu^ro&r.
+A_t te_, pa^te_r, qui& sae_ua^ to_rque_s fu_lmi^na&
+Pe_lli_sque^ nu_be_s, si_de^ra e_t te_rra_s re^gi&s,
+A_d que_m tri^u_mphi_ spo^li^a^ ui_cto&re_s fe^ru&nt,
+E_t te_ so^ro_re_m cu_ncta^ po_lle_nti_s ui^ri_,
+A&rgo^li^ca^ Iu_no&, pe^co^re^ uo_ti_uo_ li^be&ns
+A^ra^bu_mque^ do_ni_s su_ppli^ce e_t fi&bra_ co^la&m.

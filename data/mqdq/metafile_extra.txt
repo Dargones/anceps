@@ -1,0 +1,20 @@
+dictionary_extra.txt
+original/Ho_ars.txt clean/Ho_ars.txt
+original/Ho_epistulae_1.txt clean/Ho_epistulae_1.txt
+original/Ho_epistulae_2.txt clean/Ho_epistulae_2.txt
+original/Ho_saturae_1.txt clean/Ho_saturae_1.txt
+original/Ho_saturae_2.txt clean/Ho_saturae_2.txt
+original/Au_Caesares.txt clean/Au_Caesares.txt
+original/Au_Cupido_cruciatus.txt clean/Au_Cupido_cruciatus.txt
+original/Au_Mosella.txt clean/Au_Mosella.txt
+original/Au_ad_nepotem.txt clean/Au_ad_nepotem.txt
+original/Au_cento_nuptialis.txt clean/Au_cento_nuptialis.txt
+original/Au_ecloga.txt clean/Au_ecloga.txt
+original/Au_genethliacos.txt clean/Au_genethliacos.txt
+original/Au_griphus_ternarii_numeri.txt clean/Au_griphus_ternarii_numeri.txt
+original/Au_oratio_consulis.txt clean/Au_oratio_consulis.txt
+original/Au_ordo_urbium.txt clean/Au_ordo_urbium.txt
+original/Au_pater_ad_filium.txt clean/Au_pater_ad_filium.txt
+original/Au_precationes.txt clean/Au_precationes.txt
+original/Au_technopaegnion.txt clean/Au_technopaegnion.txt
+original/Au_uersus_Paschales.txt clean/Au_uersus_Paschales.txt
