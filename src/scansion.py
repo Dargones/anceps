@@ -1,12 +1,9 @@
 """
 This module is the bulk of the algorithm. Usage:
-python3 scansion.py input_file_name output_file_name
-where input_file_name          is the name of the file that contains the lines
-                               to be scanned
-      output_file_name         the name of the file to which to print the output
-
+python3 scansion.py file1 file2 ... filen
 """
 
+import sys
 import copy
 from src import mqdqParser
 from src import uproblem
@@ -26,8 +23,6 @@ MODES = [(MQDQ, False)]
 # if MODES[i][1] == True.
 
 LINES_TO_DEBUG = []
-ELID_END = {}
-ELID_BEG = {}
 
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
@@ -41,6 +36,9 @@ class Word:
     total = 0
     A_VOWEL = 'a'
     elision_count = 0
+
+    ELID_END = {}  # dictionary of words elided at the end
+    ELID_BEG = {}  # dictionary of words elided at the beginning
 
     def __init__(self, word):
         """
@@ -104,20 +102,19 @@ class Word:
                 self.add_elision(next_word)
 
     def add_elision(self, next_word):
-        global ELID_BEG, ELID_END
         this_word = mqdqParser.lemmatizer.lemmatize(self.word)[0]
         next_word = mqdqParser.lemmatizer.lemmatize(u_or_v(i_or_j(next_word)))[0]
         next_word = mqdqParser.lemmatizer.lemmatize(u_or_v(i_or_j(next_word)))[0]
         self.elision = True
         Word.elision_count += 1
-        if this_word in ELID_END:
-            ELID_END[this_word] += 1
+        if this_word in self.ELID_END:
+            self.ELID_END[this_word] += 1
         else:
-            ELID_END[this_word] = 1
-        if next_word in ELID_BEG:
-            ELID_BEG[next_word] += 1
+            self.ELID_END[this_word] = 1
+        if next_word in self.ELID_BEG:
+            self.ELID_BEG[next_word] += 1
         else:
-            ELID_BEG[next_word] = 1
+            self.ELID_BEG[next_word] = 1
 
     def get_meter(self, mode):
         """
@@ -152,7 +149,28 @@ class Word:
                     result.append(0)
             return result
         return [1]
-        
+
+    @staticmethod
+    def save_elision_stats(filename, n_lines):
+        """
+        Save statistics about elision to a specific file
+        :param filename:
+        :param n_lines: number of lines in the original file
+        :return:
+        """
+        with open(filename, 'w') as file:
+            file.write("Elision rate: " +
+                       str(round(Word.elision_count / n_lines, 5)) + '\n')
+            file.write("Elided at the end:\n")
+            sorted_elided = sorted(Word.ELID_END, key=Word.ELID_END.get,
+                                   reverse=True)
+            for word in sorted_elided:
+                file.write(word + " " + str(Word.ELID_END[word]) + '\n')
+            file.write("\nElided at the beginning:\n")
+            sorted_elided = sorted(Word.ELID_BEG, key=Word.ELID_BEG.get,
+                                   reverse=True)
+            for word in sorted_elided:
+                file.write(word + " " + str(Word.ELID_BEG[word]) + '\n')
 
 # ------------------------------------------------------------------------------
 # ------------- The Line Class Definition --------------------------------------
@@ -274,65 +292,41 @@ def scansion_versions(line, meter, meter_index):
     return result
 
 
-def main(t, meters, trace=True):
+def main(path_to_text, meters, trace=True, print_problems=True, elision=False):
     """
     Load the lines from the file and attempt to scan them. Print some statistic
     at the end. Return the scanned lines
     :param path_to_text: The text to scan
     :param meters: What meter should be used for scanning. E.g., use [HEXAMETER]
     for hexameters and [HEXAMETER, PENTAMETER] for elegiacs
-    :param trace: Print statistics?
+    :param elision: If True, save elision statistics to a separate file
+    :param print_problems: If True, print info about problematic lines
+    :param trace: If True, print various stats
     :return: list of possible scansions for each line
     """
-    path_to_text = "../texts/" + t + ".txt";
     lines = []
     result = []
     Word.elision_count = 0
-    global ELID_END
-    global ELID_BEG
-    ELID_END = {}
-    ELID_BEG = {}
+    Word.ELID_END = {}
+    Word.ELID_BEG = {}
     with open(path_to_text) as file:
         for line in file:
             lines.append(Line(line))
             result.append([])
-    print(t)
-    print("Elision rate: " + str(round(Word.elision_count/len(lines), 5)))
-    """ print("Elided at the end:")
-    global ELID_NED
-    elc = 0
-    sorted_elided = sorted(ELID_END, key=ELID_END.get, reverse=True)
-    for i in sorted_elided:
-        if ELID_END[i] > 0:
-            print(str(i) + " " + str(ELID_END[i]))
-            elc += ELID_END[i] """
-    """for i in sorted_elided:
-        if ELID_END[i] > 1:
-            print(str(ELID_END[i])) """
-    # print("Other: " + str(elc))
-
-    """ print("\nElided at the beginning:")
-    elc = 0
-    sorted_elided = sorted(ELID_BEG, key=ELID_BEG.get, reverse=True)
-    for i in sorted_elided:
-        if ELID_BEG[i] > 0:
-            print(str(i) + " " + str(ELID_BEG[i]))
-            elc += ELID_BEG[i]"""
-    """for i in sorted_elided:
-        if ELID_BEG[i] > 1:
-            print(str(ELID_BEG[i])) """
-    # print("Other: " + str(elc))
-
-    if trace:
-        print(Word.mqdqit/Word.total)
+    print("Scanning: " + path_to_text)
+    if elision:
+        elision_file = 'output/' + path_to_text.split('/')[-1] + '.elision'
+        Word.save_elision_stats(elision_file, len(lines))
+    print("Fraction of words in dictionary: " + str(Word.mqdqit/Word.total))
 
     progress = -1
     attempt_n = 0
     versions_total = 0
     possible_progress = False
 
-    with open("../output/" + t + ".txt") as file:
-        res = file.readlines();
+    if print_problems:
+        with open('output/' + path_to_text.split('/'[-1])) as file:
+            previous_attempt = file.readlines()
 
     while (progress != 0 or possible_progress) and (
                     attempt_n < MAX_ATTEMPT or MAX_ATTEMPT == -1):
@@ -344,8 +338,7 @@ def main(t, meters, trace=True):
             if mode is None:
                 break
         if trace:
-            print('This is the ' + str(attempt_n) +
-                  'st/nd/th scansion attempt...')
+            print('\nAttempt #' + str(attempt_n))
         empty = 0
         identified = 0
         versions_total_new = 0
@@ -353,21 +346,25 @@ def main(t, meters, trace=True):
             if not mode[1] and lines[i].scanned:
                 versions_total_new += 1
                 identified += 1
-                """att = lines[i].get_meter(mode[0])
-                curr = scansion_versions(att, meter, 0)
-                if len(curr) == 1 and curr[0] != result[i][0]:
-                    print(lines[i].initial_orthography + str(' '.join(result[i][0])) + "\n" + str(' '.join(curr[0])));"""
                 continue
             meter = meters[i % len(meters)]
             att = lines[i].get_meter(mode[0])
             curr = scansion_versions(att, meter, 0)
 
-            # if attempt_n == 0 and UNK in res[i] and not trace and len(list(re.finditer(r"[ioeuay][^a-z]* [^a-z]*s[rtplkghfdsxzcvbnm]", lines[i].initial_orthography))) != 0:
-            if attempt_n == 0 and not trace:
-                if UNK in res[i]:
-                    print("Line:" + lines[i].initial_orthography + "Output: " + " ".join(att) + "\nNumber of syllables according to the program: " + str(len(att)) + "\n" + "The program failed to scan the line\n\n")
-                elif '|' in res[i]:
-                    print("Line:" + lines[i].initial_orthography + "Output: " + " ".join(att) + "\nNumber of syllables according to the program: " + str(len(att)) + "\n" + "The program gave multiple possible scansions\n\n")
+            if attempt_n == 0 and print_problems:
+                if UNK in previous_attempt[i]:
+                    print("Line:" + lines[i].initial_orthography +
+                          "Output: " + " ".join(att) +
+                          "\nNumber of syllables according to the program: " +
+                          str(len(att)) + "\n" +
+                          "The program failed to scan the line\n\n")
+                elif '|' in previous_attempt[i]:
+                    print("Line:" + lines[i].initial_orthography +
+                          "Output: " + " ".join(att) +
+                          "\nNumber of syllables according to the program: " +
+                          str(len(att)) + "\n" +
+                          "The program gave multiple possible scansions\n\n")
+
             if len(curr) == 1:
                 versions_total += 1
                 identified += 1
@@ -410,69 +407,36 @@ def main(t, meters, trace=True):
     return result
 
 
-def print_results(lines, output_file, all_meters=None, printDistribution=False):
+def print_results(lines, output_file):
     """
-    Print the results of scansion into the file indicated
-    :param lines: Lines to print
-    :param output_file: The name of the file to print the files to
-    :param meters: What meter should be used for scanning. E.g., use [HEXAMETER]
-    for hexameters and [HEXAMETER, PENTAMETER] for elegiacs
+    Save the results of scansion to the file indicated
+    :param lines:       Data to save
+    :param output_file: File to print the data to
     :return:
     """
-    dict = {}
-    for meter in all_meters:
-        dict[' '.join(meter)] = 0
-
     with open(output_file, 'w') as file:
         for i in range(len(lines)):
             curr = lines[i]
             if UNK in curr[0]:
+                # TODO: does it make sense to print only one character?
                 file.write(UNK + "\n")
                 continue
             to_print = ''
             j = 0
             while j < len(curr):
-                for char in curr[j]:
-                    to_print += char
+                to_print += ' '.join(curr[j])
                 if j < len(curr) - 1:
                     to_print += '|'
                 j += 1
-            if len(curr) == 1 and UNK not in curr[0]:
-                entry = ' '.join(curr[0])
-                dict[entry] += 1
             file.write(to_print + '\n')
-    if printDistribution:
-        for key in dict.keys():
-            print(str(dict[key]))
 
 
 if __name__ == "__main__":
-    """if len(sys.argv) != 3:
-        print("Usage: %s input_file_name output_file_name"
-              % sys.argv[0])
+    if len(sys.argv) < 2:
+        print("Usage: %s file1 file2 ... filen" % sys.argv[0])
         sys.exit(-1)
-    result = main(sys.argv[1], [HEXAMETER], False)
-    print_results(result, sys.argv[2], [HEXAMETER])"""
-    to_scan = ["Medea", "Troades", "Phaedra", "Oedipus", "Agamemnon",
-              "Thyestes_full", "Hercules_Oetaeus", "Hercules_furens", "Phoenissae", "Octavia"]
-    to_scan = ["Procne"]
-    all_trimeters = []
-    for i in range(12, 21):
-        all_trimeters += scansion_versions(UNK * i, TRIMETER, 0)
 
-    """d = {}
-    for meter in all_trimeters:
-        d[' '.join(meter)] = 0
-    for key in d.keys():
-        print(key)"""
-
-    for t in to_scan:
-        result = main(t, [TRIMETER], False)
-        print_results(result, '../output/' + t + ".txt", all_trimeters, False)
-        print("\n")
-    # result = main('../texts/Thyestes.txt', [TRIMETER], False)
-    # print_results(result, '../output/Thyestes.txt')
-    # result = main('../texts/Ovid_mqdq.txt', [HEXAMETER], True)
-    # print_results(result, '../output/Ovid_mqdq.txt')
-    # result = main('../texts/Aeneid_mqdq.txt', [HEXAMETER], True)
-    # print_results(result, '../output/Aeneid_mqdq.txt')
+    for filename in sys.argv[1:]:
+        output_filename = 'output/' + filename.split('/')[-1]
+        result = main(filename, [TRIMETER], True, False, True)
+        print_results(result, output_filename)

@@ -1,5 +1,6 @@
 /archives/*
 /trash/
+/output/
 /.idea/
 /data/completedScansions/
 /data/diogenes/latin*

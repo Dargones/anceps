@@ -1,4 +1,9 @@
 import re
+
+PERSEUS_DATA_FILE_NAME = '/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/diogenes/latin-analyses.txt'
+LEWIS_SHORT_FILE_NAME = '/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/diogenes/1999.04.0059.xml'
+
+
 # ------------------- Info about Syllables and Vowel Lengths -------------------
 
 LONG = '_'
@@ -41,16 +46,6 @@ LONG_SYL = [[LONG], [SHORT, SHORT]]
 YAMB_METROM = [[ANC_SYL, LONG_SYL, SHORT, LONG_SYL]]
 YAMB_METRON_LAST = [[ANC_SYL, LONG_SYL, SHORT, ANCEPS]]
 TRIMETER = [[[YAMB_METROM, YAMB_METROM, YAMB_METRON_LAST]]]
-
-# FIAMB = [[SHORT, ANCEPS]]
-# IAMB = [[SHORT, LONG]]
-# TRIBRACH = [[SHORT, SHORT, SHORT]]
-# YAMB_METROM = [[IAMB, IAMB], [SPONDEE, IAMB], [IAMB, TRIBRACH],
-               # [SPONDEE, TRIBRACH], [TRIBRACH, IAMB]]
-# YAMB_LAST_METROM = [[IAMB, FIAMB], [SPONDEE, FIAMB], [TRIBRACH, FIAMB]]
-# TRIMETER = [[[YAMB_METROM, YAMB_METROM, YAMB_LAST_METROM]]]
-
-
 
 
 # ------------------- Morphology -----------------------------------------------
@@ -207,6 +202,42 @@ def decide_on_length(vowel, follow):
     return UNK
 
 
+def stem_it(word):
+    """
+    Strip off all the endings
+    :param word:
+    :return: the stem of teh word
+    """
+    i = len(word) - 1
+    end = ENDINGS
+    while (i > 0) and word[i] in end:
+        end = end[word[i]]
+        i -= 1
+    return word[:i+1]
+
+
+def multireplace(string, replacements):
+    """
+    Given a string and a replacement map, it returns the replaced string.
+    :param str string: string to execute replacements on
+    :param dict replacements: replacement dictionary {value to find: value to
+    replace}
+    :rtype str:
+    :original source: Bor González Usach (GitHub snippets)
+    """
+    # Place longer ones first to keep shorter substrings from matching where the
+    # longer ones should take place. For instance given the replacements
+    # {'ab': 'AB', 'abc': 'ABC'} against the string 'hey abc', it should produce
+    # 'hey ABC' and not 'hey ABc'
+    substrs = sorted(replacements, key=len, reverse=True)
+
+    # Create a big OR regex that matches any of the substrings to replace
+    regexp = re.compile('|'.join(map(re.escape, substrs)))
+
+    # For each match, look up the new string in the replacements
+    return regexp.sub(lambda match: replacements[match.group(0)], string)
+
+
 def merge_lists(list1, list2, maximize=True, problem=UNK):
     """
     Take and merge two lists. Lists should only have UNK, ANCEPS, LONG, SHORT
@@ -287,6 +318,23 @@ def i_or_j(word):
     return re.sub('(^|['+VOWELS+'])i(['+VOWELS+'])', r'\1j\2', word)
 
 
+def meters_are_equal(m1, m2):
+    """
+    returns True if the two meter patterns much each other
+    :param m1: the first meter pattern
+    :param m2: the second meter patter
+    :return:
+    """
+    if len(m1) != len(m2):
+        return False
+    i = 0
+    while i < len(m1):
+        if m1[i] != m2[i] and m1[i] != ANCEPS and m2[i] != ANCEPS:
+            return False
+        i += 1
+    return True
+
+
 def u_or_v(word):
     """
     Take a word and replace all "u" that should be read as consonants with "v"
@@ -302,7 +350,7 @@ def u_or_v(word):
     return re.sub(r'(^|['+VOWELS+'])u([' + VOWELS + '])', r'\1v\2', word)
 
 
-# ------------------- Construction of teh ENDINGS dictionary -------------------
+# ------------------- Construction of the ENDINGS dictionary -------------------
 
 
 for i in range(len(ALL)):

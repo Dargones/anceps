@@ -12,3 +12,5 @@ only locally available (but they are not needed for algorithm to run)
 - 1999.04.0059.xml - parsed Lewis&Short dictionary
 - quantities.txt - quantities extracted from latin-analyses by *dictionary.py*.
 This data needs revision.
+- quantities.txt - data about where u and i are consonants and where they are 
+vowels, extracted from latin-analyses by *uproblem.py*.

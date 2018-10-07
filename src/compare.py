@@ -16,36 +16,8 @@ where input_file_name          is the name of the file that contains the lines
 """
 from __future__ import division
 import sys
-
 from src.utilities import *
-
-
-def print_stats(text, dactylsponcee=False):
-    """
-    Print the statistics about the frequency of specific meter patterns
-    :param text: the output of teh algorithm
-    :return:
-    """
-    print("Distribution of meter patterns:")
-    meters = {}
-    with open(text) as file:
-        lines = file.readlines()
-    count = 0
-    for line in lines:
-        if UNK in line or '|' in line:
-            continue
-        count += 1
-        line = line.rstrip('\n')
-        if dactylsponcee:
-            line = re.sub(LONG+'\\'+SHORT+'\\'+SHORT, 'D', line)
-            line = re.sub(r'(' + LONG+LONG+'|' + LONG+ANCEPS + ')', 'S', line)
-            line = line[:4]
-        if line in meters:
-            meters[line] += 1
-        else:
-            meters[line] = 1
-    for meter in sorted(meters.keys()):
-        print(meter + ': ' + str(round(meters[meter] / count * 100, 2)) + '%')
+from src.analyze import print_stats
 
 
 def co_format(text, new_format_text):
@@ -76,17 +48,6 @@ def co_format(text, new_format_text):
             file.write(versions[-1][:5] + '\n')
 
 
-def equal(m1, m2):
-    if len(m1) != len(m2):
-        return False
-    i = 0
-    while i < len(m1):
-        if m1[i] != m2[i] and m1[i] != ANCEPS and m2[i] != ANCEPS:
-            return False
-        i += 1
-    return True
-
-
 def compare(man, auto, text):
     """
     Compare the manual results with automatically generated results.
@@ -110,34 +71,34 @@ def compare(man, auto, text):
     with open(text) as file:
         t = file.readlines()
     for i in range(len(m)):
-        m[i] = m[i].rstrip('\n')
+        m[i] = re.sub('[^\\^_&]', '', m[i])
         ma = re.sub('&', 'X', m[i])
-        a[i] = a[i].rstrip('\n')
-        t[i] = t[i].rstrip('\n')
+        a[i] = re.sub('[ \n]', '', a[i])
+        t[i] = re.sub('[^a-zA-Z ]', '', t[i])
         if UNK in a[i]:
             print(str(i) + ":\t" + t[i])
-            print("Program failed to determine the meter. \nCorrect scansion: " + ma + "\nReason: \n")
+            print("Program failed to determine the meter. \nCorrect scansion: " + ma + '\n')
             countEmpty += 1
             if len(a[i]) != len(m[i]):
                 countNotSizedEp += 1
             continue
         versions = a[i].split('|')
         if len(versions) == 1:
-            if equal(a[i], m[i]):
+            if meters_are_equal(a[i], m[i]):
                 countTrue += 1
                 # print(a[i] + " - correct\n")
             else:
                 print(str(i) + ":\t" + t[i])
-                print("Incorrect answer. Program output:" + a[i] + "\nCorrect scansion: " + ma +"\nReason: \n")
+                print("Incorrect answer. Program output: " + a[i] + "\nCorrect scansion: " + ma + '\n')
                 countFalse += 1
                 if len(a[i]) != len(m[i]):
                     countNotSizedId += 1
         else:
             print(str(i) + ":\t" + t[i])
-            print("Multiple answers. Program output:" + a[i] + "\nCorrect scansion: " + ma + "\nReason: \n")
+            print("Multiple answers. Program output: " + a[i] + "\nCorrect scansion: " + ma + '\n')
             found = False
             for version in versions:
-                if equal(version, m[i]):
+                if meters_are_equal(version, m[i]):
                     found = True
                     break
             if found:

@@ -8,16 +8,18 @@ vowel quantities from the scanned mqdq texts. Can be used in 3 different ways:
 2: python3 mqdqParser.py merge FILE_1 FILE_2 ... FILE_N DICT_NAME
     creates the dictionary of vowel quantities by merging 1 to n files indicated
     in the parameters.
-3: python3 mqdqParser.py automatic TASK_DESCRIPTION_FILE
-    where the first line of TASK_DESCRIPTION_FILE is the DICT_NAME, and all
+3: python3 mqdqParser.py automatic METAFILE
+    where the first line of TMETAFILE is the DICT_NAME, and all
     the subsequent lines are pairs of FILE CLEANED_FILE
 """
 
-STEMTIZING_FAILED = "FAIL"
-
+import sys
 from cltk.stem.latin.stem import Stemmer
 from cltk.stem.lemma import LemmaReplacer
 from src.utilities import *
+
+LEMMATIZATION_FAILED = "FAIL"
+# a token placed in a dictionary, when cltk lemmatizer fails
 
 charOK = re.compile('[^a-z\[\]<>\n†\(\-\') –\"\t*\.\?!;:0-9\\,’“‘' +
                     SHORT + LONG + UNK + ']')
@@ -49,100 +51,53 @@ long_by_position = re.compile('_([' + CONSONANTS + ']\n[' + CONSONANTS +
                               ''.join(LONG_CONSONANTS) + '])')
 
 final_u = re.compile('u([^\\'+ SHORT + LONG + '\\' + UNK + '].*\n.)')
+# a u that is neither short, nor long, nor an anceps is a consonant v
 
-SETUP_COMPLETED = False
-DICT_NAME = "dictionary.txt"
+SETUP_COMPLETED = False  # true if the dictionary is loaded into memory
+DEFAULT_DICT = "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/mqdq/dictionary.txt"
+# the default dictionary from which to load the data
 dictionary = {}
+# a dictionary of entries that is loaded into memory before scansion begins
 lemmas = {}
+# a dictionary that ties lemmas to all the forms they can take. This dictionary
+# is used whenever the form itself is not present in the dictionary
 
 stemmer = Stemmer()
 lemmatizer = LemmaReplacer('latin')
 
 
 # ------------------------------------------------------------------------------
-# ------------- The Entry Class Definition -------------------------------------
+# ------------- Creating the dictionary ----------------------------------------
 # ------------------------------------------------------------------------------
-
-
-class Entry:
-    """Represents a single dictionary entry"""
-
-    to_quant = {']': LONG, 'q': '', 'e': '', 'r': '', 't': '', 'y': '', 'u': '',
-                'i': '', 'o': '', 'p': '', 'a': '', 's': '', 'd': '', 'f': '',
-                'g': '', 'h': '', 'j': '', 'k': '', 'l': '', 'z': '', 'x': '',
-                'c': '', 'v': '', 'b': '', 'n': '', 'm': '', '[': ''}
-
-    def __init__(self, tc, versions, entry_str):
-        """
-        :param total_count: 
-        :param versions: 
-        """
-        self.entry_str = entry_str
-        self.versions = []
-        self.initial = versions
-        self.tc = tc
-        for v in versions:
-            self.versions.append((multireplace(v[0],
-                                               Entry.to_quant), v[1] / tc))
-
-    def get_quantities(self):
-        return self.versions
-
-        
-# ------------------------------------------------------------------------------
-# ------------- The Line Class Definition --------------------------------------
-# ------------------------------------------------------------------------------
-
-
-def multireplace(string, replacements):
-    """
-    Given a string and a replacement map, it returns the replaced string.
-    :param str string: string to execute replacements on
-    :param dict replacements: replacement dictionary {value to find: value to
-    replace}
-    :rtype str:
-    :original source: Bor González Usach (GitHub snippets)
-    """
-    # Place longer ones first to keep shorter substrings from matching where the
-    # longer ones should take place. For instance given the replacements
-    # {'ab': 'AB', 'abc': 'ABC'} against the string 'hey abc', it should produce
-    # 'hey ABC' and not 'hey ABc'
-    substrs = sorted(replacements, key=len, reverse=True)
-
-    # Create a big OR regex that matches any of the substrings to replace
-    regexp = re.compile('|'.join(map(re.escape, substrs)))
-
-    # For each match, look up the new string in the replacements
-    return regexp.sub(lambda match: replacements[match.group(0)], string)
 
 
 def check_validity(line, line_id, filename):
     """
     Checks if the following line consists of characters from charOK. Prints a
     warning if it does not.
-    :param line:  line to check
+    :param line:    line to check
     :param line_id: line number inside the text
     """
     for delimiters in list(charOK.finditer(line)):
+        # if the code here executes, a bad character is found
         end = delimiters.end()
         start = delimiters.start()
         char = line[start:end]
-        for i in range(4):
-            if start > 0:
-                start -= 1
-        for i in range(5):
-            if end < len(line):
-                end += 1
+
+        while start > 0 and line[start] not in '\n ':
+            start -= 1
+        while end < len(line) and line[end] not in '\n ':
+            end += 1
 
         print('WARNING: char \'' + char + "\' in file " + filename + " on line "
-              + str(line_id) +
-              ' inside the word ' + line[start:end] + ' should be replaced.\n')
+              + str(line_id) + ' inside the word ' + line[start:end] +
+              ' should be replaced.\n')
 
 
 def clean(input_file_name, output_file_name):
     """
-    Process a file by stripping off punctuation and repacing all strange
-    symbols with appropiate characters
+    Process a file by stripping off punctuation and replacing all strange
+    symbols with appropriate characters
     :param input_file_name: file to process
     :param output_file_name: file to write the output to
     """
@@ -150,17 +105,17 @@ def clean(input_file_name, output_file_name):
         lines = file.readlines()
     with open(output_file_name, 'w') as file:
         for i in range(len(lines)):
-            # if output_file_name == "clean/Lucretius4.txt":
-                # if i == 814:
-                    # print('debug')
             line = lines[i]
-            line = line.rstrip('DS \n\t')
+            line = line.rstrip('DS \n\t')  # stripping off the meter type data
             if i != len(lines) - 1:
                 line += ' '
             line = multireplace(line, replace)
+            # replacing metrical signs with those used by the program
             line = line.lower()
             check_validity(line, i + 1, input_file_name)
+            # checking for any 'bad' characters
             line = unused.sub('', line)
+            # deleting punctuation signs etc.
             last_vowel = len(line) - 1
             while not line[last_vowel] in [LONG, SHORT, UNK, ']'] \
                     and last_vowel != 0:
@@ -206,16 +161,10 @@ def merge(files, dict_name):
                     dict[key] = [[value, 1]]
     with open(dict_name, 'w') as file:
         for key in sorted(dict.keys()):
-            """stem = stemmer.stem(key)[:-1]
-            if not stem:
-                print("stemtizing error: " + key + str(stem))
-                file.write(key + ' ' + STEMTIZING_FAILED + ' ')
-            else:
-                file.write(key + ' ' + stem + ' ')"""
             lemma = lemmatizer.lemmatize(key)
             if not lemma or len(lemma) > 1:
                 print("lemmatizing error: " + key + str(lemma))
-                file.write(key + ' ' + STEMTIZING_FAILED + ' ')
+                file.write(key + ' ' + LEMMATIZATION_FAILED + ' ')
             else:
                 file.write(key + ' ' + lemma[0] + ' ')
             sum = 0
@@ -227,18 +176,49 @@ def merge(files, dict_name):
             file.write('\n')
 
 
-def stem_it(word):
-    i = len(word) - 1
-    end = ENDINGS
-    while (i > 0) and word[i] in end:
-        end = end[word[i]]
-        i -= 1
-    return word[:i+1]
+# ------------------------------------------------------------------------------
+# ------------- The Entry Class Definition -------------------------------------
+# ------------------------------------------------------------------------------
 
 
-def setup():
-    """Load all the information from a given dictionary"""
-    with open(DICT_NAME) as file:
+class Entry:
+    """Represents a single dictionary entry"""
+
+    to_quant = {']': LONG, 'q': '', 'e': '', 'r': '', 't': '', 'y': '', 'u': '',
+                'i': '', 'o': '', 'p': '', 'a': '', 's': '', 'd': '', 'f': '',
+                'g': '', 'h': '', 'j': '', 'k': '', 'l': '', 'z': '', 'x': '',
+                'c': '', 'v': '', 'b': '', 'n': '', 'm': '', '[': ''}
+
+    def __init__(self, tc, versions, entry_str):
+        """
+        :param total_count:
+        :param versions:
+        """
+        self.entry_str = entry_str
+        # the key, i.e. how this form is written without the vowel quantities
+        self.versions = []
+        # different versions of how this form can be scanned
+        self.initial = versions
+        # versions as they appear in the dictionary. Used for debugging purposes
+        self.tc = tc  # total count, i.e. the number of occurrences of this form
+        for v in versions:
+            self.versions.append((multireplace(v[0],
+                                               Entry.to_quant), v[1] / tc))
+            # replaces the count with frequency and deletes all letters
+            # preserving vowel quantities only
+
+
+# ------------------------------------------------------------------------------
+# ------------- Using the dictionary -------------------------------------------
+# ------------------------------------------------------------------------------
+
+
+def setup(dict_name=DEFAULT_DICT):
+    """
+    Load all the information from a given dictionary
+    :param dict_name: the path to the dictionary to load
+    """
+    with open(dict_name) as file:
         for line in file:
             line = line.split(' ')
             key = line[0]
@@ -250,7 +230,8 @@ def setup():
                 versions.append((line[i], int(line[i + 1])))
                 i += 2
             dictionary[key] = Entry(total_count, versions, key)
-            if lemma == STEMTIZING_FAILED:
+            if lemma == LEMMATIZATION_FAILED:
+                # TODO: maybe something should be done in this case
                 continue
             if lemma in lemmas:
                 lemmas[lemma] += [dictionary[key]]
@@ -264,26 +245,31 @@ def get_quantities(word, trace=False):
     """
     Get the information about the vowel quantities in a certain word
     :param word:
-    :param mode: the way to get teh quantities
+    :param trace: if True, print various information in the process
     :return:
     """
     if not SETUP_COMPLETED:
         setup()
     cleaned = multireplace(word, {'v': 'u', 'j': 'i'})
     if cleaned in dictionary:
-        return dictionary[cleaned].get_quantities()
-    # stem = stemmer.stem(cleaned)[:-1]
+        return dictionary[cleaned].versions
+    # If the execution reached this point, the form seems to be absent from the
+    # dictionary (but the lemma might still be present)
     lemma = lemmatizer.lemmatize(cleaned)
     if not lemma or len(lemma) > 1:
         print("lemmatizing error: " + cleaned + " " + str(lemma))
         return
+    # the lemma is found
     lemma = lemma[0]
     if lemma in lemmas:
         meter, rest = best_guess(lemmas[lemma], cleaned, trace)
+        # meter is the scansion of the stem, the rest is the ending/suffixes,
+        # for which the scansion is unkown
         if not meter:
             return None
+        # TODO: perhaps, the code below should be wrapped in a function
         vowels = list(re.finditer(SYLLAB, rest))
-        ending =""
+        ending = ""
         for i in range(len(vowels) - 1):
             letter = rest[vowels[i].start():vowels[i].end()]
             follow = rest[vowels[i].end():vowels[i + 1].start()]
@@ -321,11 +307,16 @@ def best_guess(cognates, word, trace=False):
         if trace:
             print(to_print +
                   "\nNo word with the same stem. Choosing among lemmas")
-        return choose_among_lemmas(cognates, word, trace)
+        # TODO
+        return None, None
 
     to_print += "\nBest: " + str(best) + ", best form: " + best_form.entry_str \
                 + ", meter: " + best_form.initial[0][0] + ", rest: " + \
                 word[len(stem):]
+
+    # now it is only the matter of extracting the part of the word that is
+    # common to both
+    # TODO: maybe only the stem itself should be used
     meter = []
     for version in best_form.initial:
         info = version[0]
@@ -354,12 +345,8 @@ def best_guess(cognates, word, trace=False):
     return meter, word[len(stem):]
 
 
-def choose_among_lemmas(cognates, word, trace):
-    return None, None
-
-
 if __name__ == "__main__":
-    """if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
+    if (len(sys.argv) < 3) or ((sys.argv[1] == 'clean') and (
                 len(sys.argv) < 4)) or ((sys.argv[1] == 'merge') and (
                 len(sys.argv) < 4)) or ((sys.argv[1] != 'automatic') and (
                 sys.argv[1] != 'merge') and (sys.argv[1] != 'clean')):
@@ -367,8 +354,8 @@ if __name__ == "__main__":
               "\tclean the file from various extraterrestrial symbols\n2: " +
               sys.argv[0] + " merge FILE_1 FILE_2 ... FILE_N DICT_NAME\n" +
               "\tcreate a dictionary of vowel quantities\n3: " +
-              sys.argv[0] + " automatic TASK_DESCRIPTION_FILE\n" +
-              "\tthe first line of TASK_DESCRIPTION_FILE is the DICT_NAME," +
+              sys.argv[0] + " automatic METAFILE\n" +
+              "\tthe first line of METAFILE is the DICT_NAME, " +
               "and all the subsequent lines are pairs of FILE CLEANED_FILE\n")
     elif sys.argv[1] == "clean":
         clean(sys.argv[2], sys.argv[3])
@@ -385,15 +372,4 @@ if __name__ == "__main__":
                 names = lines[i].rstrip('\n \t').split('\t')
                 clean(names[0], names[1])
                 list_of_files.append(names[1])
-            merge(list_of_files, lines[0].rstrip('\n'))"""
-    with open('task_description.txt') as file:
-        lines = file.readlines()
-        if len(lines) < 2:
-            print("Not enough lines in the file")
-            sys.exit()
-        list_of_files = []
-        for i in range(1, len(lines)):
-            names = lines[i].rstrip('\n \t').split('\t')
-            clean(names[0], names[1])
-            list_of_files.append(names[1])
-        merge(list_of_files, lines[0].rstrip('\n'))
+            merge(list_of_files, lines[0].rstrip('\n'))

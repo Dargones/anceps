@@ -1,14 +1,61 @@
 import re
-from src import scansion
+from src.scansion import scansion_versions
+from src.utilities import *
 
-UNK = '&'
-MANY = '|'
-SHORT = '^'
-ANCEPS = 'X'
+
 MONOLOGUE_LENGTH = 4
 WINDOW_LEN = 100
 SEARCH_LEN = 5
 LIMIT = 0
+
+
+def get_all_meter_types(meter):
+    """
+    Get all variations of a given meter
+    :param meter:
+    :return:
+    """
+    i = 1
+    meter_found = False
+    result = []
+    variations = scansion_versions(UNK * i, meter, 0)
+    while not meter_found or variations != []:
+        if variations != []:
+            meter_found = True
+        result += variations
+        variations = scansion_versions(UNK * i, meter, 0)
+        i += 1
+    return result
+
+
+def print_stats(text, dactylsponcee=False, meter=TRIMETER):
+    """
+    Print the statistics about the frequency of specific meter patterns
+    :param text: the output of the algorithm
+    :param dactylsponcee: whether the file is in dactylspondee format or not
+    :param meter: the type of meter in which the work in question is written
+    :return:
+    """
+    print("Distribution of meter patterns:")
+    with open(text) as file:
+        lines = file.readlines()
+
+    meters = {' '.join(x): 0 for x in get_all_meter_types(meter)}
+    count = 0
+    for line in lines:
+        if UNK in line or '|' in line:
+            continue
+        count += 1
+        line = line.rstrip('\n')
+        if dactylsponcee:
+            line = re.sub(LONG + '\\' + SHORT + '\\' + SHORT, 'D', line)
+            line = re.sub(r'(' + LONG + LONG + '|' + LONG + ANCEPS + ')', 'S',
+                          line)
+            line = line[:4]
+        meters[line] += 1
+    for pattern in meters.keys():
+        print(pattern + '\t' + str(meters[pattern]) + '\t' + str(
+            round(meters[pattern] / count * 100, 2)) + '%')
 
 
 def get_stats(full_text_file, text_file, supplement, output):
@@ -205,3 +252,84 @@ if __name__ == "__main__":
                 '../texts/Medea_suppl.txt', '../output/Medea.txt')
     # get_stats('../texts/full/Agamemnon_full.txt', '../texts/Agamemnon.txt',
               # '../texts/Agamemnon_suppl.txt', '../output/Agamemnon.txt')
+
+
+import re
+import sys
+
+DEFAULT_QUERY = \
+    ['ego', 'mihi', 'me', 'mei', 'tu', 'tui', 'tibi', 'te', 'se', 'sui', 'sibi']
+
+
+def pronouns(filename, query=DEFAULT_QUERY):
+    print("\n" + filename)
+    count = {}
+    total = 0
+    for p in query:
+        count[p] = 0
+    with open(filename) as file:
+        lines = file.readlines()
+        for line in lines:
+            for p in query:
+                c = len(list(re.finditer(r'[^a-z]' + p + '[^a-z]', line)))
+                count[p] += c
+                total += c
+
+    print("Total: " +
+          str(total) + "(" + str(round(total / len(lines), 2)) + "%)")
+    for key in count.keys():
+        print(key + ": " + str(count[key]))
+
+
+def elision(filename):
+    texts = 0
+    count_end = {}
+    count_beg = {}
+    with open(filename) as file:
+        lines = file.readlines()
+        i = 0
+        while i < len(lines):
+            texts += 1
+            print("\n" + lines[i].rstrip('\n'))
+            i += 2
+            while lines[i] != '\n':
+                key, count = lines[i].rstrip('\n').split(' ')
+                if key in count_end:
+                    count_end[key][0] += 1
+                    count_end[key][1].append(count)
+                else:
+                    count_end[key] = [1, [count]]
+                i += 1
+            i += 2
+            while i < len(lines) and lines[i] != '\n':
+                key, count = lines[i].rstrip('\n').split(' ')
+                if key in count_beg:
+                    count_beg[key][0] += 1
+                    count_beg[key][1].append(count)
+                else:
+                    count_beg[key] = [1, [count]]
+                i += 1
+            i += 2
+
+    print("Elided in the end")
+    sort = sorted(count_end, key=lambda x: x[0], reverse=True)
+    for i in sort:
+        if count_end[i][0] == texts:
+            print(i + ' ' + str(count_end[i][1]))
+
+    print("\nElided in the beginning")
+    sort = sorted(count_beg, key=lambda x: x[0], reverse=True)
+    for i in sort:
+        if count_beg[i][0] == texts:
+            print(i + ' ' + str(count_beg[i][1]))
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: %s input_file_name word0 word1 ... wordn" % sys.argv[0])
+        sys.exit(-1)
+    elision(filename=sys.argv[1])
+    if len(sys.argv) > 2:
+        pronouns(filename=sys.argv[1], query=sys.argv[2:])
+    else:
+        pronouns(filename=sys.argv[1])

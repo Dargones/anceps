@@ -17,4 +17,3 @@ Procne with speakers being marked.
 - mqdq - directory containing various data otained from the 
 [MusisQue DeoQue database](http://mizar.unive.it/mqdq/public/). See README.md 
 inside.
-- ijuv_dictionary.txt - a dictionary for solving the u/v and i/j problem.
