@@ -11,7 +11,7 @@ from src.utilities import *
 
 MQDQ = 0
 REPEAT = 1
-MAX_ATTEMPT = 300
+MAX_ATTEMPT = 200
 
 MODES = [(MQDQ, False)]
 # each time the program makes an attempt to scan the lines it can employ a
@@ -57,6 +57,7 @@ class Word:
         self.elision = False
         self.long_by_pos = False
         self.case_problem = False
+        self.muta_cum_liquida = False
 
     def analyse(self, next_word, trace=False):
         """
@@ -64,6 +65,7 @@ class Word:
         :param next_word:
         :return:
         """
+        # TODO: fix the problem with ve
         Word.total += 1
         self.meter = mqdqParser.get_quantities(self.word, trace)
         if self.meter:
@@ -80,7 +82,15 @@ class Word:
                                       re.sub(' ', '', follow)) == LONG:
                     self.long_by_pos = True
                 elif self.word[-1] == 'a':
+                    if trace:
+                        print("Case", self.word, follow)
                     self.case_problem = True
+                else:
+                    follow = re.sub(' ', '', follow)
+                    if len(follow) > 2 and follow[1] == 'h':
+                        follow = follow[:1] + follow[2:]
+                    if (len(follow) == 2) and (re.match(SHORT_COMBINATIONS, follow)):
+                        self.muta_cum_liquida = True
             return
 
         self.meter = []
@@ -129,6 +139,8 @@ class Word:
             elif self.long_by_pos:
                 self.meter = self.meter[:-1] + LONG
             elif self.case_problem:
+                self.meter = self.meter[:-1] + UNK
+            elif len(self.meter) > 0 and self.meter[-1] == SHORT and self.muta_cum_liquida:
                 self.meter = self.meter[:-1] + UNK
         return self.meter
 
@@ -292,7 +304,7 @@ def scansion_versions(line, meter, meter_index):
     return result
 
 
-def main(path_to_text, meters, trace=True, print_problems=True, elision=False):
+def main(path_to_text, meters, trace=True, print_problems=True, elision=False, manual=False):
     """
     Load the lines from the file and attempt to scan them. Print some statistic
     at the end. Return the scanned lines
@@ -302,6 +314,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False):
     :param elision: If True, save elision statistics to a separate file
     :param print_problems: If True, print info about problematic lines
     :param trace: If True, print various stats
+    :param manual: Ask the user for manual guidence
     :return: list of possible scansions for each line
     """
     lines = []
@@ -325,7 +338,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False):
     possible_progress = False
 
     if print_problems:
-        with open('output/' + path_to_text.split('/'[-1])) as file:
+        with open('output/' + path_to_text.split('/')[-1]) as file:
             previous_attempt = file.readlines()
 
     while (progress != 0 or possible_progress) and (
@@ -386,6 +399,11 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False):
                             new_result.append(v)
                     if new_result:
                         result[i] = new_result
+                    if attempt_n == MAX_ATTEMPT - 1 and manual:
+                        result[i] = solve_manually(lines[i], result[i])
+                        if len(result[i]) == 1:
+                            identified += 1
+                            lines[i].scanned = True
                     versions_total += len(result)
 
             if i in LINES_TO_DEBUG:
@@ -405,6 +423,39 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False):
             lines[i].mqdq_id = 0
             result[i] = [lines[i].get_meter(MQDQ)[:-1] + [UNK]]
     return result
+
+
+def solve_manually(line, scansions):
+    """
+    Ask the user to indicate the correct scansion
+    :param lines:
+    :param scansions:
+    :return:
+    """
+    for scansion in scansions:
+        if len(scansion) != len(scansions[0]):
+            return scansions
+    word_id = []
+    for i in range(len(line.line)):
+        for j in range(len(line.line[i].get_meter(REPEAT))):
+            word_id.append((i, j, len(line.line[i].get_meter(REPEAT))))
+    i = 0
+    while len(scansions) != 1 and i < len(scansions[0]):
+        versions = [x[i] for x in scansions]
+        if LONG in versions and SHORT in versions:
+            print("All versions: " + '\t'.join([' '.join(x) for x in scansions]))
+            print("In sentence: " + line.initial_orthography.strip('\n'))
+            print("In word: " + line.line[word_id[i][0]].word)
+            data = input(("In (one-based) syllable #" +
+                          str(word_id[i][1] + 1)) + " out of " + str(word_id[i][2]) + ":\n")
+            if data in [LONG, SHORT]:
+                scansions = [x for x in scansions if x[i] == data]
+            else:
+                return scansions
+        i += 1
+    if len(scansions) == 1:
+        print("This helped!")
+        return scansions
 
 
 def print_results(lines, output_file):
@@ -438,5 +489,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result = main(filename, [TRIMETER], True, False, True)
+        result = main(filename, [TRIMETER], True, False, False, True)
         print_results(result, output_filename)
