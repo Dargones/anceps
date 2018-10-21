@@ -22,7 +22,7 @@ MODES = [(MQDQ, False)]
 # The program only attempts to rescan already scanned lines
 # if MODES[i][1] == True.
 
-LINES_TO_DEBUG = []
+LINES_TO_DEBUG = [398]
 
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
@@ -48,6 +48,7 @@ class Word:
         """
         self.word = u_or_v(i_or_j(word))
         word_trial = uproblem.look_up(self.word)
+        # TODO: Fix the "Jason" problem (it should remain Iason)
         if word_trial:
             if word_trial != self.word:
                 self.word = word_trial
@@ -66,8 +67,10 @@ class Word:
         :return:
         """
         # TODO: fix the problem with ve
+
+        # TODO TODO TODO prescire est is not elided!
         Word.total += 1
-        self.meter = mqdqParser.get_quantities(self.word, trace)
+        self.meter, self.scansions = mqdqParser.get_quantities(self.word, trace)
         if self.meter:
             Word.mqdqit += 1
             self.in_dict = True
@@ -93,23 +96,41 @@ class Word:
                         self.muta_cum_liquida = True
             return
 
+        self.scansions = ['']
         self.meter = []
         vowels = list(re.finditer(SYLLAB, self.word))
+        if vowels:
+            self.scansions[0] += self.word[:vowels[0].start()]
+        else:
+            self.scansions[0] += self.word
         for i in range(len(vowels) - 1):
             letter = self.word[vowels[i].start():vowels[i].end()]
             follow = self.word[vowels[i].end():vowels[i + 1].start()]
             self.meter.append(decide_on_length(letter, follow))
+            if len(letter) > 1:
+                self.scansions[0] += '[' + letter + ']' + follow
+            else:
+                self.scansions[0] += letter + self.meter[-1] + follow
+
+        # TODO: case problem and length by position
         if len(vowels) > 0:
             letter = self.word[vowels[-1].start():vowels[-1].end()]
             follow = self.word[vowels[-1].end():]
+            if len(letter) > 1:
+                self.scansions[0] += '[' + letter + ']' + follow
+            oldfollow = follow
             if next_word:
                 follow += ' ' + list(re.findall(
                     r'^[' + CONSONANTS + ']*', next_word))[0]
             if re.match(r'[m]? [h]?$', follow) is None:
                 follow = re.sub(' ', '', follow)
                 self.meter.append(decide_on_length(letter, follow))
+                if len(letter) == 1:
+                    self.scansions[0] += letter + self.meter[-1] + oldfollow
             else:
                 self.add_elision(next_word)
+                if len(letter) == 1:
+                    self.scansions[0] += letter + UNK + oldfollow
 
     def add_elision(self, next_word):
         this_word = mqdqParser.lemmatizer.lemmatize(self.word)[0]
@@ -133,7 +154,7 @@ class Word:
         :return: meter in form of the list of LONG, SHORT, UNK
         """
         if mode == MQDQ and self.in_dict:
-            self.meter = mqdqParser.get_quantities(self.word)[self.mid][0]
+            self.meter = mqdqParser.get_quantities(self.word)[0][self.mid][0]
             if self.elision:
                 self.meter = self.meter[:-1]
             elif self.long_by_pos:
@@ -144,11 +165,55 @@ class Word:
                 self.meter = self.meter[:-1] + UNK
         return self.meter
 
+    def scansion(self, meter, strict=True):
+        """
+        Given that the word is scanned as meter, return the word scansion
+        (i.e. insert the metrics symbols inside the word)
+        :param meter:
+        :param strict: if strict is True, the quantity of the final syllable will
+        not be marked if there is an elision or if it is closed
+        :return:
+        """
+        if self.in_dict:
+            alltogether = self.scansions[self.mid]
+        else:
+            alltogether = self.scansions[0]
+        if strict:
+            if self.elision:
+                meter += UNK
+            elif self.long_by_pos:
+                meter[-1] = UNK
+            elif self.muta_cum_liquida and self.meter[-1] == SHORT:
+                meter[-1] = UNK
+
+        id = -1
+        for i in range(len(alltogether)):
+            if id == len(meter) and not strict and alltogether[i] == '[':
+                print("Warning: elision of a diphtong")
+                alltogether = alltogether[:i] + alltogether[i + 1: i + 3] + alltogether[i + 4:]
+                break
+            if alltogether[i] in [UNK, LONG, SHORT, ']']:
+                id += 1
+                if alltogether[i] != ']':
+                    if id == len(meter) and not strict:
+                        if len(alltogether) != i + 1:
+                            alltogether = alltogether[:i] + alltogether[i + 1:]
+                        else:
+                            alltogether = alltogether[:i]
+                        break
+                    if len(alltogether) != i + 1:
+                        alltogether = alltogether[:i] + re.sub(ANCEPS, UNK,
+                                                               meter[id]) + alltogether[i + 1:]
+                    else:
+                        alltogether = alltogether[:i] + re.sub(ANCEPS, UNK,
+                                                               meter[id])
+        return alltogether
+
     def get_metrics(self):
         if self.in_dict:
             if not self.elision and not self.long_by_pos:
-                return [x[1] for x in mqdqParser.get_quantities(self.word)]
-            quant = mqdqParser.get_quantities(self.word)
+                return [x[1] for x in mqdqParser.get_quantities(self.word)[0]]
+            quant, _ = mqdqParser.get_quantities(self.word)
             if len(quant[0][0]) < 2:
                 return [1]
             result = []
@@ -317,6 +382,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     :param manual: Ask the user for manual guidence
     :return: list of possible scansions for each line
     """
+    vocabulary = []
     lines = []
     result = []
     Word.elision_count = 0
@@ -325,6 +391,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     with open(path_to_text) as file:
         for line in file:
             lines.append(Line(line))
+            vocabulary.append("")
             result.append([])
     print("Scanning: " + path_to_text)
     if elision:
@@ -337,7 +404,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     versions_total = 0
     possible_progress = False
 
-    if print_problems:
+    if manual or print_problems:
         with open('output/' + path_to_text.split('/')[-1]) as file:
             previous_attempt = file.readlines()
 
@@ -365,20 +432,24 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
             curr = scansion_versions(att, meter, 0)
 
             if attempt_n == 0 and print_problems:
-                if UNK in previous_attempt[i]:
-                    print("Line:" + lines[i].initial_orthography +
+                if previous_attempt[i] == '&\t\n':
+                    print("Line: " + lines[i].initial_orthography +
                           "Output: " + " ".join(att) +
                           "\nNumber of syllables according to the program: " +
                           str(len(att)) + "\n" +
                           "The program failed to scan the line\n\n")
+                    # print(lines[i].initial_orthography.rstrip('\n'))
+                    pass
                 elif '|' in previous_attempt[i]:
-                    print("Line:" + lines[i].initial_orthography +
+                    """print("Line:" + lines[i].initial_orthography +
                           "Output: " + " ".join(att) +
                           "\nNumber of syllables according to the program: " +
                           str(len(att)) + "\n" +
-                          "The program gave multiple possible scansions\n\n")
+                          "The program gave multiple possible scansions\n\n")"""
+                    pass
 
             if len(curr) == 1:
+                vocabulary[i] = get_word_info(lines[i], curr[0])
                 versions_total += 1
                 identified += 1
                 lines[i].scanned = True
@@ -391,20 +462,24 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
                     empty += 1
                 elif not result[i]:
                     result[i] = curr
-                    versions_total += len(curr)
+                    if manual and '|' in previous_attempt[i]:
+                        result[i] = solve_manually(lines[i], result[i])
+                        if len(result[i]) == 1:
+                            vocabulary[i] = get_word_info(lines[i], result[i][0])
+                            identified += 1
+                            lines[i].scanned = True
+                    versions_total += len(result[i])
                 else:
                     new_result = []
                     for v in result[i]:
                         if v in curr:
                             new_result.append(v)
                     if new_result:
-                        result[i] = new_result
-                    if attempt_n == MAX_ATTEMPT - 1 and manual:
-                        result[i] = solve_manually(lines[i], result[i])
-                        if len(result[i]) == 1:
+                        if len(new_result) == 1:
                             identified += 1
                             lines[i].scanned = True
-                    versions_total += len(result)
+                            vocabulary[i] = get_word_info(lines[i], new_result[0])
+                        result[i] = new_result
 
             if i in LINES_TO_DEBUG:
                 print(result[i])
@@ -422,7 +497,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
         if not result[i]:
             lines[i].mqdq_id = 0
             result[i] = [lines[i].get_meter(MQDQ)[:-1] + [UNK]]
-    return result
+    return result, vocabulary
 
 
 def solve_manually(line, scansions):
@@ -443,7 +518,8 @@ def solve_manually(line, scansions):
     while len(scansions) != 1 and i < len(scansions[0]):
         versions = [x[i] for x in scansions]
         if LONG in versions and SHORT in versions:
-            print("All versions: " + '\t'.join([' '.join(x) for x in scansions]))
+            print("\nAll versions: " + '\t\t\t'.join([' '.join(x) for x in scansions]))
+            print("Number of syllables: " + str(len(scansions[0])))
             print("In sentence: " + line.initial_orthography.strip('\n'))
             print("In word: " + line.line[word_id[i][0]].word)
             data = input(("In (one-based) syllable #" +
@@ -454,11 +530,22 @@ def solve_manually(line, scansions):
                 return scansions
         i += 1
     if len(scansions) == 1:
-        print("This helped!")
-        return scansions
+        print('% ' + get_word_info(line, scansions[0], strict=False))
+    return scansions
 
 
-def print_results(lines, output_file):
+def get_word_info(line, scansion, strict=True):
+    result = ""
+    id = 0
+    for word in line.line:
+        length = len(word.get_meter(REPEAT))
+        meter = scansion[id: id + length]
+        id += length
+        result += word.scansion(meter, strict) + ' '
+    return result
+
+
+def print_results(lines, vocabulary, output_file):
     """
     Save the results of scansion to the file indicated
     :param lines:       Data to save
@@ -469,17 +556,10 @@ def print_results(lines, output_file):
         for i in range(len(lines)):
             curr = lines[i]
             if UNK in curr[0]:
-                # TODO: does it make sense to print only one character?
-                file.write(UNK + "\n")
-                continue
-            to_print = ''
-            j = 0
-            while j < len(curr):
-                to_print += ' '.join(curr[j])
-                if j < len(curr) - 1:
-                    to_print += '|'
-                j += 1
-            file.write(to_print + '\n')
+                file.write(UNK)
+            else:
+                file.write('|'.join([' '.join(pattern) for pattern in curr]))
+            file.write('\t' + vocabulary[i] + '\n')
 
 
 if __name__ == "__main__":
@@ -489,5 +569,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result = main(filename, [TRIMETER], True, False, False, True)
-        print_results(result, output_filename)
+        result, voc = main(filename, [TRIMETER], False, True, False, False)
+        print_results(result, voc, output_filename)

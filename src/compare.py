@@ -14,7 +14,6 @@ where input_file_name          is the name of the file that contains the lines
                                the test file should be DDDS
 
 """
-from __future__ import division
 import sys
 from src.utilities import *
 from src.analyze import print_stats
@@ -71,9 +70,12 @@ def compare(man, auto, text):
     with open(text) as file:
         t = file.readlines()
     for i in range(len(m)):
-        m[i] = re.sub('[^\\^_&]', '', m[i])
+        if '\t' in m[i]:
+            m[i] = re.sub('[^\\^_&]', '', m[i])
+        else:
+            m[i] = re.sub('[^\\^_&X]', '', m[i].split('|')[-1])
         ma = re.sub('&', 'X', m[i])
-        a[i] = re.sub('[ \n]', '', a[i])
+        a[i] = re.sub('[ \n]', '', a[i].split('\t')[0])
         t[i] = re.sub('[^a-zA-Z ]', '', t[i])
         if UNK in a[i]:
             print(str(i) + ":\t" + t[i])

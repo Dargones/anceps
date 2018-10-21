@@ -122,7 +122,7 @@ singultus ora patria oppressit gravis.
 Aptant carinam socii et antemnas ligant.
 Decrescit: omnis tetra paulatim, undique 
 caelum et mare: secat spumeum pontum ratis
-ac pone placidus exultat delphin salo.
+ac pone placidus exulat delphin salo.
 Et iam diei finis: in nubem cadens
 sol, passus oculos, mergit occeano rotas,
 rubicunda Phoebe surgit ac stellae cadunt.
@@ -254,7 +254,7 @@ pars, periit. Utinam corpus extinctum nece,
 salvo pudore: corporis periit quoque
 pars magna. Mitte verba perplexe loqui.
 Quis hic stuprator virginis clarae fuit?
-Quern, si rescieris, scire poeniteat quidem.
+Quem, si rescieris, scire poeniteat quidem.
 Effare aperte, moeror augescit mora.
 Heret palato lingua, pulmonem gravat
 attractus aer: totus horresco memor.
@@ -262,8 +262,8 @@ Aliquo procellae deferant mersum caput,
 dum es innocens adhuc. Fieri nocens
 cupio, nefandi sceleris ulciscar modo.
 Vicina tellus nobilem portum efficit,
-unde omnis urbis pateat aspectus,
-nisi opposta Rhodope brachium extendat mari,
+unde omnis urbis pateat aspectus, nisi
+opposta Rhodope brachium extendat mari,
 fluctu protervo rupes exesum latus
 ostendit. Hic nos ponere antemnas Tereus,
 cursu peracto, littus ad notum iubet.
@@ -396,7 +396,7 @@ An non timebis Bistonum Vires, mulier?
 Non hic Athenae! Patrio tutam sinu
 fortasse credis? Tellus hostilis premet.
 Nihil morabor, perfidus luat modo.
-Moriere. Fama te moveat.
+Moriere. Moriar ulta. Fama te moveat.
 Non it ad umbras fama, nec curant leves
 post fata Manes fama quid vulgi ferat.
 Perimes, cruenta, morte crudeli virum?
@@ -409,7 +409,7 @@ cremabo flammis, ipsa iaculabor faces
 in regna Terei: tota splendescat domus
 regalis. Omnis eruam stirpis notas,
 super ipsa iaciar. Eia membratim occidat
-discerptus ipse: iarn iuvat linguam trahere
+discerptus ipse: iam iuvat linguam trahere
 trucis tyranni. Meruit hic quicquid potest
 irata mulier. Siste Vesanos, precor,
 regina motus: maius hoc ira malum
@@ -533,7 +533,7 @@ Huius diei faxo sit semper memor!
 Commissa, nutrix, occule! Hoc annis mea
 solet senectus tarda; praestabo fidem.
 Terrore quatior: sceleris ante oculos trucis
-imago pendet. Totus horresco mennor !
+imago pendet. Totus horresco memor !
 Heret palato lingua. Quid portas novi?
 O thraca tellus, scelere perpetuo nocens
 quamque omnis aetas damnet! O dirum nefas!
@@ -624,7 +624,7 @@ Modo inter aras, sacra cum ferrem deis,
 repente cecidit regii capitis decus.
 Vidi cruorem verti in obscenum pariter
 Bacchi liquorem, flevit in templis ebur,
-emicuit ara, Hamma per totam domum
+emicuit ara, flamma per totam domum
 erepsit. Etsi timeo nil, piget tamen
 sacri nefandi. Sed quid horresco? Procul
 secede, terror. Quisque praesagit sibi
@@ -641,13 +641,13 @@ Philomoena posset sola solamen mihi
 afferre. Segnis inter exanguis iacet.
 Idem inter umbras natus exangues cubat.
 Omitte, coniunx, ista. Coniugem vocas, 
-nefande Tereu? Nequeo
+nefande Tereu? Quod malum audio? Nequeo
 crudele gaudium ferre; per totos rigor
 artus cucurrit. Iam iuvat vultus patris
 spectare primos. quicquid est, parcat meo
 gnato. Bene est. Scelus peractum est: hunc amat.
 Vocetur. Ubi natus latet diu mihi?
-In te latitat. Ubi est?
+In te latitat. Ubi est Ythis? Scies. Ubi est?
 Stupro sororem qui violat, effer quoque,
 linguam trucidat virginis, socios necat,
 epulatus ille est impia natum dape.

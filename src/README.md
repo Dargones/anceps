@@ -24,12 +24,9 @@ vowel quantities from the scanned MqDq texts. Usages:
 in Latin transcription (no "v" or "j") to German-like transcription 
 (differentiating consonants "v" and "j" from vowels "u" and "i")
 
-- *meter_converted.py* - a short script to convert files scanned manually to a
-format that can be later used to compare the output of teh program to them. 
-Usage:
-  ```
-  python3 meter_converter.py input_file_name output_file_name
-   ```
+- *meter_converted.py* - a script to merge the manually obtained data with 
+the automatically scanned lines to get the complete scansion of a text .
+
 - *compare.py* - the program prints the distribution of different meter patterns 
 (a unigram) obtained from the output of scansion.py. 
 It also evaluates algorithm's performance, 

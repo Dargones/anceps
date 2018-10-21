@@ -43,6 +43,7 @@ def print_stats(text, dactylsponcee=False, meter=TRIMETER):
     meters = {' '.join(x): 0 for x in get_all_meter_types(meter)}
     count = 0
     for line in lines:
+        line = line.split('\t')[0]
         if UNK in line or '|' in line:
             continue
         count += 1

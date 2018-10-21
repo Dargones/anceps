@@ -31,8 +31,7 @@ unused = re.compile('[^a-z\[\]\n\\' + SHORT + LONG + UNK + ']')
 # matches unused will be a subset of charOK
 
 
-replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', '  ': '\n', ' ': '\n',
-           'm‿h': '&m\nh', '‿h': '&\nh', 'm‿': '&m\n', '‿': '&\n',
+replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', ' ': '\n',
            'ā': 'a_', 'ă': 'a^', 'Ā': 'a_', 'Ă': 'a^', 'Ā́': 'a_', 'ā́': 'a_',
            'ḗ': 'e_', 'ē': 'e_', 'ĕ': 'e^', 'Ḗ': 'e_', 'Ē': 'e_', 'Ĕ': 'e^',
            'ī': 'i_', 'ĭ': 'i^', 'Ī': 'i_', 'Ĭ': 'i^', 'ī́': 'i_', 'Ī́': 'i_',
@@ -45,13 +44,21 @@ replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', '  ': '\n', ' ': '\n',
            'œ̄́': '[oe]', 'œ̄́': '[oe]', 'œ̄': '[oe]', 'Œ̄́': '[oe]',
            'œ': '[oe]', 'Œ̄': '[oe]'}
 
+long_elision = re.compile('(oe|ae)(m?[^a-zA-Z]*)‿')
+elision = re.compile('(m?[^a-zA-Z]*)‿')
+
+e_diphtongs = re.compile('(eu|ei|eo|ea)[&_]')
+e_diphtongs_between = re.compile('e[&_]([uioa])([^&_\^\]])')
+a_diphtongs_between = re.compile('a[&_]([u])([^&_\^\]])')
 
 long_by_position = re.compile('_([' + CONSONANTS + ']\n[' + CONSONANTS +
                               ']|\n[' + CONSONANTS + ']{2}|\n[' +
                               ''.join(LONG_CONSONANTS) + '])')
 
-final_u = re.compile('u([^\\'+ SHORT + LONG + '\\' + UNK + '].*\n.)')
-# a u that is neither short, nor long, nor an anceps is a consonant v
+u_to_v1 = re.compile('([^' + CONSONANTS + '])u([^\\'+ SHORT + LONG + '\\' + UNK + '\]])')
+u_to_v2 = re.compile('u([^\\'+ SHORT + LONG + '\\' + UNK + '\]][^' + CONSONANTS+ '])')
+i_to_j1 = re.compile('([^' + CONSONANTS + '])i([^\\'+ SHORT + LONG + '\\' + UNK + '\]])')
+i_to_j2 = re.compile('i([^\\'+ SHORT + LONG + '\\' + UNK + '\]][^' + CONSONANTS+ '])')
 
 SETUP_COMPLETED = False  # true if the dictionary is loaded into memory
 DEFAULT_DICT = "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/mqdq/dictionary.txt"
@@ -106,9 +113,17 @@ def clean(input_file_name, output_file_name):
     with open(output_file_name, 'w') as file:
         for i in range(len(lines)):
             line = lines[i]
-            line = line.rstrip('DS \n\t')  # stripping off the meter type data
+            line = line.rstrip('\n\t ')  # stripping off the meter type data
+            if not re.match('[SD]{4}', line[-4:]):
+                # print('WARNING: Bad line ' + line)
+                continue
+            line = line.rstrip('\n \tSD')
             if i != len(lines) - 1:
                 line += ' '
+            line = re.sub('[ ][ ]*', ' ', line)
+            line = re.sub('[\[\]]', '', line)
+            line = long_elision.sub(r'[\1]\2\n', line)
+            line = elision.sub(r'&\1\n', line)
             line = multireplace(line, replace)
             # replacing metrical signs with those used by the program
             line = line.lower()
@@ -120,12 +135,39 @@ def clean(input_file_name, output_file_name):
             while not line[last_vowel] in [LONG, SHORT, UNK, ']'] \
                     and last_vowel != 0:
                 last_vowel -= 1
-            line = line[:last_vowel + 1] + \
-                   re.sub(r'([' + VOWELS + '])', r'\1' + UNK,
-                          line[last_vowel + 1:], count=1)
-            line = final_u.sub(r'v\1', line)
+
+            j = len(line) - 1
+            while j > last_vowel:
+                if line[j] in VOWELS:
+                    if j + 1 == len(line) or line[j + 1] != ']':
+                        if j + 1 == len(line):
+                            line = line[:j + 1] + UNK
+                        else:
+                            line = line[:j + 1] + UNK + line[j + 1:]
+                    else:
+                        print("Debug line: " + line)
+                    break
+                j -= 1
+
+            line = e_diphtongs.sub(r'[\1]', line)
+            line = e_diphtongs_between.sub(r'[e\1]\2', line)
+            line = a_diphtongs_between.sub(r'[a\1]\2', line)
+            line = u_to_v1.sub(r'\1v\2', line)
+            line = u_to_v2.sub(r'v\1', line)
+            line = i_to_j1.sub(r'\1j\2', line)
+            line = i_to_j2.sub(r'j\1', line)
+
+            if len(list(re.finditer('[^\[][' + VOWELS + '][^&_\^\]]', line))) != 0:
+                if len(list(re.finditer('[^\[][' + VOWELS + '][^&_\^\]]', line))) != 0:
+                    print("Warning: " + lines[i].rstrip('\n'))
+                    continue
+
+            if len(list(re.finditer('[' + CONSONANTS + '][&\]_\^]', line))) != 0:
+                print("Warning: " + lines[i].rstrip('\n'))
+                continue
+
             if len(list(re.finditer(r"[aeuoi]\^\n[" + CONSONANTS + "][^aeuoihyv\[rl]["+CONSONANTS+"]", line))) != 0:
-                print(line)
+                print(line)  # TODO: what is this for?
             line = long_by_position.sub(r'' + UNK + r'\1', line)
             file.write(str(i) + " " + line)
 
@@ -146,7 +188,7 @@ def merge(files, dict_name):
                     continue
                 if ' ' in line:
                     line = line.split(' ')[1]
-                key = re.sub('v', 'u', word.sub('', line))
+                key = re.sub('j', 'i', re.sub('v', 'u', word.sub('', line)))
                 value = line[:-1]
                 if key in dict:
                     i = 0
@@ -252,33 +294,49 @@ def get_quantities(word, trace=False):
         setup()
     cleaned = multireplace(word, {'v': 'u', 'j': 'i'})
     if cleaned in dictionary:
-        return dictionary[cleaned].versions
+        return dictionary[cleaned].versions, [x[0] for x in dictionary[cleaned].initial]
     # If the execution reached this point, the form seems to be absent from the
     # dictionary (but the lemma might still be present)
     lemma = lemmatizer.lemmatize(cleaned)
     if not lemma or len(lemma) > 1:
         print("lemmatizing error: " + cleaned + " " + str(lemma))
-        return
+        return None, None
     # the lemma is found
     lemma = lemma[0]
     if lemma in lemmas:
-        meter, rest = best_guess(lemmas[lemma], cleaned, trace)
+        # TODO: multiple choices here
+        meter, scansions, rest = best_guess(lemmas[lemma], cleaned, trace)
         # meter is the scansion of the stem, the rest is the ending/suffixes,
         # for which the scansion is unkown
         if not meter:
-            return None
+            return None, None
         # TODO: perhaps, the code below should be wrapped in a function
         vowels = list(re.finditer(SYLLAB, rest))
         ending = ""
+        end_scansion = ""
+        if len(vowels) > 0:
+            end_scansion += rest[:vowels[0].start()]
+        else:
+            end_scansion += rest
         for i in range(len(vowels) - 1):
             letter = rest[vowels[i].start():vowels[i].end()]
             follow = rest[vowels[i].end():vowels[i + 1].start()]
             ending += decide_on_length(letter, follow)
+            if len(letter) > 2:
+                end_scansion += '[' + letter + ']' + follow
+            else:
+                end_scansion += letter + ending[-1] + follow
         if len(vowels) != 0:
             letter = rest[vowels[-1].start():vowels[-1].end()]
             follow = rest[vowels[-1].end():]
             ending += decide_on_length(letter, follow)
-        return [(x[0] + ending, x[1]) for x in meter]
+            if len(letter) > 2:
+                end_scansion += '[' + letter + ']' + follow
+            else:
+                end_scansion += letter + ending[-1] + follow
+        return [(x[0] + ending, x[1]) for x in meter], [x + end_scansion for x in scansions]
+    # Turn on stemming here
+    return None, None
 
 
 def best_guess(cognates, word, trace=False):
@@ -308,7 +366,7 @@ def best_guess(cognates, word, trace=False):
             print(to_print +
                   "\nNo word with the same stem. Choosing among lemmas")
         # TODO
-        return None, None
+        return None, None, None
 
     to_print += "\nBest: " + str(best) + ", best form: " + best_form.entry_str \
                 + ", meter: " + best_form.initial[0][0] + ", rest: " + \
@@ -318,6 +376,7 @@ def best_guess(cognates, word, trace=False):
     # common to both
     # TODO: maybe only the stem itself should be used
     meter = []
+    scansions = []
     for version in best_form.initial:
         info = version[0]
         count = len(best_form.entry_str) - len(stem)
@@ -340,9 +399,10 @@ def best_guess(cognates, word, trace=False):
         if not found:
             meter.append([multireplace(info[0: i + 1], Entry.to_quant),
                           version[1] / best_form.tc])
+            scansions.append(info[0: i + 1])
     if trace:
         print(to_print + "\nFinal meter: " + str(meter) + "\n")
-    return meter, word[len(stem):]
+    return meter, scansions, word[len(stem):]
 
 
 if __name__ == "__main__":
