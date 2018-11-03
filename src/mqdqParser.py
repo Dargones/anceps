@@ -30,6 +30,8 @@ unused = re.compile('[^a-z\[\]\n\\' + SHORT + LONG + UNK + ']')
 # All the character that should be deleted after replacement. Ideally, what
 # matches unused will be a subset of charOK
 
+AE_OE_TO_E = False
+
 
 replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', ' ': '\n',
            'ā': 'a_', 'ă': 'a^', 'Ā': 'a_', 'Ă': 'a^', 'Ā́': 'a_', 'ā́': 'a_',
@@ -157,10 +159,14 @@ def clean(input_file_name, output_file_name):
             line = i_to_j1.sub(r'\1j\2', line)
             line = i_to_j2.sub(r'j\1', line)
 
+            #  .* .*[^\[\n][aeoiu][^_\^&\]]
+
+            if line[-1] != "\n":
+                line += "\n"
+
             if len(list(re.finditer('[^\[][' + VOWELS + '][^&_\^\]]', line))) != 0:
-                if len(list(re.finditer('[^\[][' + VOWELS + '][^&_\^\]]', line))) != 0:
-                    print("Warning: " + lines[i].rstrip('\n'))
-                    continue
+                print("Warning: " + lines[i].rstrip('\n'))
+                continue
 
             if len(list(re.finditer('[' + CONSONANTS + '][&\]_\^]', line))) != 0:
                 print("Warning: " + lines[i].rstrip('\n'))
@@ -168,6 +174,9 @@ def clean(input_file_name, output_file_name):
 
             if len(list(re.finditer(r"[aeuoi]\^\n[" + CONSONANTS + "][^aeuoihyv\[rl]["+CONSONANTS+"]", line))) != 0:
                 print(line)  # TODO: what is this for?
+
+            if AE_OE_TO_E:
+                line = re.sub('\[[ao]e\]', 'e_', line)
             line = long_by_position.sub(r'' + UNK + r'\1', line)
             file.write(str(i) + " " + line)
 

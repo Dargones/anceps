@@ -551,7 +551,7 @@ per ora fusus. Sensit, en paulo movet
 artus, revixit. $Cassandra$ Quis meos sensus furor,
 o Phebe, rursus concitat? Cerno nefas
 quodnam cruentum? Munus acceptum dei,
-er casta, dol[c]eo. Stimulat hunc magis dolor
+et casta, dolceo. Stimulat hunc magis dolor
 quicunque fati prescius semper timet.
 Occurrere erumnis dulce, prescire est grave.
 $Hecuba$
@@ -785,7 +785,7 @@ aufertur nitidus dies,
 noctis nuncius Hesperus
 obscure exoritur prior;
 sic risus lacrime vorant
-er lucem tenebre obtegunt.
+et lucem tenebre obtegunt.
 Sit quisquis cupiat potens
 aula magnus et inclita
 et fortes acies ducum
@@ -881,7 +881,7 @@ $Agamemnon$
 Accendit animos causa Pelide tuos,
 an causa thalami? $Menelaus$ Me utraque in bellum trahit.
 $Agamemnon$
-Magis iste fervet pectore insane furor;
+Magis iste fervet pectore insano furor;
 repetis iugales marte violento faces;
 te solus urit coniugis rapte dolor.
 $Menelaus$

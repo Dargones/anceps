@@ -41,10 +41,11 @@ def read_complete_scansion(filename):
         while len(lines[0]) < 2 or lines[0][:2] != "*/":
             del lines[0]
         del lines[0:2]
-    return [line.split('|')[1].split('-')[0].rstrip(' \t\n').lstrip(' \t\n') for line in lines]
+    return [line.split('\t')[2].rstrip(' \t\n').lstrip(' \t\n') for line in lines]
 
 
 def main(starting_size, text1_name, text2_name):
+    print(text1_name + " " + text2_name)
     text1 = read_complete_scansion(text1_name)
     text2 = read_complete_scansion(text2_name)
 
@@ -56,4 +57,4 @@ def main(starting_size, text1_name, text2_name):
 
 
 if __name__ == "__main__":
-    main(20, "Medea", "Agamemnon")
+    main(20, "Ecerinis", "Procne")

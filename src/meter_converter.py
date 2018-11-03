@@ -17,7 +17,7 @@ def convert_meter(meter, meter_type, line):
         result = scansion_versions(meter, BACKUP_METER_TYPE, 0)
         if len(result) > 1 or result == []:
             print('WARNING. A line is not scanned properly: ' + line + " " + str(meter) + " " + str(len(result)))
-            return meter
+            return re.sub('&', 'X', meter)
         else:
             print("The backup meter type was used for line: " + line)
     meter = result[0]
@@ -36,7 +36,10 @@ def read_manual_data(filename, meter_type):
     dictionary = {}
     for line in lines:
         text = multireplace(re.sub('[^a-z]', '', line), {'v': 'u', 'j': 'i'})
-        meter = re.sub(']', '_', line)
+        meter = re.sub(
+            '([' + VOWELS + '])](m?[^a-zA-Z\^\[\]_]* [^a-zA-Z\^\[\]_]*h?[' + VOWELS + '])',
+            r'', line)
+        meter = re.sub(']', '_', meter)
         meter = convert_meter(re.sub('[^&\\^_]', '', meter), meter_type, line.rstrip('\n'))
         # marking vowels long by position as unknown
         vocab = re.sub('_([^a-zA-Z\^\[\]_]* [^a-zA-Z\^\[\]_]*)([xz]|['+ CONSONANTS +']{2})', r'&\1\2', line)
@@ -46,6 +49,7 @@ def read_manual_data(filename, meter_type):
             '_([xz]|['+ CONSONANTS +']{2})([^a-zA-Z\^\[\]_]* )',r'&\1\2', vocab)
         # elision
         vocab = re.sub('(['+VOWELS+'])(m?[^a-zA-Z\^\[\]_]* [^a-zA-Z\^\[\]_]*h?['+VOWELS+'])', r'\1&\2', vocab)
+        # elision of long vowels
         dictionary[text] = (meter, vocab)
     return dictionary
 
@@ -129,7 +133,7 @@ def winge_converter(file1, file2, outputfile):
 
 
 if __name__ == "__main__":
-    name = "Agamemnon.txt"
+    name = "Achilles.txt"
     merge_data("/Users/alexanderfedchin/PycharmProjects/Scansion_project/output/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,

@@ -28,7 +28,7 @@ def get_all_meter_types(meter):
     return result
 
 
-def print_stats(text, dactylsponcee=False, meter=TRIMETER):
+def print_stats(text, dactylsponcee=False, meter=CORRER_TRIMETER):
     """
     Print the statistics about the frequency of specific meter patterns
     :param text: the output of the algorithm
@@ -36,16 +36,16 @@ def print_stats(text, dactylsponcee=False, meter=TRIMETER):
     :param meter: the type of meter in which the work in question is written
     :return:
     """
-    print("Distribution of meter patterns:")
+    # print("Distribution of meter patterns:")
     with open(text) as file:
         lines = file.readlines()
 
-    meters = {' '.join(x): 0 for x in get_all_meter_types(meter)}
+    meters = {''.join(x): 0 for x in get_all_meter_types(meter)}
     count = 0
     for line in lines:
-        line = line.split('\t')[0]
-        if UNK in line or '|' in line:
+        if len(line.split('\t')) < 3:
             continue
+        line = line.split('\t')[2]
         count += 1
         line = line.rstrip('\n')
         if dactylsponcee:
@@ -53,16 +53,20 @@ def print_stats(text, dactylsponcee=False, meter=TRIMETER):
             line = re.sub(r'(' + LONG + LONG + '|' + LONG + ANCEPS + ')', 'S',
                           line)
             line = line[:4]
+        if line not in meters:
+            # print("Bad: " + line)
+            continue
         meters[line] += 1
     for pattern in meters.keys():
-        print(pattern + '\t' + str(meters[pattern]) + '\t' + str(
-            round(meters[pattern] / count * 100, 2)) + '%')
+        """print(pattern + '\t' + str(meters[pattern]) + '\t' + str(
+            round(meters[pattern] / count * 100, 2)) + '%')"""
+        print(str(meters[pattern]))
 
 
 def get_stats(full_text_file, text_file, supplement, output):
     all_trimeters = []
     for i in range(12, 21):
-        all_trimeters += scansion.scansion_versions(UNK * i, utilities.TRIMETER, 0)
+        all_trimeters += scansion_versions(UNK * i, TRIMETER, 0)
 
     dict = {}
     for meter in all_trimeters:
@@ -248,12 +252,6 @@ def equal(m1, m2):
         i += 1
     return True
 
-if __name__ == "__main__":
-    get_stats('../texts/full/Medea_full2.txt', '../texts/Medea.txt',
-                '../texts/Medea_suppl.txt', '../output/Medea.txt')
-    # get_stats('../texts/full/Agamemnon_full.txt', '../texts/Agamemnon.txt',
-              # '../texts/Agamemnon_suppl.txt', '../output/Agamemnon.txt')
-
 
 import re
 import sys
@@ -326,11 +324,15 @@ def elision(filename):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    """if len(sys.argv) < 2:
         print("Usage: %s input_file_name word0 word1 ... wordn" % sys.argv[0])
         sys.exit(-1)
     elision(filename=sys.argv[1])
     if len(sys.argv) > 2:
         pronouns(filename=sys.argv[1], query=sys.argv[2:])
     else:
-        pronouns(filename=sys.argv[1])
+        pronouns(filename=sys.argv[1])"""
+    for text in ["Ecerinis", "Agamemnon", "Medea", "Procne", "Achilles"]:
+        print(text)
+        print_stats("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + text + ".txt")
+        print('\n')

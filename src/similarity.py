@@ -66,7 +66,7 @@ def similar(filename):
     sorted_sim = sorted(sim_factor, key=sim_factor.get, reverse=True)
     for key in sorted_sim:
         print(key + " " * (FIELD - len(key)) + str(round(sim_factor[key]/
-                                                         len(texts), 5)))
+                                                         (len(texts) - 1), 5)))
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

@@ -22,7 +22,7 @@ MODES = [(MQDQ, False)]
 # The program only attempts to rescan already scanned lines
 # if MODES[i][1] == True.
 
-LINES_TO_DEBUG = [398]
+LINES_TO_DEBUG = []
 
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
@@ -68,7 +68,6 @@ class Word:
         """
         # TODO: fix the problem with ve
 
-        # TODO TODO TODO prescire est is not elided!
         Word.total += 1
         self.meter, self.scansions = mqdqParser.get_quantities(self.word, trace)
         if self.meter:
@@ -336,6 +335,14 @@ class Line:
             print('')
         return result
 
+    def scores(self):
+        """
+        Returns two certainty scores that can be used to identify lines that
+        might be scanned incorrectly
+        :return:
+        """
+        return self.mqdq[self.mqdq_id - 1][0]
+
 
 # ------------- The Main Program -----------------------------------------------
 
@@ -382,6 +389,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     :param manual: Ask the user for manual guidence
     :return: list of possible scansions for each line
     """
+    certainty = []
     vocabulary = []
     lines = []
     result = []
@@ -392,6 +400,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
         for line in file:
             lines.append(Line(line))
             vocabulary.append("")
+            certainty.append("")
             result.append([])
     print("Scanning: " + path_to_text)
     if elision:
@@ -432,14 +441,13 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
             curr = scansion_versions(att, meter, 0)
 
             if attempt_n == 0 and print_problems:
-                if previous_attempt[i] == '&\t\n':
+                if previous_attempt[i] == '&\t\t\n':
                     print("Line: " + lines[i].initial_orthography +
                           "Output: " + " ".join(att) +
                           "\nNumber of syllables according to the program: " +
                           str(len(att)) + "\n" +
                           "The program failed to scan the line\n\n")
                     # print(lines[i].initial_orthography.rstrip('\n'))
-                    pass
                 elif '|' in previous_attempt[i]:
                     """print("Line:" + lines[i].initial_orthography +
                           "Output: " + " ".join(att) +
@@ -450,6 +458,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
 
             if len(curr) == 1:
                 vocabulary[i] = get_word_info(lines[i], curr[0])
+                certainty[i] = str(lines[i].scores())
                 versions_total += 1
                 identified += 1
                 lines[i].scanned = True
@@ -466,6 +475,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
                         result[i] = solve_manually(lines[i], result[i])
                         if len(result[i]) == 1:
                             vocabulary[i] = get_word_info(lines[i], result[i][0])
+                            certainty[i] = str(lines[i].scores())
                             identified += 1
                             lines[i].scanned = True
                     versions_total += len(result[i])
@@ -479,6 +489,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
                             identified += 1
                             lines[i].scanned = True
                             vocabulary[i] = get_word_info(lines[i], new_result[0])
+                            certainty[i] = str(lines[i].scores())
                         result[i] = new_result
 
             if i in LINES_TO_DEBUG:
@@ -497,7 +508,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
         if not result[i]:
             lines[i].mqdq_id = 0
             result[i] = [lines[i].get_meter(MQDQ)[:-1] + [UNK]]
-    return result, vocabulary
+    return result, vocabulary, certainty
 
 
 def solve_manually(line, scansions):
@@ -530,7 +541,7 @@ def solve_manually(line, scansions):
                 return scansions
         i += 1
     if len(scansions) == 1:
-        print('% ' + get_word_info(line, scansions[0], strict=False))
+        print('% ' + get_word_info(line, scansions[0], strict=False) + '\t' + str(line.scores()))
     return scansions
 
 
@@ -545,7 +556,7 @@ def get_word_info(line, scansion, strict=True):
     return result
 
 
-def print_results(lines, vocabulary, output_file):
+def print_results(lines, vocabulary, scores, output_file):
     """
     Save the results of scansion to the file indicated
     :param lines:       Data to save
@@ -559,7 +570,7 @@ def print_results(lines, vocabulary, output_file):
                 file.write(UNK)
             else:
                 file.write('|'.join([' '.join(pattern) for pattern in curr]))
-            file.write('\t' + vocabulary[i] + '\n')
+            file.write('\t' + vocabulary[i] + '\t' + scores[i] + '\n')
 
 
 if __name__ == "__main__":
@@ -569,5 +580,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result, voc = main(filename, [TRIMETER], False, True, False, False)
-        print_results(result, voc, output_filename)
+        result, voc, scores = main(filename, [TRIMETER], False, False, False, False)
+        print_results(result, voc, scores, output_filename)

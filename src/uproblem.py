@@ -6,6 +6,7 @@ except ImportError:
     import xml.etree.ElementTree as ET
 
 OUTPUT_FILE_NAME = '/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/diogenes/ijuv_dictionary.txt'
+WINGE_DICTIONARY = "/Users/alexanderfedchin/PycharmProjects/Scansion_project/archives/latin-macronizer-master/macrons.txt"
 IS_SET_UP = False
 dictionary = {}
 
@@ -24,10 +25,10 @@ def merge_u_and_v(one, two):
     for i in range(len(one)):
         if one[i] == two[i]:
             news += one[i]
-        elif one[i] == 'u' and two[i] == 'v':
+        elif (one[i] == 'u' and two[i] == 'v') or (one[i] == 'v' and two[i] == 'u'):
             news += 'v'
-        elif one[i] == 'v' and two[i] == 'u':
-            news += 'v'
+        elif (one[i] == 'i' and two[i] == 'j') or (one[i] == 'j' and two[i] == 'i'):
+            news += 'j'
         else:
             return None
     return news
@@ -66,6 +67,28 @@ def rebuilt():
                 out.write(key + " " + u_or_v(i_or_j(value)) + "\n")
 
 
+def rebuilt_winge():
+    """
+    Load the dictionary into memory
+    :return:
+    """
+    with open(WINGE_DICTIONARY) as file:
+        lines = file.readlines()
+    for line in lines:
+        line = re.sub('[^a-z\t]', '', line.lower()).split('\t')
+        line[0] = multireplace(line[0], {'j': 'i', 'v': 'u'})
+        if line[0] != multireplace(line[-1], {'j': 'i', 'v': 'u'}):
+            print("Bad " + str(line))
+            continue
+        if line[0] in dictionary:
+            line[-1] = merge_u_and_v(dictionary[line[0]], line[-1])
+        dictionary[line[0]] = u_or_v(i_or_j(line[-1]))
+    with open(OUTPUT_FILE_NAME, 'w') as out:
+        for key, value in dictionary.items():
+            if value:
+                out.write(key + " " + value + "\n")
+
+
 def setup():
     """
     Load the dictionary into memory
@@ -96,4 +119,4 @@ def look_up(word):
         return dictionary[word]
 
 if __name__ == "__main__":
-    rebuilt()
+    rebuilt_winge()
