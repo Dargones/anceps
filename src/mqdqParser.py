@@ -177,8 +177,68 @@ def clean(input_file_name, output_file_name):
 
             if AE_OE_TO_E:
                 line = re.sub('\[[ao]e\]', 'e_', line)
+            line = re.sub('\n[\n]*', '\n', line)
             line = long_by_position.sub(r'' + UNK + r'\1', line)
             file.write(str(i) + " " + line)
+
+
+def last_quantity(form):
+    """
+    Return the last quantity mark (&, ], _, ^, or None)
+    :param word:
+    :return:
+    """
+    i = len(form) - 1
+    while i >= 0 and form[i] not in ['&', '_', '^', ']']:
+        i -= 1
+    if i == -1:
+        return None, -1
+    return form[i], i
+
+
+def clean_dict(dictionary):
+    """
+    Clean the dictionary (remove all et&, if there are only e^t and no e_t)
+    :param dictionary:
+    :return:
+    """
+    for key in sorted(dictionary.keys()):
+        last_vowels = [last_quantity(x[0])[0] for x in dictionary[key]]
+        last_indexes = [last_quantity(x[0])[1] for x in dictionary[key]]
+        j = 0
+        for i in range(len(last_vowels)):
+            if last_vowels[i] == '&':
+                new_form = dictionary[key][j][0]
+                new_form_long = new_form[:last_indexes[i]] + '_' + new_form[last_indexes[i] + 1:]
+                new_form_short = new_form[:last_indexes[i]] + '^' + new_form[last_indexes[i] + 1:]
+                if new_form_long in [x[0] for x in dictionary[key]]:
+                    position_long = [x[0] for x in dictionary[key]].index(new_form_long)
+                    if new_form_short in [x[0] for x in dictionary[key]]:
+                        position_short = [x[0] for x in dictionary[key]].index(new_form_short)
+                        total = dictionary[key][position_long][1] + dictionary[key][position_short][1]
+                        dictionary[key][position_long][1] += dictionary[key][j][1] * \
+                                                             dictionary[key][position_long][1] / total
+                        dictionary[key][position_short][1] += dictionary[key][j][1] * \
+                                                             dictionary[key][position_short][1] / total
+                    else:
+                        dictionary[key][position_long][1] += dictionary[key][j][1]
+                    del dictionary[key][j]
+                elif new_form_short in [x[0] for x in dictionary[key]]:
+                    position_short = [x[0] for x in dictionary[key]].index(new_form_short)
+                    dictionary[key][position_short][1] += dictionary[key][j][1]
+                    del dictionary[key][j]
+                else:
+                    if '_'in last_vowels and '^' not in last_vowels:
+                        dictionary[key][j][0] = dictionary[key][j][0][:last_indexes[i]] + \
+                                            '_' + dictionary[key][j][0][last_indexes[i] + 1:]
+                    elif '^' in last_vowels and '_' not in last_vowels:
+                        dictionary[key][j][0] = dictionary[key][j][0][:last_indexes[i]] + \
+                                                '^' + dictionary[key][j][0][last_indexes[i] + 1:]
+                    j += 1
+            else:
+                j += 1
+        if len(dictionary[key]) == 0:
+            del dictionary[key]
 
 
 def merge(files, dict_name):
@@ -210,6 +270,7 @@ def merge(files, dict_name):
                         dict[key].append([value, 1])
                 else:
                     dict[key] = [[value, 1]]
+    clean_dict(dict)
     with open(dict_name, 'w') as file:
         for key in sorted(dict.keys()):
             lemma = lemmatizer.lemmatize(key)

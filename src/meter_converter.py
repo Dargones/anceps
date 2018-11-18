@@ -36,9 +36,7 @@ def read_manual_data(filename, meter_type):
     dictionary = {}
     for line in lines:
         text = multireplace(re.sub('[^a-z]', '', line), {'v': 'u', 'j': 'i'})
-        meter = re.sub(
-            '([' + VOWELS + '])](m?[^a-zA-Z\^\[\]_]* [^a-zA-Z\^\[\]_]*h?[' + VOWELS + '])',
-            r'', line)
+        meter = line
         meter = re.sub(']', '_', meter)
         meter = convert_meter(re.sub('[^&\\^_]', '', meter), meter_type, line.rstrip('\n'))
         # marking vowels long by position as unknown
@@ -100,6 +98,7 @@ def merge_data(automatic_file, manual_file, input_file, output_file, meter_type)
                 postfix = "this line is not scanned"
                 if not key in dictionary:
                     print("Warning: Line is not scanned: " + line + '\t' + scansion)
+                    # print(line.rstrip('\n'))
                 scansion = ""
             result += line.rstrip(' \n') + '\t' + vocab.rstrip('\n') + '\t' + scansion + '\t' + postfix + '\n'
 
@@ -133,7 +132,7 @@ def winge_converter(file1, file2, outputfile):
 
 
 if __name__ == "__main__":
-    name = "Achilles.txt"
+    name = "Hiemsal.txt"
     merge_data("/Users/alexanderfedchin/PycharmProjects/Scansion_project/output/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,
