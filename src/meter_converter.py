@@ -1,7 +1,8 @@
 from src.scansion import *
+import datetime
 
 BACKUP_METER_TYPE = TRIMETER
-
+now = datetime.datetime.now()
 
 def convert_meter(meter, meter_type, line):
     """
@@ -68,37 +69,52 @@ def merge_data(automatic_file, manual_file, input_file, output_file, meter_type)
         lines = file.readlines()
         scansions = [re.sub('[^&X\\^_|]', '', x.split('\t')[0]) for x in lines]
         vocabs = [x.split('\t')[1] for x in lines]
+        scores = [float(x.split('\t')[2].rstrip('\n')) for x in lines]
     dictionary = read_manual_data(manual_file, meter_type)
     with open(output_file, 'w') as file:
-        file.write("/*\nCreated by alexanderfedchin on __/__/__.\n")
+        file.write("/*\nCreated by Aleksandr Fedchin on %d/%d/%d.\n" %(now.day, now.month, now.year))
         file.write("This is the complete scansion of trimeter sections of _\n")
         file.write("The edition used is _\nEstimated accuracy: 98%\n\n")
+        file.write("Each line contains a verse from the original text, a list of words from that\n"
+                   "verse with their inferred scansions, the scansion itself, and one of the\n"
+                   "following tags:\n"
+                   "    'm' - if the line was manually scanned\n"
+                   "    'v' - if automatically produced scansion was manually verified\n"
+                   "    'c' - if automatically produced scansion was corrected\n"
+                   "    'u' - if the line was left unscanned\n"
+                   "    confidence score that the program assigns to the line (higher=better)\n\n"
+                   "")
         file.write("Key:\n"
                    "X - monosyllabic anceps (can also be marked as _ or ^)\n"
-                   "_ - long syllable\n^ short syllable\n")
+                   "_ - long syllable\n^ - short syllable\n"
+                   "& - the quantity is unknown\n"
+                   "(for elided syllables, anceps syllables, or syllables long by position)\n")
         result = ""
         unscanned = 0
         for i, line in enumerate(text):
             key = multireplace(re.sub('[^a-z]', '', line.lower()), {'v': 'u', 'j': 'i'})
             scansion = scansions[i]
             vocab = vocabs[i]
-            postfix = ""
+            postfix = str(round(scores[i], 2))
             if key in dictionary:
                 if scansion == '&' or '|' in scansion:
-                    postfix = "scansion obtained manually"
+                    postfix = "m"
                 elif len(scansion.split('|')) == 1 and scansion != dictionary[key][0]:
-                    postfix = "scansion corrected"
+                    postfix = "c"
                     print("Warning: Scansions don't match for line: " + line
                           + str(scansion) + "\n" + str(dictionary[key][0]))
+                elif len(scansion.split('|')) == 1 and scansion == dictionary[key][0]:
+                    postfix = "v"
                 scansion = dictionary[key][0]
                 vocab = dictionary[key][1]
             if '|' in scansion or '&' in scansion or scansion == "":
                 vocab = ""
                 unscanned += 1
-                postfix = "this line is not scanned"
+                postfix = "u"
                 if not key in dictionary:
                     print("Warning: Line is not scanned: " + line + '\t' + scansion)
                     # print(line.rstrip('\n'))
+                    pass
                 scansion = ""
             result += line.rstrip(' \n') + '\t' + vocab.rstrip('\n') + '\t' + scansion + '\t' + postfix + '\n'
 
@@ -132,7 +148,7 @@ def winge_converter(file1, file2, outputfile):
 
 
 if __name__ == "__main__":
-    name = "Hiemsal.txt"
+    name = "Thyestes.txt"
     merge_data("/Users/alexanderfedchin/PycharmProjects/Scansion_project/output/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,

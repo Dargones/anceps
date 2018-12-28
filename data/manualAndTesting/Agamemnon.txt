@@ -45,17 +45,17 @@ Tu_nc qui_ ia^ce_nte& re^ci^pro^cu_s lu_di_t sa^lo& | A questionable case...
 Stry&mo^ni^u^s a_lta&s A^qui^lo^ co_nto_rque_t ni^ue&s | Not wnough data
 [ae]stu_m re^uo_lui_t; no_n ca^pi_t se_se_ ma^re&: | A difficult case?
 I&nfe_rna^ no_x e_st. e_xci^du_nt i_gne_s ta^me&n | Too little info about "excidunt"
-Se_d tru_nca^ to_to& pu_ppi^s I_o_ni^o^ na^ta&t. | Final o problem?
+Se_d tru_nca^ to_to_ pu_ppi^s I_o^ni^o_ na^ta&t.
 Sa^ti^a_te^ ta_nti&s, c[ae]li^tu_m, ta_nde_m tu^u&m | Not sure, but this is certainly machine-unsolvable
 'Su^pe^ra_sse^ † nu_nc pe&la_gu^s a_tque i_gne_s iu^ua&t, | Difficult case
 E&t I_sthmo^n, a_rto& qui_ re^cu_rua&tu_s so^lo& | Incorrect number of syllables: not sure why
-I&o_ni^a_ iu_ngi_ ma^ri^a^ Phri_xei_s ue^ta&t, | Difficult
+I_o^ni^a^ ju_ngi_ ma^ri^a^ Phri_xe_i_s ue^ta&t,
 Po_stqua_m li^ta_tum e_st I_li^o_, Ph[oe]bu_s re^di&t | Case problem, long 'o' in "Ilio"
 E&xh[au]sta^ ne_mpe&: re_gi^a^ mi^se^ri_ se^ne&s | regia is nom pl n
 Ua&cu^a^ re^li_cti&, to_tque^ pe_r tha^la^mo_s ui^de_nt | same as above
 Sa&cri^fi^ca^ du_lce_s ti_bi^a e_ffu_nda_t mo^do&s | Case problem for "sacrificia"
 Pr[ae]te_r La^c[ae]na_m ce_te^ra_s ui^du^a_s nu^ru&s. | Diff case
-Troi&[ae] su^pe_rste&s, He_cto^ri_, Pri^a^mo_, si^bi&. | Shouldn't be a problem why?
+Tro&j[ae] su^pe_rste&s, He_cto^ri_, Pri^a^mo_, si^bi&. | Shouldn't be a problem why?
 Qui&d i_sta^ ue_co_rs te_la^ fe_mi^ne^a_ ma^nu_ | manu and feminea agree
 Co_ngre_sse A^chi_lli_ Troi_le^; i_nce_rto_s ge^ri&s, | Hiatus
 Phle^ge^tho_nti^s a_tri& re_gi^a_s a^ni^ma_s ue^he&t, | Algorithm fails to restore long 'a' for 'regias' from other forms of the word
@@ -86,3 +86,21 @@ Pu&do_r re^be_lla_t. flu_cti^bu_s ua^ri^i_s a^go&r,
 Su_rgi_t re^si^du^u_s pri_sti^n[ae] me_nti_s pu^do&r;
 De&t i_lle^ ue^ni^a_m fa^ci^le^ cui_ ue^ni^a e_st o^pu&s.
 E_t si_ pro^pi^ti^o&s a_tta^me_n le_nto_s de^o&s.
+su&lca_ta^ vi_bra&nt [ae]qvo^ra e^t la^te&ra i_ncre^pa&nt
+i&n se_ re^fe_rtu&r u^bi^ pe^r a_dve&rsum i_rri^tu&s
+u&t pe_rga^mum o_mne& do_ri^ca_ ce^ci^di_t fa^ce&
+to&t i_lla^ re_gu&m ma_te^r e^t re^gi&me_n phry^gu&m
+se&cu_ra^ vi_ve& mi^hi^ mo^ri e_st se&cu_ri^ta&s
+ju&st[ae] pa^re_nti& sa^ti^s a^t i_ra&tae_ pa^ru&m
+re&ce_do a^b a_ri&s si_ve^ te_ ju^gu^lo_ ju^va&t
+lo^cu^s hi_c ha^be_nd[ae] cu_ri^ae hi_c e^pu^li_s lo^cu&s
+e&t pro_ra^ pro_r[ae] no^cu^i^t e^t la^te&ri_ la^tu&s
+e&di_sse^re u^bi^ si&t gna_tu^s u^bi^ fra&te_r tu^u&s
+ju&ra_ta^ su^pe^ri&s u_nda^ te_ pa^ri^te_r pre^co&r
+Cu&m su^bi^to^ lu_na& co_ndi^tu_r, ste&ll[ae] la^te&nt; | Seneca's specific scansion?
+Pa^la^me_di^s i_lle^ ge^ni^to^r e_t cla_ru_m ma^nu_ | genitor has short o in nominative
+I_li^a^de^s a_dsu&nt, qua_s su^pe_r ce_lso_ gra^du_ | Plural of Greek nouns can have short -es
+Ti&me_te^, re_ge_s, mo^ne^o^, fu_rti_vu_m ge^nu^s:
+Tro_ja_ se^pu_lte&; fra_te^r, [au]xi^li^u_m Phry^gu&m
+Gra^ui^s i_lle^ so^ci^i&s sta_nte a^dhu_c Tro&i^a^ fu^i_t: | Uncertain, this scansino of troia is not impossible but rare in Seneca
+E&h[eu] qui^d ho_c e_st? a^ni^me^, co_nsu_rge e_t ca^pe& | Fixed

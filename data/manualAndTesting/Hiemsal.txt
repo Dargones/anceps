@@ -1,0 +1,111 @@
+Heu, Zama, purpureis madescis imbribus!
+matresque nurusque misere, complete, io,
+Verum, ut aiunt, quod agas agito pro viribus.
+spelunca opaca intra nemus Ericthonium.
+
+io demus hunc celebrem simul Baccho diem!
+Ite io, matronae, et sacrum et opacum in nemus
+
+qv[ae] re_gna^ sci_ndi_t fu_ndi^tu_s, fra_tre_s ne^ca&t; | Impure s
+Sta_nt lu_bri^ci u_nda_nte_sque^ sca_la&rum o_mni^u&m | Impure s
+re_sci_ssa^ stu^de^a^t i_mpu^de_ns, e&t i_mpu^de_ns | Impure s
+cru^o_re^ spa_rso_s re_gi^o_s iu^ve^ne_s su^o_. | Impure s
+te^ne_te^: ru^o^, ru^o^. Qui_ppe^ spi_ri&tu_s fu^gi&t, | Impure s or prolonged short
+Re_gni_ la_be_s e_st pri_nci^pu_m di_sco_rdi^a&. | Prolonged short and a quotation from Sallust
+Iu&va_bi^t i_nte&ri_m si^mu^la_sse i&d a_rti^bu&s. | Prolonged short
+I^o_ Ba_cche_, fo_rmo_se i^o_ ma_tro_ne i^o_! | Long Vocative Prolonged Short
+o_mne_s e^t i_mpe^tu e_t mu^cro_ne^ co_mpe^tu_nt, | Unconventional muta cum liquida or Prolonged short
+e_xe_rcu^i a_c pa_ssi_m pa_lla_nte_s la_te a^gro&s | Unconventional muta cum liquida. Prolonged short
+O_ te_mpo^ra, o_ mo_re&s! I^ta^ ne_ fra_te_r ne^ce&m | Prolonged short and a quoatation from Cicero
+du_lci a_ so^po_re& ma_tu_ti_nu&s e_xci^te&t, | Prolonged short
+[eu]h[oe] li^be_s ma_tre_sque^ nu^ru_sque& h[eu] li^be&s | Prolonged short
+I_nde a^de^o^ ia_m, quoa_d fo_rs fe^re_t, mi^hi^ co_nsu^la&m. | Prolonged short or a rare scansion of adeo
+cri&ni_te^ ph[oe]be u&sqve a^de^o^ ne ho&s mi^se^ro_s po^te&s | Prolonged short or a rare scansion of adeo
+no_stram hu_nc ca_lo_ne_m pe_ne^ co_nve_nti_ti^u&m. | Incorrect use of cognates in the program and Prolonged short
+u_ltro^ ci^tro_ mu_ta_ti_s Pe^na_te_s pro_pa^la&m | Uncertain Prolonged short and unconventional scansion of ultro and citro
+i_n ma_rmo^r; A_le_cto_que a_tque i_pse& mu_tu^i&s | No diphthong in mutuis + Prolonged short
+Di&ti_que^ Ma_ni^bu_sque^ li_ta_ndu_m ti^bi&! | Manes the souls, not the hands, unconventional lito with long i
+ca^de_nti^um e_x cu^mu^li_s Hy^e_mpsa_l di_ffu^gi&t. | Program: difference between the presence and the past
+u_nde [au]t i^ni_bi&s [au]t a^ce_rbo_s fi_ni^e&s | Very strange - should not be a problem
+co&e_xe^que_ndu_m fa^ci^nu^s e_du_cto_s a^ge_ns | No diphthong
+du_ra i_mpi^a_que& sti_rpe^ Ge_tu_la! O_ fe^ru&m, | Case problem
+Do^le_bi^s i_n di^e_s mi^nu_s, cu_m plu_s sa^pi^s. | not enough info on sapis
+si&c e_t vi^ro_ru_m s[ae]pi^u^s a^ni&mi e_xci^ti& | exciti can have long or short i, but the dictionary only has long i
+co&li^tu^r ho^no_ri^bu^s, [au]re^o_ pr[ae]sta_ns gra^du_. | Fixed
+sta_t fro_ns e^i_ vu_ltu_sque^ pa_lle_nte_s gra^vi_ | Disyllabic ei
+se_nte_nti^i_s, u_t de^ce^t, e^i_ ta^me^n, u_t re^o^r, | | Disyllabic ei
+e&i_que^ tha_la&re_s fe^ro_ mo_nstro_ le^ve&s | Disyllabic ei
+Pro^i_nde^ pri_va_ti_ do^mu_m cu_re_nt su^a&m, | Dysyllabic proin
+Pro^i_nde^ de_cre_tum e_st a^pu_d me_ fu_ndi^tu^s | Dysyllabic proin
+a_rbi^tro^r e^o_s, qvi_ tam i_mpa^re_s se_ pri_sti^ni&s | arbitror not in dict
+ma&lu_m fe^re_ndo_ de_ni^que a_ssve_sca_s ma^gi&s. | Should have dound assvescat in the dictionary
+a_rse_re^ fla_mm[ae]. Fe_rtu^r e_t fo_rmi_ce^i&s | Not a diphtong
+e_x i_nsti^tu_to_ re^li^qua, u^t hi_nc e_t ple_ni^u&s |  Not enough data on instituto
+qvi e_xo_rdi^u_m re_gni e_ru^e_ndi_ pa_tri^i&s | Muta cum liquida
+quoa_d po^te^ri^s, i_psa& co_nsu^le_s. Sta^t e^ni_m mi^hi& | Monosyllabic quoad
+Spe&m e_sse^ me^ri^ti_ fi_li^a_m vu_lgo_ fe^ru_nt, | Hiatus
+E_x u_lti^mo a_e_n[ei] co^lo_ssi_ ve_rti^ce& | no diphtong in aeneus (or, possibly, hiatus)
+u_mbri_s gra^ve i_nfe_sti_s, pro^pe^re^ h[ae]re_ns lo^co_ | Hiatus
+qua_rum o^pe^ra^ hu_i_c ca^la^mi^ta_s ge_nti_ ma^gi&s | Dysyllabic huic? Uncertain Hiatus?
+Iu&gu_rtha he^ru_m fe_rro_ he^ e_xti_nxi_t me^u&m. | Hiatus in exclamation
+te_rri_s fe^ra_s? O_ e_t tu, o^ly_mpi^cu_m de^cu&s, | Hiatus in exclamation
+i&nju_ri^i_s, i_nvi_ti i^nho_rre_scu_nt he^ h[eu]. | Hiatus in exclamation
+He^ he^ he^! A^de_ste, a_ccu_rri^te^, he^ su_cce_di^te&, | Hiatus in exclamation Uncertain
+'O_,’ i_nqvi^t, 'o_mne, o_ u_ni^cu_m de&cu_s me^u&m, |  Hiatus Uncertain
+O_ Po_ly^mi_te_s, o_ e^t i_nte_rpre_s de^u&m, | Hiatus in exclamation
+pa_rti_s vi^de^o^. Tu_ Ci_rtha^ pro^fu^gu&m, he^ he^, tu^o& | Hiatus in exclamation Uncertain
+O_ i_mpi^u_m di_ru_mque^ pro_du_ctum e_x e^a& | Hiatus in exclamation
+[Eu]h[oe]! U^t i_nte_r cla_mi^ta_ndum o_bmu_tu^i&t | Hiatus in exclamation
+O&e^ mi^se^ra_m ma_tre_m! Se^d e_ccum e&t a_lte^ru&m | Weird exclamation. Is it O he?
+mo&nstra a_tqve^ cu_ra&s pro_gre^di_ ve^tu^i_t gra^ve&s
+pro& ma_xi^mo_ be&ne^fi^ci^i_ me^ri^to e_xi^ma&r
+du^ri^u^s ho^mi^ne_ ve&l qvo_s ho^mo_ ta&nde_m si^bi&
+i&mmo e_t qvi^de_m su&b so_le^ de_li^ti^[ae] de^u&m
+o& du_lce^ le_tu&m re^fu^gi^um a_ di&i_s da^tu&m
+pu&bli^ca^qve^ pri_va&ta^qve^ vo^lu_ta&nte_m lo^ca&
+qva&ndo^qvi^dem i^n ho^mi^nu&m ge^ne^re^ ta_m ma^le^ li_be^ro&s
+a&li^tu^r a^bi_nde^ ca^da_ve^re a_dve&ctu_s pe^ti&t
+o^pe^r[ae] pre^ci^um a^bi&i_sse^ si^t e^u&m tri_sti^u&s
+be&ne^fi^ci^i_s cla&rum e_sse^ pu_lchre& co_nde^ce&t
+be&ne^fi^ci^o_ ne& tu_ sa^ti^s ho^mi&ne_m tu^o&
+qvi&n fa_stu^s o_bse^qvi^o_ pro^ca_ci^u^s i_ntu^me&t
+de&me^ru^e^ri_s rem e&gi_sse^ pro o_ffi^ci^o_ sa^t e&st
+o&bli_qva^ lu_mi&na^ mo^do^ su_bre&pta a_lti^u&s
+i&gne^ ti^bi^ ta^la^ fa&ci_s te^ne_bra&s u_lti^ma&s
+ne& cre_de^ ne_ cre&de^ ve^te^ri a^ta^vo&rum ho_spi^ti&
+o& ple_na^ nu_mi^ne^ cu_j fu^tu_ra& phy_ti^u&s
+ci&vi^bu^s e^t i_nti&mi_s do^le_re^ pro^bo_s a^ni&
+mi&s re_gu^lo_s ga&za a_tqve^ se_di^bu^s o_cy^u&s
+cu&ra i_gne^o_qve^ fu^ro_re^ su_ffu&se_ ge^n[ae]
+u&bi^li^be^t i_ndi&ce_ndum e^t i_nde e&go hi_nc si^mu&l
+vo&s e_t se^qvi^mi^ni& su_ppli^ce_s mo&ve_nt de^o&s
+co&mple_xa^ du_dum e&t sva_vi^o_ li&ba_ns su^o&
+e&t i^no^pi^am e_t fu&rtum e_t ra^pi_na&m co_nci^ta&s
+qva&ti^te^ i^o_ thy&rso_s qva^ti^te^ pu&lchro_ de^o&
+si&mu_l i^o_ ma&tro^ne^ i^o_ ba&cche i_ncli^te&
+fe&ra_le^ phy^to^ni&ss[ae] a_bi^gi_te o&me_n de^i&
+i&s co_mmo^du^s e^ti&a_m si e^a_t mo&le_stu^s e&st
+ho&ste_m pu^ta_re^ pi^u_mqve^ du_ci&to_ fo^re&
+fa^ci^em i_n su^a_m pro&nu_s pro^pe^re^ la&psu_s ge^mi&t
+odisse mortalis, ut et quos Lucifer
+non dubito quin audax comam Baccho secet,
+monstris nefandis: nam ultro monstra hi provocant
+Quis adeo fortis est, quis est tam ferreus
+qui non ut ego scelus in Micissa fulminet?
+Eum ne Iugurtham patre incerto editum
+Et quem ille tu ne, tu ne regem, tu parem
+Profecto consiliis bonis nisi ultro rex
+Frater ne fratrem non colet? Colet? Ubi nam
+ut subiit, heu, Livor inimicus appulit
+Consilia probet eventus. Interim hac mea
+medio ne consessu quasi et parentem eum
+dignabimur nostro, ne sordidum in domum
+Fastum quidem obsequio propere vinces tuo.
+Semper ne perferemus hoc: ut qui modis
+Nunquam ne te tot atque tantis obrutum
+Nunquam ne te posse aliquid in petulantium
+illi ne qui superbia atque ignavia
+O patria, patria, sic ne sacrarum aedium
+facilem atque morigeram! Opus est ad id rei
+Sed ecce Perfidia uti prona est ad scelus!
+Qui&d i_nde a^ga_m ne_sci^o^. Ne_ ve_ro& no_n fe^ra&m | Prolonged short

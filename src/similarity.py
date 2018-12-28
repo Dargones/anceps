@@ -1,5 +1,6 @@
 from scipy import spatial
 import sys
+import math
 
 MAX = -1  # If MAX != -1 only consider the first MAX meter patterns (they are
 # ordered by the number of syllables, so short meters come first

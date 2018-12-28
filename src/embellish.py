@@ -13,5 +13,5 @@ replace = {' ⁔': '\n', '⁔ ': '\n', '⁔': '\n', ' ': '\n',
 
 embellishments = {replace[x]: x for x in replace.keys()}
 
-input = "Be^ne^fi^ci^um ho^mo ho^mi^ni_ qui_ da^t, i^mi^ta_tu_r de^o&s"
+input = "i&nju_ri^i_s, i_nvi_ti& i^nho_rre_scu&nt he^ heu_. \n"
 print(multireplace(input, embellishments))

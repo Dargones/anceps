@@ -1,7 +1,7 @@
 Quis inferorum sede ab infausta extrahit
 Auido fugaces ore captantem cibos?
 Quis male deorum Tantalo uisas domos
-Ostendit iterum? peius inuentum est siti 
+Ostendit iterum? peius inuentum est siti
 Arente in undis aliquid et peius fame
 Hiante semper? Sisyphi numquid lapis
 Gestandus umeris lubricus nostris uenit
@@ -88,7 +88,7 @@ Non esse poenam. mittor ut dirus uapor
 Tellure rupta uel grauem populis luem
 Sparsura pestis? ducam in horrendum nefas
 Auus nepotes? magne diuorum parens
-Nosterque (quamuis , ingenti licet
+Nosterque (quamuis pudeat, ingenti licet
 Taxata poena lingua crucietur loquax,
 Nec hoc tacebo: moneo, ne sacra manus
 Violate caede neue furiali malo
@@ -198,7 +198,8 @@ Megaera quatiens: non satis magno meum
 Ardet furore pectus, impleri iuuat
 Maiore monstro. Quid noui rabidus struis?
 Nil quod doloris capiat assueti modum;
-Nullum relinquam facinus et nullum est satis. Parum est. Quid ignis? Etiamnunc parum est.
+Nullum relinquam facinus et nullum est satis.
+Ferrum? Parum est. Quid ignis? Etiamnunc parum est.
 Quonam ergo telo tantus utetur dolor?
 Ipso Thyeste. Maius hoc ira est malum.
 Fateor. tumultus pectora attonitus quatit
@@ -213,7 +214,7 @@ Supraque fines moris humani tumet
 Instatque pigris manibus - haud quid sit scio,
 Sed grande quiddam est. ita sit. hoc, anime, occupa
 (Dignum est Thyeste facinus et dignum Atreo,
-Quod uterque : uidit infandas domus
+Quod uterque faciat: uidit infandas domus
 Odrysia mensas - fateor, immane est scelus,
 Sed occupatum: maius hoc aliquid dolor
 Inueniat. animum Daulis inspira parens
@@ -243,7 +244,6 @@ Regno ut miserias mutet atque Argos regat
 Ex parte dominus. si nimis durus preces
 Spernet Thyestes, liberos eius rudes
 Malisque fessos grauibus et faciles capi
-Prece commouebo.Hinc uetus regni furor,
 Illinc egestas tristis ac durus labor
 Quamuis rigentem tot malis subigent uirum.
 Iam tempus illi fecit aerumnas leues.
@@ -261,7 +261,8 @@ Fortasse et illic agitur. Hanc fraudem scient
 Gnati parari? tacita tam rudibus fides
 Non est in annis; detegent forsan dolos:
 Tacere multis discitur uitae malis.
-Ipsosne, per quos fallere alium cogitas, Vt ipsi crimine et culpa uacent.
+Ipsosne, per quos fallere alium cogitas,
+Falles? Vt ipsi crimine et culpa uacent.
 Quid enim necesse est liberos sceleri meo
 Inserere? per nos odia se nostra explicent. -
 Male agis, recedis, anime: si parcis tuis,
@@ -293,7 +294,7 @@ Modo inter illa, quae putant cuncti aspera,
 Fortis fui laetusque; nunc contra in metus
 Reuoluor: animus haeret ac retro cupit
 Corpus referre, moueo nolentem gradum.
-Pigro (quid hoc ) genitor incessu stupet
+Pigro (quid hoc est) genitor incessu stupet
 Vultumque uersat seque in incerto tenet.
 Quid, anime, pendes, quidue consilium diu
 Tam facile torques? rebus incertissimis,
@@ -506,7 +507,7 @@ Ieiuna siluis qualis in Gangeticis
 Inter iuuencos tigris errauit duos,
 Vtriusque praedae cupida quo primum ferat
 Incerta morsus (flectit hoc rictus suos,
-Illo reflectit et famem dubiam ,
+Illo reflectit et famem dubiam tenet),
 Sic dirus Atreus capita deuota impiae
 Speculatur irae. quem prius mactet sibi
 Dubitat, secunda deinde quem caede immolet.
@@ -531,7 +532,7 @@ Silua iubatus qualis Armenia leo
 In caede multa uictor armento incubat
 (Cruore rictus madidus et pulsa fame
 Non ponit iras: hinc et hinc tauros premens
-Vitulis minatur dente iam lasso ,
+Vitulis minatur dente iam lasso piger),
 Non aliter Atreus saeuit atque ira tumet,
 Ferrumque gemina caede perfusum tenens,
 Oblitus in quem fureret, infesta manu
@@ -693,7 +694,7 @@ Hoc est quod auidus capere non potuit pater.
 Voluuntur intus uiscera et clusum nefas
 Sine exitu luctatur et quaerit fugam:
 Da, frater, ensem (sanguinis multum mei
-Habet : ferro liberis detur uia.
+Habet ille): ferro liberis detur uia.
 Negatur ensis? pectora inliso sonent
 Contusa planctu - sustine, infelix, manum,
 Parcamus umbris. tale quis uidit nefas?
@@ -723,7 +724,7 @@ Quocumque, di, fugistis. audite inferi,
 Audite terrae, Noxque Tartarea grauis
 Et atra nube, uocibus nostris uaca
 (Tibi sum relictus, sola tu miserum uides,
-Tu quoque sine , uota non faciam improba.
+Tu quoque sine astris), uota non faciam improba.
 Pro me nihil precabor - et quid iam potest
 Pro me esse? uobis uota prospicient mea.
 Tu, summe caeli rector, aetheriae potens
@@ -750,7 +751,8 @@ Nunc parta uera est palma. perdideram scelus,
 Nisi sic doleres. liberos nasci mihi
 Nunc credo, castis nunc fidem reddi toris.
 Quid liberi meruere? Quod fuerant tui.
-Natos parenti - Fateor, et, quod me iuuat, Piorum praesides testor deos.
+Natos parenti - Fateor, et, quod me iuuat,
+Certos. Piorum praesides testor deos.
 Quid? coniugales? Scelere quis pensat scelus?
 Scio quid queraris: scelere praerepto doles;
 Nec quod nefandas hauseris angit dapes:

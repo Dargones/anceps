@@ -11,7 +11,7 @@ from src.utilities import *
 
 MQDQ = 0
 REPEAT = 1
-MAX_ATTEMPT = 200
+MAX_ATTEMPT = 300
 
 MODES = [(MQDQ, False)]
 # each time the program makes an attempt to scan the lines it can employ a
@@ -23,6 +23,61 @@ MODES = [(MQDQ, False)]
 # if MODES[i][1] == True.
 
 LINES_TO_DEBUG = []
+
+check = ["praerupta rupes eminet ponto media,",
+"statuam? Sorore quid enim restat mihi",
+"ego te peremi. Causa nostra est haec, soror,",
+"soror viderem. Quamvis hoc vetuit deus,",
+"tentare latebras? Ede fortunam, senex,",
+"Quae clades ista? Numquid et peius nece?",
+"pars, periit. Utinam corpus extinctum nece,",
+"fluctu protervo rupes exesum latus",
+"contaminatis aude pro thalamis aliquid",
+"tentare latebras ausus ignotas mihi.",
+"Indulge, quaeso, facinus hoc nuper, soror,",
+"te, te parentem! Genitor evixit super,",
+"restaret ut hoc tempore infoelix pater:",
+"sociata cessi. Superat hic animus sibi.",
+"Utinam dehiscens tellus hoc olim caput",
+"acthea ferro tellus et summae parent",
+"fortasse credis? Tellus hostilis premet.",
+"Moriere. Moriar ulta. Fama te moveat.",
+"Non si ipse clipeum genitor opponat sibi,",
+"Hortamur. Eia, quod mare et terra horreat,",
+"Hot, hoc libet quod timeo, vel siquid mali",
+"ignoro. Perge, furor, prope est, par est scelus.",
+"Indulge, soror, ha, potius impune hoc ferat.",
+"levamen, etsi genitor invisus mihi",
+"Oblitus ille decoris et nostri quoque",
+"Post ista dubitas sceleris ulcisci, misera,",
+"Alumna, quaeso, nulla te pietas movet?",
+"Huius diei faxo sit semper memor!",
+"quae regio tantum fecit aut credet: nefas?",
+"umbrae Vagantes, strepitus horrendum intonat",
+"parvis lacertis genua complexus puer.",
+"Spes vana patriae, deperis parvus Ythis,",
+"erepsit. Etsi timeo nil, piget tamen",
+"indulge Baccho, Voce faestiva cane.",
+"Vocetur. Ubi natus latet diu mihi?",
+"in ora patris. Hunc ne cognoscis, pater,",
+"Hunc te, Ythi, genitor video? Quis fleat satis",
+"superos timebam. Genitor explevi sitim",
+"dum te nequiciae pigeat aliquando tuae.",
+"Poterat sine ulla caede puerili peragi",
+"En alta cerno decora natalis soli",
+"aulamque Terei. Quid hoc est? Fugiunt retro",
+"miserumque patrem. Video crudelis focos",
+"Saris ne dixi? Iam satis: facto est opus.",
+"Erynnis. Onere tellus infaesto diu",
+"Thraces et omnis regio glacialis poli",
+"agnosco templum, sceptra gestantes, dare.",
+"Non cernis alta decora natalis soli?",
+"complexus: 'Ut, ut te, gener, dum spiro adhuc,",
+"Valet ne Progne? Superat et carus nepos?“",
+"Carina.’ Et ecce desuper turbo rapax",
+"Non is genarum fulgor, ut olim decens:",
+"tumor per artus abiit afflictos gravis.",
+"aut inligato Rhodope sub Thressae iugis"]
 
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
@@ -67,7 +122,6 @@ class Word:
         :return:
         """
         # TODO: fix the problem with ve
-
         Word.total += 1
         self.meter, self.scansions = mqdqParser.get_quantities(self.word, trace)
         if self.meter:
@@ -91,7 +145,7 @@ class Word:
                     follow = re.sub(' ', '', follow)
                     if len(follow) > 2 and follow[1] == 'h':
                         follow = follow[:1] + follow[2:]
-                    if (len(follow) == 2) and (re.match(SHORT_COMBINATIONS, follow)):
+                    if (len(follow) == 2) and (re.match(MCL, follow)):
                         self.muta_cum_liquida = True
             return
 
@@ -270,7 +324,7 @@ class Line:
         self.id = Line.line_counter
         self.initial_orthography = copy.deepcopy(string)
         Line.line_counter += 1
-        string = string.lower()
+        string = re.sub('V', 'U', string).lower()
         mqdqParser.check_validity(string, self.id, '')
         string = re.sub(r'[^a-z0-9/ ]', ' ', string)  # dealing with punctuation
         string = re.sub(r'[ ]+', ' ', string)
@@ -335,6 +389,13 @@ class Line:
             print('')
         return result
 
+    def new_scansions_possible(self):
+        """
+        If there are some unexplored ways this line could be scanned
+        :return:
+        """
+        return self.mqdq_id < len(self.mqdq)
+
     def scores(self):
         """
         Returns two certainty scores that can be used to identify lines that
@@ -389,7 +450,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     :param manual: Ask the user for manual guidence
     :return: list of possible scansions for each line
     """
-    certainty = []
+    certainty = []  # how probable a certain scansion version is
     vocabulary = []
     lines = []
     result = []
@@ -399,8 +460,8 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     with open(path_to_text) as file:
         for line in file:
             lines.append(Line(line))
-            vocabulary.append("")
-            certainty.append("")
+            vocabulary.append([])
+            certainty.append([])
             result.append([])
     print("Scanning: " + path_to_text)
     if elision:
@@ -408,18 +469,12 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
         Word.save_elision_stats(elision_file, len(lines))
     print("Fraction of words in dictionary: " + str(Word.mqdqit/Word.total))
 
-    progress = -1
     attempt_n = 0
-    versions_total = 0
-    possible_progress = False
-
     if manual or print_problems:
         with open('output/' + path_to_text.split('/')[-1]) as file:
             previous_attempt = file.readlines()
 
-    while (progress != 0 or possible_progress) and (
-                    attempt_n < MAX_ATTEMPT or MAX_ATTEMPT == -1):
-        possible_progress = False
+    while attempt_n < MAX_ATTEMPT or MAX_ATTEMPT == -1:
         if attempt_n >= len(MODES):
             mode = MODES[-1]
         else:
@@ -428,86 +483,63 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
                 break
         if trace:
             print('\nAttempt #' + str(attempt_n))
-        empty = 0
-        identified = 0
-        versions_total_new = 0
+        versions_new = 0
+
         for i in range(len(lines)):
-            if not mode[1] and lines[i].scanned:
-                versions_total_new += 1
-                identified += 1
+            if not lines[i].new_scansions_possible():
                 continue
+
             meter = meters[i % len(meters)]
             att = lines[i].get_meter(mode[0])
             curr = scansion_versions(att, meter, 0)
 
             if attempt_n == 0 and print_problems:
-                if previous_attempt[i] == '&\t\t\n':
-                    print("Line: " + lines[i].initial_orthography +
-                          "Output: " + " ".join(att) +
+                if previous_attempt[i] == '&\t\t0\n':
+                    print("Line: " + get_word_info(lines[i], att, strict=False) +
+                          "\nInitial: " + lines[i].initial_orthography.rstrip('\n') +
                           "\nNumber of syllables according to the program: " +
                           str(len(att)) + "\n" +
                           "The program failed to scan the line\n\n")
                     # print(lines[i].initial_orthography.rstrip('\n'))
-                elif '|' in previous_attempt[i]:
-                    """print("Line:" + lines[i].initial_orthography +
-                          "Output: " + " ".join(att) +
-                          "\nNumber of syllables according to the program: " +
-                          str(len(att)) + "\n" +
-                          "The program gave multiple possible scansions\n\n")"""
-                    pass
 
-            if len(curr) == 1:
-                vocabulary[i] = get_word_info(lines[i], curr[0])
-                certainty[i] = str(lines[i].scores())
-                versions_total += 1
-                identified += 1
-                lines[i].scanned = True
-                result[i] = curr
-            else:
-                if lines[i].mqdq_id < len(lines[i].mqdq):
-                    possible_progress = True
-                lines[i].scanned = False
-                if len(curr) == 0 and not result[i]:
-                    empty += 1
-                elif not result[i]:
-                    result[i] = curr
-                    if manual and '|' in previous_attempt[i]:
-                        result[i] = solve_manually(lines[i], result[i])
-                        if len(result[i]) == 1:
-                            vocabulary[i] = get_word_info(lines[i], result[i][0])
-                            certainty[i] = str(lines[i].scores())
-                            identified += 1
-                            lines[i].scanned = True
-                    versions_total += len(result[i])
+            if i in LINES_TO_DEBUG:
+                print(result[i])
+                print(curr)
+            for version in curr:
+                if i in LINES_TO_DEBUG:
+                    print(certainty[i])
+                    print(version)
+                    print(lines[i].scores())
+                if version not in result[i]:
+                    result[i].append(version)
+                    certainty[i].append(lines[i].scores())
+                    vocabulary[i].append(get_word_info(lines[i], version))
+                    versions_new += 1
                 else:
-                    new_result = []
-                    for v in result[i]:
-                        if v in curr:
-                            new_result.append(v)
-                    if new_result:
-                        if len(new_result) == 1:
-                            identified += 1
-                            lines[i].scanned = True
-                            vocabulary[i] = get_word_info(lines[i], new_result[0])
-                            certainty[i] = str(lines[i].scores())
-                        result[i] = new_result
+                    position = result[i].index(version)
+                    certainty[i][position] += lines[i].scores()
+                if i in LINES_TO_DEBUG:
+                    print(certainty[i])
+            if i in LINES_TO_DEBUG:
+                print('\n')
+
+            if manual and len(result[i]) > 1 and (attempt_n == MAX_ATTEMPT - 1 or
+                                                      not lines[i].new_scansions_possible()):
+                new_result = solve_manually(lines[i], result[i])
+                if len(new_result) == 1:
+                    position = result[i].index(new_result[0])
+                    vocabulary[i] = [vocabulary[i][position]]
+                    certainty[i] = [certainty[i][position]]
 
             if i in LINES_TO_DEBUG:
                 print(result[i])
 
-        progress = versions_total_new - versions_total
-        versions_total = versions_total_new
         attempt_n += 1
         if trace:
-            print('average = ' + str(round(versions_total / len(lines), 2)) +
-                  ' versions per line.\nidentified = ' +
-                  str(round(identified / len(lines) * 100, 1)) + '%\nempty = ' +
-                  str(round(empty / len(lines) * 100, 1)) + '%')
+            print('new versions: ' + str(versions_new) + "\nempty: " +
+                  str(sum(len(x) == 0 for x in result)) + "\nsingle: " +
+                  str(sum(len(x) == 1 for x in result)))
 
-    for i in range(len(lines)):
-        if not result[i]:
-            lines[i].mqdq_id = 0
-            result[i] = [lines[i].get_meter(MQDQ)[:-1] + [UNK]]
     return result, vocabulary, certainty
 
 
@@ -518,6 +550,8 @@ def solve_manually(line, scansions):
     :param scansions:
     :return:
     """
+    """if line.initial_orthography.rstrip('\n') not in check:
+        return scansions"""
     for scansion in scansions:
         if len(scansion) != len(scansions[0]):
             return scansions
@@ -529,7 +563,7 @@ def solve_manually(line, scansions):
     while len(scansions) != 1 and i < len(scansions[0]):
         versions = [x[i] for x in scansions]
         if LONG in versions and SHORT in versions:
-            print("\nAll versions: " + '\t\t\t'.join([' '.join(x) for x in scansions]))
+            print("\nAll versions:\n" + '\n'.join([get_word_info(line, x, strict=False) for x in scansions]))
             print("Number of syllables: " + str(len(scansions[0])))
             print("In sentence: " + line.initial_orthography.strip('\n'))
             print("In word: " + line.line[word_id[i][0]].word)
@@ -541,7 +575,8 @@ def solve_manually(line, scansions):
                 return scansions
         i += 1
     if len(scansions) == 1:
-        print('% ' + get_word_info(line, scansions[0], strict=False) + '\t' + str(line.scores()))
+        print('% ' + get_word_info(line, scansions[0], strict=False))
+        print(scansion_versions(scansions[0], TRIMETER, 0) != 0, '\n')
     return scansions
 
 
@@ -566,10 +601,19 @@ def print_results(lines, vocabulary, scores, output_file):
     with open(output_file, 'w') as file:
         for i in range(len(lines)):
             curr = lines[i]
-            if UNK in curr[0]:
+            if len(curr) == 0:
                 file.write(UNK)
             else:
                 file.write('|'.join([' '.join(pattern) for pattern in curr]))
+
+            if len(scores[i]) != 0:
+                scores[i] = str(sum(scores[i])/len(scores[i]))
+            else:
+                scores[i] = '0'
+            if len(vocabulary[i]) == 1:
+                vocabulary[i] = vocabulary[i][0]
+            else:
+                vocabulary[i] = ""
             file.write('\t' + vocabulary[i] + '\t' + scores[i] + '\n')
 
 
@@ -580,5 +624,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result, voc, scores = main(filename, [TRIMETER], False, False, False, False)
+        result, voc, scores = main(filename, [TRIMETER], False, True, False, False)
         print_results(result, voc, scores, output_filename)

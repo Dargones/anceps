@@ -16,10 +16,8 @@ CONSONANTS = 'bcdfghklmnpqrstvjxz' + PSEUDO_CONSONANT
 LONG_CONSONANTS = ['z','x']
 
 # muta cum liquida
-SHORT_COMBINATIONS = '(pl|bl|tl|dl|cl|gl|fl|pr|br|tr|dr|cr|gr|fr'
-# because v is a semivowel
-SHORT_COMBINATIONS += '|qv|sv|gv'
-SHORT_COMBINATIONS += '|ns|dh|rh|nh|ch|sh|ph|th|mh)'
+MCL = '(pl|bl|tl|dl|cl|gl|fl|pr|br|tr|dr|cr|gr|fr|qv|sv|gv)'
+SHORT_COMBINATIONS = MCL[:-1] + '|dh|rh|nh|ch|sh|ph|th|mh|lh|kh|gh|fh|bh")'
 
 VOWELS = 'aeiouy'
 SHORT_BY_NATURE = 'aey'  # This will be used as a last resort
@@ -350,6 +348,8 @@ def u_or_v(word):
     # semivowel, but this is irrelevant for current purposes)
     # SOURCE: Allen and Greenough
     word = re.sub(r'([qg])u([' + VOWELS + '])', r'\1v\2', word)
+
+    word = re.sub(r'ue$', r've', word)
 
     # u in the beginning of the word followed by a vowel is a consonant.
     return re.sub(r'(^|['+VOWELS+'])u([' + VOWELS + '])', r'\1v\2', word)

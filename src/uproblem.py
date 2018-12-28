@@ -6,14 +6,14 @@ except ImportError:
     import xml.etree.ElementTree as ET
 
 OUTPUT_FILE_NAME = '/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/diogenes/ijuv_dictionary.txt'
-WINGE_DICTIONARY = "/Users/alexanderfedchin/PycharmProjects/Scansion_project/archives/latin-macronizer-master/macrons.txt"
+WINGE_DICTIONARY = "/Users/alexanderfedchin/PycharmProjects/Scansion_project/archives/latin-macronizer/macrons.txt"
 IS_SET_UP = False
 dictionary = {}
 
 
 def merge_u_and_v(one, two):
     """
-    Merging two versions of how a word should be read, favoring v over v
+    Merging two versions of how a word should be read, favoring v over u
     :param one:
     :param two:
     :return:
@@ -82,7 +82,7 @@ def rebuilt_winge():
             continue
         if line[0] in dictionary:
             line[-1] = merge_u_and_v(dictionary[line[0]], line[-1])
-        dictionary[line[0]] = u_or_v(i_or_j(line[-1]))
+        dictionary[line[0]] = u_or_v(line[-1])
     with open(OUTPUT_FILE_NAME, 'w') as out:
         for key, value in dictionary.items():
             if value:

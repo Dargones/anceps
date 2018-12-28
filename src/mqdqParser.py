@@ -335,11 +335,11 @@ def setup(dict_name=DEFAULT_DICT):
             line = line.split(' ')
             key = line[0]
             lemma = line[1]
-            total_count = int(line[2])
+            total_count = float(line[2])
             i = 3
             versions = []
             while i < len(line) - 1:
-                versions.append((line[i], int(line[i + 1])))
+                versions.append((line[i], float(line[i + 1])))
                 i += 2
             dictionary[key] = Entry(total_count, versions, key)
             if lemma == LEMMATIZATION_FAILED:
