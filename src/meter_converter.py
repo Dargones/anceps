@@ -124,26 +124,19 @@ def merge_data(automatic_file, manual_file, input_file, output_file, meter_type)
         file.write("*/\n\n" + result)
 
 
-def winge_converter(file1, file2, outputfile):
-    lines = [line.rstrip('\n') for line in open(file1)]
-    for i, line in enumerate(open(file2)):
-        line = line.rstrip('\n')
-        if i + 1 < len(lines):
-            if lines[i + 1] == '':
-                lines[i + 1] = line
-        else:
-            lines.append(line)
+def winge_converter(source):
+    lines = [line.rstrip('\n') for line in open(source)]
     lines = [multireplace(line, {'u': '^', '-': '_', '|': ''}) for line in lines]
     lines = [scansion_versions(line, TRIMETER, 0) for line in lines]
     for i, line in enumerate(lines):
         if len(line) == 0:
-            lines[i] = '&'
+            lines[i] = ''
         elif len(line) == 1:
-            lines[i] = ' '.join(line[0])
+            lines[i] = ''.join(line[0])
         else:
             print("Ambiguity")
             exit(-1)
-    with open(outputfile, 'w') as file:
+    with open(source, 'w') as file:
         file.writelines('\n'.join(lines))
 
 
@@ -153,7 +146,6 @@ if __name__ == "__main__":
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + name, TRIMETER)
+
     """winge_converter(
-        "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/testPart1.txt",
-        "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/testPart2.txt",
-        "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/test.txt")"""
+        "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/Thyestes.txt")"""

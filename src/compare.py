@@ -151,6 +151,26 @@ def compare(man, auto, text):
           cE + "\ncNotSize: " + cNST)
 
 
+def compare_winge(native_file, winge_file):
+    native = open(native_file).readlines()
+    while native[0][:2] != "*/":
+        del native[0]
+    del native[0:2]
+    winge = open(winge_file).readlines()
+    assert(len(native) == len(winge))
+    print("Differences: ")
+    for i in range(len(native)):
+        line, _, meter, marks = native[i].split('\t')
+        if meter != winge[i].rstrip('\n') and winge[i] != '\n':
+            print(line + '\t' + meter + '\t' + winge[i].rstrip('\n'))
+    print("\n Unscanned: ")
+    for i in range(len(native)):
+        line, _, meter, marks = native[i].split('\t')
+        if winge[i] == '\n':
+            print(line + '\t' + meter + '\t' + marks.rstrip('\n'))
+
+
+
 def compare_co_format(man, auto, text):
     """
     Read the two files, one of which contains the output of the algorithm, and
@@ -252,12 +272,14 @@ def main(path_to_result, path_to_test, path_to_text, format):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
+    """if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
                 sys.argv[4] != 'dactylspondee')):
         print("Usage: " + sys.argv[0] + " program_output_file_name " +
               "answer_key_file_name text_file_name format" +
               "[longshort|dactylspondee]")
         sys.exit(-1)
-    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')
+    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')"""
+    compare_winge("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/Thyestes.txt",
+                  "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/Thyestes.txt")
     """main("output/input.txt", "testing_data/input_test.txt", "texts/input.txt",
          False)"""

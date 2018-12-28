@@ -9806,7 +9806,7 @@ cubitusque cubitusque 1 cu^bi^tu_sqve^ 1
 cucurri curro 3 cu^cu_rri& 3 
 cucurrit curro 19 cu^cu_rri&t 19 
 cudone cudo2 2 cu_do_ne^ 2 
-cui qui1 410 cu&j 410 
+cui qui1 410 cu_j 410
 cuicumque quicumque 4 cu_jcu_mqve^ 4 
 cuicumquest cuicumquest 1 cu_jcu_mqve_st 1 
 cuiquam quisquam 16 cu_jqva&m 16 

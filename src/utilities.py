@@ -347,7 +347,7 @@ def u_or_v(word):
     # then "u" follows "s", "g", or "q" - it is a consonant (technically, a
     # semivowel, but this is irrelevant for current purposes)
     # SOURCE: Allen and Greenough
-    word = re.sub(r'([qg])u([' + VOWELS + '])', r'\1v\2', word)
+    word = re.sub(r'([qsg])u([' + VOWELS + '])', r'\1v\2', word)
 
     word = re.sub(r'ue$', r've', word)
 
