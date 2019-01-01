@@ -24,61 +24,6 @@ MODES = [(MQDQ, False)]
 
 LINES_TO_DEBUG = []
 
-check = ["praerupta rupes eminet ponto media,",
-"statuam? Sorore quid enim restat mihi",
-"ego te peremi. Causa nostra est haec, soror,",
-"soror viderem. Quamvis hoc vetuit deus,",
-"tentare latebras? Ede fortunam, senex,",
-"Quae clades ista? Numquid et peius nece?",
-"pars, periit. Utinam corpus extinctum nece,",
-"fluctu protervo rupes exesum latus",
-"contaminatis aude pro thalamis aliquid",
-"tentare latebras ausus ignotas mihi.",
-"Indulge, quaeso, facinus hoc nuper, soror,",
-"te, te parentem! Genitor evixit super,",
-"restaret ut hoc tempore infoelix pater:",
-"sociata cessi. Superat hic animus sibi.",
-"Utinam dehiscens tellus hoc olim caput",
-"acthea ferro tellus et summae parent",
-"fortasse credis? Tellus hostilis premet.",
-"Moriere. Moriar ulta. Fama te moveat.",
-"Non si ipse clipeum genitor opponat sibi,",
-"Hortamur. Eia, quod mare et terra horreat,",
-"Hot, hoc libet quod timeo, vel siquid mali",
-"ignoro. Perge, furor, prope est, par est scelus.",
-"Indulge, soror, ha, potius impune hoc ferat.",
-"levamen, etsi genitor invisus mihi",
-"Oblitus ille decoris et nostri quoque",
-"Post ista dubitas sceleris ulcisci, misera,",
-"Alumna, quaeso, nulla te pietas movet?",
-"Huius diei faxo sit semper memor!",
-"quae regio tantum fecit aut credet: nefas?",
-"umbrae Vagantes, strepitus horrendum intonat",
-"parvis lacertis genua complexus puer.",
-"Spes vana patriae, deperis parvus Ythis,",
-"erepsit. Etsi timeo nil, piget tamen",
-"indulge Baccho, Voce faestiva cane.",
-"Vocetur. Ubi natus latet diu mihi?",
-"in ora patris. Hunc ne cognoscis, pater,",
-"Hunc te, Ythi, genitor video? Quis fleat satis",
-"superos timebam. Genitor explevi sitim",
-"dum te nequiciae pigeat aliquando tuae.",
-"Poterat sine ulla caede puerili peragi",
-"En alta cerno decora natalis soli",
-"aulamque Terei. Quid hoc est? Fugiunt retro",
-"miserumque patrem. Video crudelis focos",
-"Saris ne dixi? Iam satis: facto est opus.",
-"Erynnis. Onere tellus infaesto diu",
-"Thraces et omnis regio glacialis poli",
-"agnosco templum, sceptra gestantes, dare.",
-"Non cernis alta decora natalis soli?",
-"complexus: 'Ut, ut te, gener, dum spiro adhuc,",
-"Valet ne Progne? Superat et carus nepos?“",
-"Carina.’ Et ecce desuper turbo rapax",
-"Non is genarum fulgor, ut olim decens:",
-"tumor per artus abiit afflictos gravis.",
-"aut inligato Rhodope sub Thressae iugis"]
-
 # ------------------------------------------------------------------------------
 # ------------- The Word Class Definition --------------------------------------
 # ------------------------------------------------------------------------------
@@ -236,7 +181,7 @@ class Word:
                 meter += UNK
             elif self.long_by_pos:
                 meter[-1] = UNK
-            elif self.muta_cum_liquida and self.meter[-1] == SHORT:
+            elif self.muta_cum_liquida and meter[-1] == LONG:
                 meter[-1] = UNK
 
         id = -1

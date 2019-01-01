@@ -9,6 +9,37 @@ SEARCH_LEN = 5
 LIMIT = 0
 
 
+def check_consistency(filename):
+    """
+    Checks if the text is self-consistent, i.e. that same forms are scanned the same way
+    :return:
+    """
+    dictionary = {}
+    lines = open(filename).readlines()
+    while lines[0][:2] != "*/":
+        del lines[0]
+    del lines[0:2]
+    lines = [line.split('\t')[1] for line in lines]
+    for line in lines:
+        for word in line.split(' '):
+            word = re.sub('[^a-z&\^_\]]', '', word.lower())
+            word = re.sub('\]', '_', word)
+            key = re.sub('[^a-z]', '', word)
+            if key not in dictionary:
+                dictionary[key] = [word]
+                continue
+            found_equal = False
+            for version in dictionary[key]:
+                if meters_are_equal(version, word, allowed=UNK):
+                    found_equal = True
+                    break
+            if not found_equal:
+                dictionary[key].append(word)
+    for key in dictionary.keys():
+        if len(dictionary[key]) > 1:
+            print(dictionary[key])
+
+
 def get_all_meter_types(meter):
     """
     Get all variations of a given meter
@@ -332,7 +363,8 @@ if __name__ == "__main__":
         pronouns(filename=sys.argv[1], query=sys.argv[2:])
     else:
         pronouns(filename=sys.argv[1])"""
-    for text in ["Ecerinis", "Agamemnon", "Medea", "Procne", "Achilles"]:
+    """for text in ["Ecerinis", "Agamemnon", "Medea", "Procne", "Achilles"]:
         print(text)
         print_stats("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + text + ".txt")
-        print('\n')
+        print('\n')"""
+    check_consistency("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/Thyestes.txt")

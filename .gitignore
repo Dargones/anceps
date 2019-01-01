@@ -1,8 +1,6 @@
 /archives/*
-/trash/
 /output/
 /.idea/
-/data/completedScansions/
 /data/diogenes/latin*
 /data/diogenes/19*
 data/manualAndTesting/hexameter.co*

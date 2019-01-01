@@ -460,16 +460,26 @@ def best_guess(cognates, word, trace=False):
             else:
                 i -= 1
             count -= 1
-        new_v = multireplace(info[0: i + 1], Entry.to_quant)
+        new_s = info[0: i + 1]
+        new_v = multireplace(new_s, Entry.to_quant)
+
+        if i + 1 < len(info) and info[i+1] in CONSONANTS and info[i] in CONSONANTS and \
+                        info[i-1] not in CONSONANTS and new_v[-1] == LONG:
+            j = len(new_s) - 1
+            while new_s[j] not in [LONG, ']']:
+                j -= 1
+            if new_s[j] == LONG:
+                new_v = new_v[:-1] + UNK
+                new_s = new_s[:j] + UNK + new_s[j + 1:]
+
         found = False
         for v in meter:
             if v[0] == new_v:
                 v[1] += version[1] / best_form.tc
                 found = True
         if not found:
-            meter.append([multireplace(info[0: i + 1], Entry.to_quant),
-                          version[1] / best_form.tc])
-            scansions.append(info[0: i + 1])
+            meter.append([new_v, version[1] / best_form.tc])
+            scansions.append(new_s)
     if trace:
         print(to_print + "\nFinal meter: " + str(meter) + "\n")
     return meter, scansions, word[len(stem):]

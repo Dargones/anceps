@@ -4,6 +4,7 @@ import datetime
 BACKUP_METER_TYPE = TRIMETER
 now = datetime.datetime.now()
 
+
 def convert_meter(meter, meter_type, line):
     """
     Reduce the meter to the notation that does ont differentiate between
@@ -53,7 +54,7 @@ def read_manual_data(filename, meter_type):
     return dictionary
 
 
-def merge_data(automatic_file, manual_file, input_file, output_file, meter_type):
+def merge_data(automatic_file, manual_file, input_file, output_file, switchingLines=None, meter_type=TRIMETER):
     """
     Create a master full with full scansions of the input_file
     :param automatic_file:  The file with automatically scanned lines
@@ -63,6 +64,11 @@ def merge_data(automatic_file, manual_file, input_file, output_file, meter_type)
     ;:param meter_type:     Type of meter used to scan the data
     :return:
     """
+    if switchingLines is not None:
+        switches = {multireplace(re.sub('[^a-z]', '', line.lower()), {'v': 'u', 'j': 'i'}): True
+                for line in open(switchingLines).readlines()}
+    else:
+        switches = {}
     with open(input_file) as file:
         text = file.readlines()
     with open(automatic_file) as file:
@@ -91,6 +97,8 @@ def merge_data(automatic_file, manual_file, input_file, output_file, meter_type)
                    "(for elided syllables, anceps syllables, or syllables long by position)\n")
         result = ""
         unscanned = 0
+        resolutions = 0
+        resolutions_switches = 0
         for i, line in enumerate(text):
             key = multireplace(re.sub('[^a-z]', '', line.lower()), {'v': 'u', 'j': 'i'})
             scansion = scansions[i]
@@ -116,12 +124,19 @@ def merge_data(automatic_file, manual_file, input_file, output_file, meter_type)
                     # print(line.rstrip('\n'))
                     pass
                 scansion = ""
+            resolutions += len(list(re.findall('\^\^', scansion)))
+            if key in switches:
+                resolutions_switches += len(list(re.findall('\^\^', scansion)))
             result += line.rstrip(' \n') + '\t' + vocab.rstrip('\n') + '\t' + scansion + '\t' + postfix + '\n'
 
         if unscanned != 0:
             file.write("Note that there are " + str(unscanned) +
                        " lines that are not scanned\n")
-        file.write("*/\n\n" + result)
+        file.write("Resolution rate: " + str(round(resolutions / len(text), 3)))
+        if len(switches.keys()) != 0:
+            file.write("\nResolution rate in lines in which speakers change: " +
+                    str(round(resolutions_switches / len(switches.keys()), 3)))
+        file.write("\n*/\n\n" + result)
 
 
 def winge_converter(source):
@@ -145,7 +160,9 @@ if __name__ == "__main__":
     merge_data("/Users/alexanderfedchin/PycharmProjects/Scansion_project/output/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,
-               "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + name, TRIMETER)
-
-    """winge_converter(
+               "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + name,
+               "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/switchingLines/" + name,
+               TRIMETER)
+    """
+    winge_converter(
         "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/Thyestes.txt")"""

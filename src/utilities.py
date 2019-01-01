@@ -17,7 +17,7 @@ LONG_CONSONANTS = ['z','x']
 
 # muta cum liquida
 MCL = '(pl|bl|tl|dl|cl|gl|fl|pr|br|tr|dr|cr|gr|fr|qv|sv|gv)'
-SHORT_COMBINATIONS = MCL[:-1] + '|dh|rh|nh|ch|sh|ph|th|mh|lh|kh|gh|fh|bh")'
+SHORT_COMBINATIONS = MCL[:-1] + '|dh|rh|nh|ch|sh|ph|th|mh|lh|kh|gh|fh|bh)'
 
 VOWELS = 'aeiouy'
 SHORT_BY_NATURE = 'aey'  # This will be used as a last resort
@@ -321,18 +321,19 @@ def i_or_j(word):
     return re.sub('(^|['+VOWELS+'])i(['+VOWELS+'])', r'\1j\2', word)
 
 
-def meters_are_equal(m1, m2):
+def meters_are_equal(m1, m2, allowed=ANCEPS):
     """
     returns True if the two meter patterns much each other
     :param m1: the first meter pattern
     :param m2: the second meter patter
+    :param allowed: a char that matches everything else
     :return:
     """
     if len(m1) != len(m2):
         return False
     i = 0
     while i < len(m1):
-        if m1[i] != m2[i] and m1[i] != ANCEPS and m2[i] != ANCEPS:
+        if m1[i] != m2[i] and m1[i] != allowed and m2[i] != allowed:
             return False
         i += 1
     return True

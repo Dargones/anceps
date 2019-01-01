@@ -1,0 +1,554 @@
+/*
+Created by alexanderfedchin on 17/11/18.
+This is the complete scansion of trimeter sections of Dati's Hiemsal
+The edition used is Grund (2011)
+Estimated accuracy: 98%
+
+Key:
+X - monosyllabic anceps (can also be marked as _ or ^)
+_ - long syllable
+^ short syllable
+Note that there are 4 lines that are not scanned
+*/
+
+Ad dulce praesidium meum, ad certum domus	a&d du_lce^ pr[ae]si^di^u&m me^u&m a&d ce&rtu&m do^mu&s 	X_^_^^_^_X_^X	
+altae Columnae et unicum Romae decus,	a&lt[ae] co^lu_mn[ae] e&t u_ni^cu&m ro&m[ae] de^cu&s 	X_^_X_^_X_^X	
+ad Prosperum tendes, Hyempsal, et pede	a&d pro_spe^ru_m te&nde_s hy^e_mpsa&l e&t pe^de& 	X_^_X_^_X_^X	
+grandi. At licet nec compta nec forsan ferax	gra&ndi& a_t li^ce&t ne&c co_mpta^ ne&c fo&rsa&n fe^ra&x 	X_^_X_^_X_^X	
+sententiis, ut decet, ei tamen, ut reor,	se_nte_nti^i_s, u&t de^ce^t, e^i_ ta^me^n, u&t re^o^r, 	X_^_X^^^_^^_^X	scansion obtained manually
+quoniam mea es, futura grata principi:	qvo^ni^a&m me^a& e&s fu&tu_ra^ gra_ta& pri_nci^pi& 	^^_^_X_^_X_^X	
+nam et mitis est et me Dathum valde probat.	na&m e&t mi_ti^s e&st e&t me_ da^thu_m va&lde_ pro^ba&t 	X_^_X_^_X_^X	
+Tum pande quanti est invidia tenax mali,	tu&m pa_nde^ qva_nti& e&st i_nvi^di^a^ te&na&x ma^li& 	X_^_X_^^^X_^X	
+quae regna scindit funditus, fratres necat;	qv[ae] re_gna^ sci_ndi&t fu_ndi^tu&s, fra_tre&s ne^ca&t; 	X_^_X_^_X_^X	scansion obtained manually
+quando et ita pestilens venenum livor est,	qva&ndo& e^t i^ta^ pe_sti&le_ns ve^ne_nu&m li_vo^r e&st 	X^^^_X_^_X_^X	
+ut vitia tantum caetera excedat lue,	u&t vi^ti^a^ ta_ntu&m c[ae]te^ra& e_xce&da_t lu^e& 	X^^^_X_^_X_^X	
+virtute quantum Prosper excellit viros.	vi&rtu_te^ qva_ntu&m pro_spe^r e_xce&lli&t vi^ro&s 	X_^_X_^_X_^X	
+Per et profundum et fulgidum et castum polum	pe&r e&t pro^fu_ndu&m e&t fu_lgi^du&m e&t ca&stu&m po^lu&m 	X_^_X_^_X_^X	
+molleque solum aetheris et per alitum vias	mo&lle^qve^ so^lu&m [ae]the^ri^s e&t pe^r a_li&tu_m vi^a&s 	X^^^_^^_^_X_^X	
+delapsa terris, huc, ad hos veteris meos	de&la_psa^ te_rri&s hu_c a^d ho_s ve^te^ri&s me^o&s 	X_^_X_^_^^_^X	
+lauti hospites regni, dea et tetra et mari	la&vti& ho_spi^te&s re&gni_ de^a& e&t te&tra& e&t ma^ri& 	X_^_X_^_X_^X	
+iactata confugio: ita me infensa et procax	ja&cta_ta^ co_nfu&gi^o& i^ta^ me& i_nfe&nsa& e&t pro^ca&x 	X_^_X^^^_X_^X	
+partu sata meo, Invidia, prosequitur dolis,	pa&rtu_ sa^ta^ me^o& i&nvi^di^a^ pro_se^qvi^tu&r do^li&s 	X_^^^X^^^_^^_^X	
+monstrum vel inferis et invisum et grave.	mo&nstru&m ve^l i_nfe&ri_s e^t i_nvi&su&m e&t gra^ve& 	X_^_X_^_X_^X	
+O me parentem miseram, iterum et iterum mise—	o& me_ pa^re_nte&m mi^se^ra&m i^te^ru&m e^t i^te^ru&m mi^se& 	X_^_X^^^^^^^_^X	
+ram! Tot latebris totque in orbis arcibus,	ra&m to_t la^te_bri&s to_tqve& i^n o_rbi&s a_rci^bu&s 	X_^_X_^_X_^X	
+ad me tuendam nullus est datus locus:	a&d me_ tu^e_nda&m nu_llu^s e&st da&tu&s lo^cu&s 	X_^_X_^_X_^X	
+quocumque tendo, nata perturbat viam.	qvo&cu_mqve^ te_ndo& na_ta^ pe_rtu&rba&t vi^a&m 	X_^_X_^_X_^X	
+Tibi quidem, fastu hoc tuo posito, tuis,	ti&bi_ qvi^de&m fa&stu& ho&c tu^o_ po^si^to_ tu^i&s 	X_^_X_^_^^_^X	
+o Ambitio, si temporibus obtemperes,	o& a&mbi_ti^o_ si& te_mpo^ri^bu^s o&bte_mpe^re&s 	X_^_X_^^^X_^X	
+quoad poteris, ipsa consules. Stat enim mihi	quoa&d po^te^ri^s, i_psa& co_nsu^le&s. sta^t e^ni&m mi^hi& 	X^^^_X_^_^^_^X	scansion obtained manually
+vetus sacellum, quo deum pater atque rex	ve&tu&s sa^ce_llu&m qvo_ de^u&m pa^te^r a_tqve^ re&x 	X_^_X_^_^^_^X	
+monstra atque curas progredi vetuit graves.	mo&nstra& a_tqve^ cu_ra&s pro_gre^di_ ve^tu^i&t gra^ve&s	X_^_X_^_^^_^X	scansion obtained manually
+Erumna ab ipsis infimis mortalibus	e&ru_mna& a^b i_psi&s i_nfi^mi&s mo&rta_li^bu&s 	X_^_X_^_X_^X	
+malo vel ex parte minima levarier,	ma&lo_ ve^l e&x pa&rte^ mi^ni^ma_ le&va_ri^e&r 	X_^_X^^^_X_^X	
+quam omni a deorum grege gravi malo eripi.	qva&m o&mni& a_ de^o_ru&m gre^ge^ gra^vi_ ma&lo& e_ri^pi& 	X_^_X^^^_X_^X	
+Nam ab his quidem levi relato munere	na&m a&b hi&s qvi^de&m le&vi_ re^la_to& mu_ne^re& 	X_^_X_^_X_^X	
+pro maximo beneficii merito eximar.	pro& ma_xi^mo_ be&ne^fi^ci^i_ me^ri^to& e_xi^ma&r	X_^_X^^^_^^_^X	scansion obtained manually
+At quis deorum est qui uspiam sibi esse par	a&t qvi&s de^o_ru&m e&st qvi& u_spi^a_m si&bi& e_sse^ pa&r 	X_^_X_^_X_^X	
+putet relatum, ubi me suis meritis deam	pu&te_t re^la_tu&m u^bi^ me_ su^i&s me^ri^ti&s de^a&m 	X_^_^^_^_^^_^X	
+devinxerit? Nempe insolens divum est genus,	d[eu]i_nxe^ri&t ne&mpe& i_nso^le_ns di&vu&m e&st ge^nu&s 	X_^_X_^_X_^X	
+quod in dies parvo moveri munere	qvo&d i&n di^e&s pa&rvo_ mo^ve_ri& mu_ne^re& 	X_^_X_^_X_^X	
+dediscimus superi. At quid altas aedium	de&di_sci^mu_s su^pe^ri& a&t qvi^d a_lta&s [ae]di^u&m 	X_^_^^_^_X_^X	
+sedes inurentem intus Invidiam audio?	se&de_s i^nu_re&nte&m i_ntu^s i_nvi^di^a&m [au]di^o& 	X_^_X_^_^^_^X	
+Inde adeo iam, quoad fors feret, mihi consulam.	i_nde& a^de^o_ ia&m, quoa&d fo&rs fe^re&t, mi^hi^ co_nsu^la&m. 	_^^____^_^^_^X	scansion obtained manually
+Cedam furenti: namque cedendo furor	ce&da&m fu^re_nti& na_mqve^ ce_de&ndo_ fu^ro&r 	X_^_X_^_X_^X	
+frangitur. Abibo hinc ad Lares intro abditos.	fra&ngi^tu^r a^bi_bo& hi&nc a_d la^re_s i&ntro& a_bdi^to&s 	X^^^_X_^_X_^X	
+Ast ego? Meam quo me urbis artifices pii	a&st e^go^ me^a&m qvo& me& u_rbi^s a_rti^fi^ce&s pi^i& 	X^^^_X_^_^^_^X	
+locaverant sudore sordidam petam	lo&c[au]e^ra&nt su&do_re^ so_rdi&da&m pe^ta&m 	X_^_X_^_X_^X	
+aram, ut protervam hanc et domum et gentem suum	a&ra&m u&t pro^te_rva&m ha&nc e&t do^mu&m e&t ge&nte&m su^u&m 	X_^_X_^_X_^X	
+ruentem in excidium subinde rideam,	ru&e_nte&m i^n e_xci^di^u&m su^bi_nde& ri_de^a&m 	X_^_^^_^_X_^X	
+quando hic quidem nostri apud eosdem numinis	qva&ndo& hi&c qvi^de&m no&stri& a^pu^d e^o_sde&m nu_mi^ni&s 	X_^_X^^^_X_^X	
+ita nunc colendi ratio curave excidit.	i^ta^ nu&nc co^le_ndi& ra^ti^o^ cu_ra&ve& e_xci^di&t 	^^_^_X^^^_X_^X	
+Etenim, sator deorum et hominum, Iuppiter,	e^te^ni&m sa^to&r de&o_ru&m e^t ho^mi^nu&m ju_ppi^te&r 	^^_^_X_^^^X_^X	
+qui aethera potes mari atque terras aetheri	qvi& [ae]the^ra^ po^te&s ma&ri& a_tqve^ te_rra&s [ae]the^ri& 	X^^^_X_^_X_^X	
+miscere nutu, numquid haud satis est tibi,	mi&sce_re^ nu_tu& nu_mqvi^d h[au]d sa^ti^s e&st ti^bi& 	X_^_X_^_^^_^X	
+iras trisulca si exeris tuas face,	i&ra&s tri^su_lca& si& e_xe^ri&s tu&a&s fa^ce& 	X_^_X_^_X_^X	
+flammas et hinc et inde iaculans dextera	fla&mma_s e^t hi&nc e&t i_nde^ ja^cu^la&ns de_xte^ra& 	X_^_X_^^^X_^X	
+ni vel feram hanc hominumque perniciem ultimam	ni& ve&l fe^ra&m ha&nc ho^mi^nu_mqve^ pe_rni^ci^e&m u_lti^ma&m 	X_^_^^_^_^^_^X	
+terris feras? O et tu, olympicum decus,	te_rri&s fe^ra_s? o_ e&t tu&, o^ly_mpi^cu&m de^cu&s, 	X_^_X_^_X_^X	scansion obtained manually
+qui pulcher alta templa gemmis fulgidis	qvi& pu_lche^r a_lta& te_mpla^ ge_mmi&s fu_lgi^di&s 	X_^_X_^_X_^X	
+expicta lustras, fervidis praeceps rotis,	e&xpi_cta^ lu_stra&s fe_rvi^di&s pr[ae]ce&ps ro^ti&s 	X_^_X_^_X_^X	
+vincisque dum libet atque prosternis feras,	vi&nci_sqve^ du&m li^be^t a_tqve^ pro_ste&rni&s fe^ra&s 	X_^_^^_^_X_^X	
+crinite Phoebe, usque adeo ne hos miseros potes	cri&ni_te^ ph[oe]be& u&sqve& a^de^o^ ne& ho&s mi^se^ro&s po^te&s 	X_^_X^^^_^^_^X	
+odisse mortalis, ut et quos Lucifer	o&di_sse^ mo_rta&li_s u^t e&t qvo&s lu_ci^fe&r 	X_^_X_^_X_^X	
+praemissus abs te quemque nuncians diem	pr[ae]mi_ssu^s a&bs te& qve_mqve^ nu_nci&a_ns di^e&m 	X_^_X_^_X_^X	
+dulci a sopore matutinus excitet,	du_lci& a_ so^po_re& ma_tu_ti_nu&s e_xci^te&t, 	__^_X___X_^X	scansion obtained manually
+et quos tu agas exerceasque laboribus	e&t qvo&s tu& a^ga_s e&xe_rce^a_sqve^ la^bo_ri^bu&s 	X_^_X_^_^^_^X	
+sine fine duris atque Inorti concites,	si^ne^ fi_ne^ du_ri&s a_tqve& i^no_rti& co_nci^te&s 	^^_^_X_^_X_^X	
+eos item a feralibus foede undique	e&o_s i^te&m a_ fe&ra_li^bu&s f[oe]de& u_ndi^qve& 	X_^_X_^_X_^X	
+monstris sub oculo gaudeas tuo premi?	mo&nstri&s su^b o^cu^lo& g[au]de^a&s tu&o_ pre^mi& 	X_^^^X_^_X_^X	
+Profecto sub te, Phoebe, respirat nihil	pro&fe_cto^ su&b te& ph[oe]be^ re_spi&ra&t ni^hi&l 	X_^_X_^_X_^X	
+durius homine; vel quos homo tandem sibi	du^ri^u^s ho^mi^ne_ ve&l qvo&s ho^mo_ ta&nde&m si^bi&	^^^^^_X_^_X_^X	scansion obtained manually
+faciles habebit, usque tam exosus diis?	fa^ci^le_s ha^be_bi&t u_sqve^ ta&m e_xo&su&s di^i&s 	^^_^_X_^_X_^X	
+Immo et quidem sub sole delitiae deum	i&mmo& e&t qvi^de&m su&b so_le^ de_li^ti^[ae] de^u&m	X_^_X_^_^^_^X	scansion obtained manually
+est homo, modo se hominem velit, non belluam.	e&st ho^mo^ mo^do^ se& ho^mi&ne&m ve^li&t no&n be_llu^a&m 	X^^^^^X_^_X_^X	
+Quodcunque vescitur aura er incolit globum,	qvo&dcu_nqve^ ve_sci^tu^r [au]ra& e^r i_nco&li&t glo^bu&m 	X_^_^^_^_X_^X	
+quem premimus ipsi, plus diis cordi est quam homo.	qve&m pre^mi^mu^s i_psi& plu&s di^i&s co&rdi& e&st qva&m ho^mo& 	X^^^_X_^_X_^X	
+Siquidem fames, langor, dolor, quae caeteris	si^qvi^de&m fa^me&s la&ngo_r do^lo&r qv[ae] c[ae]te^ri&s 	^^_^_X_^_X_^X	
+extrema sunt mala, nos apud capita ultimis	e&xtre_ma^ su&nt ma^la^ no_s a^pu&d ca^pi^ta& u_lti^mi&s 	X_^_^^_^_^^_^X	
+angustiis obmersa non mala prima sunt,	a&ngu_sti^i_s o&bme_rsa^ no&n ma^la^ pri_ma^ su&nt 	X_^_X_^_^^_^X	
+adeo angimur solliciti et innumeris malis.	a^de^o& a_ngi^mu&r so&lli^ci^ti& e^t i_nnu^me^ri&s ma^li&s 	^^_^_X^^^_^^_^X	
+En stant comae mihi atque ab imis spiritus	e&n sta&nt co^m[ae] mi&hi& a_tqve& a^b i_mi&s spi_ri^tu&s 	X_^_X_^_X_^X	
+praecordiis gelat. Heu cado, heu desum mihi	pr[ae]co_rdi^i_s ge^la^t h[eu] ca^do& h[eu] de&su&m mi^hi& 	X_^_^^_^_X_^X	
+perculsus horrore, omnibus nervis fluens!	pe&rcu_lsu^s ho_rro&re& o_mni^bu&s ne&rvi&s flu^e&ns 	X_^_X_^_X_^X	
+O dulce, letum refugium, a diis datum	o& du_lce^ le_tu&m re^fu^gi^u&m a_ di&i&s da^tu&m	X_^_X^^^_X_^X	scansion obtained manually
+nostris malis! Per te quidem erumnas graves,	no&stri&s ma^li&s pe&r te_ qvi^de&m e_ru&mna_s gra^ve&s 	X_^_X_^_X_^X	
+maerorem, inopiam ponimus; per te fera	m[ae]ro_re&m i^no^pi^a&m po_ni^mu&s pe&r te_ fe^ra& 	X_^^^X_^_X_^X	
+monstra et refertam maximis vitam malis	mo&nstra& e_t re^fe_rta&m ma_xi^mi_s vi&ta&m ma^li&s 	X_^_X_^_X_^X	
+fugimus beasque quo minus sero obvenis.	fu^gi^mu&s be^a_sqve& qvo_ mi^nu&s se&ro& o_bve^ni&s 	^^_^_X_^_X_^X	
+Sapiens statuet hoc munus in vita sibi	sa^pi^e&ns sta^tu^e^t ho&c mu_nu^s i&n vi&ta_ si^bi& 	^^_^^^X_^_X_^X	
+se se ut ferat, cum nullus adversus magis	se& se& u&t fe^ra&t cu&m nu_llu^s a_dve&rsu&s ma^gi&s 	X_^_X_^_X_^X	
+homini aut molestus est magis, quam homo met sibi.	ho^mi^ni& [au]t mo^le_stu&s e&st ma^gi&s qva&m ho^mo^ me_t si^bi& 	^^_^_X_^_^^_^X	
+Tum qui suas apte volet res ducere,	tu&m qvi_ su^a_s a&pte_ vo^le_t re&s du_ce^re& 	X_^_X_^_X_^X	
+is muniet mentem artibus bonis suam:	i&s mu_ni^e&t me&nte&m a_rti^bu&s bo&ni&s su^a&m 	X_^_X_^_X_^X	
+qua fretus haud ullas cohorrebit feras.	qva& fre_tu^s h[au]d u&lla&s co^ho_rre&bi_t fe^ra&s 	X_^_X_^_X_^X	
+Virtuti opem superi ferunt: nocet nihil.	vi&rtu_ti& o^pe&m su^pe^ri_ fe^ru&nt no&ce&t ni^hi&l 	X_^_^^_^_X_^X	
+Immo dii summi, infimi ac medioxumi,	i&mmo_ di^i_ su&mmi& i_nfi^mi& a&c me^di^o_xu^mi& 	X_^_X_^_^^_^X	
+virtutem odio habent, quando livorem impium	vi&rtu_te&m o^di^o& ha^be&nt qva_ndo^ li_vo&re&m i_mpi^u&m 	X_^^^X_^_X_^X	
+monstrumque virtuti insidens non amovent.	mo&nstru_mqve^ vi_rtu&ti& i_nsi^de_ns no&n a_mo^ve&nt 	X_^_X_^_X_^X	
+Vos ne, dii, hanc tam pestilentem bestiam	vo&s ne_ di^i& ha&nc ta&m pe_sti^le_nte&m be_sti^a&m 	X_^_X_^_X_^X	
+publicaque privataque volutantem loca	pu&bli^ca^qve^ pri_va&ta^qve^ vo^lu_ta&nte&m lo^ca&	X^^^_X^^^_X_^X	scansion obtained manually
+sinitis nec arcetis, dii, ne lurido	si^ni^ti&s ne^c a_rce&ti_s di^i_ ne& lu_ri^do& 	^^_^_X_^_X_^X	
+sacra et prophana omnia pedore polluat?	sa&cra& e&t pro^pha_na& o&mni^a^ pe^do_re& po_llu^a&t 	X_^_X^^^_X_^X	
+Exanimor hoc equidem! Sed, o superi, probe	e&xa^ni^mo^r ho_c e^qvi^de&m se^d o_ su^pe^ri_ pro^be& 	X^^^_^^_^_^^_^X	
+vestrae hinc saluti est additum: Invidiam simul	ve&str[ae] hi&nc sa^lu_ti& e&st a_ddi^tu&m i_nvi^di^a&m si^mu&l 	X_^_X_^_^^_^X	
+iecistis orbis monstruosi ad incolas	je&ci_sti^s o_rbi&s mo_nstru^o_si& a&d i_nco^la&s 	X_^_X_^_X_^X	
+eique thalares fero monstro leves	e&i_que^ tha_la&re&s fe^ro_ mo_nstro_ le^ve&s 	X_^_X_^_X_^X	scansion obtained manually
+vetuistis alarumque ventivolas iubas.	ve&t[ui]sti^s a_la&ru_mqve^ ve_nti^vo^la_s ju^ba&s 	X_^_X_^_^^_^X	
+Quod si supernum volitet attingens polum,	qvo&d si_ su^pe_rnu&m vo^li^te^t a_tti&nge_ns po^lu&m 	X_^_X^^^_X_^X	
+non dubito quin audax comam Baccho secet,	no&n du^bi^to^ qvi_n [au]da&x co^ma&m ba&ccho_ se^ce&t 	X^^^_X_^_X_^X	
+discerpat ex humeris Dianae arcum aureum	di&sce_rpa^t e&x hu^me^ri&s di^a_n[ae] a&rcu&m [au]re^u&m 	X_^_^^_^_X_^X	
+pharetramque distrudatque clangifragam tubam	pha^re^tra_mqve^ di_stru&da_tqve^ cla_ngi^fra^ga_m tu^ba&m 	^^_^_X_^_^^_^X	
+ensemque cornipedemque Mavorti fero,	e&nse_mqve^ co_rni^pe^de_mqve^ ma_vo&rti_ fe^ro& 	X_^_^^_^_X_^X	
+Phoebe lyram altiboanteque a maris deo	ph[oe]be_ ly^ra&m a_lti^bo^a_nte^qve& a_ ma&ri&s de^o& 	X_^_^^_^_X_^X	
+tridentem et ex tua, o Tonans, fulmen manu	tri&de_nte&m e^t e&x tu&a& o_ to^na&ns fu&lme&n ma^nu& 	X_^_X_^_X_^X	
+vertat, novum, horrendum atque inauditum nefas,	ve&rta&t no^vu&m ho_rre&ndu&m a_tqve& i^n[au]di&tu_m ne^fa&s 	X_^_X_^_X_^X	
+caelumque caelicolasque non secus ac domum,	c[ae]lu_mqve^ c[ae]li^co^la_sqve^ no_n se^cu^s a&c do^mu&m 	X_^_^^_^_^^_^X	
+Lares, Penates Masinisse dissipet.	la&re&s pe^na_te&s ma_si^ni_sse& di_ssi^pe&t 	X_^_X_^_X_^X	
+Ita, quam timent luem et relegant dii procul,	i^ta^ qva&m ti^me&nt lu&e&m e^t re^le^ga&nt di&i_ pro^cu&l 	^^_^_X^^^_X_^X	
+virtute fretus quispiam, qui homo sit, feret?	vi&rtu_te^ fre_tu&s qvi_spi^a_m qvi& ho^mo^ si&t fe^re&t 	X_^_X_^_^^_^X	
+Nunquam, dum erunt homines, erit non foeta humus	nu&nqva&m du&m e^ru&nt ho^mi^ne_s e^ri&t no&n f[oe]ta& hu^mu&s 	X_^_^^_^_X_^X	
+monstris nefandis: nam ultro monstra hi provocant	mo&nstri&s ne^fa_ndi&s na&m u_ltro^ mo_nstra& hi& pro_vo^ca&nt 	X_^_X_^_X_^X	
+passimque blandiuntur et coalunt sinu.	pa&ssi_mqve^ bla_ndi&u_ntu^r e&t co^a^lu_nt si^nu& 	X_^_X_^_^^_^X	
+Ergo libet hinc effugere ab omni hominum grege.	e&rgo^ li^be^t hi&nc e&ffu^ge^re& a^b o_mni& ho^mi^nu&m gre^ge& 	X^^^_X^^^_^^_^X	
+Velim furentis aethere obvolvi Nothos	ve&li&m fu^re_nti&s [ae]the^re& o_bvo&lvi_ no^tho&s 	X_^_X_^_X_^X	
+vastisque convalles hiatibus hiscere	va&sti_sqve^ co_nva&lle_s hi^a_ti^bu^s hi_sce^re& 	X_^_X_^_^^_^X	
+fragoreque ingenti superba rupium	fra&go_re^qve& i_nge&nti_ su^pe_rba& ru_pi^u&m 	X_^_X_^_X_^X	
+circumruere culmina et ab imis sedibus	ci&rcu_mru^e^re^ cu&lmi^na& e^t a^b i_mi&s se_di^bu&s 	X_^^^X^^^_X_^X	
+alte procellis concuti totum mare	a&lte_ pro^ce_lli&s co_ncu^ti_ to&tu&m ma^re& 	X_^_X_^_X_^X	
+in ultimam pestem luemque gentium,	i&n u_lti^ma&m pe&ste&m lu^e_mqve& ge_nti^u&m 	X_^_X_^_X_^X	
+quandoquidem in hominum genere tam male liberos	qva&ndo^qvi^de&m i^n ho^mi^nu&m ge^ne^re^ ta&m ma^le^ li_be^ro&s	X^^^^^X^^^_^^_^X	scansion obtained manually
+iam tum parentes impii oderunt suos.	ja&m tu&m pa^re_nte&s i_mpi^i& o_de&ru&nt su^o&s 	X_^_X_^_X_^X	
+Quis adeo fortis est, quis est tam ferreus	qvi&s a^de^o^ fo_rti&s e&st qvi^s e&st ta&m fe_rre^u&s 	X^^^_X_^_X_^X	
+qui non ut ego scelus in Micissa fulminet?	qvi& no^n u^t e^go& sce^lu^s i&n mi^ci_ssa& fu_lmi^ne&t 	X^^^_^^_^_X_^X	
+En mihi furore pectus accensum labat.	e&n mi^hi^ fu^ro_re& pe_ctu^s a_cce&nsu&m la^ba&t 	X^^^_X_^_X_^X	
+Quisque facinus suum male admissum ferat	qvi&sqve^ fa^ci^nu&s su&u&m ma^le& a_dmi&ssu&m fe^ra&t 	X^^^_X_^_X_^X	
+aegre et moleste, nil per alienum vigil.	[ae]gre& e&t mo^le_ste& ni&l pe^r a^li^e&nu&m vi^gi&l 	X_^_X_^^^X_^X	
+Externa ab iniuria oritur vehemens dolor.	e&xte_rna& a^b i_nju&ri^a& o^ri^tu&r ve^he^me_ns do^lo&r 	X_^_X^^^_^^_^X	
+Tuum esse iam incipiet malum quo non bene	tu&u&m e_sse^ ja&m i_nci^pi^e&t ma^lu&m qvo& no&n be^ne& 	X_^_^^_^_X_^X	
+tecum sit, et quicunque, secum dissidens,	te&cu&m si^t e&t qvi&cu_nqve^ se_cu&m di_ssi^de&ns 	X_^_X_^_X_^X	
+animo suo illuctatur, haud quaquam ocium	a^ni^mo_ su^o& i_llu&cta_tu^r h[au]d qva&qva&m o_ci^u&m 	^^_^_X_^_X_^X	
+prestabit aliis. Esse te regem scias.	pre&sta_bi^t a^li^i&s e_sse^ te_ re&ge&m sci^a&s 	X_^^^X_^_X_^X	
+Servum scio atque ipsum quidem regnum est miser-	se&rvu&m sci^o& a_tqve& i&psu&m qvi^de&m re&gnu&m e&st mi^se&r 	X_^_X_^_X_^X	
+rum. Illi et mali hoc inest, ut omnia cum queas	ru&m i&lli& e&t ma^li& ho_c i&ne&st u^t o_mni^a^ cu&m qve^a&s 	X_^_X_^_^^_^X	
+tum et tibi nihil satis queas aeque ut velis.	tu&m e&t ti^bi^ ni^hi&l sa&ti&s qve^a_s [ae]qve& u&t ve^li&s 	X^^^_X_^_X_^X	
+Iuvat in hominum vita minus velle ac minus	ju^va^t i^n ho^mi^nu&m vi&ta_ mi^nu_s ve&lle& a&c mi^nu&s 	^^^^^_X_^_X_^X	
+eniti in omni re usque quam possis tibi:	e&ni_ti& i^n o_mni& re& u_sqve^ qva&m po&ssi&s ti^bi& 	X_^_X_^_X_^X	
+quo fit ut et inde plura possis quam velis.	qvo& fi^t u^t e^t i_nde& plu_ra^ po_ssi&s qva&m ve^li&s 	X^^^_X_^_X_^X	
+At regium est grandia minus nolle ac queas.	a&t re_gi^u&m e&st gra&ndi^a^ mi^nu&s no&lle& a&c qve^a&s 	X_^_X^^^_X_^X	
+O impium dirumque productum ex ea	o_ i_mpi^u&m di_ru_mque^ pro_du_ctu&m e&x e^a& 	X_^_X_^_X_^X	scansion obtained manually
+dura impiaque stirpe Getula! O ferum,	du_ra& i_mpi^a_que& sti_rpe^ ge_tu_la&! o_ fe^ru&m, 	X_^_X_^_X_^X	scansion obtained manually
+cui filii tam sint odio ut hunc sordidum	cu&j fi_li^i_ ta&m si&nt o^di^o& u^t hu&nc so_rdi^du&m 	X_^_X_^^^X_^X	
+adiecerit regni coheredem sui!	a&dje_ce^ri_t re&gni_ co^he_re&de_m su^i& 	X_^_X_^_X_^X	
+Eum ne Iugurtham patre incerto editum	e&u&m ne^ ju_gu&rtha_m pa^tre& i_nce&rto& e_di^tu&m 	X_^_X_^_X_^X	
+dolisque regiam male acturum suis?	do&li_sqve^ re_gi&a_m ma^le& a_ctu&ru_m su^i&s 	X_^_X_^_X_^X	
+Et quem ille tu ne, tu ne regem, tu parem	e&t qve&m i_lle^ tu_ ne& tu_ ne^ re_ge&m tu_ pa^re&m 	X_^_X_^_X_^X	
+regnique filiisque consortem tuis?	re&gni_qve^ fi_li&i_sqve^ co_nso&rte&m tu^i&s 	X_^_X_^_X_^X	
+Sceleste! Nemo solus imperium gerit.	sce&le_ste^ ne_mo& so_lu^s i_mpe^ri^u&m ge^ri&t 	X_^_X_^_^^_^X	
+Quisquis alieno arbitrio aget rem, serviet.	qvi&sqvi^s a^li^e_no& a&rbi^tri^o& a^ge_t re&m se_rvi^e&t 	X^^^_X^^^_X_^X	
+Profecto consiliis bonis nisi ultro rex	pro&fe_cto^ co_nsi^li^i&s bo^ni&s ni&si& u_ltro^ re&x 	X_^_^^_^_X_^X	
+paruerit, aegre abinde parebit malis.	pa&ru^e^ri^t [ae]gre& a&bi_nde^ pa_re&bi&t ma^li&s 	X^^^_X_^_X_^X	
+Quisquis malos timet, profecto omnes timet.	qvi&sqvi&s ma^lo&s ti&me&t pro^fe_cto& o&mne&s ti^me&t 	X_^_X_^_X_^X	
+Homines vel oderunt vel optant quod neque—	ho^mi^ne_s ve^l o_de&ru&nt ve^l o_pta&nt qvo&d ne^qve& 	^^_^_X_^_X_^X	
+unt; male qui et oderit, studet semper male.	u&nt ma^le^ qvi& e^t o_de&ri&t stu^de&t se&mpe&r ma^le& 	X^^^_X_^_X_^X	
+Regique regem qui dabit, regnum abstrahet.	re&gi_qve^ re_ge&m qvi_ da^bi_t re&gnu&m a_bstra^he&t 	X_^_X_^_X_^X	
+Frater ne fratrem non colet? Colet? Ubi nam	fra&te&r ne^ fra_tre&m no&n co^le&t co&le^t u^bi^ na&m 	X_^_X_^_X^^^X	
+tutus erit amor, odisse cum possis homo	tu&tu^s e^ri^t a^mo^r o&di_sse^ cu&m po&ssi_s ho^mo& 	X^^^^^X_^_X_^X	
+et nostra mens a rebus omnis pendeat?	e&t no_stra^ me_ns a& re_bu^s o_mni&s pe_nde^a&t 	X_^_X_^_X_^X	
+Amabere ut voles. Volam ut tempus feret.	a&ma_be^re& u&t vo&le_s vo^la&m u&t te&mpu&s fe^re&t 	X_^_X_^_X_^X	
+Modo ne hoc agas invitus et regum omnium	mo^do^ ne& ho_c a^ga_s i&nvi_tu^s e_t re&gu&m o_mni^u&m 	^^_^_X_^_X_^X	
+eris ipse foelicissimus. Id optent licet.	e^ri^s i_pse^ f[oe]li&ci_ssi^mu^s i^d o&pte&nt li^ce&t 	^^_^_X_^^^X_^X	
+Quo nam hinc agitur aut abit Hyempsal? Quid furit?	qvo& na&m hi&nc a^gi^tu^r [au]t a^bi^t hy^e_mpsa&l qvi&d fu^ri&t 	X_^^^X^^^_X_^X	
+Quo eum volentem fata praecipitant sua.	qvo& e&u&m vo^le_nte&m fa_ta^ pr[ae]ci^pi^ta&nt su^a& 	X_^_X_^_^^_^X	
+Fatum est id homini nosse fatis cedere?	fa&tu&m e&st i^d ho^mi^ni& no_sse^ fa_ti&s ce_de^re& 	X_^^^X_^_X_^X	
+Fatum ferendo vincitur. Quicquid feras,	fa&tu&m fe^re_ndo& vi_nci^tu&r qvi&cqvi&d fe^ra&s 	X_^_X_^_X_^X	
+premit atque fatum posse ferre fortiter	pre^mi^t a_tqve^ fa_tu&m po_sse^ fe_rre& fo_rti^te&r 	^^_^_X_^_X_^X	
+fatum est. Enim hominum nemo foelix unquam erit	fa&tu&m e&st e^ni&m ho^mi^nu&m ne_mo^ f[oe]li&x u_nqva&m e^ri&t 	X_^^^X_^_X_^X	
+invitus. At Livor quod aspectu foret	i&nvi_tu^s a_t li&vo&r qvo^d a_spe&ctu_ fo^re&t 	X_^_X_^_X_^X	
+truculentus ac foedus, quod horrendus nimis,	tru^cu^le_ntu^s a&c f[oe]du&s qvo^d ho_rre&ndu&s ni^mi&s 	^^_^_X_^_X_^X	
+a matre primum medio in oceani scoplo	a& ma_tre^ pri_mu&m me^di^o& i^n o_ce^a^ni& sco^plo& 	X_^_X^^^_^^_^X	
+expositus aspero et minaci rupibus,	e&xpo^si^tu^s a_spe&ro& e&t mi^na_ci& ru_pi^bu&s 	X^^^_X_^_X_^X	
+circumstrepentis aquae fragore fervido	ci&rcu_mstre^pe_nti^s a^qv[ae] fra^go_re& fe_rvi^do& 	X_^_^^_^_X_^X	
+alitur; abinde cadavere advectus petit	a&li^tu^r a^bi_nde^ ca^da_ve^re& a_dve&ctu&s pe^ti&t	X^^^_^^_^_X_^X	scansion obtained manually
+terras et extemplo mali accepti memor	te&rra_s e^t e_xte&mplo_ ma^li& a_cce&pti_ me^mo&r 	X_^_X_^_X_^X	
+totum per orbem persequitur odiis deam.	to&tu&m pe^r o_rbe&m pe_rse^qvi^tu^r o^di^i&s de^a&m 	X_^_X_^^^^^_^X	
+Exterrita illa metu, abdidit sese procul	e&xte_rri^ta& i_lla^ me^tu& a_bdi^di&t se&se_ pro^cu&l 	X_^_^^_^_X_^X	
+spelunca opaca intra nemus Ericthonium.			this line is not scanned
+Subinde nostram regiam Ambitio haec parens	su&bi_nde^ no_stra&m re_gi^a&m a_mbi^ti^o& h[ae]c pa^re&ns 	X_^_X_^_^^_^X	
+ut subiit, heu, Livor inimicus appulit	u&t su^bi^i^t h[eu] li&vo^r i^ni^mi_cu&s a_ppu^li&t 	X^^^_X^^^_X_^X	
+turbatque prosternitque cuncta funditus.	tu&rba_tqve^ pro_ste&rni_tqve^ cu_ncta& fu_ndi^tu&s 	X_^_X_^_X_^X	
+Non tanta, quantam qui intulerit, iniuria est,	no&n ta_nta^ qva_nta&m qvi& i_ntu^le^ri^t i&nju_ri^a& e&st 	X_^_X_^^^X_^X	
+sed tanta, quantam quis sibi illatam estimat.	se&d ta_nta^ qva_nta&m qvi&s si^bi& i_lla&ta&m e_sti^ma&t 	X_^_X_^_X_^X	
+Modicum est nihil, quod a dolore est maximo.	mo^di^cu&m e&st ni^hi&l qvo&d a_ do^lo_re& e&st ma_xi^mo& 	^^_^_X_^_X_^X	
+Dolebis in dies minus, cum plus sapis.	do^le_bi^s i&n di^e&s mi^nu&s, cu&m plu&s sa^pi^s. 	X_^_X_^_X_^X	scansion obtained manually
+Homini sat est nosse agere rem ex sententia.	ho^mi^ni_ sa^t e&st no&sse& a^ge^re^ re&m e&x se&nte_nti^a& 	^^_^_X^^^_X_^X	
+Quaeque institueris rite, facile est exequi.	qv[ae]qve& i_nsti^tu^e^ri&s ri_te^ fa^ci^le& e&st e_xe^qvi& 	X_^^^X_^^^X_^X	
+Consilia probet eventus. Interim hac mea	co&nsi^li^a^ pro^be^t [eu]e_ntu^s i_nte&ri&m ha&c me^a& 	X^^^^^X_^_X_^X	
+fruor voluptate ac libidinem expleo:	fru&o&r vo^lu_pta&te& a_c li^bi_di&ne&m e_xple^o& 	X_^_X_^_X_^X	
+medio ne consessu quasi et parentem eum	me^di^o_ ne^ co_nse&ssu_ qva^si& e&t pa&re_nte&m e^u&m 	^^_^_X_^_X_^X	
+dignabimur nostro, ne sordidum in domum	di&gna_bi^mu_r no&stro_ ne^ so_rdi&du&m i&n do^mu&m 	X_^_X_^_X_^X	
+nostram hunc calonem pene conventitium.	no_stra&m hu&nc ca_lo_ne&m pe_ne^ co_nve_nti_ti^u&m. 	______^___^X	scansion obtained manually
+Operae precium abiisse sit eum tristius	o^pe^r[ae] pre^ci^u&m a^bi&i_sse^ si^t e^u&m tri_sti^u&s	^^_^^^X_^^^X_^X	scansion obtained manually
+a sede quam, velut arrogans est, abfuit.	a& se_de^ qva&m ve^lu^t a_rro^ga_ns e&st a_bfu^i&t 	X_^_^^_^_X_^X	
+Confingat ut vult modo Iugurtha atque ut solet.	co&nfi_nga^t u&t vu&lt mo^do^ ju^gu_rtha& a&tqve& u&t so^le&t 	X_^_X^^^_X_^X	
+Hoc ipse letor quando sub risu impio	ho&c i_pse^ le_to&r qva_ndo^ su_b ri&su& i_mpi^o& 	X_^_X_^_X_^X	
+undare sensi lachrymas moestas suo.	u&nda_re^ se_nsi& la_chry^ma_s m[oe]sta_s su^o& 	X_^_X_^_X_^X	
+Sed cum molestus esse cuiquam ceperis,	se&d cu&m mo^le_stu&s e_sse^ cu_jqva&m ce_pe^ri&s 	X_^_X_^_X_^X	
+opprimito, moles interim in te ne ruat.	o&ppri^mi^to^ mo_le&s i_nte^ri&m i&n te& ne_ ru^a&t 	X^^^_X_^_X_^X	
+Immo et, molestus esse cuiquam ut coeperis	i&mmo& e&t mo^le_stu&s e_sse^ cu_jqva&m u&t c[oe]pe^ri&s 	X_^_X_^_X_^X	
+desinito, ne tuum in caput molem struas.	de&si^ni^to^ ne_ tu&u&m i&n ca^pu&t mo&le&m stru^a&s 	X^^^_X_^_X_^X	
+Qui e fronte risu tedium abstersit sua,	qvi& e& fro_nte^ ri_su& te_di^u&m a_bste&rsi_t su^a& 	X_^_X_^_X_^X	
+cum consulit sibi, tum et infestis simul	cu&m co_nsu^li&t si&bi_ tu&m e^t i_nfe&sti&s si^mu&l 	X_^_X_^_X_^X	
+importat ut doleant; et usque principem	i&mpo_rta^t u&t do^le^a&nt e^t u_sqve& pri_nci^pe&m 	X_^_^^_^_X_^X	
+beneficiis clarum esse pulchre condecet.	be&ne^fi^ci^i&s cla&ru&m e_sse^ pu_lchre& co_nde^ce&t	X^^^_X_^_X_^X	scansion obtained manually
+Beneficio ne tu satis hominem tuo,	be&ne^fi^ci^o_ ne& tu_ sa^ti^s ho^mi&ne&m tu^o&	X^^^_X_^^^X_^X	scansion obtained manually
+qui prebet ingratum inde se, devincies?	qvi& pre_be^t i_ngra&tu&m i_nde^ se_ de&vi_nci^e&s 	X_^_X_^_X_^X	
+En gratum hominem amarique dignum qui, inmemor	e&n gra_tu&m ho^mi^ne&m a^ma&ri_qve^ di_gnu&m qvi& i_nme^mo&r 	X_^^^X_^_X_^X	
+doni a Micissa patre collati sibi,	do&ni& a_ mi^ci_ssa& pa_tre^ co_lla&ti_ si^bi& 	X_^_X_^_X_^X	
+decreta, quibus est tractus in regnum, rogo	de&cre_ta^ qvi^bu^s e&st tra_ctu^s i&n re&gnu&m ro^go& 	X_^^^X_^_X_^X	
+vix funerum extincto, esse per se turpiter	vi&x fu_ne^ru&m e_xti&ncto& e_sse^ pe&r se& tu_rpi^te&r 	X_^_X_^_X_^X	
+rescissa studeat impudens, et impudens	re_sci_ssa^ stu^de^a^t i_mpu^de&ns, e&t i_mpu^de&ns 	X_^^^X_^_X_^X	scansion obtained manually
+qui exordium regni eruendi patriis	qvi& e_xo_rdi^u&m re_gni& e_ru^e_ndi_ pa_tri^i&s 	X_^_X_^_X_^X	scansion obtained manually
+sanctisque vertendis capiat a legibus:	sa&ncti_sqve^ ve_rte&ndi&s ca^pi^a^t a& le_gi^bu&s 	X_^_X_^^^X_^X	
+regni luem excidiumque nimirum parat.	re&gni_ lu^e&m e_xci^di^u_mqve^ ni_mi&ru&m pa^ra&t 	X_^_^^_^_X_^X	
+Cavendum, Adherbal, tibi necem is ferox parat.	ca&ve_ndu&m a^dhe_rba&l ti^bi^ ne^ce&m i&s fe&ro&x pa^ra&t 	X_^_X^^^_X_^X	
+Fastum quidem obsequio propere vinces tuo.	fa&stu&m qvi^de&m o_bse^qvi^o_ pro^pe^re^ vi&nce&s tu^o& 	X_^_^^_^^^X_^X	
+Quin fastus obsequio procacius intumet,	qvi&n fa_stu^s o_bse^qvi^o& pro^ca_ci^u^s i_ntu^me&t	X_^_^^_^_^^_^X	scansion obtained manually
+et insolentem qui haud cohercet, illicit.	e&t i_nso^le_nte&m qvi& h[au]d co^he_rce&t i_lli^ci&t 	X_^_X_^_X_^X	
+Sed familiae nostros Penates ac deos	se&d fa^mi^li^[ae] no&stro&s pe^na_te&s a&c de^o&s 	X^^^_X_^_X_^X	
+probe in dies opem esse laturos scio.	pro&be& i&n di^e_s o&pe&m e_sse^ la_tu&ro&s sci^o& 	X_^_X_^_X_^X	
+Spem esse meriti filiam vulgo ferunt,	spe&m e_sse^ me^ri^ti_ fi_li^a&m vu_lgo_ fe^ru&nt, 	X_^^^X_^_X_^X	scansion obtained manually
+sperasse et adeo bona bene merendo licet.	spe&rsse& e^t a^de^o_ bo&na_ be^ne^ me^re&ndo_ li^ce&t 	X^^^_X_^^^X_^X	
+Apud inmerentem bene mereri dum voles	a^pu^d i_nme^re_nte&m be^ne^ me^re_ri& du&m vo^le&s 	^^_^_X^^^_X_^X	
+demerueris. Rem egisse pro officio sat est.	de&me^ru^e^ri&s re&m e&gi_sse^ pro& o_ffi^ci^o_ sa^t e&st	X^^^_X_^_^^_^X	scansion obtained manually
+Et quid soluto crine, nudo pectore	e&t qvi&d so^lu_to& cri_ne^ nu_do& pe_cto^re& 	X_^_X_^_X_^X	
+scissaque Phitonissa veste cursitat?	sci&ssa_qve^ phi_to&ni_ssa^ ve_ste& cu_rsi^ta&t 	X_^_X_^_X_^X	
+Quid se furore concitat? Quid igneos	qvi&d se_ fu^ro_re& co_nci^ta&t qvi&d i_gne^o&s 	X_^_X_^_X_^X	
+obvolvit oculos atque murmurans tumet?	o&bvo_lvi^t o^cu^lo&s a_tqve^ mu_rmu&ra_ns tu^me&t 	X_^^^X_^_X_^X	
+En ut repente, quasi obviis exterrita	e&n u_t re^pe_nte^ qva^si& o_bvi^i_s e&xte_rri^ta& 	X_^_^^_^_X_^X	
+umbris grave infestis, propere haerens loco	u_mbri&s gra^ve& i_nfe_sti&s, pro^pe^re^ h[ae]re&ns lo^co_ 	X_^_X_^^^X_^X	scansion obtained manually
+vim ponit irarum atque conatus fremens.	vi&m po_ni^t i_ra&ru&m a_tqve^ co_na&tu&s fre^me&ns 	X_^_X_^_X_^X	
+Euhoe! Ut inter clamitandum obmutuit	[eu]h[oe]! u^t i_nte&r cla_mi^ta_ndu&m o_bmu_tu^i&t 	X_^_X_^_X_^X	scansion obtained manually
+truculenta, ut introrsus renitens faucibus	tru^cu^le_nta& u^t i_ntro&rsu&s re^ni_te&ns f[au]ci^bu&s 	^^_^_X_^_X_^X	
+verba negat, ut se se premens totis simul	ve&rba^ ne^ga^t u&t se& se_ pre^me&ns to&ti&s si^mu&l 	X^^^_X_^_X_^X	
+exaestuans membrisque nervisque attremit,	e&x[ae]stu^a_ns me&mbri_sqve^ ne_rvi&sqve& a_ttre^mi&t 	X_^_X_^_X_^X	
+ut torpet, ut modo pone subvertit solo	u&t to_rpe^t u&t mo^do^ po_ne^ su_bve&rti&t so^lo& 	X_^_^^_^_X_^X	
+obliqua lumina, modo subrepta altius	o&bli_qva^ lu_mi&na^ mo^do^ su_bre&pta& a_lti^u&s	X_^_X^^^_X_^X	scansion obtained manually
+cervice torvos erigit vultus. Papae!	ce&rvi_ce^ to_rvo&s e_ri^gi&t vu&ltu&s pa^p[ae] 	X_^_X_^_X_^X	
+Io Libes misere, Libes misere, libes	i&o_ li^be_s mi^se^re_ li^be_s mi^se^re_ li^be&s 	X_^_^^_^_^^_^X	
+matresque nurusque misere, complete, io,			this line is not scanned
+complete sylvas atque montes planctibus!	co&mple_te^ sy_lva&s a_tqve^ mo_nte&s pla_ncti^bu&s 	X_^_X_^_X_^X	
+Te, te quidem te cerno Tyrrnidam impiam:	te& te_ qvi^de&m te& ce_rno^ ty_rrni&da&m i_mpi^a&m 	X_^_X_^_X_^X	
+tu male latentem clave adultera necas,	tu& ma^le^ la^te_nte&m cl[au]e& a^du_lte&ra_ ne^ca&s 	X^^^_X_^_X_^X	
+et te tridentem, una resecta cuspide,	e&t te_ tri^de_nte&m u&na_ re^se_cta& cu_spi^de& 	X_^_X_^_X_^X	
+male in duas findi hinc et inde dissides	ma&le& i&n du^a&s fi&ndi& hi&nc e^t i_nde& di_ssi^de&s 	X_^_X_^_X_^X	
+partis video. Tu Cirtha profugum, he he, tuo	pa_rti&s vi^de^o^. tu_ ci_rtha^ pro^fu^gu&m, he^ he^, tu^o& 	X_^^^X_^^^X^^^X	scansion obtained manually
+profugum, tuo haud gremio satis servas diu!	pro^fu^gu&m tu^o& h[au]d gre^mi^o_ sa^ti&s se&rva&s di^u& 	^^_^_^^_^_X_^X	
+Stat ales Evandri atque rostro et unguibus	sta&t a_le^s [eu]a&ndri& a_tqve^ ro_stro& e&t u_ngvi^bu&s 	X_^_X_^_X_^X	
+libycos male exturbat gravi nidos lue.	li^by^co&s ma^le& e_xtu&rba&t gra^vi_ ni&do&s lu^e& 	^^_^_X_^_X_^X	
+Heu, Zama, purpureis madescis imbribus!			this line is not scanned
+Vaccea pubes, tertio haud rides die!	va&cce_a^ pu_be&s te_rti^o& h[au]d ri&de&s di^e& 	X_^_X_^_X_^X	
+Igne tibi, Tala, facis tenebras ultimas!	i&gne^ ti^bi^ ta^la^ fa&ci&s te^ne_bra&s u_lti^ma&s	X^^^^^X_^_X_^X	scansion obtained manually
+Capsa, aureos tum reddis ungues aliti	ca&psa& [au]re^o&s tu&m re_ddi^s u_ngve&s a_li^ti& 	X_^_X_^_X_^X	
+et tibi, Mulucha, non cocleis laetus tuis	e&t ti^bi^ mu^lu_cha& no&n co^cl[ei]s l[ae]tu&s tu^i&s 	X^^^_X_^_X_^X	
+noctem iubare fuscat alacrem Titan suo!	no&cte&m ju^ba^re^ fu&sca^t a^la^cre&m ti&ta_n su^o& 	X_^^^X^^^_X_^X	
+Et tu ipse, quem surrepta servat litera,	e&t tu& i_pse^ qve&m su&rre_pta^ se_rva&t li_te^ra& 	X_^_X_^_X_^X	
+ne crede, ne crede veteri atavorum hospiti!	ne& cre_de^ ne& cre&de^ ve^te^ri& a^ta^vo&ru&m ho_spi^ti&	X_^_X^^^^^X_^X	scansion obtained manually
+Plura vetat hac in parte Phoebus proloqui,	plu&ra^ ve^ta^t ha_c i&n pa_rte^ ph[oe]bu&s pro_lo^qvi& 	X^^^_X_^_X_^X	
+sed fata summum denique exuperant Iovem.	se&d fa_ta^ su_mmu&m de_ni^qve& e_xu^pe^ra_nt jo^ve&m 	X_^_X_^_^^_^X	
+O plena numine, cui futura Phytius	o& ple_na^ nu_mi^ne^ cu&j fu^tu_ra& phy_ti^u&s	X_^_^^_^_X_^X	scansion obtained manually
+ordine aperit, si precibus ullis flecteris,	o&rdi^ne& a^pe^ri&t si& pre^ci^bu^s u_lli&s fle_cte^ri&s 	X^^^_X^^^_X_^X	
+nostros aperte iam edoce casus, precor!	no&stro_s a^pe_rte& ja&m e_do^ce_ ca&su&s pre^co&r 	X_^_X_^_X_^X	
+Quo liceat evitasse per te aut fortiter	qvo& li^ce^a^t e_vi&ta_sse^ pe&r te& [au]t fo_rti^te&r 	X^^^_X_^_X_^X	
+subiisse, praevisum imminens quicquid mali est.	su^bi^i_sse^ pr[ae]vi&su&m i_mmi^ne_ns qvi&cqvi&d ma^li& e&st 	^^_^_X_^_X_^X	
+Euhoe, nefandus Livor infernas agit	[eu]h[oe] ne^fa_ndu&s li_vo^r i_nfe&rna_s a^gi&t 	X_^_X_^_X_^X	
+res pessime, ingrediens eburna vortices	re&s pe_ssi^me& i_ngre^di^e_ns e^bu_rna& vo_rti^ce&s 	X_^_^^_^_X_^X	
+Stygios sub afflatu usque concretos dedit	sty^gi^o&s su^b a_ffla&tu& u_sqve^ co_ncre&to&s de^di&t 	^^_^_X_^_X_^X	
+in marmor; Alectoque atque ipse mutuis	i&n ma_rmo^r; a_le_cto_que& a_tque& i_pse& mu_tu^i&s 	__^_____X_^X	scansion obtained manually
+utrinque Gorgoneis venenis obsiti	u&tri_nqve^ go_rgo^ne^i_s ve^ne_ni&s o_bsi^ti& 	X_^_^^_^_X_^X	
+sese efferunt in rabiem, et interior stupet	se&se& e_ffe^ru&nt i&n ra^bi^e&m e^t i_nte^ri^o&r stu^pe&t 	X_^_X^^^_^^_^X	
+Tartarea sedes ac tumultu contremit,	ta&rta^re^a^ se_de&s a&c tu^mu_ltu& co_ntre^mi&t 	X^^^_X_^_X_^X	
+stridoreque ululatuque latrans Cerberus	stri&do_re^qve& u^lu^la&tu_qve^ la_tra&ns ce_rbe^ru&s 	X_^^^X_^_X_^X	
+cedit metu. Quin rex et infernus metu	ce&di&t me^tu_ qvi&n re&x e^t i_nfe&rnu&s me^tu& 	X_^_X_^_X_^X	
+una tyranno colla subclinat novo	u&na_ ty^ra_nno& co_lla^ su_bcli&na_t no^vo& 	X_^_X_^_X_^X	
+novumque sontibus additum est poenae genus.	no&vu_mqve^ so_nti^bu^s a_ddi^tu&m e&st p[oe]n[ae] ge^nu&s 	X_^_^^_^_X_^X	
+Sibi quisque tormentum alterius optet magis:	si^bi^ qvi_sqve^ to_rme&ntu&m a_lte^ri^u^s o&pte&t ma^gi&s 	^^_^_X_^^^X_^X	
+euhoe libes matresque nurusque heu libes!	[eu]h[oe] li^be&s ma_tre_sque^ nu^ru_sque& h[eu] li^be&s 	__^___^^_X_^X	scansion obtained manually
+Iuppiter ab alto cuncta prospectans polo,	ju&ppi^te^r a^b a_lto& cu_ncta^ pro_spe&cta&ns po^lo& 	X^^^_X_^_X_^X	
+vosque veteris Manes Masinisse pii,	vo&sqve^ ve^te^ri&s ma&ne&s ma^si_ni&sse_ pi^i& 	X^^^_X_^_X_^X	
+quibus parentandum bonis a me reor	qvi&bu&s pa^re_nta&ndu_m bo^ni_s a& me_ re^o&r 	X_^_X_^_X_^X	
+studiis et ad laudem quoque aemulo gradu,	stu^di^i_s e^t a_d l[au]de&m qvo^qve& [ae]mu&lo_ gra^du& 	^^_^_X_^_X_^X	
+vosque patrii obtestor dii et deae libes:	vo&sqve^ pa^tri^i& o_bte&sto&r di^i& e&t de&[ae] li^be&s 	X^^^_X_^_X_^X	
+non sponte me haec animo sed invitum mihi	no&n spo_nte^ me& h[ae]c a^ni^mo_ se^d i_nvi&tu&m mi^hi& 	X_^_^^_^_X_^X	
+contra impios regnique consortes datos	co&ntra& i_mpi^o_s re&gni_qve^ co_nso&rte_s da^to&s 	X_^_X_^_X_^X	
+sumpsisse odia. Sed evenit id usu quidem:	su&mpsi_sse& o^di^a^ se&d [eu]e^ni^t i^d u&su_ qvi^de&m 	X_^^^X_^^^X_^X	
+ut sole pix quae liquitur, eadem ab aestibus	u&t so_le^ pi_x qv[ae] li_qvi^tu^r e^a^de&m a^b [ae]sti^bu&s 	X_^_X_^^^^^_^X	
+itemque itemque usta evitrescat horrida,	i&te_mqve& i^te_mqve& u&sta& e_vi^tre_sca&t ho_rri^da& 	X_^_X_^_X_^X	
+sic et virorum saepius animi exciti	si&c e&t vi^ro_ru&m s[ae]pi^u^s a^ni&mi& e_xci^ti& 	X_^_X_^^^X_^X	scansion obtained manually
+iniuriis, inviti inhorrescunt he heu.	i&nju_ri^i_s, i_nvi_ti& i^nho_rre_scu&nt he^ h[eu]. 	X_^_X_^_X_^X	scansion obtained manually
+Aude invidum domesticumque hostem tuum	[au]de& i_nvi^du&m do&me_sti^cu_mqve& ho&ste&m tu^u&m 	X_^_X_^_X_^X	
+hostem putare, piumque ducito fore	ho&ste&m pu^ta_re^ pi^u_mqve^ du_ci&to_ fo^re&	X_^_^^_^_X_^X	scansion obtained manually
+tuae referre dignitati quicquid im-	tu&[ae] re^fe_rre& di_gni^ta_ti& qvi_cqvi^d i&m 	X_^_X_^_X_^X	
+piis er improbis merentibus inferas.	pi&i_s e^r i_mpro&bi&s me^re_nti^bu^s i_nfe^ra&s 	X_^_X_^_^^_^X	
+Semper ne perferemus hoc: ut qui modis	se&mpe&r ne^ pe_rfe&re_mu^s ho_c u&t qvi_ mo^di&s 	X_^_X_^_X_^X	
+nos omnibus laedere per invidiam parent,	no&s o_mni^bu&s l[ae]de^re^ pe^r i_nvi^di^a&m pa^re&nt 	X_^_X^^^_^^_^X	
+non sui aliquando iure poeniteat nefas?	no&n su^i& a^li^qva_ndo& ju_re^ p[oe]ni^te^a_t ne^fa&s 	X^^^_X_^_^^_^X	
+Nunquam ne te tot atque tantis obrutum	nu&nqva&m ne^ te_ to&t a_tqve^ ta_nti&s o_bru^tu&m 	X_^_X_^_X_^X	
+iniuriis, Iugurtha, te ostendes virum?	i&nju_ri^i_s ju&gu_rtha^ te& o_ste&nde_s vi^ru&m 	X_^_X_^_X_^X	
+Nunquam ne te posse aliquid in petulantium	nu&nqva&m ne^ te_ po&sse& a^li^qvi^d i&n pe^tu^la_nti^u&m 	X_^_X^^^_^^_^X	
+protervitatem proferes? Livor scelus.	pro&te_rvi^ta_te&m pro_fe^re&s li&vo&r sce^lu&s 	X_^_X_^_X_^X	
+Aude, anime, superis non vetantibus diis,	[au]de& a^ni^me^ su^pe^ri&s no&n ve^ta_nti&bu_s di^i&s 	X^^^^^X_^_X_^X	
+eumque presta te virum, qualem solet	e&u_mqve^ pre_sta& te_ vi^ru&m qva&le&m so^le&t 	X_^_X_^_X_^X	
+armatus hostis metuere. An te forsitan	a&rma_tu^s ho_sti&s me^tu^e^re& a&n te& fo_rsi^ta&n 	X_^_X^^^_X_^X	
+ignobili editum parente scilicet	i&gno_bi^li& e_di&tu&m pa^re_nte& sci_li^ce&t 	X_^_X_^_X_^X	
+fastidiunt proceres? Sumus cuncti a Iove.	fa&sti_di^u_nt pro^ce^re&s su^mu&s cu&ncti& a_ jo^ve& 	X_^_^^_^_X_^X	
+Sed mea perinde me satis virtus fovet	se&d me^a^ pe^ri_nde& me_ sa^ti_s vi&rtu&s fo^ve&t 	X^^^_X_^_X_^X	
+satisque, quisquis ille sit, sibi met genus	sa&ti_sqve^ qvi_sqvi&s i_lle^ si&t si^bi^ me_t ge^nu&s 	X_^_X_^_^^_^X	
+dignum parat, quem victor orbis comprobet	di&gnu&m pa^ra&t qve&m vi_cto^r o_rbi&s co_mpro^be&t 	X_^_X_^_X_^X	
+populus. Mea haec laus atque nobilitas mea est.	po^pu^lu&s me^a& h[ae]c l[au]s a_tqve^ no_bi^li^ta&s me^a& e&st 	^^_^_X_^_^^_^X	
+Non id meum est sed patris, Hyempsal, dedecus,	no&n i&d me^u&m e&st se&d pa^tri^s hy^e_mpsa&l de_de^cu&s 	X_^_X^^^_X_^X	
+si dedecus talem edidisse filium,	si& de_de^cu&s ta&le&m e_di^di_sse& fi_li^u&m 	X_^_X_^_X_^X	
+qualem Micissa, si rogetur, liberum	qva&le&m mi^ci_ssa& si_ ro^ge_tu&r li_be^ru&m 	X_^_X_^_X_^X	
+quam quos habet multo editum malit sibi.	qva&m qvo_s ha^be&t mu&lto& e_di^tu&m ma&li&t si^bi& 	X_^_X_^_X_^X	
+At vero ego patre proinde non certo satos	a&t ve_ro& e^go^ pa^tre& pro_jnde^ no&n ce&rto_ sa^to&s 	X_^^^X_^_X_^X	
+arbitror eos, qui tam impares se pristinis	a_rbi^tro^r e^o&s, qvi_ ta&m i_mpa^re&s se& pri_sti^ni&s 	X^^^_X_^_X_^X	scansion obtained manually
+nostrae familiae moribus nunc praebeant.	no&str[ae] fa^mi^li^[ae] mo_ri^bu&s nu&nc pr[ae]be^a&nt 	X_^^^X_^_X_^X	
+Uter Masinissae est avo similis magis,	u&te&r ma^si_ni&ss[ae] e&st a^vo_ si^mi^li&s ma^gi&s 	X_^_X_^_^^_^X	
+illi ne qui superbia atque ignavia	i&lli_ ne^ qvi_ su&pe_rbi^a& a_tqve& i&gn[au]i^a& 	X_^_X_^_X_^X	
+degunt iuventam, an et Iugurtha? Qui quidem	de&gu&nt ju^ve_nta&m a&n e&t ju^gu_rtha& qvi_ qvi^de&m 	X_^_X_^_X_^X	
+his artibus quibus imperium avus nactus est,	hi&s a_rti^bu&s qvi^bu^s i_mpe^ri^u&m a^vu&s na_ctu^s e&st 	X_^_^^_^^^X_^X	
+pridem integrum libycum merebar unicus?	pri&de&m i_nte^gru&m li^by^cu&m me^re_ba&r u_ni^cu&s 	X_^_^^_^_X_^X	
+Meam ego meo labore partam gloriam	me&a&m e^go^ me^o_ la&bo_re^ pa_rta&m glo_ri^a&m 	X^^^_X_^_X_^X	
+nostrae ad familiae contuli certum decus.	no&str[ae] a&d fa^mi^li^[ae] co_ntu^li_ ce&rtu&m de^cu&s 	X_^^^X_^_X_^X	
+Illi hunc perisse optant virum cuius micat	i&lli& hu&nc pe^ri_sse& o&pta&nt vi^ru&m cu&ju&s mi^ca&t 	X_^_X_^_X_^X	
+splendore domus: omnis et honos titulis nitet.	sple&ndo_re^ do^mu^s o&mni^s e^t ho^no&s ti^tu^li&s ni^te&t 	X_^^^X^^^_^^_^X	
+Verum, ut aiunt, quod agas agito pro viribus.			this line is not scanned
+Iuvabit interim simulasse id artibus.	iu&va_bi^t i_nte&ri&m si^mu^la_sse& i&d a_rti^bu&s. 	X_^_X_^^_X_^X	scansion obtained manually
+Regni labes est principum discordia.	re_gni_ la_be_s e&st pri_nci^pu&m di_sco_rdi^a&. 	______^___^X	scansion obtained manually
+Cum principes ipsi mali sint, id boni	cu&m pri_nci^pe_s i&psi_ ma^li_ si&nt i&d bo^ni& 	X_^_X_^_X_^X	
+optent. Bene usquam nulla successit bonis	o&pte&nt be^ne& u_sqva&m nu_lla^ su_cce&ssi&t bo^ni&s 	X_^_X_^_X_^X	
+res, quae ocium perturbet inde publicum.	re&s qv[ae] o_ci^u_m pe&rtu_rbe^t i_nde& pu_bli^cu&m 	X_^_X_^_X_^X	
+Si dura tempora fuerint et principes	si& du_ra^ te_mpo&ra^ fu^e^ri&nt e&t pri_nci^pe&s 	X_^_X^^^_X_^X	
+ipsi mali rempublicam gerant male,	i&psi_ ma^li_ re&mpu_bli^ca_m ge&ra&nt ma^le& 	X_^_X_^_X_^X	
+quis audeat praestare se civem bonum?	qvi&s [au]de^a&t pr[ae]sta_re^ se_ ci&ve&m bo^nu&m 	X_^_X_^_X_^X	
+Quisquis bonum se se esse civem quam vide-	qvi&sqvi&s bo^nu&m se& se& e_sse^ ci_ve&m qva&m vi^de& 	X_^_X_^_X_^X	
+ri malit, ad bene agendum habet semper bona	ri& ma_li^t a&d be^ne& a^ge_ndu&m ha^be&t se&mpe&r bo^na& 	X_^_^^_^_X_^X	
+is ipse tempora, et homo frugi, quisquis est,	i&s i_pse^ te_mpo&ra& e^t ho^mo^ fru_gi& qvi_sqvi^s e&st 	X_^_X^^^_X_^X	
+sibi unico haud duros putet eos principes,	si&bi& u_ni^co& h[au]d du&ro&s pu^te^t e^o&s pri_nci^pe&s 	X_^_X_^^^X_^X	
+quos et populus omnis ferat. Suo in malo	qvo&s e&t po^pu^lu^s o&mni&s fe^ra&t su&o& i&n ma^lo& 	X_^^^X_^_X_^X	
+nemo quidem luget aliorum lachrymis.	ne&mo_ qvi^de&m lu&ge^t a^li^o_ru&m la_chry^mi&s 	X_^_X^^^_X_^X	
+Quaeque mala sunt muta atque mox fient bona.	qv[ae]qve^ ma^la^ su&nt mu&ta& a_tqve^ mo&x fi&e&nt bo^na& 	X^^^_X_^_X_^X	
+Erunt bona ipsos quaeque delectant bonos.	e&ru&nt bo^na& i_pso&s qv[ae]qve^ de_le&cta&nt bo^no&s 	X_^_X_^_X_^X	
+Hoc ego nihil placere placatis scio	ho&c e^go^ ni^hi&l pla&ce_re^ pla_ca&ti&s sci^o& 	X^^^_X_^_X_^X	
+civibus et intimis dolere probos ani-	ci&vi^bu^s e^t i_nti&mi&s do^le_re^ pro^bo_s a^ni&	X^^^_X_^_^^_^X	scansion obtained manually
+mis: regulos gaza atque sedibus ocyus	mi&s re_gu^lo&s ga&za& a_tqve^ se_di^bu^s o_cy^u&s	X_^_X_^_^^_^X	scansion obtained manually
+sectis temere et abisse diversos locis.	se&cti&s te^me^re& e^t a&bi_sse^ di_ve&rso&s lo^ci&s 	X_^^^X_^_X_^X	
+Qui dissident animis, eadem aegre queunt	qvi& di_ssi^de&nt a^ni^mi_s e^a_de&m [ae]gre_ qve^u&nt 	X_^_^^_^_X_^X	
+umbra tegi. Ni aliquo tenentur invicem	u&mbra_ te^gi_ ni& a^li^qvo_ te^ne_ntu&r i_nvi^ce&m 	X_^_^^_^_X_^X	
+animi usque vinculo, haud coherent insimul.	a^ni^mi& u_sqve^ vi_ncu&lo& h[au]d co^he_re&nt i_nsi^mu&l 	^^_^_X_^_X_^X	
+Tum si Iugurtham, si satis novi virum,	tu&m si_ ju^gu_rtha&m si_ sa^ti&s no&vi_ vi^ru&m 	X_^_X_^_X_^X	
+tandem is vereor nequid ferus acerbi paret:	ta&nde&m i^s ve^re^o&r ne&qvi_d fe^ru^s a^ce&rbi_ pa^re&t 	X^^^_X_^^^X_^X	
+stat frons ei vultusque pallentes gravi	sta&t fro&ns e^i_ vu_ltu_sque^ pa_lle_nte&s gra^vi_ 	X_^_X_^_X_^X	scansion obtained manually
+cura igneoque furore suffuse genae.	cu&ra& i_gne^o_qve^ fu^ro_re^ su_ffu&se_ ge^n[ae]	X_^_^^_^_X_^X	scansion obtained manually
+Latet quid alta mente subvolvat mali,	la&te&t qvi^d a_lta& me_nte^ su_bvo&lva_t ma^li& 	X_^_X_^_X_^X	
+neque temere illud est quod impexam comam	ne&qve^ te^me^re& i_llu&d e&st qvo^d i_mpe&xa&m co^ma&m 	X^^^_X_^_X_^X	
+secum ipse iam tum inmurmurans quassat suam.	se&cu&m i_pse^ ja&m tu&m i&nmu_rmu^ra_ns qva&ssa&t su^a&m 	X_^_X_^_X_^X	
+Animo ubi sunt alto viri usquam praediti,	a&ni^mo& u^bi^ su&nt a&lto_ vi^ri& u_sqva&m pr[ae]di^ti& 	X^^^_X_^_X_^X	
+semper animis secum alta versant ac parant.	se&mpe^r a^ni^mi&s se&cu&m a_lta^ ve_rsa&nt a&c pa^ra&nt 	X^^^_X_^_X_^X	
+Sperasseque et de fortibus viris bene	spe&ra_sse^qve& e&t de& fo_rti^bu_s vi&ri&s be^ne& 	X_^_X_^_X_^X	
+multo magis quam metuere satis condecet.	mu&lto_ ma^gi&s qva&m me^tu^e^re^ sa^ti&s co_nde^ce&t 	X_^_X^^^^^X_^X	
+Proinde privati domum curent suam,	pro^i_nde^ pri_va_ti_ do^mu&m cu_re&nt su^a&m, 	X_^_X_^_X_^X	scansion obtained manually
+rempublicam reges suo curent gradu.	re&mpu_bli^ca_m re&ge&s su^o_ cu&re&nt gra^du& 	X_^_X_^_X_^X	
+Metus an dolor vexet magis mortalium	me^tu^s a&n do^lo&r ve&xe&t ma^gi&s mo&rta_li^u&m 	^^_^_X_^_X_^X	
+animos apud me non quidem constat satis.	a^ni^mo_s a^pu&d me& no&n qvi^de&m co&nsta&t sa^ti&s 	^^_^_X_^_X_^X	
+Ita me vel invitum novae deum minae	i^ta^ me_ ve^l i_nvi&tu&m no^v[ae] de&u&m mi^n[ae] 	^^_^_X_^_X_^X	
+exterritum ante ora positae longe premunt.	e&xte_rri^tu&m a_nte& o&ra^ po^si^t[ae] lo&nge_ pre^mu&nt 	X_^_X^^^_X_^X	
+O Polymites, o et interpres deum,	o_ po_ly^mi_te_s, o_ e^t i_nte_rpre&s de^u&m, 	X_^_X_^_X_^X	scansion obtained manually
+quid est quod apportas novi? Libyae luem,	qvi&d e&st qvo^d a_ppo&rta_s no^vi_ li^by^[ae] lu^e&m 	X_^_X_^_^^_^X	
+siqua est malis adhibenda portentis fides.	si&qva& e&st ma^li_s a^dhi^be_nda^ po_rte&nti_s fi^de&s 	X_^_^^_^_X_^X	
+Virtute consilioque praestans ac potens,	vi&rtu_te^ co_nsi^li^o_qve^ pr[ae]sta&ns a&c po^te&ns 	X_^_^^_^_X_^X	
+similis tibi vir frontem ubi suam gravem	si^mi^li&s ti^bi_ vi&r fro_nte&m u^bi_ su&a&m gra^ve&m 	^^_^_X_^_X_^X	
+portendit, arduas adesse res liquet.	po&rte_ndi^t a_rdu&a_s a^de_sse& re&s li^qve&t 	X_^_X_^_X_^X	
+O patria, patria, sic ne sacrarum aedium	o& pa^tri^a^ pa^tri^a& si&c ne^ sa_cra&ru&m [ae]di^u&m 	X^^^^^X_^_X_^X	
+insigne culmen turbine avulsum ruit?	i&nsi_gne^ cu_lme&n tu_rbi^ne& [au]u&lsu&m ru^i&t 	X_^_X_^_X_^X	
+Ex ultimo aenei colossi vertice	e&x u_lti^mo& a_e_n[ei] co^lo_ssi_ ve_rti^ce& 	X_^_X_^_X_^X	scansion obtained manually
+lateque fuseque albicantes ignium	la&te_qve^ fu_se&qve& a_lbi^ca_nte&s i_gni^u&m 	X_^_X_^_X_^X	
+arsere flammae. Fertur et formiceis	a_rse_re^ fla_mm[ae]. fe_rtu^r e&t fo_rmi_ce^i&s 	X_^_X_^_X_^X	scansion obtained manually
+populis vagis horrere pulvinar deum.	po^pu^li_s va^gi_s ho&rre_re^ pu_lvi&na&r de^u&m 	^^_^_X_^_X_^X	
+Ruptisque vinclis, taurus excaepto fugax	ru&pti_sqve^ vi_ncli&s t[au]ru^s e_xc[ae]pto_ fu^ga&x 	X_^_X_^_X_^X	
+cervice ferro cessit ex ara petens	ce&rvi_ce^ fe_rro& ce_ssi^t e&x a&ra_ pe^te&ns 	X_^_X_^_X_^X	
+cruore sparsos regios iuvenes suo.	cru^o_re^ spa_rso&s re_gi^o_s iu^ve^ne&s su^o_. 	X_^_X_^_^^_^X	scansion obtained manually
+Quin etiam Hyempsal ipse, prodiens domo	qvi&n e^ti^a&m hy^e_mpsa&l i_pse^ pro_di&e_ns do^mo& 	X^^^_X_^_X_^X	
+pollice sub illiso moleste limiti,	po&lli^ce^ su^b i_lli&so_ mo^le_ste& li_mi^ti& 	X^^^_X_^_X_^X	
+faciem in suam pronus propere lapsus gemit.	fa^ci^e&m i&n su^a&m pro&nu&s pro^pe^re^ la&psu&s ge^mi&t	^^_^_X_^^^X_^X	scansion obtained manually
+Incendiariaque avis alta a porticu	i&nce_ndi^a_ri&a^qve& a^vi^s a_lta& a& po_rti^cu& 	X_^_X^^^_X_^X	
+volitans patrum simulacra polluit aurea.	vo^li^ta&ns pa^tru&m si^mu^la_cra^ po_llu^i^t [au]re^a& 	^^_^_^^_^_^^_^X	
+Accursito ut vatem deumque interpretem	a&ccu_rsi^to& u&t va&te&m de^u_mqve& i&nte_rpre^te&m 	X_^_X_^_X_^X	
+hunc certiorem Polymitem de novis	hu&nc ce_rti^o_re&m po_ly^mi_te&m de_ no^vi&s 	X_^_X_^_X_^X	
+mirisque rebus ordine faciam celer.	mi&ri_sqve^ re_bu&s o_rdi^ne^ fa^ci&a&m ce^le&r 	X_^_X_^^^X_^X	
+Meliora superi! Res inauditas fero.	me^li^o_ra^ su^pe^ri& re_s i^n[au]di&ta_s fe^ro& 	^^_^^^X_^_X_^X	
+Malo malum congruit. At emori expedit,	ma&lo_ ma^lu&m co&ngru^i^t a^t e_mo&ri& e_xpe^di&t 	X_^_X^^^_X_^X	
+o Polymites. Quid ita? Tanta nos mala	o& po_ly^mi_te&s qvi^d i^ta^ ta_nta& no&s ma^la& 	X_^_X^^^_X_^X	
+coram obsident. Imo et quidem vel maxime	co&ra&m o_bsi^de&nt i&mo& e&t qvi^de&m ve&l ma_xi^me& 	X_^_X_^_X_^X	
+superesse nunc expedit, ut inde vincere	su^pe^re_sse^ nu&nc e&xpe^di^t u^t i_nde& vi_nce^re& 	^^_^_X^^^_X_^X	
+malum ferendo denique assuescas magis.	ma&lu&m fe^re_ndo_ de_ni^que& a_ssve_sca&s ma^gi&s. 	X_^_X_^_X_^X	scansion obtained manually
+O te virum fortem, ipse si factis tibi	o& te_ vi^ru&m fo&rte&m i_pse^ si_ fa&cti&s ti^bi& 	X_^_X_^_X_^X	
+aeque atque dictis es! Etenim ex dictis probe	[ae]qve& a_tqve^ di_cti&s e^s e^te^ni&m e&x di&cti&s pro^be& 	X_^_X^^^_X_^X	
+egisse discimus. At quid apportas novi?	e&gi_sse^ di_sci^mu^s a&t qvi^d a_ppo&rta_s no^vi& 	X_^_^^_^_X_^X	
+Iras deum: nam busta patrum regia	i&ra&s de^u&m na&m bu_sta^ pa_tru&m re_gi^a& 	X_^_X_^_X_^X	
+sanctaque sepulcra sponte aperta ex ultimis	sa&ncta^qve^ se^pu_lcra& spo_nte& a^pe_rta& e&x u_lti^mi&s 	X^^^_X_^_X_^X	
+imisque sedibus usque tertii Iovis	i&mi_sqve^ se_di^bu^s u_sqve^ te_rti&i_ jo^vi&s 	X_^_^^_^_X_^X	
+dedere gemitum ac iurgio altercarier	de&de_re^ ge^mi^tu&m a&c ju_rgi^o& a_lte&rca_ri^e&r 	X_^^^X_^_X_^X	
+circum theatra larvulas visas ferunt.	ci&rcu&m the^a_tra& la_rvu^la_s vi&sa&s fe^ru&nt 	X_^_X_^_X_^X	
+En et sacelli veteris obversas fores	e&n e&t sa^ce_lli& ve^te^ri^s o_bve&rsa_s fo^re&s 	X_^_X^^^_X_^X	
+lemures tenere laremque regium deum	le^mu^re_s te^ne_re^ la^re_mqve^ re_gi&u&m de^u&m 	^^_^_^^_^_X_^X	
+crepitu strepentique sonitu triclinia	cre^pi^tu& stre^pe_nti&qve^ so^ni^tu_ tri&cli_ni^a& 	^^_^_X^^^_X_^X	
+cuncta labefactare atque mixtim sedibus	cu&ncta^ la^be^fa_cta&re& a_tqve^ mi_xti&m se_di^bu&s 	X^^^_X_^_X_^X	
+ultro citro mutatis Penates propalam	u_ltro^ ci^tro_ mu_ta_ti&s pe^na_te&s pro_pa^la&m 	_^^____^___^X	scansion obtained manually
+migrasse, multaque alia tetra atque horrida	mi&gra_sse^ mu_lta&qve& a^li^a^ te_tra& a&tqve& ho_rri^da& 	X_^_X^^^_X_^X	
+et visa et audita optimi patres ferunt.	e&t vi_sa& e^t [au]di&ta& o_pti^mi_ pa&tre&s fe^ru&nt 	X_^_X_^_X_^X	
+Vos quaeso me, o proceres, labans ne corruam	vo&s qv[ae]so^ me& o_ pro^ce^re&s la^ba&ns ne& co_rru^a&m 	X_^_^^_^_X_^X	
+tenete: ruo, ruo. Quippe spiritus fugit,	te^ne_te^: ru^o^, ru^o^. qui_ppe^ spi_ri&tu&s fu^gi&t, 	X_^^^^^_^_X_^X	scansion obtained manually
+totumque nervi animique deficiunt. Humi	to&tu_mqve^ ne_rvi& a^ni^mi_qve^ de_fi^ci^u&nt hu^mi& 	X_^_^^_^_^^_^X	
+consternor et oculi et genua fluunt simul:	co&nste_rno^r e^t o^cu&li& e&t ge^nu^a^ flu&u&nt si^mu&l 	X_^^^X_^^^X_^X	
+tantus dolor metus ve me rerum tenet.	ta&ntu&s do^lo&r me&tu_s ve^ me_ re&ru&m te^ne&t 	X_^_X_^_X_^X	
+Hinc illud est, o Polymites, quod solet	hi&nc i_llu^d e&st o& po_ly^mi_te&s qvo&d so^le&t 	X_^_X_^_X_^X	
+dici: viros doctos, ut es tu, fortiter	di&ci_ vi^ro&s do&cto_s u^t e&s tu& fo_rti^te&r 	X_^_X_^_X_^X	
+de rebus asperis ferendis dicere,	de& re_bu^s a_spe&ri&s fe^re_ndi&s di_ce^re& 	X_^_X_^_X_^X	
+nescisse tamen adversa, sicut caeteri	ne&sci_sse^ ta^me^n a&dve_rsa^ si_cu&t c[ae]te^ri& 	X_^^^X_^_X_^X	
+homines solent, non ferre tandem molliter.	ho^mi^ne&s so^le&nt no&n fe_rre^ ta_nde&m mo_lli^te&r 	^^_^_X_^_X_^X	
+Verum quid est quod pro re agendum censeas?	ve&ru&m qvi^d e&st qvo&d pro_ re& a^ge_ndu&m ce_nse^a&s 	X_^_X_^_X_^X	
+Votis deos mox esse placandos reor,	vo&ti&s de^o&s mo&x e_sse^ pla_ca&ndo&s re^o&r 	X_^_X_^_X_^X	
+lustranda passim templa, iustitium urbibus	lu&stra_nda^ pa_ssi&m te_mpla^ ju_sti^ti^u&m u_rbi^bu&s 	X_^_X_^_^^_^X	
+ubilibet indicendum; et inde ego hinc simul	u&bi^li^be^t i_ndi&ce_ndu&m e^t i_nde& e&go& hi&nc si^mu&l	X^^^_X_^_X_^X	scansion obtained manually
+secedo, me quo linteis sacris parem.	se&ce_do^ me_ qvo& li_nte^i&s sa&cri&s pa^re&m 	X_^_X_^_X_^X	
+Vos et sequimini. Supplices movent deos!	vo&s e&t se^qvi^mi^ni& su_ppli^ce&s mo&ve&nt de^o&s	X_^^^X_^_X_^X	scansion obtained manually
+Confecta pulchre res mihi ex sententia est.	co&nfe_cta^ pu_lchre& re&s mi^hi& e&x se&nte_nti^a& e&st 	X_^_X_^_X_^X	
+Nam me Invidia mater Herebo accitam ultimo	na&m me& i_nvi^di^a^ ma&te^r he^re^bo& a_cci&ta&m u_lti^mo& 	X_^^^X^^^_X_^X	
+complexa dudum et suavio libans suo:	co&mple_xa^ du_du&m e&t sva_vi^o_ li&ba&ns su^o&	X_^_X_^_X_^X	scansion obtained manually
+'O,’ inquit, 'omne, o unicum decus meum,	'o_,’ i_nqvi^t, 'o_mne&, o_ u_ni^cu&m de&cu&s me^u&m, 	X_^_X_^_X_^X	scansion obtained manually
+Discordia, modo prebeas te ipsam mihi	di&sco_rdi^a^ mo^do& pre_be^a_s te& i&psa&m mi^hi& 	X_^^^X_^_X_^X	
+facilem atque morigeram! Opus est ad id rei	fa^ci^le&m a_tqve^ mo_ri&ge_ra&m o^pu_s e&st a_d i^d r[ei] 	^^_^_X_^_X_^X	
+quam dignitatis gratia meae paro.	qva&m di_gni^ta_ti&s gra_ti^a_ me&[ae] pa^ro& 	X_^_X_^_X_^X	
+Genus hoc enim Numidiae et tumidum et ferox	ge^nu^s ho_c e^ni&m nu&mi_di^[ae] e&t tu^mi^du&m e&t fe^ro&x 	^^_^_X_^_^^_^X	
+et insolens odi. Id quidem cum caeteras	e&t i_nso^le_ns o&di& i&d qvi^de&m cu&m c[ae]te^ra&s 	X_^_X_^_X_^X	
+ob res tum eo quod Ambitio dea, quam unice	o&b re&s tu&m e^o_ qvo&d a_mbi^ti^o^ de^a^ qva&m u_ni^ce& 	X_^_X_^^^^^_^X	
+perisse cupio, a se recepta splendidis	pe&ri_sse^ cu^pi^o& a& se_ re^ce_pta& sple_ndi^di&s 	X_^^^X_^_X_^X	
+colitur honoribus, aureo praestans gradu.	co&li^tu^r ho^no_ri^bu^s, [au]re^o& pr[ae]sta&ns gra^du_. 	X^^^_^^_^_X_^X	scansion obtained manually
+Proinde decretum est apud me funditus	pro^i_nde^ de_cre_tu&m e&st a^pu&d me_ fu_ndi^tu^s 	X_^_X_^_X_^X	scansion obtained manually
+delere gentem. Fuerit officium tuum	de&le_re^ ge_nte&m fu^e^ri^t o_ffi^ci^u&m tu^u&m 	X_^_X^^^_^^_^X	
+matri obsequi praesertim in hac causa mea,	ma&tri& o_bse^qvi_ pr[ae]se_rti&m i^n ha&c c[au]sa_ me^a& 	X_^_X_^_X_^X	
+qua, si sit opus, equidem et mori, ut tandem meo	qva& si_ si^t o^pu^s e^qvi^de&m e&t mo^ri& u&t ta&nde&m me^o& 	X_^^^^^_^_X_^X	
+satis furori fiat, audens expetam.'	sa&ti&s fu^ro_ri& fi_a^t [au]de&ns e_xpe^ta&m 	X_^_X_^_X_^X	
+Haec ubi parens me mea precatur lachrymans,	h[ae]c u^bi^ pa^re&ns me& me^a^ pre^ca_tu&r la_chry^ma&ns 	X^^^_X^^^_X_^X	
+per Styga, per infernas paludes, per grave	pe&r sty^ga^ pe^r i_nfe&rna&s pa^lu_de&s pe&r gra^ve& 	X^^^_X_^_X_^X	
+pallentis atrae noctis horrendum caput	pa&lle_nti^s a_tr[ae] no_cti^s ho_rre&ndu&m ca^pu&t 	X_^_X_^_X_^X	
+iuravi et obstrinxi volens pro viribus	ju&r[au]i& e^t o_bstri&nxi_ vo^le&ns pro& vi_ri^bu&s 	X_^_X_^_X_^X	
+me prorsus acturam, mea ut noscar parens	me& pro_rsu^s a_ctu&ra_m me^a& u&t no&sca&r pa^re&ns 	X_^_X_^_X_^X	
+quid ego sibi a me iure deberi putem,	qvi&d e^go^ si^bi& a_ me& ju_re^ de_be&ri_ pu^te&m 	X^^^_X_^_X_^X	
+quidve artibus meis in hominum denique	qvi&dve& a_rti^bu&s me&i_s i^n ho^mi^nu&m de_ni^qve& 	X_^_X_^^^X_^X	
+possim luem Discordia. Ergo ex abdito	po&ssi&m lu^e&m di&sco_rdi^a& e_rgo& e&x a_bdi^to& 	X_^_X_^_X_^X	
+Orco mihi socios truces ad horridum	o&rco_ mi^hi^ so^ci&o&s tru^ce_s a&d ho_rri^du&m 	X_^^^X_^_X_^X	
+coexequendum facinus eductos agens	co&e_xe^que_ndu&m fa^ci^nu^s e_du_cto_s a^ge&ns 	X_^_X^^^_X_^X	scansion obtained manually
+exercui ac passim pallantes late agros	e_xe_rcui& a&c pa_ssi&m pa_lla_nte&s la_te& a^gro&s 	_________^X	scansion obtained manually
+tectaque furore et pessima opplevi lue.	te&cta^qve^ fu^ro_re& e&t pe_ssi^ma& o_pple&vi_ lu^e& 	X^^^_X_^_X_^X	
+Sed ecce Perfidia uti prona est ad scelus!	se&d e_cce^ pe_rfi^di^a& u_ti^ pro_na& e&st a&d sce^lu&s 	X_^_^^_^_X_^X	
+Viden quibus se se dolis, qua fronte, quo	vi&de&n qvi^bu&s se& se_ do^li&s qva& fro_nte^ qvo& 	X_^_X_^_X_^X	
+vultu atque gestu penitus ostentat piam?	vu&ltu& a_tqve^ ge_stu& pe^ni^tu^s o_ste&nta&t pi^a&m 	X_^_X^^^_X_^X	
+En iri obindutam aurea ferro igneque	e&n i_ri& o^bi_ndu&ta&m [au]re^a_ fe&rro& i_gne^qve& 	X_^_X_^_X_^X	
+malo et veneno subter armatam deam,	ma&lo& e&t ve^ne_no& su_bte^r a_rma&ta&m de^a&m 	X_^_X_^_X_^X	
+quae quidem hominum sensim per astum ambit greges.	qv[ae] qvi^de&m ho^mi^nu&m se&nsi&m pe^r a_stu&m a&mbi&t gre^ge&s 	X^^^_X_^_X_^X	
+Quae facto opus fuere belle exegimus.	qv[ae] fa_cto& o^pu&s fu&e_re^ be_lle& e&xe_gi^mu&s 	X_^_X_^_X_^X	
+Nam res eo ducta est loci ut satellites	na&m re_s e^o_ du&cta& e&st lo^ci& u&t sa&te_lli^te&s 	X_^_X_^_X_^X	
+noctu Iugurthae in Hyempsalis domum dolis	no&ctu_ ju^gu_rth[ae] i^n hy^e_mpsa^li_s do&mu&m do^li&s 	X_^_^^_^_X_^X	
+irruperint illicque diversi ocyus	i&rru_pe^ri_nt i&lli_cqve^ di_ve&rsi& o_cy^u&s 	X_^_X_^_X_^X	
+regem frequentes quaeritant, internecant.	re&ge&m fre^qve_nte&s qv[ae]ri^ta_nt i&nte_rne^ca&nt 	X_^_X_^_X_^X	
+Alii oscitantis dormientisque obvios	a^li^i& o_sci^ta_nti&s do_rmi^e_nti&sqve& o_bvi^o&s 	^^_^_X_^_X_^X	
+omnes et impetu et mucrone competunt,	o_mne_s e^t i_mpe^tu& e&t mu^cro_ne^ co_mpe^tu&nt, 	X_^_X_^_X_^X	scansion obtained manually
+mactant et inversos tenus sternunt solo.	ma&cta&nt e^t i_nve&rso&s te^nu&s ste&rnu&nt so^lo& 	X_^_X_^_X_^X	
+Scrutari et alii abdita, alii diffringere	scru&ta_ri& e^t a^li^i& a&bdi^ta& a^li^i_ di&ffri_nge^re& 	X_^^^X^^^_X_^X	
+clausa loca non cessant; domusque omnis simul	cl[au]sa^ lo^ca^ no&n ce&ssa&nt do^mu_sqve& o&mni&s si^mu&l 	X^^^_X_^_X_^X	
+cadentium gemitu et fragore et aspero	ca&de_nti^u&m ge^mi^tu& e&t fra^go_re& e&t a_spe^ro& 	X_^_^^_^_X_^X	
+plagis tumultu exterrita intus volvitur.	pla&gi&s tu^mu_ltu& e&xte_rri^ta& i_ntu&s vo_lvi^tu&r 	X_^_X_^_X_^X	
+Tandem repertum Hyempsalem opprimunt, caput	ta&nde&m re^pe_rtu&m hy&e_mpsa^le&m o_ppri&mu&nt ca^pu&t 	X_^_X_^_X_^X	
+ferro amputant. Res hunc igitur acta in modum est.	fe&rro& a_mpu^ta&nt re&s hu&nc i^gi^tu^r a&cta& i&n mo^du&m e&st 	X_^_X_^^^X_^X	
+Ego nunc et ad comites revertor ut exequar	e^go^ nu&nc e^t a&d co^mi^te&s re^ve_rto^r u^t e_xe^qva&r 	^^_^_^^_^_^^_^X	
+ex instituto reliqua, ut hinc et plenius	e&x i_nsti^tu_to_ re^li^qua&, u^t hi&nc e&t ple_ni^u&s 	X_^_X^^^_X_^X	scansion obtained manually
+vestram libidinem expleam. Adducam mihi	ve&stra&m li^bi_di&ne&m e_xple^a&m a_ddu&ca&m mi^hi& 	X_^_X_^_X_^X	
+et Inopiam et Furtum et Rapinam concitas,	e&t i^no^pi^a&m e&t fu&rtu&m e&t ra^pi_na&m co_nci^ta&s	X^^^_X_^_X_^X	scansion obtained manually
+quarum opera huic calamitas genti magis	qua_ru&m o^pe^ra^ hu_i&c ca^la^mi^ta&s ge_nti_ ma^gi&s 	X^^^_X^^^_X_^X	scansion obtained manually
+magisque dura sit. Ergo matura. Obsequor.	ma&gi_sqve^ du_ra^ si^t e_rgo^ ma_tu&ra& o_bse^qvo&r 	X_^_^^_^_X_^X	
+Ego vero ad Invidiam parentem pervolo.	e^go^ ve_ro& a^d i_nvi^di^a&m pa^re_nte&m pe_rvo^lo& 	^^_^_^^_^_X_^X	
+Ite io, matronae, et sacrum et opacum in nemus	i&te^ i^o^ ma_tro&n[ae] e&t sa^cru&m e^t o^pa&cu&m i&n ne^mu&s 	X^^^_X_^^^X_^X	
+io demus hunc celebrem simul Baccho diem!	i^o^ de_mu^s hu&nc ce^le^bre&m si^mu&l ba&ccho_ di^e&m 	^^_^_^^_^_X_^X	
+Io Bacche, formose io matrone io!	i^o^ ba_cche^ fo_rmo^se^ i_o^ ma_tro&ne_ i^o& 	^^_^_^^_^_X_^X	
+Tu flamen aereae Tonantis coniugi,	tu& fla_me^n [ae]re&ae_ to^na_nti&s co_nju^gi& 	X_^_X_^_X_^X	
+matri deum tu, Galle, plaudito Cybeli.	ma&tri_ de^u&m tu& ga_lle^ pl[au]di&to^ cy^be^li& 	X_^_X_^_X^^^X	
+Vos et pudicae virgines mecum lybes	vo&s e&t pu^di_cae& vi_rgi^ne&s me&cu&m ly^be&s 	X_^_X_^_X_^X	
+patrios deos placate votis thureque,	pa^tri^o&s de^o&s pla&ca_te^ vo_ti&s thu_re^qve& 	^^_^_X_^_X_^X	
+quatite io thyrsos, quatite pulchro deo.	qva&ti^te^ i^o& thy&rso&s qva^ti^te^ pu&lchro_ de^o&	X^^^_X_^^^X_^X	scansion obtained manually
+Simul io matrone, io Bacche inclite!	si&mu_l i^o_ ma&tro^ne^ i^o_ ba&cche& i_ncli^te&	X_^_X^^^_X_^X	scansion obtained manually
+Io Libes, Libes, io parens, parens,	i&o_ li^be_s li&be_s i^o_ pa&re&ns pa^re&ns 	X_^_X_^_X_^X	
+Ditique Manibusque litandum tibi!	di&ti_que^ ma_ni^bu_sque^ li_ta_ndu&m ti^bi&! 	X_^_X_^_X_^X	scansion obtained manually
+Ferale Phytonissae abigite omen, dei.	fe&ra_le^ phy^to^ni&ss[ae] a_bi^gi_te& o&me&n de^i&	X_^^^X_^_X_^X	scansion obtained manually
+Quid penditis, matronae? Agite Baccho diem	qvi&d pe_ndi^ti&s ma&tro_n[ae] a^gi^te^ ba&ccho_ di^e&m 	X_^_X_^^^X_^X	
+sacrum, agite festum, io agite Bacho diem!	sa&cru&m a^gi^te^ fe_stu&m i^o& a^gi^te_ ba&cho_ di^e&m 	X^^^_X^^^_X_^X	
+Io Libes, io Libes, misere Libes,	i&o_ li^be_s i&o_ li^be_s mi^se^re_ li^be&s 	X_^_X_^_^^_^X	
+ululatibus luctuque complenda est dies.	u^lu^la_ti^bu&s lu&ctu_qve^ co_mple&nda& e&st di^e&s 	^^_^_X_^_X_^X	
+Me miseram! Id omen horridum quemnam petit?	me& mi^se^ra&m i^d o_me&n ho_rri^du&m qve&mna&m pe^ti&t 	X^^^_X_^_X_^X	
+Qui nuncium, prout fertur, apportat malum,	qvi& nu_nci^u_m pr[ou]t fe_rtu^r a_ppo&rta&t ma^lu&m 	X_^_X_^_X_^X	
+is, commodus etiam si eat, molestus est.	i&s co_mmo^du^s e^ti&a&m si& e^a&t mo&le_stu^s e&st	X_^^^X_^_X_^X	scansion obtained manually
+Quid inde agam nescio. Ne vero non feram	qvi&d i_nde& a^ga&m ne&sci^o^ ne^ ve_ro& no&n fe^ra&m 	X_^_X^^^_X_^X	
+nati ad parentem immane discrimen sui,	na&ti& a&d pa^re_nte&m i&mma_ne^ di_scri&me_n su^i& 	X_^_X_^_X_^X	
+ut, siquid opis habet, peroccurrat malis?	u&t si_qvi^d o^pi^s ha&be&t pe^ro_ccu&rra_t ma^li&s 	X_^^^X_^_X_^X	
+Et quid is Hyempsalis haesitans venit puer?	e&t qvi^d i^s hy^e_mpsa^li^s h[ae]si^ta_ns ve&ni&t pu^e&r 	X^^^_^^_^_X_^X	
+Tibi filium gravi in periclo nuncio,	ti^bi^ fi_li^u&m gra&vi& i&n pe^ri_clo& nu_nci^o& 	^^_^_X_^_X_^X	
+o mater, esse. Nanque noctu vi aedium	o& ma_te^r e_sse& na_nqve^ no_ctu& vi& [ae]di^u&m 	X_^_X_^_X_^X	
+fractis foribus intro satellites globis	fra&cti&s fo^ri^bu^s i&ntro_ sa^te_lli&te_s glo^bi&s 	X_^^^X_^_X_^X	
+quaque irruentes vulnere et caede et lue	qva&qve& i_rru^e_nte&s vu_lne^re& e&t c[ae]de& e_t lu^e& 	X_^_X_^_X_^X	
+totam penitus Hyempsalis vexant domum.	to&ta&m pe^ni^tu^s hy&e_mpsa^li_s ve&xa&nt do^mu&m 	X_^^^X_^_X_^X	
+Stant lubrici undantesque scalarum omnium	sta&nt lu_bri^ci& u_nda_nte_sque^ sca_la&ru&m o_mni^u&m 	X_^_X_^_X_^X	scansion obtained manually
+cruore fuso alte gradus ac undique	cru&o_re^ fu_so& a&lte_ gra^du_s a&c u_ndi^qve& 	X_^_X_^_X_^X	
+strepitu atque fremitu tecta et una omnis domus	stre^pi^tu& a_tqve^ fre^mi^tu& te_cta& e^t u_na& o&mni&s do^mu&s 	^^_^^^X_^_X_^X	
+tremit et suum strage intus atra congemit.	tre^mi^t e&t su^u&m stra&ge& i_ntu^s a_tra& co_nge^mi&t 	^^_^_X_^_X_^X	
+At sibi suis non prorsus iratis diis:	a&t si^bi^ su^i&s no&n pro_rsu^s i_ra&ti&s di^i&s 	X^^^_X_^_X_^X	
+cadentium ex cumulis Hyempsal diffugit.	ca^de_nti^u&m e&x cu^mu^li&s hy^e_mpsa&l di_ffu^gi&t. 	X_^_^^_^_X_^X	scansion obtained manually
+Tu, mater, his praesentibus rebus metu	tu& ma_te^r hi&s pr[ae]se_nti^bu&s re&bu&s me^tu& 	X_^_X_^_X_^X	
+luctuque secluso tibique consule.	lu&ctu_qve^ se_clu&so_ ti^bi_qve& co_nsu^le& 	X_^_X_^_X_^X	
+Oe miseram matrem! Sed eccum et alterum	o&e^ mi^se^ra&m ma_tre&m! se^d e_ccu&m e&t a_lte^ru&m 	X^^^_X_^_X_^X	scansion obtained manually
+Hyempsalis properantem et anxium intimum.	hy&e_mpsa^li_s pro^pe^ra_nte&m e^t a_nxi&u&m i_nti^mu&m 	X_^_^^_^_X_^X	
+O tempora, o mores! Ita ne frater necem	o_ te_mpo^ra&, o_ mo_re&s! i^ta^ ne& fra_te&r ne^ce&m 	X_^_X^^^_X_^X	
+fratri parat? Ubi nam, ubi erit, o cives, fides?	fra&tri_ pa^ra^t u^bi& na&m u^bi& e^ri^t o_ ci&ve&s fi^de&s 	X_^^^X^^^_X_^X	
+Ubi pietas apud homines tandem sita,	u&bi^ pi^e^ta_s a&pu^d ho^mi^ne&s ta&nde&m si^ta& 	X^^^_X^^^_X_^X	
+hanc si integram non iura servant sanguinis?	ha&nc si& i_nte^gra&m no&n ju_ra^ se_rva&nt sa_ngvi^ni&s 	X_^_X_^_X_^X	
+Tibi, o miserrima omnium mater, tuos	ti&bi& o_ mi^se_rri&ma& o_mni^u&m ma&te&r tu^o&s 	X_^_X_^_X_^X	
+unde aut inibis aut acerbos finies	u_nde [au]t i^ni_bi&s [au]t a^ce_rbo&s fi_ni^e&s 	X_^_X_^_X_^X	scansion obtained manually
+luctus? Quid et tu denique apportas mali?	lu&ctu&s qvi^d e&t tu& de_ni^qve& a_ppo&rta_s ma^li& 	X_^_X_^_X_^X	
+Iugurtha herum ferro he extinxit meum.	iu&gu_rtha& he^ru&m fe_rro_ he^ e_xti_nxi&t me^u&m. 	X_^_X_^_X_^X	scansion obtained manually
+He he he! Adeste, accurrite, he succedite,	he^ he^ he^! a^de_ste&, a_ccu_rri^te^, he^ su_cce_di^te&, 	X^^^_X_^^^X_^X	scansion obtained manually
+lapsamque prae dolore et exanguem solo	la&psa_mqve^ pr[ae] do&lo_re& e^t e_xa&ngve&m so^lo& 	X_^_X_^_X_^X	
+stratam parentem tollite hanc in regiam	stra&ta&m pa^re_nte&m to_lli^te& ha&nc i&n re_gi^a&m 	X_^_X_^_X_^X	
+funestam et infaustam domum. Vos, o probi	fu&ne_sta&m e^t i_nf[au]sta&m do^mu&m vo&s o_ pro^bi& 	X_^_X_^_X_^X	
+cives, bonis fatis, bonis et moribus,	ci&ve&s bo^ni&s fa&ti&s bo^ni_s e&t mo_ri^bu&s 	X_^_X_^_X_^X	
+iam bene valete, et quid nefandum ac pestilens	ja&m be^ne^ va^le_te& e&t qvi&d ne^fa_ndu&m a&c pe_sti^le&ns 	X^^^_X_^_X_^X	
+malum invidia possit per haec agnoscite.	ma&lu&m i_nvi^di^a^ po&ssi&t pe^r h[ae]c a&gno_sci^te& 	X_^^^X_^_X_^X	

@@ -36,6 +36,7 @@ Ne_c quo_d ne^fa_nda&s h[au]se^ri_s a_ngi_t da^pe_s: | Long 2nd Sg. If there wer
 Pro_jnde a_nte^qua_m se_ fi_rma^t au_t ui_re_s pa^ra&t, | What is the problem?
 Pe^ta_tu^r u_ltro_, ne_ qui^e_sce_nte_m pe^ta&t. | wrong syllable parse of "quiesco"
 Ca^di^t i_lle e^t a_ra_s sa_ngui^ne e_xti_ngve_ns su^o_ | wrong syllable parse of "extingvens"
+E&t i_psa^ tre^pi^do& me_nsa^ su_bsi^lu^i_t so^lo&. | Other versions of -sileo has sil-u-i-t
 
 Multiple versions:
 ni&l qvo_d do^lo_ri&s ca^pi^a^t a_ssve&ti_ mo^du&m
@@ -58,7 +59,7 @@ pa&rte_mqve^ re_gni& re_ddi^t e_t la^ce^r[ae] do^mu&s
 tu&tu_sqve^ me_nsa& ca^pi^tu^r a_ngu&sta_ scy^phu&s
 ba&ccho_qve^ no_x ju&nge_nda^ pe_rvi^gi^li_ da^tu&r
 ro&ga_t ti^me_ndum e&st e_rra^t hi_c a^li^qvi_s do^lu&s
-e&t i_pse^ fu_mu&s tri_sti^s a_c ne^bu^la_ gra^vi&s
+e&t i_pse^ fu_mu&s tri_sti^s a_c ne&bu^la^ gra^vi&s
 co&rpu_s ri^ge_sca&t fru_ctu^s hi_c o^pe^ri_s me^i e&st
 he&ni^o^chu^s ha^bi^ta&ns qvi_sve^ ce_cro^pi^i_s me^tu&s
 se&d ne_sci^e_nte&s cl[au]sa^ li_to^ri^bu_s va^gi&s
