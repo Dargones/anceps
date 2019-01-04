@@ -153,7 +153,8 @@ Resistet ille seque mulcendum dabit
 Castosque ritus Venere non casta exuet?
 Tibi ponet odium, cuius odio forsitan
 Persequitur omnes? Precibus haud uinci potest?
-Ferus est. Amore didicimus uinci feros. Per ipsa maria si fugiat, sequar.
+Ferus est. Amore didicimus uinci feros.
+Fugiet. Per ipsa maria si fugiat, sequar.
 Patris memento. Meminimus matris simul.
 Genus omne profugit. Paelicis careo metu.
 Aderit maritus. Nempe Pirithoi comes?
@@ -175,10 +176,10 @@ Laqueone uitam finiam an ferro incubem?
 An missa praeceps arce Palladia cadam?
 Sic te senectus nostra praecipiti sinat
 Perire leto? siste furibundum impetum.
-[Haud quisquam ad uitam facile reuocari potest]
+Haud quisquam ad uitam facile reuocari potest 
 Prohibere nulla ratio periturum potest,
 Vbi qui mori constituit et debet mori.
-Proin castitatis uindicem armemus manum.
+Proin castitatis uindicem armemus manum. 
 Solamen annis unicum fessis, era,
 Si tam proteruus incubat menti furor,
 Contemne famam: fama uix uero fauet,
@@ -205,8 +206,8 @@ Mutatur habitus. nulla iam Cereris subit
 Cura aut salutis; uadit incerto pede,
 Iam uiribus defecta: non idem uigor,
 Non ora tinguens nitida purpureus rubor;
-[Populatur artus cura, iam gressus tremunt,
-Tenerque nitidi corporis cecidit ]
+Populatur artus cura, iam gressus tremunt,
+Tenerque nitidi corporis cecidit decor
 Et qui ferebant signa Phoebeae facis
 Oculi nihil gentile nec patrium micant.
 Lacrimae cadunt per ora et assiduo genae
@@ -226,7 +227,7 @@ Sic temere iactae colla perfundant comae
 Vmerosque summos, cursibus motae citis
 Ventos sequantur. laeua se pharetrae dabit,
 Hastile uibret dextra Thessalicum manus:
-[Talis seueri mater Hippolyti ]
+Talis seueri mater Hippolyti fuit
 Qualis relictis frigidi Ponti plagis
 Egit cateruas Atticum pulsans solum
 Tanaitis aut Maeotis et nodo comas
@@ -242,7 +243,7 @@ Clarumque caeli sidus et noctis decus,
 Cuius relucet mundus alterna uice,
 Hecate triformis, en ades coeptis fauens.
 Animum rigentem tristis Hippolyti doma:
-Det facilis aures; mitiga pectus ferum:
+Det facilis aures; mitiga pectus ferum: 
 Amare discat, mutuos ignes ferat.
 Innecte mentem: toruus auersus ferox
 In iura Veneris redeat. huc uires tuas
@@ -338,7 +339,7 @@ Nunc nemoris alti densa metatur loca,
 Vbi Lerna puro gelida perlucet uado,
 Solesque uitat. hinc aues querulae fremunt
 Ramique uentis lene percussi tremunt
-Veteresque fagi. iuuat <et> aut amnis uagi
+Veteresque fagi. iuuat et aut amnis uagi
 Pressisse ripas, caespite aut nudo leues
 Duxisse somnos, siue fons largus citas
 Defundit undas, siue per flores nouos
@@ -433,7 +434,6 @@ En locus ab omni liber arbitrio uacat.
 Sed ora coeptis transitum uerbis negant;
 Vis magna uocem mittit et maior tenet.
 Vos testor omnis, caelites, hoc quod uolo
-Me nolle.
 Animusne cupiens aliquid effari nequit?
 Curae leues locuntur, ingentes stupent.
 Committe curas auribus, mater, meis.
@@ -446,7 +446,7 @@ Pigeat gelatis ingredi Pindi iugis;
 Non, si per ignes ire et infesta agmina,
 Cuncter paratis ensibus pectus dare.
 Mandata recipe sceptra, me famulam accipe:
-[Te imperia regere, me decet iussa exequi]
+Te imperia regere, me decet iussa exequi 
 Muliebre non est regna tutari urbium.
 Tu qui iuuentae flore primaeuo uiges,
 Ciues paterno fortis imperio rege;
@@ -470,7 +470,7 @@ Quod in nouercam cadere uix credas malum.
 Ambigua uoce uerba perplexa iacis:
 Effare aperte. Pectus insanum uapor
 Amorque torret. intimis saeuit ferus
-[Penitus medullas atque per uenas meat]
+Penitus medullas atque per uenas meat 
 Visceribus ignis mersus et uenas latens
 Vt agilis altas flamma percurrit trabes.
 Amore nempe Thesei casto furis?
@@ -499,7 +499,7 @@ Adlapsa genibus regiae proles domus.
 Respersa nulla labe et intacta, innocens
 Tibi mutor uni. certa descendi ad preces:
 Finem hic dolori faciet aut uitae dies.
-Miserere amantis. - Magne regnator deum,
+Miserere amantis. Magne regnator deum,
 Tam lentus audis scelera? tam lentus uides?
 Et quando saeua fulmen emittes manu,
 Si nunc serenum est? omnis impulsus ruat
@@ -516,14 +516,14 @@ Placui nouercae. dignus en stupris ego?
 Scelerique tanto uisus ego solus tibi
 Materia facilis? hoc meus meruit rigor?
 O scelere uincens omne femineum genus,
-O maius ausa matre monstrifera malum
+O maius ausa matre monstrifera malum 
 Genetrice peior! illa se tantum stupro
 Contaminauit, et tamen tacitum diu
 Crimen biformi partus exhibuit nota,
 Scelusque matris arguit uultu truci
 Ambiguus infans - ille te uenter tulit.
 O ter quaterque prospero fato dati
-Quos hausit et peremit et leto dedit
+Quos hausit et peremit et leto dedit 
 Odium dolusque - genitor, inuideo tibi:
 Colchide nouerca maius hoc, maius malum est.
 Et ipsa nostrae fata cognosco domus:
@@ -608,7 +608,7 @@ O socia thalami, sicine aduentum uiri
 Et expetiti coniugis uultum excipis?
 Quin ense uiduas dexteram atque animum mihi
 Restituis et te quidquid e uita fugat
-Expromis Eheu, per tui sceptrum imperi,
+Expromis? Eheu, per tui sceptrum imperi,
 Magnanime Theseu, perque natorum indolem
 Tuosque reditus perque iam cineres meos,
 Permitte mortem. Causa quae cogit mori?
@@ -726,7 +726,7 @@ Nec tam furens Ionius exsurgit sinus
 Regnante Coro, saxa cum fluctu tremunt
 Et cana summum spuma Leucaten ferit.
 Consurgit ingens pontus in uastum aggerem,
-[Tumidumque monstro pelagus in terras ruit]
+Tumidumque monstro pelagus in terras ruit 
 Nec ista ratibus tanta construitur lues:
 Terris minatur; fluctus haud cursu leui
 Prouoluitur; nescio quid onerato sinu
@@ -754,7 +754,7 @@ Et quem sub undis natus: hinc flammam uomunt
 Oculi, hinc relucent caerula insignes nota;
 Opima ceruix arduos tollit toros
 Naresque hiulcis haustibus patulae fremunt;
-Musco tenaci pectus ac palear uiret,
+Musco tenaci pectus ac palear uiret, 
 Longum rubenti spargitur fuco latus;
 Tum pone tergus ultima in monstrum coit
 Facies et ingens belua immensam trahit
@@ -790,8 +790,8 @@ Constricta frenis, terga nunc torto frequens
 Verbere coercet. sequitur adsiduus comes,
 Nunc aequa carpens spatia, nunc contra obuius
 Oberrat, omni parte terrorem mouens.
-Non licuit ultra fugere: nam toto obuius
-Incurrit ore corniger ponti horridus.
+Non licuit ultra fugere: nam toto obuius 
+Incurrit ore corniger ponti horridus. 
 Tum uero pauida sonipedes mente exciti
 Imperia soluunt seque luctantur iugo
 Eripere rectique in pedes iactant onus.
@@ -810,7 +810,7 @@ Peritque multo uulnere infelix decor.
 Moribunda celeres membra peruoluunt rotae;
 Tandemque raptum truncus ambusta sude
 Medium per inguen stipite ingesto tenet;
-[Paulumque domino currus affixo stetit]
+Paulumque domino currus affixo stetit 
 Haesere biiuges uulnere - et pariter moram
 Dominumque rumpunt. inde semianimem secant
 Virgulta, acutis asperi uepres rubis
@@ -858,8 +858,8 @@ Ades parumper uerbaque exaudi mea.
 Nil turpe loquimur: hac manu poenas tibi
 Soluam et nefando pectori ferrum inseram,
 Animaque Phaedram pariter ac scelere exuam.
-[Et te per undas perque Tartareos lacus,
-Per Styga, per amnes igneos amens sequar]
+Et te per undas perque Tartareos lacus,
+Per Styga, per amnes igneos amens sequar 
 Placemus umbras: capitis exuuias cape
 Laceraeque frontis accipe abscisam comam.
 Non licuit animos iungere, at certe licet

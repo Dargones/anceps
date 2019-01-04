@@ -97,7 +97,7 @@ Aliquando terra corpus inuisum tege;
 Peccas honesta mente, pietatem uocas
 Patrem insepultum trahere. qui cogit mori
 Nolentem in aequo est quique properantem impedit;
-[Occidere est uetare cupientem mori]
+Occidere est uetare cupientem mori
 Nec tamen in aequo est: alterum grauius reor:
 Malo imperari quam eripi mortem mihi.
 Desiste coepto, uirgo: ius uitae ac necis
@@ -109,7 +109,7 @@ Cum regno et illum? faciet, ubicumque est, opus.
 Ibi sit; relinquo. natus hunc habeat meus,
 Sed uterque. - flammas potius et uastum aggerem
 Compone; in altos ipse me immittam rogos
-[Haerebo ad ignes, funebrem escendam struem]
+Haerebo ad ignes, funebrem escendam struem
 Pectusque soluam durum et in cinerem dabo
 Hoc quidquid in me uiuit. - ubi saeuum est mare?
 Duc ubi sit altis prorutum saxis iugum,
@@ -316,7 +316,6 @@ De monte tellus igneos uoluens globos
 Excipiet ore seque serpenti offeret,
 Quae saeua furto nemoris Herculeo furit;
 Iubente te praebebit alitibus iecur,
-Iubente te uel uiuet.
 Exemplum in ingens regia stirpe editum
 Thebae pauentes arma fraterna inuocant
 Rogantque tectis arceas patriis faces.
@@ -407,7 +406,7 @@ Aut solue bellum, mater, aut prima excipe.
 Ibo, ibo et armis obuium opponam caput,
 Stabo inter arma; petere qui fratrem uolet,
 Petat ante matrem. tela, qui fuerit pius,
-Rogante ponat matre; qui non est pius 
+Rogante ponat matre; qui non est pius
 Incipiat a me. feruidos iuuenes anus
 Tenebo, nullum teste me fiet nefas;
 Aut si aliquod et me teste committi potest,
@@ -444,7 +443,7 @@ In me arma et ignes uertite, in me omnis ruat
 Vnam iuuentus quaeque ab Inachio uenit
 Animosa muro quaeque Thebana ferox
 Descendit arce: ciuis atque hostis simul
-[Hunc petite uentrem, qui dedit fratres uiro] 
+Hunc petite uentrem, qui dedit fratres uiro
 Haec membra passim spargite ac diuellite:
 Ego utrumque peperi - ponitis ferrum ocius?
 An dico et ex quo? dexteras matri date,
@@ -518,7 +517,6 @@ Et spes parentis, cuius aspectum deos
 Semper rogaui, cum tuus reditus mihi
 Tantum esset erepturus, aduentu tuo
 Quantum daturus: 'quando pro te desinam
-Dixi ; 'dixit inridens deus:
 'Ipsum timebis. 'nempe nisi bellum foret,
 Ego te carerem; nempe si tu non fores,
 Bello carerem. triste conspectus datur
@@ -550,7 +548,7 @@ Fratresque ( facinus quod nouum et Thebis fuit )
 In se ruentes: totus hoc exercitus,
 Hoc populus omnis, utraque hoc uidit soror
 Genetrixque uidi: nam pater debet sibi
-Quod ista non spectauit. Occurrat tibi 
+Quod ista non spectauit. Occurrat tibi
 Nunc Oedipus, quo iudice erroris quoque
 Poenae petuntur. ne, precor, ferro erue
 Patriam ac penates neue, quae regere expetis,
@@ -588,7 +586,7 @@ Opemque gentis hospes externae sequar?
 Quid paterer aliud, si fefellissem fidem?
 Si peierassem? fraudis alienae dabo
 Poenas, at ille praemium scelerum feret?
-Iubes abire? matris imperio obsequor - 
+Iubes abire? matris imperio obsequor -
 Da quo reuertar. regia frater meus
 Habitet superba, parua me abscondat casa.
 Hanc da repulso; liceat exiguo lare
@@ -659,6 +657,6 @@ Amor suorum; plus in iratos licet.
 Qui uult amari, languida regnat manu.
 Inuisa numquam imperia retinentur diu.
 Praecepta melius imperi reges dabunt;
-Exilia tu compone. pro regno uelim - 
+Exilia tu compone. pro regno uelim -
 Patriam penates coniugem flammis dare?
 Imperia pretio quolibet constant bene.

@@ -1,7 +1,7 @@
-Mundus puellae serta Cnosiacae gerit.
-Non sic abibunt odia; uiuaces aget
-Adsint ab imo Tartari fundo excitae
-Stabuli fugauit turpis Augei labor.
+Mu_ndu_s pu^e_ll[ae] se_rta^ Cno_si^a^c[ae] ge^ri&t. | Not Ablative
+No_n si_c a^bi_bu_nt o^di^a^; ui_ua&ce_s a^ge&t | stemming returns "abi"
+A_dsi_nt a^b i_mo_ Ta_rta^ri_ fu_ndo e_xci^t[ae] | 'i' in excitae can be bot short and long
+Sta^bu^li_ fu^ga_vi_t tu_rpi^s [Au]ge&i_ la^bo&r.
 Inuidia factum ac sermo popularis premet?
 Quidnam iste, nostri generis exitium ac lues,
 Pacem reduci uelle uictori expedit,
@@ -11,15 +11,15 @@ Dest una numero Danais: explebo nefas.
 Audimur! est est sonitus Herculei gradus.
 Terrena, facie pollui metuens noua,
 Iudicia trepidis sera sortitur reis.
-Vrnasque frustra Danaides plenas gerunt;
-Adsit Lycurgi domitor et rubri maris,
-Trucis antra Zethi, nobilis Dircen aquae
-Gregem cecidi; uota persolui libens
-Quis hic locus, quae regio, quae mundi plaga?
-Atque ales auida - cur Promethei uacant
-In se coibunt saxa et in caelum expriment
-Quis uos per omnem, liberi, sparsos domum
-Si uiuo, feci scelera; si morior, tuli.
-Aut uiuis aut occidis. hanc animam leuem
-In ore primo teneo. tam tarde patri
+V_rna_sque^ fru_stra_ Da^na^i^de_s ple&na_s ge^ru&nt; | No ai diphthong
+A_dsi_t Ly^cu_rgi& do^mi^to^r e_t ru&bri_ ma^ri&s, | Like genitor
+Tru^ci^s a_ntra^ Ze_thi_, no_bi^li_s Di_rce_n a^qu[ae] | Z does not close the preceding syllable!
+Gre&ge_m ce^ci_di&; uo_ta^ pe_rso_lui_ li^be&ns | to cut, not to fall
+Qui&s hi_c lo^cu_s, qu[ae] re^gi^o^, qu[ae] mu_ndi_ pla^ga&? | Nom Sg from regio, not Dat/Abl of regius
+A_tque a_le^s a^ui^da& - cu_r Pro^me_the&i_ ua^ca&nt | The dictionary has a different scansion
+I_n se_ co^i_bu&nt sa_xa e^t i_n c[ae]lum e_xpri^me_nt | Wrong stemming again?
+Qui_s uo_s pe^r o_mne_m, li_be^ri_, spa&rso_s do^mu&m | Liberi - "children"
+Si_ ui_uo^, fe_ci& sce^le^ra^; si_ mo^ri^o_r, tu^li&. | 1st Sg short
+[Au]t ui_ui^s [au]t o_cci_di^s. ha_nc a^ni^ma_m le^ue&m | Not vivus, but vivo
+I&n o_re^ pri_mo& te^ne^o^. ta_m ta&rde_ pa^tri& | 1st Sg short
 Theseu, latebram quaere longinquam, abditam;

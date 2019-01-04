@@ -82,7 +82,7 @@ class Word:
                 elif decide_on_length(Word.A_VOWEL,
                                       re.sub(' ', '', follow)) == LONG:
                     self.long_by_pos = True
-                elif self.word[-1] == 'a':
+                elif self.word[-1] == 'a' and len(self.word) > 1:
                     if trace:
                         print("Case", self.word, follow)
                     self.case_problem = True
@@ -569,5 +569,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result, voc, scores = main(filename, [TRIMETER], False, True, False, False)
+        result, voc, scores = main(filename, [TRIMETER], False, False, False, False)
         print_results(result, voc, scores, output_filename)

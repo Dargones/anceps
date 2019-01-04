@@ -1,3 +1,4 @@
+Failed:
 A&dhu_c ne^ga_tu_r? pa_ru^i_ ce_rte_ Io^ue& | pareo, not parvus
 E&t hy_dra^ ui_re_s po^su^i^t e_t no&to_s He^bro_ | muta cum liquida
 Me^a_que^ fu_sum e_st de_xte^ra: i_ra&ti_s de^i&s | Ablative
@@ -10,7 +11,7 @@ Su&b ru_pe^ Pi_ndu&s a^lu^i^t i_nve^ni^a_m ma^lu&m | Not enough data on alui in 
 Ca&na_ ri^ge_nte_m po_pu^lo_ ci_nctu_s co^ma&m. | poplar, not the people
 U_t ste^ti^t a^d a_ra_s o_mne^ vo_ti_vu_m pe^cu&s | Two "u" in a row is a problem - fix this
 Ca_na_ re^ui_nctu_s po_pu^lo ho_rre_nte_m co^ma&m, | poplar, not the people
-De_po_ne^ fu_lme_n" - ge^mi^tu^s i_n me^di^a_s pr^ece_s | Nom. Sg. 4th D. has short us
+De_po_ne^ fu_lme_n" - ge^mi^tu^s i_n me^di^a_s pre^ce_s | Nom. Sg. 4th D. has short us
 E_t ua_sta^ Cha_lci_s so^nu^i^t e_t uo_ce_s Cy^cla_s | Muta cum liauida
 E_xce_pi^t o_mni&s; hi_nc pe^tr[ae] Ca&phe_ri^de&s, | Muta cum liquida
 E_xe_di^t a_rtu_s ui_ru^s, u_t fa_ma e_st, hy^dr[ae]; | Muta cum liquida
@@ -35,7 +36,76 @@ Si&nu_ ge^re_nte_m re^li^qui^a_s ma_gni He_rcu^li&s, | "re" in "reliquiae" can b
 Que_m pa^re^re^ ru_rsu_s He_rcu^le_m po_ssu_m Jo^ui_? | pario, not pareo
 A_nt[ae]u^s u_rbe_s fe_rui^d[ae] te_rre_t pla^g[ae], | plaga "region", not "blow" + short i in fervidus - bad lemmatization
 Ne_ pa^re^re^ po_ssi_m! fe_ci^t hi_c na_tu_s mi^hi& | pario, not pareo
-Qui_s me_ lo^cu_s, qu[ae] re^gi^o6, qu[ae] mu_ndi_ pla^ga& | regio is not dative of regius, but nominative, which can have short o.
+Qui_s me_ lo^cu_s, qu[ae] re^gi^o^, qu[ae] mu_ndi_ pla^ga& | regio is not dative of regius, but nominative, which can have short o.
 Co_nte_nda^t o_rbi_s. re^li^qui^a_s ma_gni He_rcu^li&s | "re" in "reliquiae" can be short as well as long
 Co_mple_cte^re o_ssa&: re^li^qui^ae [au]xi^li^u_m da^bu_nt, | "re" in "reliquiae" can be short as well as long
 Pro^i_nde^ pla_nctu_s po_ne^, quo_s na&to_ pa^re&t | Proinde different way to scan
+
+Multiple versions:
+nu&nc fle_cte^re_t se&rpe_nte^ de_po^si^ta_ mi^na&s
+re^fe^ra_m qvi^d a^li^a&s ne_mpe^ the_spi^a^de_s va^ca&nt
+h[ae]c su_nt re^pu^di^a& ne_c po^te_st fi^e^ri_ no^ce&ns
+qve&m ne_c no^ve_rca& po^tu^i^t hu_nc pe^ri^me_s vi^ru&m
+pro^hi^be_tu^r u_ndi&s me_qve^ co_mple&xu_ fe^re&ns
+a^li^a_m pa^re_nti& de^de^ri^t a_lti^so^no_ nu^ru&m
+cu&m fro_nte^ su^bi^ta& tu^mu^i^t e_t ra^bi^du_m ma^re&
+pro&la_ta^ vi_s e&st qv[ae]qve^ pa_lla^di^a_ co^lu&
+vo&s qva_s pa^te_rni&s e_xtu^li_ co^mi^te_s fo^ci&s
+ca^ly^do_ni^[ae] lu&ge_te^ de_fle&nda_m vi^ce&m
+qvi&d qv[ae]ri^s u_ltra& mi^se^ri^a_s pro^pe^ra_nt su^a&s
+[eu]ri_pu^s u_nda&s fle_cti^t i_nsta^bi^li_s va^ga&s
+e&cce a^li^a^ cla_de&s he_rcu^le_s pe^ri^mi_t li^cha&n
+me^di^a_ pa^lu_de& vi_cto^r e_ffu&so o_bru^tu&s
+se&d s[ae]pe^ do_nu&m plu_ri^bu_s ve^ni^a o_bfu^i&t
+si&sy^phi^a^ ce_rvi&x ce_sse^t e_t no&stro_s la^pi&s
+i&mpe_lla^t u^me^ro&s me_ va^gu_s fu^gi^a_t la^te&x
+pha&si^a^ca^ co_nju&nx p[ei]o^r h[ae]c p[ei]o_r tu^o&
+se&d e_cce^ la_xa&s ca_rce^ri_s vi^de^o_ fo^re&s
+h[au]si_t me^du_lla&s o_ssi^bu_s va^cu^i_s se^de&t
+su&ccu_mba^t i_nge&ns he_rcu^lem a_cci^pi^a_t ro^gu&s
+vi&cto_r cru^e_ntu&s a_bstu^li_ pa^tri^a_m la^re&s
+a&stri_s mi^na_ntem e&t nu_be^ de_ me^di^a_ vo^ca&t
+vo&lnu_sqve^ fe_rru&m pa^ti^tu^r e_t ri^gi^dum e_st pa^ru&m
+a&t i_lle u^t i_nge&ns ne^mo^re^ su_b na^sa^mo_ni^o&
+mi&tte_s i^n ho_ste&m si_ve^ de_ me^di^a_ vo^le&s
+i&mpl[eu]i^t o_mne&m vo_ce^ fe_mi^ne^a_ lo^cu&m
+se^mi^u_stu^s a_c la^ni^a_tu^s i_ntre^pi^du_m tu^e&ns
+re^me^a_bi^s i^te^ru&m no_n u^t e_t spo^li^u_m tra^ha&s
+vo&ti_s pe^pe_rci& ni_l e^go a_ su^pe^ri_s pe^ti&
+he&rcu^le^a^ co_nju&nx fe_ta u^t a_rme&ni^a^ ja^ce&ns
+na&ti_s jo^vi_sqve& fi_e^t e_x fa^mu^la_ nu^ru&s
+e&re_cta^ te_rra&s fa_ma^ su_ppo^si^ta_s ha^be&t
+scy&tha_sve^ te^pi^da& ph[oe]bu^s i_nfi^ci^e_t ro^ta&
+qvo^d a^me_t re^qvi_ri&t vi_rgi^nu_m tha^la^mo_s pe^ti&t
+qve&m gra^vi^da^ ne^phe^le& the_ssa^lo_ ge^nu^i_t du^ci&
+tra&nsi_re^ ne_ssu&s ve_rti^ce_m so^li^tu_s va^di&s
+fa^mu^la_ri^s i_llu&m re^ti^ne^t e_rra&nte_m ma^nu&s
+te&lum e_st a^bu_nde& ru_pe a^b [ae]the^ri^a_ fe^ra&r
+i&nvi_cta^ si_ me& ca^de^re^ fe_mi^ne^a_ ma^nu&
+vi&ctu_s mi^na_s i&nfre_gi^t e_t la^cri^mam e_xpu^li&t
+mi^cu^e_re^ c[ae]lo& fu_lmi^na hi_c a^li^qvi_d di^e&s
+pr[ae]be_re^t a^vi^d[ae] c[au]ca^su_s vo^lu^cri_ da^pe&m
+scy^thi^a_ ge^me_nte& fle_bi^li_s ge^mi^tu_s mi^hi&
+ci&rca_ ni^va_li&s c[au]ca^si_ do^mu^i_ la^tu&s
+u&t pre_ssi^t [oe]te&n a_c su^i_s o^cu^li_s ro^gu&m
+ta&ntu_m se^qve_tu&r ho_c qvo^qve a_cci^pe^re_s a^i&t
+tre&me_nte^ fa_to& ta_li^s i_ncu^bu^i_t ro^go&
+qv[ae]si_vi^t o^cu^li&s a_rce a^n e_x a^li^qva_ pa^te&r
+cu&j to_tu^s [ae]the&r po_ndu^s i_ncu^bu^i_t le^ue&
+o& na_te^ po^pu^lu&s o_mne^ jam i_ngra&tum e_st ge^nu&s
+qvo&t i_lle^ po^te^ra&t ma_tri^bu_s mi^se^ri_s a^dhu&c
+pe^ni^tu_s re^co_nda&s e_t fi^de_ ta^ci^ta_ pre^ma&s
+re^pe^ri_ qvi^d h[ae]re&s i_psa^ ja_m ce&sse_s li^ce&t
+a&dmi_tte^re i_psa& fo_rsi^ta_n tre^pi^da_ co^lu&s
+po^su^i_tqve^ cl[au][ae] po_ndu^s e_t pha^re^tra_ gra^vi&s
+ti&ta_na^ fu^gi^e&s i_pse^ me_ ti&ta_n fu^gi&t
+si& te i_psa^ da_mna&s sce^le^re^ te_ mi^se^ra a_rgu^i&s
+a& ma_tre^ di_sce& s[eu] ti^bi^ ju^gu&lo_ pla^ce&t
+o& ca_ra^ me^ga^ra& tu_ne^ cu_m fu^re^re_m mi^hi&
+pa^te^r e_ru^be_sco& nu_be^ di_scu&ssa_ di^e&m
+ja^cu^le_tu^r o_rbi&s nu_lla^ nu_nc ce&sse_t ma^nu&s
+ja^cu^la_re^ pa_lla&s su_ppli^ce_s te&ndo_ ma^nu&s
+i&nge^mu^i^t o_mni&s tu_rba^ ne_c la^cri^ma_s do^lo&r
+Vo&lue_re^ fa_ta& pe_rque^ ta_m tu&rpe_s co^lu&s
+Se_pte_mque^ cu_rsu&s uo_lui^t e_t to^ti^de_m re^fe&rt,
+Di&ci e_sse^ uo^lu^i&t. Pe^ra^ge^ nu_nc, Ti&ta_n, ui^ce&s

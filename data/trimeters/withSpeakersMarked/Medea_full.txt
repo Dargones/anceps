@@ -54,7 +54,7 @@ Furore toto. paria narrentur tua
 Repudia thalamis: quo uirum linques modo?
 Hoc quo secuta es. rumpe iam segnes moras:
 Quae scelere parta est, scelere linquenda est domus.
-$Medea$*
+$Medea$
 Occidimus: aures pepulit hymenaeus meas.
 Uix ipsa tantum, uix adhuc credo malum.
 Hoc facere Iason potuit, erepto patre
@@ -279,7 +279,7 @@ Et ipsa propero. $Creo$ Capite supplicium lues,
 Clarum priusquam Phoebus attollat diem
 Nisi cedis Isthmo. - Sacra me thalami uocant,
 Uocat precari festus Hymenaeo dies.
-$Nutrix$*
+$Nutrix$
 Alumna, celerem quo rapis tectis pedem?
 Resiste et iras comprime ac retine impetum.
 Incerta qualis entheos gressus tulit
@@ -508,7 +508,7 @@ Haec nostra nati dona nubenti ferant,
 Sed ante diris inlita ac tincta artibus.
 Uocetur Hecate. sacra letifica appara:
 Statuantur arae, flamma iam tectis sonet.
-$Nutrix$*
+$Nutrix$
 Pauet animus, horret: magna pernicies adest.
 Immane quantum augescit et semet dolor
 Accendit ipse uimque praeteritam integrat.
@@ -579,7 +579,7 @@ His gelida pigri frigoris glacies inest.
 Addit uenenis uerba non illis minus
 Metuenda. - Sonuit ecce uesano gradu
 Canitque. mundus uocibus primis tremit.
-$Medea$*
+$Medea$
 Tibi more gentis uinculo soluens comam
 Secreta nudo nemora lustraui pede
 Et euocaui nubibus siccis aquas
@@ -600,21 +600,21 @@ Die relicto Phoebus in medio stetit,
 Hyadesque nostris cantibus motae labant:
 Adesse sacris tempus est, Phoebe, tuis.
 Tibi haec cruenta serta texuntur manu,
-$Medea$*
+$Medea$
 Tibi haec Typhoeus membra quae discors tulit,
-$Medea$*
+$Medea$
 Uectoris istic perfidi sanguis inest,
-$Medea$*
+$Medea$
 Oetaeus isto cinere defecit rogus,
-$Medea$*
+$Medea$
 Piae sororis, impiae matris, facem
-$Medea$*
+$Medea$
 Reliquit istas inuio plumas specu
-$Medea$*
+$Medea$
 His adice pinnas sauciae Stymphalidos
-$Medea$*
+$Medea$
 Sonuistis, arae, tripodas agnosco meos
-$Medea$*
+$Medea$
 Peracta uis est omnis: huc gnatos uoca,
 Pretiosa per quos dona nubenti feram.
 $Nutrix$
@@ -622,7 +622,7 @@ Ite, ite, nati, matris infaustae genus,
 Placate uobis munere et multa prece
 Dominam ac nouercam. uadite et celeres domum
 Referte gressus, ultimo amplexu ut fruar.
-$Nuntius$*
+$Nuntius$
 Periere cuncta, concidit regni status;
 Nata atque genitor cinere permixto iacent.
 $Chorus$

@@ -77,8 +77,8 @@ Concussa totos traxit ex imo sinus;
 Mouere siluae capita et excelsum nemus
 Fragore uasto tonuit et lucus sacer;
 Idaea ruptis saxa ceciderunt iugis.
-[Nec terra solum tremuit: et pontus suum
-Adesse Achillem sensit ac strauit uada.]
+Nec terra solum tremuit: et pontus suum
+Adesse Achillem sensit ac strauit uada.
 Tum scissa uallis aperit immensos specus
 Et hiatus Erebi peruium ad superos iter
 Tellure fracta praebet ac tumulum leuat.
@@ -543,7 +543,7 @@ Vulnus dedit nec sensit, in medios ruam
 Tumuloque cineris socia defenso cadam.
 Cessatis et uos flebilis clamor mouet
 Furorque cassus feminae? iussa ocius
-Peragite Me, me sternite hic ferro prius.
+Peragite. Me, me sternite hic ferro prius.
 Repellor, heu me. rumpe fatorum moras,
 Molire terras, Hector: ut Vlixem domes,
 Vel umbra satis es - arma concussit manu,
@@ -568,38 +568,6 @@ Et uota uincens uestra felici indole
 Aetate auum transcendat, ingenio patrem.
 Miserere matris: unicum adflictae mihi
 Solamen hic est. Exhibe natum et roga.
-Huc e latebris procede tuis,
-Flebile matris furtum miserae.
-Hic est, hic est terror, Vlixe,
-Mille carinis.
-Submitte manus dominique pedes
-Supplice dextra stratus adora
-Nec turpe puta quidquid miseros
-Fortuna iubet.
-Pone ex animo reges atauos
-Magnique senis iura per omnis
-Incluta terras, excidat Hector,
-Gere captiuum positoque genu -
-Si tua nondum funera sentis -
-Matris fletus imitare tuae.
-Vidit pueri regis lacrimas
-Et Troia prior, paruusque minas
-Trucis Alcidae flexit Priamus.
-Ille, ille ferox, cuius uastis
-Viribus omnes cessere ferae,
-Qui perfracto limine Ditis
-Caecum retro patefecit iter,
-Hostis parui uictus lacrimis
-'Suscipe' dixit 'rector habenas
-Patrioque sede celsus solio;
-Sed sceptra fide meliore tene':
-Hoc fuit illo uictore capi.
-Discite mites Herculis iras -
-An sola placent Herculis arma?
-Iacet ante pedes non minor illo
-Supplice supplex uitamque petit -
-Regnum Troiae quocumque uolet
-Fortuna ferat.
 Matris quidem me maeror attonitae mouet,
 Magis Pelasgae me tamen matres mouent,
 Quarum iste magnos crescit in luctus puer.
@@ -743,7 +711,7 @@ Ignosce † Paridi: iudicem iratum mea
 Habitura causa est: ista Menelaum manent
 Arbitria. Nunc hanc luctibus paulum tuis,
 Andromacha, omissis flecte - uix lacrimas queo
-Quantum est Helena quod lacrimat malum!
+Retinere. Quantum est Helena quod lacrimat malum!
 Cur lacrimat autem? fare quos Ithacus dolos,
 Quae scelera nectat; utrum ab Idaeis iugis
 Iactanda uirgo est, arcis an celsae edito
@@ -794,7 +762,8 @@ An aliqua poenae pars meae ignota est mihi?
 Versata dominos urna captiuis dedit.
 Cui famula trador? ede: quem dominum uoco?
 Te sorte prima Scyrius iuuenis tulit.
-Cassandra felix, quam furor sorti eximit Regum hanc maximus rector tenet.
+Cassandra felix, quam furor sorti eximit
+Phoebusque. Regum hanc maximus rector tenet.
 Estne aliquis, Hecubam qui suam dici uelit?
 Ithaco obtigisti praeda nolenti breuis.
 Quis tam impotens ac durus et iniquae ferus
@@ -806,8 +775,8 @@ Dat iniqua miseris fata? quis matrem Hectoris
 Armis Achillis miscet? ad Vlixem uocor:
 Nunc uicta, nunc captiua, nunc cunctis mihi
 Obsessa uideor cladibus: domini pudet,
-Non seruitutis. [Hectoris spolium feret
-Qui tulit ] sterilis et saeuis fretis
+Non seruitutis. Hectoris spolium feret
+Qui tulit  sterilis et saeuis fretis
 Inclusa tellus non capit tumulos meos.
 Duc, duc, Vlixe, nil moror, dominum sequor;
 Me mea sequentur fata (non pelago quies
@@ -912,11 +881,11 @@ Magisque solito splendet extremus decor,
 Vt esse Phoebi dulcius lumen solet
 Iamiam cadentis, astra cum repetunt uices
 Premiturque dubius nocte uicina dies.
-Stupet omne uulgus: [et fere cuncti magis
-Peritura laudant] hos mouet formae decus, 
+Stupet omne uulgus: et fere cuncti magis
+Peritura laudant hos mouet formae decus,
 Hos mollis aetas, hos uagae rerum uices;
 Mouet animus omnes fortis et leto obuius,
-[Pyrrhum antecedit; omnium mentes tremunt] 
+Pyrrhum antecedit; omnium mentes tremunt
 Mirantur ac miserantur. Vt primum ardui
 Sublime montis tetigit, atque alte edito
 Iuuenis paterni uertice in busti stetit,

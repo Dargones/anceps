@@ -302,7 +302,7 @@ Et gerere nolunt odia, si patruum uocant,	e&t ge^re^re^ no_lu&nt o^di^a^ si_ pa^
 Pater est. eatur. - multa sed trepidus solet	pa^te^r e&st e^a_tu&r mu_lta^ se&d tre^pi^du&s so^le&t 	^^_^_X_^_^^_^X	0.99
 Detegere uultus, magna nolentem quoque	de&te^ge^re^ vu_ltu&s ma_gna^ no_le&nte&m qvo^qve& 	X^^^_X_^_X_^X	0.93
 Consilia produnt: nesciant quantae rei	co_nsi^li^a^ pro_du&nt: ne_sci^a&nt qua_nt[ae] re^i& 	X^^^_X_^_X_^X	m
-Fiant ministri. Nostra tu coepta occule.	fi&a&nt mi^ni_stri&. no_stra^ tu_ c[oe]pta& o_ccu^le&. 	X_^_X_^_X_^X	m
+Fiant ministri. Nostra tu coepta occule.	fi&a&nt mi^ni_stri&. no_stra^ tu_ c[oe]pta& o_ccu^le&. 	X_^_X_^_X_^X	v
 Haud sum monendus: ista nostro in pectore	h[au]d su&m mo^ne_ndu&s i_sta^ no_stro& i&n pe_cto^re& 	X_^_X_^_X_^X	1.0
 Fides timorque, sed magis claudet fides.	fi&de&s ti^mo_rqve& se&d ma^gi&s cl[au]de&t fi^de&s 	X_^_X_^_X_^X	1.0
 Optata patriae tecta et Argolicas opes	o&pta_ta^ pa^tri^[ae] te_cta& e^t a_rgo^li^ca_s o^pe&s 	X_^^^X_^_^^_^X	1.0
@@ -542,7 +542,7 @@ Dubitat, secunda deinde quem caede immolet.	du^bi^ta&t se^cu_nda& d[ei]nde^ qve&
 Nec interest - sed dubitat et saeuum scelus	ne&c i_nte^re_st se&d du^bi^ta^t e&t s[ae]vu&m sce^lu&s 	X_^_X^^^_X_^X	1.0
 Iuuat ordinare. Quem tamen ferro occupat?	ju^va^t o_rdi^na_re& qve&m ta^me&n fe&rro& o_ccu^pa&t 	^^_^_X_^_X_^X	1.0
 Primus locus (ne desse pietatem putes)	pri&mu&s lo^cu&s ne& de_sse^ pi^e^ta&te&m pu^te&s 	X_^_X_^^^X_^X	1.0
-Auo dicatur: Tantalus prima hostia est.	a^uo_ di^ca_tu&r: ta_nta^lu&s pri_ma& ho_sti^a& e&st. 	X_^_X_^_X_^X	m
+Auo dicatur: Tantalus prima hostia est.	a^uo_ di^ca_tu&r: ta_nta^lu&s pri_ma& ho_sti^a& e&st. 	X_^_X_^_X_^X	v
 Quo iuuenis animo, quo tulit uultu necem?	qvo& ju^ve^ni^s a^ni^mo& qvo_ tu^li&t vu&ltu_ ne^ce&m 	X^^^^^X_^_X_^X	1.0
 Stetit sui securus et non est preces	ste&ti&t su^i_ se&cu_ru^s e&t no&n e&st pre^ce&s 	X_^_X_^_X_^X	1.0
 Perire frustra passus; ast illi ferus	pe&ri_re^ fru_stra& pa_ssu^s a&st i&lli_ fe^ru&s 	X_^_X_^_X_^X	1.0

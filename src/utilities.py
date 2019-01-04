@@ -1,4 +1,7 @@
 import re
+# from cltk.stem.latin.stem import Stemmer
+
+# stemmer = Stemmer()
 
 PERSEUS_DATA_FILE_NAME = '/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/diogenes/latin-analyses.txt'
 LEWIS_SHORT_FILE_NAME = '/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/diogenes/1999.04.0059.xml'
@@ -209,8 +212,9 @@ def stem_it(word):
     """
     Strip off all the endings
     :param word:
-    :return: the stem of teh word
+    :return: the stem of the word
     """
+    # return stemmer.stem(word)
     i = len(word) - 1
     end = ENDINGS
     while (i > 0) and word[i] in end:

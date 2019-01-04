@@ -91,10 +91,11 @@ def merge_data(automatic_file, manual_file, input_file, output_file, switchingLi
                    "    confidence score that the program assigns to the line (higher=better)\n\n"
                    "")
         file.write("Key:\n"
-                   "X - monosyllabic anceps (can also be marked as _ or ^)\n"
+                   "X - monosyllabic anceps (can also be marked as _ or ^ wherever the line is\n\t"
+                   "scanned manually)\n"
                    "_ - long syllable\n^ - short syllable\n"
-                   "& - the quantity is unknown\n"
-                   "(for elided syllables, anceps syllables, or syllables long by position)\n")
+                   "& - the quantity is unknown (for elided syllables, anceps syllables,\n\t"
+                   "or syllables long by position)\n")
         result = ""
         unscanned = 0
         resolutions = 0
@@ -156,7 +157,7 @@ def winge_converter(source):
 
 
 if __name__ == "__main__":
-    name = "Thyestes.txt"
+    name = "Hercules_Oetaeus.txt"
     merge_data("/Users/alexanderfedchin/PycharmProjects/Scansion_project/output/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,

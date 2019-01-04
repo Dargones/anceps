@@ -19269,8 +19269,8 @@ hibernus hibernus 2 hi_be_rnu^s 2
 hibero hibero 8 hi^be_ro& 8 
 hiberos hiberos 6 hi^be_ro&s 6 
 hiberum hiberum 5 hi^be_ru&m 5 
-hiberus hiberus 9 hi^be_ru^s 9 
-hic hic 752.0 hi_c 744.0842105263158 hi^c 7.91578947368421 
+hiberus hiberus 9 hi^be_ru^s 9
+hic hic 752.0 hi_c 744.0842105263158 hi^c 7.91578947368421
 hicetaoniusque hicetaoniusque 1 hi^ce^ta_o^ni^u_sqve^ 1 
 hicne hic 4 hi_cne^ 4 
 hiemalibus hiemalis 1 hi^e^ma_li^bu^s 1 
@@ -42644,8 +42644,8 @@ suggeritur suggero 1 su_gge^ri^tu&r 1
 suggesta suggero 1 su_gge_sta^ 1 
 suggestu suggero 2 su_gge_stu_ 2 
 sui suo 83 su^i_ 83 
-suique suo 5 su^i_qve& 5 
-suis suo 123.0 su^i_s 116.52631578947368 su^i^s 6.473684210526316 
+suique suo 5 su^i_qve& 5
+suis suo 123.0 su^i_s 116.52631578947368 su^i^s 6.473684210526316
 suisque suo 7 su^i_sqve^ 7 
 suist suo 1 su^i_st 1 
 sulcabat sulco 2 su_lca_ba&t 2 
@@ -43557,7 +43557,7 @@ taygetenque taygetenque 1 ta_y^ge^te_nqve& 1
 taygeti taygeti 4 ta_y^ge^ti_ 4 
 taygetique taygetique 1 ta_y^ge^ti_qve^ 1 
 taygeton taygeton 1 ta_y^ge^to&n 1 
-te tu 827.0 te_ 825.6508972267536 te^ 1.3491027732463294 
+te tu 827.0 te_ 825.6508972267536
 teate teate 2 te^a_te^ 2 
 tecta tego 175.99999999999997 te_cta^ 174.70588235294116 te_cta_ 1.2941176470588236 
 tectae tego 2 te_ct[ae] 2 

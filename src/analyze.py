@@ -23,7 +23,7 @@ def check_consistency(filename):
     for line in lines:
         for word in line.split(' '):
             word = re.sub('[^a-z&\^_\]]', '', word.lower())
-            word = re.sub('\]', '_', word)
+            word = multireplace(re.sub('\]', '_', word), {'j': 'i', 'v': 'u'})
             key = re.sub('[^a-z]', '', word)
             if key not in dictionary:
                 dictionary[key] = [word]
@@ -37,6 +37,9 @@ def check_consistency(filename):
                 dictionary[key].append(word)
     for key in dictionary.keys():
         if len(dictionary[key]) > 1:
+            if len(dictionary[key]) == 2 and meters_are_equal(dictionary[key][0][:-1],
+                                                              dictionary[key][1][:-1], allowed=UNK) and dictionary[key][1][-2] == 'a':
+                continue
             print(dictionary[key])
 
 
@@ -367,4 +370,4 @@ if __name__ == "__main__":
         print(text)
         print_stats("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + text + ".txt")
         print('\n')"""
-    check_consistency("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/Thyestes.txt")
+    check_consistency("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/Hercules_Oetaeus.txt")
