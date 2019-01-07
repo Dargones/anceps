@@ -2,15 +2,15 @@ Mu_ndu_s pu^e_ll[ae] se_rta^ Cno_si^a^c[ae] ge^ri&t. | Not Ablative
 No_n si_c a^bi_bu_nt o^di^a^; ui_ua&ce_s a^ge&t | stemming returns "abi"
 A_dsi_nt a^b i_mo_ Ta_rta^ri_ fu_ndo e_xci^t[ae] | 'i' in excitae can be bot short and long
 Sta^bu^li_ fu^ga_vi_t tu_rpi^s [Au]ge&i_ la^bo&r.
-Inuidia factum ac sermo popularis premet?
-Quidnam iste, nostri generis exitium ac lues,
-Pacem reduci uelle uictori expedit,
-Dominare tumidus, spiritus altos gere:
-Quod facinus aures pepulit? haut equidem horrui,
-Dest una numero Danais: explebo nefas.
-Audimur! est est sonitus Herculei gradus.
-Terrena, facie pollui metuens noua,
-Iudicia trepidis sera sortitur reis.
+I_nui^di^a^ fa_ctum a_c se_rmo^ po^pu^la&ri_s pre^me&t? | short o in 3rd Declension Nom Sg
+Qui_dnam i_ste^, no_stri_ ge^ne^ri^s e_xi^ti^um a_c lu^e&s, | is is not necessarily in Gen Sg
+Pa&ce_m re^du_ci& ue_lle^ ui_cto&ri e_xpe^di&t, | duco has long u. A mistake in the dicionary
+Do^mi^na_re^ tu^mi^du&s, spi_ri^tu_s a_lto_s ge^re&: | 4th Declension Nom Sg. Problem
+Quo_d fa^ci^nu^s [au]re_s pe^pu^li^t? h[au]t e^qui^dem ho_rru^i_, | ui problem
+De_st u_na^ nu^me^ro& Da^na^i^s: e_xple_bo_ ne^fa&s. | Why is Ablative Plural short???
+[Au]di_mu^r! e_st e_st so^ni^tu^s He_rcu^le^i_ gra^du_s. | 4th Declension Nom Sg. Problem
+Te_rre_na^, fa^ci^e_ po_llu^i_ me^tu^e_ns no^ua&, | ui problem
+Iu_di^ci^a^ tre^pi^di_s se_ra^ so_rti_tu_r re^i&s. | No info on rei (like in Thyestes)
 V_rna_sque^ fru_stra_ Da^na^i^de_s ple&na_s ge^ru&nt; | No ai diphthong
 A_dsi_t Ly^cu_rgi& do^mi^to^r e_t ru&bri_ ma^ri&s, | Like genitor
 Tru^ci^s a_ntra^ Ze_thi_, no_bi^li_s Di_rce_n a^qu[ae] | Z does not close the preceding syllable!
@@ -22,4 +22,4 @@ Qui_s uo_s pe^r o_mne_m, li_be^ri_, spa&rso_s do^mu&m | Liberi - "children"
 Si_ ui_uo^, fe_ci& sce^le^ra^; si_ mo^ri^o_r, tu^li&. | 1st Sg short
 [Au]t ui_ui^s [au]t o_cci_di^s. ha_nc a^ni^ma_m le^ue&m | Not vivus, but vivo
 I&n o_re^ pri_mo& te^ne^o^. ta_m ta&rde_ pa^tri& | 1st Sg short
-Theseu, latebram quaere longinquam, abditam;
+The&s[eu], la^te_bra_m qu[ae]re^ lo_ngi_nquam, a_bdi^ta&m; | Unconventional muta cum liquida

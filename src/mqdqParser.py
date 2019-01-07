@@ -14,6 +14,8 @@ vowel quantities from the scanned mqdq texts. Can be used in 3 different ways:
 """
 
 import sys
+
+import copy
 from cltk.stem.latin.stem import Stemmer
 from cltk.stem.lemma import LemmaReplacer
 from src.utilities import *
@@ -363,8 +365,21 @@ def get_quantities(word, trace=False):
     if not SETUP_COMPLETED:
         setup()
     cleaned = multireplace(word, {'v': 'u', 'j': 'i'})
+
+    if len(cleaned) > 3 and cleaned[-3:] == "que" and cleaned not in ["quoque"]:
+        meters, scansions = copy.deepcopy(get_quantities(cleaned[:-3], trace))
+        if meters is None:
+            return None, None
+        for i in range(len(scansions)):
+            scansions[i] += "qve^"
+            if cleaned[-4] in CONSONANTS and len(meters[i][0]) > 0 and meters[i][0][-1] != LONG:
+                meters[i] = (meters[i][0][:-1] + '_^', meters[i][1])
+            else:
+                meters[i] = (meters[i][0] + '^', meters[i][1])
+        return meters, scansions
+
     if cleaned in dictionary:
-        return dictionary[cleaned].versions, [x[0] for x in dictionary[cleaned].initial]
+        return copy.deepcopy((dictionary[cleaned].versions, [x[0] for x in dictionary[cleaned].initial]))
     # If the execution reached this point, the form seems to be absent from the
     # dictionary (but the lemma might still be present)
     lemma = lemmatizer.lemmatize(cleaned)
