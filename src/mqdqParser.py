@@ -374,6 +374,8 @@ def get_quantities(word, trace=False):
             scansions[i] += "qve^"
             if cleaned[-4] in CONSONANTS and len(meters[i][0]) > 0 and meters[i][0][-1] != LONG:
                 meters[i] = (meters[i][0][:-1] + '_^', meters[i][1])
+            elif cleaned[-4] == 'a' and len(meters[i][0]) > 0:
+                meters[i] = (meters[i][0][:-1] + '&^', meters[i][1])
             else:
                 meters[i] = (meters[i][0] + '^', meters[i][1])
         return meters, scansions

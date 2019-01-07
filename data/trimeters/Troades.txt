@@ -624,7 +624,7 @@ Concede paucas, ut mea condam manu
 Viuentis oculos. occidis paruus quidem,
 Sed iam timendus. Troia te expectat tua:
 I, uade liber, liberos Troas uide.
-Astyanax Miserere, mater. Quid meos retines sinus
+Miserere, mater. Quid meos retines sinus
 Manusque matris cassa praesidia occupas?
 Fremitu leonis qualis audito tener
 Timidum iuuencus applicat matri latus,
@@ -776,7 +776,7 @@ Armis Achillis miscet? ad Vlixem uocor:
 Nunc uicta, nunc captiua, nunc cunctis mihi
 Obsessa uideor cladibus: domini pudet,
 Non seruitutis. Hectoris spolium feret
-Qui tulit  sterilis et saeuis fretis
+Qui tulit Achillis? sterilis et saeuis fretis
 Inclusa tellus non capit tumulos meos.
 Duc, duc, Vlixe, nil moror, dominum sequor;
 Me mea sequentur fata (non pelago quies
@@ -841,7 +841,6 @@ Ipsumque Vlixem. non flet e turba omnium
 Qui fletur; ac, dum uerba fatidici et preces
 Concipit Vlixes uatis et saeuos ciet
 Ad sacra superos, sponte desiluit sua
-In media Priami regna. -
 Quis Colchus hoc, quis sedis incertae Scytha
 Commisit, aut quae Caspium tangens mare
 Gens iuris expers ausa? non Busiridis

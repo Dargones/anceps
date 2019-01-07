@@ -1,0 +1,32 @@
+O^ne^ra_t ne^fa_ndi_s: nu_lla^ Mi_no&i_s le^ui& | Not enough data on Minois
+E_xti_ngue^ fla_mma_s ne_ue^ te_ di_r[ae] spe^i_ | ei problem
+Re^di^tu_sque^ nu_llo_s me^tu^o^: no_n u_mquam a_mpli^u&s | 1st Sg verb
+Ge^nu^s o_mne^ pro^fu^gi_t. P[ae]li^ci_s ca^re^o_ me^tu&. | Present, not Perfect + short 1 St Sg
+H[au]d qui_squam a^d ui_ta_m fa^ci^le^ re^uo^ca_ri_ po^te_st | "d v" does not close a syllable, which is very strange. Not that this line is probably not that of Seneca
+De_du_ca^t [au]ri_s, I_ndi^ci_ do&nu_m ma^ri&s; | "Indian", not "indico"
+Pro&i_nde^ ui_t[ae] se^que^re^ na_tu&ra_m du^ce&m: | Proinde
+Spe&i_ me^tu_sque& li_be^r, h[au]d i_llu_m ni^ge&r | ei problem
+Nu_nc i_lle^ ri_pa_m ce^le^ri^s A_lphe^i_ le^gi&t, | ei problem +
+Si^le^a_ntu^r a^li^[ae]: so_la^ co_niu_nx [Ae]ge^i_, | ei problem
+A_tto_lle^ uu_ltu_s, di_mo^ue_ uo_ci_s mo^ra&s: | Not enough info on dimoveo / lack of grammar parse
+A_dmo_ui^mu_s ne&fa_nda^. si_ c[oe]pta e_xe^quo&r, | Bad quantity inference
+Me_ ue_l so^ro_rem, Hi_ppo^ly^te^, ue_l fa^mu^la_m uo^ca&, | Vocative of Hippolytus, not Nom Sg of somebody else
+A^mo_re^ ne_mpe& The_se^i_ ca_sto_ fu^ri&s? | ei problem
+Hi_ppo^ly^te^, si_c e_st: The_se^i_ uu_ltu_s a^mo& | Vocative of Hippolytus, not Nom Sg of somebody else + ei problem
+Hi_ppo^ly^te^, nu_nc me_ co_mpo^te_m uo_ti_ fa^ci&s; | Vocative of Hippolytus, not Nom Sg of somebody else
+Fe^r o^pe_m! ne^fa_ndi& ra_pto^r Hi_ppo^ly^tu_s stu^pri_ | Muta cum liquida
+Ta_nde_m pro^fu_gi_ no_cti^s [ae]te_rn[ae] pla^ga&m | Perfect, not Present
+Qui_s fre^mi^tu^s [au]re_s fle_bi^li_s pe^pu^li_t me^a&s? | Nom Sg 4th Declension
+Qu[ae] c[au]sa^ le_ti_? re^du^ce^ cu_r mo^ri^tu_r ui^ro&? | Short u in duco? Why?
+Quo_d ui_uo^. La^cri^m[ae] no_nne^ te_ no_str[ae] mo^ue_nt? | 1st Sg verb
+V_nde i_sta^ ue_ni_t ge^ne^ri^s i_nfa_ndi_ lu^e&s? | Gen Sg is short
+Hu_nc Gra_ia^ te_llu_s a^lu^i^t a_n T[au]ru_s Scy^the&s | Not enough data on aluit in dictionary
+A_tque ha^bi^tu^s ho_rre_ns, pri_sca e^t a_nti&qua a_ppe^te_ns, | Habitus - Nom Sg
+Nu_nc ra_pto^r o^bi^i_t. mo_rti^s e_ffa_re o_rdi^ne&m. | Bad quantity inference
+Cu_m su^bi^to^ ua_stu_m to^nu^i^t e_x a_lto_ ma^re& | Subito
+Qui_s ha^bi^tu^s i_lle& co_rpo^ri_s ua_sti_ fu^i&t! | Habitus - Nom Sg
+Tu_m ue_ro^ pa^ui^da& so^ni^pe^de_s me_nte e_xci^ti_ | excitum can have both long and short i
+Re^di^tu_s tu^o_s lu^e_re^; pe_rue_rti_s do^mu&m | 3rd Pl, not Inf
+Hi_ppo^ly^te^, ta_le&s i_ntu^o_r uu_ltu_s tu^o&s | Vocative of Hippolytus, not Nom Sg of somebody else
+Hu_c, hu_c, re^li^qui^a_s ue^hi^te^ ca_ri& co_rpo^ri&s | relinqo problem
+Qu[ae] pa_rs tu^i_ si_t du^bi^to^; se_d pa_rs e_st tu^i&: | Short 1St person Sg
