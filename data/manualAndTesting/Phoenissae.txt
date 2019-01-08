@@ -1,13 +1,13 @@
 No_n ui^de^o^ no_x[ae] co_nsci^u_m no_str[ae] di^e&m, | Short 1st Sg verb
 V^bi^ de_bu^i i_nfa_ns. re^ci^pe^ su_ppli^ci^u_m ue^tu&s. | ui problem
-Cum occidis et cum parcis, olim iam tuum
-Ego uideo. Tandem spiritum inimicum expue,
+Cum o_cci_di^s e_t cu_m pa_rci^s, o_li_m ia_m tu^u&m | "To strike", not "to fall"
+E^go^ ui^de^o^. Ta_nde_m spi_ri^tum i^ni^mi_cum e_xpu^e&, | in expue, u is a vowel (why a consonant here?)
 Quo_d ui_uo^? nu_llu_m fa^ce^re^ ia_m po_ssu_m sce^lu&s? | Short 1st Sg
 Di_sce_de^, ui_rgo_. ti^me^o^ po_st ma_trem o_mni^a&. | Short 1st Sg
-Aliquando terra corpus inuisum tege;
-Occidere est uetare cupientem mori
-Vno auia partu liberos peperit uiro,
-Nunc soluo poenas, tunc tibi inferias dedi.
+A^li^qua_ndo^ te_rra& co_rpu^s i_nui_su_m te^ge&; | A mistake in dictionary on aliquando
+O_cci_de^re e_st ue&ta_re^ cu^pi^e_nte_m mo^ri& | "To strike", not "to fall"
+V_no a^ui^a^ pa_rtu_ li_be^ro_s pe^pe^ri_t ui^ro&, | avia - "grandmother"
+Nu_nc so_luo^ p[oe]na_s, tu_nc ti^bi i_nfe^ri^a_s de^di& | Short 1st Sg
 Me_ fu^gi^o^, fu^gi^o& co_nsci^u_m sce^le^rum o_mni^u&m | Short 1st Sg
 Re_gnu_m pa^re_nte_s li_be^ri_, ui_rtu_s quo^que& | "Children"
 Ca^li^do_que^ te^ne^ro_s tra_nsu^i_t fe_rro_ pe^de&s | ui problem
@@ -16,13 +16,12 @@ A_rma_ui^t a^li^a_s; o_pti^me_ re_gni_ me^i& | Adverbial optime
 Co_na_tu^r a^li^qui_d cu^pi^o^. no_n sa^ti^s e_st a^dhu_c | Short 1st Sg
 V&tri_mque^ na_tu_m ui^de^o^: ni_l po_ssu_m pi^e& | Short 1st Sg
 La^ni^a_ta& ca_na_s ma_te^r o_ste_ndi_t co^ma_s, | "Hoary", not "to sing"
-An dico et ex quo? dexteras matri date,
-Proinde bellum tollite aut belli moram.
-Inuideo uestro? ueni ut arcerem nefas
-Sed ante lacrimas. teneo longo tempore
-Vinctosque duces patris aequales tui,
-Hostem admouere, sanguine et flamma potes
-Quam reditus iste: crimine alieno exulas,
-Tuo redibis. melius istis uiribus
-Sunt exilis grauiora. Nunc belli mala
-Fors caeca uer praemium incertum petis,
+A_n di_co e^t e_x quo_? de_xte^ra_s ma_tri_ da^te&, | No info on dico for some reason
+Pro&i_nde^ be_llu_m to_lli^te au_t be_lli_ mo^ra&m. | Proinde
+I_nui^de^o^ ue_stro&? ue_ni u^t a_rce&re_m ne^fa&s | Short 1st Sg
+Se^d a_nte^ la^cri^ma_s. te^ne^o^ lo_ngo_ te_mpo^re& | Short 1st Sg
+Vi_ncto_sque^ du_ce_s pa_tri^s [ae]qua&le_s tu^i&, | duco, not dux
+Ho_stem a_dmo^ue_re&, sa_ngui^ne e_t fla_mma_ po^te&s | Pres Inf, not 3rd Pl Perf
+Qua_m re^di^tu^s i_ste& cri_mi^ne a^li^e&no e_xu^la&s, | reditus is Nom Sg
+Tu^o_ re^di_bi_s. me^li^u^s i_sti_s ui_ri^bu&s | Not enough info on redeo + bad quantity parse
+Su_nt e_xi^li_s gra^ui^o_ra^. Nu_nc be_lli_ ma^la& | "Exile", not "narrow"
