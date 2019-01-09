@@ -65,7 +65,7 @@ def merge_data(automatic_file, manual_file, input_file, output_file, switchingLi
     :return:
     """
     if switchingLines is not None:
-        switches = {multireplace(re.sub('[^a-z]', '', line.lower()), {'v': 'u', 'j': 'i'}): True
+        switches = {multireplace(re.sub('[^a-z]', '', line.lower()), {'v': 'u', 'j': 'i'}): False
                 for line in open(switchingLines).readlines()}
     else:
         switches = {}
@@ -128,13 +128,19 @@ def merge_data(automatic_file, manual_file, input_file, output_file, switchingLi
             resolutions += len(list(re.findall('\^\^', scansion)))
             if key in switches:
                 resolutions_switches += len(list(re.findall('\^\^', scansion)))
+                switches[key] = True
             result += line.rstrip(' \n') + '\t' + vocab.rstrip('\n') + '\t' + scansion + '\t' + postfix + '\n'
 
         if unscanned != 0:
             file.write("Note that there are " + str(unscanned) +
                        " lines that are not scanned\n")
+        if False in [switches[x] for x in switches.keys()]:
+            print("Not all switching lines were encountered")
+            print([x for x in switches.keys() if not switches[x]])
         file.write("Resolution rate: " + str(round(resolutions / len(text), 3)))
         if len(switches.keys()) != 0:
+            file.write("\nResolution rate in lines in which speakers remain the same: " +
+                       str(round((resolutions - resolutions_switches) / (len(text) - len(switches.keys())), 3)))
             file.write("\nResolution rate in lines in which speakers change: " +
                     str(round(resolutions_switches / len(switches.keys()), 3)))
         file.write("\n*/\n\n" + result)

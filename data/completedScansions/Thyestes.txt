@@ -23,6 +23,7 @@ _ - long syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
 Resolution rate: 0.792
+Resolution rate in lines in which speakers remain the same: 0.787
 Resolution rate in lines in which speakers change: 0.875
 */
 
@@ -448,7 +449,7 @@ Sed iura et arma seruient mecum tibi.	se&d ju_ra& e^t a_rma& se_rvi^e&nt me&cu&m
 Imposita capiti uincla uenerando gere;	i&mpo^si^ta^ ca^pi^ti& vi_ncla^ ve^ne^ra&ndo_ ge^re& 	X^^^^^X_^^^X_^X	1.0
 Ego destinatas uictimas superis dabo.	e^go^ de_sti^na_ta&s vi_cti^ma&s su^pe^ri&s da^bo& 	^^_^_X_^_^^_^X	1.0
 Quis me per auras turbo praecipitem uehet	qvi&s me_ pe^r [au]ra&s tu_rbo^ pr[ae]ci^pi^te&m ve^he&t 	X_^_X_^_^^_^X	1.0
-Atraque nube inuoluet, ut tantum nefas	a&tra_qve^ nu_be& i&nvo_lve^t u&t ta&ntu&m ne^fa&s 	X_^_X_^_X_^X	0.15
+Atraque nube inuoluet, ut tantum nefas	a&tra_qve^ nu_be& i&nvo_lve^t u&t ta&ntu&m ne^fa&s 	X_^_X_^_X_^X	1.0
 Eripiat oculis? o domus Pelopi quoque	e&ri^pi^a^t o^cu^li&s o_ do^mu&s pe^lo^pi& qvo^qve& 	X^^^^^X_^_^^_^X	0.93
 Et Tantalo pudenda! Quid portas noui?	e&t ta_nta^lo_ pu&de_nda^ qvi&d po&rta&s no^vi& 	X_^_X_^_X_^X	0.64
 Quaenam ista regio est? Argos et Sparte, pios	qv[ae]na&m i_sta^ re^gi^o& e&st a_rgo^s e&t spa&rte_ pi^o&s 	X_^^^X_^_X_^X	0.78

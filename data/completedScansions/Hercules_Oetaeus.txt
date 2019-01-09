@@ -22,6 +22,7 @@ _ - long syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
 Resolution rate: 0.715
+Resolution rate in lines in which speakers remain the same: 0.714
 Resolution rate in lines in which speakers change: 0.75
 */
 
@@ -259,7 +260,7 @@ Quod nudus auro crinis et gemma iacet,	qvo&d nu_du^s [au]ro& cri_ni^s e&t ge&mma
 Ipsas misericors forsan aerumnas amat;	i&psa&s mi^se^ri^co&rs fo_rsa^n [ae]ru&mna_s a^ma&t 	X_^^^X_^_X_^X	1.0
 Hoc usitatum est Herculi: captas amat.	ho&c u_si^ta_tu&m e&st he_rcu^li_ ca&pta_s a^ma&t 	X_^_X_^_X_^X	1.0
 Dilecta Priami nempe Dardanii soror	di&le_cta^ pri^a^mi& ne_mpe^ da_rda^ni^i_ so^ro&r 	X_^^^X_^_^^_^X	1.0
-Concessa famula est; adice quot nuptas prius,	co_nce_ssa^ fa^mu^la& e&st; a^di^ce^ quo&t nu_pta&s pri^u&s, 	X_^^^X^^^_X_^X	m
+Concessa famula est; adice quot nuptas prius,	co_nce_ssa^ fa^mu^la& e&st; a^di^ce^ quo&t nu_pta&s pri^u&s,	X_^^^X^^^_X_^X	m
 Quot uirgines dilexit: errauit uagus.	qvo&t vi_rgi^ne&s di&le_xi^t e_rr[au]i&t va^gu&s 	X_^_X_^_X_^X	1.0
 Arcadia nempe uirgo, Palladios choros	a&rca^di^a^ ne_mpe& vi_rgo^ pa_lla^di^o&s cho^ro&s 	X^^^_X_^_^^_^X	0.47
 Dum nectit, Auge, uim stupri passa excidit,	du&m ne_cti^t, [au]ge^, ui&m stu^pri_ pa_ssa& e_xci^di&t, 	X_^_X_^_X_^X	m
@@ -566,7 +567,7 @@ Splendescat ignis ture, quod Phoebum colens	sple&nde_sca^t i_gni&s tu_re^ qvo&d 
 Diues Sabaeis colligit truncis Arabs.	di&ve&s sa^b[ae]i&s co_lli^gi&t tru&nci_s a^ra&bs 	X_^_X_^_X_^X	1.0
 Pacata tellus" inquit "et caelum et freta,	pa&ca_ta^ te_llu&s i_nqvi^t e&t c[ae]lu&m e&t fre^ta& 	X_^_X_^_X_^X	0.94
 Feris subactis omnibus uictor redi:	fe&ri&s su^ba_cti&s o_mni^bu&s vi&cto&r re^di& 	X_^_X_^_X_^X	1.0
-Depone fulmen" - gemitus in medias preces	de_po_ne^ fu_lme&n" - ge^mi^tu^s i&n me^di^a&s pr^ece_s 	X_^_X^^^_^^_^X	m
+Depone fulmen" - gemitus in medias preces	de_po_ne^ fu_lme&n" - ge^mi^tu^s i&n me^di^a&s pre^ce_s 	X_^_X^^^_^^_^X	m
 Stupente et ipso cecidit; hinc caelum horrido	stu&pe_nte& e^t i_pso& ce^ci^di^t hi&nc c[ae]lu&m ho_rri^do& 	X_^_X^^^_X_^X	0.97
 Clamore complet: qualis impressa fugax	cla&mo_re^ co_mple&t qva_li^s i_mpre&ssa_ fu^ga&x 	X_^_X_^_X_^X	1.0
 Taurus bipenni uolnus et telum ferens	t[au]ru&s bi^pe_nni& vo_lnu^s e&t te&lu&m fe^re&ns 	X_^_X_^_X_^X	1.0
@@ -726,7 +727,7 @@ Seu dira soror es; adde me comitem tuis,	s[eu] di_ra^ so^ro^r e&s a_dde^ me_ co^
 Threicia coniunx, sceleribus; natam tuam,	thre&i^ci^a^ co_nju&nx sce^le^ri^bu_s na&ta&m tu^a&m 	X^^^_X^^^_X_^X	1.0
 Althaea mater, recipe, nunc ueram tui	a&lth[ae]a^ ma_te&r re^ci^pe^ nu&nc ve&ra&m tu^i& 	X_^_X^^^_X_^X	1.0
 Agnosce prolem - quid tamen tantum manus	a&gno_sce^ pro_le&m qvi&d ta^me&n ta&ntu&m ma^nu&s 	X_^_X_^_X_^X	1.0
-Vestrae abstulerunt? claudite Elysium mihi,	ve_strae& a_bstu^le_ru&nt? cl[au]di^te& e_ly^si^u&m mi^hi&, 	X_^_X_^_^^_^X	m
+Vestrae abstulerunt? claudite Elysium mihi,	ve_strae& a_bstu^le_ru&nt? cl[au]di^te& e_ly^si^u&m mi^hi&,	X_^_X_^_^^_^X	m
 Quaecumque fidae coniuges nemoris sacri	qv[ae]cu_mqve^ fi_d[ae] co_nju^ge&s ne^mo^ri&s sa^cri& 	X_^_X_^_^^_^X	0.11
 Lucos tenetis; si qua respersit manus	lu&co&s te^ne_ti&s si& qva^ re_spe&rsi&t ma^nu&s 	X_^_X_^_X_^X	1.0
 Viri cruore nec memor castae facis	vi&ri& cru^o_re& ne&c me^mo&r ca&st[ae] fa^ci&s 	X_^_X_^_X_^X	1.0
@@ -847,7 +848,6 @@ Sed caelum habentis. si nimis superis fuit,	se&d c[ae]lu&m ha^be_nti&s si_ ni^mi
 Scythico sub axe genita domuisset meas	scy^thi^co_ su^b a_xe& ge^ni^ta^ do^mu^i&sse&t me^a&s 	^^_^_X^^^^^X_^X	1.0
 Vires Amazon - feminae cuius manu	vi&re_s a^ma_zo&n fe_mi^nae_ cu&ju&s ma^nu& 	X_^_X_^_X_^X	1.0
 Iunonis hostis uincor! hinc grauior tui,	ju&no_ni^s ho_sti&s vi_nco^r hi&nc gra^vi^o&r tu^i& 	X_^_X_^_^^_^X	1.0
-Nouerca, pudor est. quid diem hunc laetum uocas?	no&ve_rca^ pu^do^r e&st qvi&d di^e&m hu&nc l[ae]tu&m vo^ca&s 	X_^^^X_^_X_^X	1.0
 Nouerca, pudor est. quid diem hunc laetum uocas?	no&ve_rca^ pu^do^r e&st qvi&d di^e&m hu&nc l[ae]tu&m vo^ca&s 	X_^^^X_^_X_^X	1.0
 Quid tale tellus genuit iratae tibi?	qvi&d ta_le^ te_llu&s ge^nu^i^t i_ra&tae_ ti^bi& 	X_^_X^^^_X_^X	1.0
 Mortalis odia femina excessit tua.	mo&rta_li^s o^di^a& fe_mi^na& e_xce&ssi&t tu^a& 	X_^^^X_^_X_^X	1.0
