@@ -397,6 +397,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     """
     certainty = []  # how probable a certain scansion version is
     vocabulary = []
+    annotated = []
     lines = []
     result = []
     Word.elision_count = 0
@@ -406,6 +407,7 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
         for line in file:
             lines.append(Line(line))
             vocabulary.append([])
+            annotated.append([])
             certainty.append([])
             result.append([])
     print("Scanning: " + path_to_text)
@@ -448,17 +450,18 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
                     # print(lines[i].initial_orthography.rstrip('\n'))
 
             if i in LINES_TO_DEBUG:
-                print(result[i])
-                print(curr)
+                print("Current result: ", result[i])
             for version in curr:
-                if i in LINES_TO_DEBUG:
-                    print(certainty[i])
-                    print(version)
-                    print(lines[i].scores())
                 if version not in result[i]:
+                    if i in LINES_TO_DEBUG:
+                        print("Current\\updated certainty: ", certainty[i])
+                        print("New version: ", version)
+                        print("New version vocabulary: ", get_word_info(lines[i], version))
+                        print("New version score: ", lines[i].scores())
                     result[i].append(version)
                     certainty[i].append(lines[i].scores())
                     vocabulary[i].append(get_word_info(lines[i], version))
+                    annotated[i].append(get_word_info(lines[i], version, strict=False))
                     versions_new += 1
                 else:
                     position = result[i].index(version)
@@ -470,10 +473,11 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
 
             if manual and len(result[i]) > 1 and (attempt_n == MAX_ATTEMPT - 1 or
                                                       not lines[i].new_scansions_possible()):
-                new_result = solve_manually(lines[i], result[i])
+                new_result = solve_manually(lines[i], result[i], annotated[i])
                 if len(new_result) == 1:
                     position = result[i].index(new_result[0])
                     vocabulary[i] = [vocabulary[i][position]]
+                    annotated[i] = [annotated[i][position]]
                     certainty[i] = [certainty[i][position]]
 
             if i in LINES_TO_DEBUG:
@@ -488,39 +492,60 @@ def main(path_to_text, meters, trace=True, print_problems=True, elision=False, m
     return result, vocabulary, certainty
 
 
-def solve_manually(line, scansions):
+def difficult_case(scansions, voc):
+    """
+    Decides whether the conflicting scansions can be judged in half-automated mode. For this to
+    happen the number of syllables in each word in each scansion shohuld be the same
+    :param scansions:
+    :param voc:
+    :return:
+    """
+    for i, scansion in enumerate(scansions):
+        if len(scansion) != len(scansions[0]):
+            return True
+        if False in [len(re.sub('[^\^_\]&]', '', voc[i].split(' ')[j])) ==
+                             len(re.sub('[^\^_\]&]', '', voc[0].split(' ')[j])) for j in
+                     range(len(voc[0].split(' ')))]:
+            return True
+    return False
+
+
+def solve_manually(line, scansions, voc):
     """
     Ask the user to indicate the correct scansion
     :param lines:
     :param scansions:
     :return:
     """
-    """if line.initial_orthography.rstrip('\n') not in check:
-        return scansions"""
-    for scansion in scansions:
-        if len(scansion) != len(scansions[0]):
-            return scansions
+    if difficult_case(scansions, voc):
+        print('\n'.join(voc) + '\n')
+        return scansions
+
     word_id = []
     for i in range(len(line.line)):
-        for j in range(len(line.line[i].get_meter(REPEAT))):
-            word_id.append((i, j, len(line.line[i].get_meter(REPEAT))))
+        word_length = len(re.sub('[^\^_\]&]', '', voc[0].split(' ')[i]))
+        for j in range(word_length):
+            word_id.append((i, j, word_length))
+
     i = 0
     while len(scansions) != 1 and i < len(scansions[0]):
         versions = [x[i] for x in scansions]
         if LONG in versions and SHORT in versions:
-            print("\nAll versions:\n" + '\n'.join([get_word_info(line, x, strict=False) for x in scansions]))
+            print("\nAll versions:\n" + '\n'.join(voc))
             print("Number of syllables: " + str(len(scansions[0])))
             print("In sentence: " + line.initial_orthography.strip('\n'))
             print("In word: " + line.line[word_id[i][0]].word)
             data = input(("In (one-based) syllable #" +
                           str(word_id[i][1] + 1)) + " out of " + str(word_id[i][2]) + ":\n")
             if data in [LONG, SHORT]:
-                scansions = [x for x in scansions if x[i] == data]
+                matching = [j for j in range(len(scansions)) if scansions[j][i] == data]
+                scansions = [scansions[j] for j in matching]
+                voc = [voc[j] for j in matching]
             else:
                 return scansions
         i += 1
     if len(scansions) == 1:
-        print('% ' + get_word_info(line, scansions[0], strict=False))
+        print('% ' + voc[0])
         print(scansion_versions(scansions[0], TRIMETER, 0) != 0, '\n')
     return scansions
 
@@ -569,5 +594,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result, voc, scores = main(filename, [TRIMETER], False, False, False, False)
+        result, voc, scores = main(filename, [TRIMETER], False, False, False, True)
         print_results(result, voc, scores, output_filename)
