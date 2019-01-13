@@ -594,5 +594,5 @@ if __name__ == "__main__":
 
     for filename in sys.argv[1:]:
         output_filename = 'output/' + filename.split('/')[-1]
-        result, voc, scores = main(filename, [TRIMETER], False, False, False, True)
+        result, voc, scores = main(filename, [TRIMETER], False, False, False, False)
         print_results(result, voc, scores, output_filename)
