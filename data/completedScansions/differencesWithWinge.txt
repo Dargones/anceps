@@ -1,0 +1,26 @@
+Thyestes:
+
+30: Odisse crimen: semper oriatur nouum, | Winge scans orjatur
+78: Rictus leonum et dira Furiarum agmina | Winge scans Furjarum (but Aeneid III.252 has furiarum)
+92: Taxata poena lingua crucietur loquax, | Winge has crucjetur
+94: Violate caede neue furiali malo | Winge has furjali
+118: Stant parte nulla cana deposita niue | Winge has deposita^, but this must be ablative
+229: Aurata reges sceptra Tantalici gerunt; | Winge has Tanta_lici^, I have Tanta^lici_
+257: Ferrum? Parum est. Quid ignis? Etiamnunc parum est. | Winge has etjam
+273: Odrysia mensas - fateor, immane est scelus, | Winge has Odrysi_a
+292: Dubiumque Libycae Syrtis intrabit fretum, | Winge has du_bjumque (u should be short)
+295: Cui tanta credet? Credula est spes improba. | Winge has cu^i^ (cf. Aeneid VIII.409 Cū́i tŏlĕrā́re...)
+311: Saepe in magistrum scelera redierunt sua. | Winge has re_djerunt, but it is re^de^o (i.e. re is short)
+320: Ipsosne, per quos fallere alium cogitas, | Winge scans aljum
+437: Alioque quam quo nitor abductus feror. | Winge has aljo...
+478: Consistet aestus unda et Ionio seges | Winge has Ionjo
+486: Atrea timendum. Decipi cautus times? | Winge has Atrea_, but this is Greek accusative and the ending should be short
+494: Versantur odia. uenit in nostras manus | Winge has o_dia
+686: Et maesta uitta capita purpurea ligat; | Winge has purpurea^, but purpurea agrees with vitta and must be instrumental ablative
+714: Dubitat, secunda deinde quem caede immolet. | Winge has deinde (but cf. Aenedi I.195) + LS says that ei in deinde is monosyllabic in classical poets
+787: Nox missa ab ortu tempore alieno grauis, | Winge has aljeno
+788: Tamen uidendum est. tota patefient mala. | Winge has pa_te^fi^ent, I have pa^te^fi&ent (first syllable is short according to L&S)
+893: Vtinam quidem tenere fugientes deos | Winge has fu_gientes, but this is present participle and it should be fu^gientes
+902: Templi relaxa, festa patefiat domus. | Same as 788
+914: Ne parce potu: restat etiamnunc cruor | Same as 257
+1104: Scio quid queraris: scelere praerepto doles; | Winge has scjo
