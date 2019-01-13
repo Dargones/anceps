@@ -62,6 +62,10 @@ starting with a consonantal "u" is long by position. (cf. *Ag.* 397, in which
  consonants is long by position. This is not generally the case (cf.
  *Allen and Greenough's New Latin Grammar* §603.f.2 and also *Her. F.* 916, 
  *Oed.* 541, and *Ag.* 433)
+
+Subitŏ is preferred to alternative scansion (subitō), because there are
+lines in Seneca, when only first scansion is possible, but none in which only
+the second would be. Similarly, hīc is preferred. 
  
 I keep the lines that Zwierlein marks as possibly not genuine, but there is
 sometimes a problem in scanning them (e.g. a syllable that is closed must

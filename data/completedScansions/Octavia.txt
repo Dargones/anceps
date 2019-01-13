@@ -27,7 +27,7 @@ Resolution rate in lines in which speakers change: 0.818
 
 Fulgore primo captus et fragili bono	fu&lgo_re^ pri_mo& ca_ptu^s e&t fra^gi^li_ bo^no& 	X_^_X_^_^^_^X	1.0
 Fallacis aulae quisquis attonitus stupet,	fa&lla_ci^s [au]l[ae] qvi_sqvi^s a_tto^ni^tu&s stu^pe&t 	X_^_X_^_^^_^X	1.0
-Subito latentis ecce Fortunae impetu	su^bi^to_ la^te_nti&s e_cce^ fo_rtu&n[ae] i_mpe^tu& 	^^_^_X_^_X_^X	1.0
+Subito latentis ecce Fortunae impetu	su^bi^to^ la^te_nti&s e_cce^ fo_rtu&nae& i_mpe^tu&	X^^^_X_^_X_^X	c
 Modo praepotentem cernat euersam domum	mo^do^ pr[ae]po^te_nte&m ce_rna^t [eu]e&rsa&m do^mu&m 	^^_^_X_^_X_^X	0.95
 Stirpemque Claudi, cuius imperio fuit	sti&rpe_mqve^ cl[au]di& cu_ju^s i_mpe^ri^o_ fu^i&t 	X_^_X_^_^^_^X	1.0
 Subiectus orbis, paruit liber diu	su&bje_ctu^s o_rbi&s pa_ru^i&t li&be&r di^u& 	X_^_X_^_X_^X	1.0

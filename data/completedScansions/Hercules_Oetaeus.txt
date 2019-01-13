@@ -27,14 +27,14 @@ Resolution rate in lines in which speakers change: 0.75
 */
 
 Sator deorum, cuius excussum manu	sa&to&r de^o_ru&m cu_ju^s e_xcu&ssu&m ma^nu& 	X_^_X_^_X_^X	1.0
-Vtraeque Phoebi sentiunt fulmen domus,	u&tr[ae]qve^ ph[oe]bi& se_nti^u_nt fu&lme&n do^mu&s 	X_^_X_^_X_^X	1.0
+Vtraeque Phoebi sentiunt fulmen domus,	u&trae_qve^ ph[oe]bi& se_nti^u_nt fu&lme&n do^mu&s 	X_^_X_^_X_^X	1.0
 Secure regna: protuli pacem tibi,	se&cu_re^ re_gna& pro_tu^li_ pa&ce&m ti^bi& 	X_^_X_^_X_^X	1.0
 Quacumque Nereus porrigi terras uetat.	qva&cu_mqve^ ne_r[eu]s po_rri^gi_ te&rra&s ve^ta&t 	X_^_X_^_X_^X	1.0
 Non est tonandum; perfidi reges iacent,	no&n e&st to^na_ndu&m pe_rfi^di_ re&ge&s ja^ce&nt 	X_^_X_^_X_^X	1.0
 Saeui tyranni. fregimus quidquid fuit	s[ae]vi_ ty^ra_nni& fre_gi^mu&s qvi&dqvi&d fu^i&t 	X_^_X_^_X_^X	1.0
 Tibi fulminandum. sed mihi caelum, parens,	ti^bi^ fu_lmi^na_ndu&m se&d mi^hi_ c[ae]lu&m pa^re&ns 	^^_^_X_^_X_^X	0.16
 Adhuc negatur? parui certe Ioue	a&dhu&c ne^ga_tu&r? pa_ru^i_ ce_rte_ io^ue& 	X_^_X_^_X_^X	m
-Vbique dignus teque testata est meum	u&bi_qve^ di_gnu&s te_qve^ te_sta&ta& e&st me^u&m 	X_^_X_^_X_^X	1.0
+Vbique dignus teque testata est meum	u&bi_qve^ di_gnu&s te_qve^ te_sta&ta& e&st me^u&m 	X_^_X_^_X_^X	0.0
 Patrem nouerca. quid tamen nectis moras?	pa&tre&m no^ve_rca& qvi&d ta^me&n ne&cti&s mo^ra&s 	X_^_X_^_X_^X	1.0
 Numquid timemur? numquid impositum sibi	nu&mqvi&d ti^me_mu&r nu_mqvi^d i_mpo^si^tu&m si^bi& 	X_^_X_^_^^_^X	1.0
 Non poterit Atlas ferre cum caelo Herculem?	no&n po^te^ri^t a_tla&s fe_rre^ cu&m c[ae]lo& he_rcu^le&m 	X^^^_X_^_X_^X	0.79
@@ -54,7 +54,7 @@ Animam resumit, cecidit ante aras suas	a^ni^ma&m re^su_mi&t ce^ci^di^t a_nte& a&
 Busiris, una Geryon sparsus manu	bu&si_ri^s u_na& ge_ry^o_n spa&rsu&s ma^nu& 	X_^_X_^_X_^X	1.0
 Taurusque populis horridus centum pauor.	t[au]ru_sqve^ po^pu^li&s ho_rri^du&s ce&ntu&m pa^vo&r 	X_^^^X_^_X_^X	1.0
 Quodcumque tellus genuit infesta occidit	qvo&dcu_mqve^ te_llu&s ge^nu^i^t i_nfe&sta& o_cci^di&t 	X_^_X^^^_X_^X	1.0
-Meaque fusum est dextera: iratis deis	me^a_que^ fu_su&m e&st de_xte^ra&: i_ra&ti&s de^i&s 	X_^_X_^_X_^X	m
+Meaque fusum est dextera: iratis deis	me^a_que^ fu_su&m e&st de_xte^ra&: i_ra&ti&s de^i&s 	X_^_X_^_X_^X	v
 Non licuit esse. si negat mundus feras,	no&n li^cu^i^t e_sse& si_ ne^ga&t mu&ndu&s fe^ra&s 	X^^^_X_^_X_^X	1.0
 Animum nouerca, redde nunc nato patrem	a^ni^mu&m no^ve_rca& re_dde^ nu&nc na&to_ pa^tre&m 	^^_^_X_^_X_^X	0.71
 Vel astra forti. nec peto ut monstres iter;	ve&l a_stra^ fo_rti& ne&c pe^to& u&t mo&nstre_s i^te&r 	X_^_X_^_X_^X	1.0
@@ -273,7 +273,7 @@ Tenerum feroci stamen intorquens manu.	te^ne^ru&m fe^ro_ci& sta_me^n i_nto&rqve&
 Nempe illa ceruix spolia deposuit ferae	ne&mpe& i_lla^ ce_rvi&x spo^li^a^ de_po^su^i&t fe^r[ae] 	X_^_X^^^_^^_^X	1.0
 Crinemque mitra pressit et famulus stetit,	cri&ne_mqve^ mi_tra& pre_ssi^t e&t fa^mu^lu&s ste^ti&t 	X_^_X_^_^^_^X	1.0
 Hirtam Sabaea marcidus myrrha comam:	hi&rta&m sa^b[ae]a& ma_rci^du&s my&rrha_ co^ma&m 	X_^_X_^_X_^X	1.0
-Vbique caluit, sed leui caluit face.	u&bi_qve^ ca^lu^i&t se&d le^vi_ ca^lu^i&t fa^ce& 	X_^^^X_^_^^_^X	0.96
+Vbique caluit, sed leui caluit face.	u&bi_qve^ ca^lu^i&t se&d le^vi_ ca^lu^i&t fa^ce& 	X_^^^X_^_^^_^X	0.0
 Haerere amantes post uagos ignes solent.	h[ae]re_re& a^ma_nte&s po&st va^go_s i&gne&s so^le&nt 	X_^_X_^_X_^X	1.0
 Famulamne et hostis praeferet gnatam tibi?	fa^mu^la_mne& e^t ho_sti&s pr[ae]fe^re&t gna&ta_m ti^bi& 	^^_^_X_^_X_^X	1.0
 Vt laeta siluas forma uernantes habet,	u&t l[ae]ta^ si_lva&s fo_rma^ ve_rna&nte_s ha^be&t 	X_^_X_^_X_^X	1.0
@@ -520,7 +520,7 @@ Nescio quod animus grande praesagit malum.	ne&sci^o^ qvo^d a^ni^mu&s gra_nde^ pr
 Plenae triumphi templa Iunonis pete:	ple&n[ae] tri^u_mphi& te_mpla^ ju_no&ni&s pe^te& 	X_^_X_^_X_^X	1.0
 Haec tibi patent, delubra praeclusa omnia.	h[ae]c ti^bi^ pa^te&nt de&lu_bra^ pr[ae]clu&sa& o_mni^a& 	X^^^_X_^_X_^X	0.84
 Effare quis me casus insontem premat.	e&ffa_re^ qvi&s me& ca_su^s i_nso&nte&m pre^ma&t 	X_^_X_^_X_^X	0.39
-Decus illud orbis atque praesidium unicum,	de^cu^s i_llu^d o_rbi&s a_tqve^ pr[ae]si^di^u&m u_ni^cu&m 	^^_^_X_^_^^_^X	0.99
+Decus illud orbis atque praesidium unicum,	de^cu^s i_llu^d o_rbi&s a_tqve^ pr[ae]si^di^u&m u_ni^cu&m 	^^_^_X_^_^^_^X	1.0
 Quem fata terris in locum dederant Iouis,	qve&m fa_ta^ te_rri&s i&n lo^cu&m de^de^ra&nt jo^vi&s 	X_^_X_^_^^_^X	1.0
 O mater, abiit: membra et Herculeos toros	o& ma_te^r a^bi^i&t me_mbra& e^t he_rcu^le^o&s to^ro&s 	X_^^^X_^_^^_^X	1.0
 Vrit lues nescio qua; qui domuit feras,	u&ri&t lu^e&s ne&sci^o^ qva^ qvi_ do^mu^i&t fe^ra&s 	X_^_X^^^_^^_^X	1.0
@@ -543,7 +543,7 @@ Admittere. ipsa forsitan trepida colus	a&dmi_tte^re& i_psa& fo_rsi^ta&n tre^pi^d
 Clotho manu proiecit et fata Herculis	clo&tho_ ma^nu& pro&je_ci^t e&t fa&ta& he_rcu^li&s 	X_^_X_^_X_^X	1.0
 Timet peragere. pro diem, infandum diem!	ti&me&t pe^ra^ge^re& pro_ di^e&m i_nfa&ndu&m di^e&m 	X_^^^X_^_X_^X	1.0
 Hocne ille summo magnus Alcides erit?	ho&cne& i_lle^ su_mmo& ma_gnu^s a_lci&de_s e^ri&t 	X_^_X_^_X_^X	1.0
-Ad fata et umbras atque peiorem polum	a&d fa_ta& e^t u_mbra&s a_tqve^ p[ei]o&re&m po^lu&m 	X_^_X_^_X_^X	0.99
+Ad fata et umbras atque peiorem polum	a&d fa_ta& e^t u_mbra&s a_tqve^ p[ei]o&re&m po^lu&m 	X_^_X_^_X_^X	1.0
 Praecedere illum dicis? an possum prior	pr[ae]ce_de^re& i_llu&m di_ci^s a&n po&ssu&m pri^o&r 	X_^_X_^_X_^X	1.0
 Mortem occupare? fare, si nondum occidit.	mo&rte&m o_ccu^pa_re& fa_re^ si_ no&ndu&m o_cci^di&t 	X_^_X_^_X_^X	1.0
 Euboica tellus uertice immenso tumens	[eu]bo^i^ca^ te_llu&s ve_rti^ce& i_mme&nso_ tu^me&ns 	X^^^_X_^_X_^X	1.0
@@ -675,7 +675,7 @@ Multis remissa est uita quorum error nocens,	mu&lti&s re^mi_ssa& e&st vi_ta^ qvo
 Non dextra fuerat. fata quis damnat sua?	no&n de_xtra^ fu^e^ra&t fa_ta^ qvi&s da&mna&t su^a& 	X_^^^X_^_X_^X	1.0
 Quicumque fata iniqua sortitus fuit.	qvi&cu_mqve^ fa_ta& i&ni_qva^ so_rti&tu&s fu^i&t 	X_^_X_^_X_^X	1.0
 Hic ipse Megaram nempe confixam suis	hi&c i_pse^ me^ga^ra&m ne_mpe^ co_nfi&xa&m su^i&s 	X_^^^X_^_X_^X	1.0
-Strauit sagittis atque natorum indolem	str[au]i&t sa^gi_tti&s a_tqve^ na_to&ru&m i_ndo^le&m 	X_^_X_^_X_^X	0.99
+Strauit sagittis atque natorum indolem	str[au]i&t sa^gi_tti&s a_tqve^ na_to&ru&m i_ndo^le&m 	X_^_X_^_X_^X	1.0
 Lernaea figens tela furibunda manu;	le&rn[ae]a^ fi_ge&ns te_la^ fu^ri^bu&nda_ ma^nu& 	X_^_X_^^^X_^X	1.0
 Ter parricida factus ignouit tamen	te&r pa_rri^ci_da& fa_ctu^s i_gno&vi&t ta^me&n 	X_^_X_^_X_^X	1.0
 Sibi, nam furoris fonte Cinyphio scelus	si^bi^ na&m fu^ro_ri&s fo_nte^ ci_ny^phi^o& sce^lu&s 	^^_^_X_^_^^_^X	0.81
@@ -737,7 +737,7 @@ In hanc abire coniugum turbam libet -	i&n ha&nc a^bi_re& co_nju^gu&m tu&rba&m li
 Sed et illa fugiet turba tam diras manus.	se^d e^t i_lla^ fu^gi^e&t tu_rba^ ta&m di&ra&s ma^nu&s 	^^_^^^X_^_X_^X	1.0
 Inuicte coniunx, innocens animus mihi,	i&nvi_cte^ co_nju&nx i_nno^ce_ns a^ni^mu&s mi^hi& 	X_^_X_^_^^_^X	1.0
 Scelesta manus est. pro nimis mens credula,	sce&le_sta^ ma^nu^s e&st pro_ ni^mi&s me&ns cre_du^la& 	X_^^^X_^_X_^X	0.47
-Pro Nesse fallax atque semiferi doli!	pro& ne_sse^ fa_lla&x a_tqve^ se_mi^fe^ri_ do^li& 	X_^_X_^_^^_^X	0.99
+Pro Nesse fallax atque semiferi doli!	pro& ne_sse^ fa_lla&x a_tqve^ se_mi^fe^ri_ do^li& 	X_^_X_^_^^_^X	1.0
 Auferre cupiens paelici eripui mihi.	[au]fe_rre^ cu^pi^e&ns p[ae]li^ci& e_ri^pu^i_ mi^hi& 	X_^^^X_^_^^_^X	1.0
 Recede, Titan, tuque quae blanda tenes	re&ce_de^ ti_ta&n tu_qve^ qv[ae] bla&nda_ te^ne&s 	X_^_X_^_X_^X	1.0
 In luce miseros uita: cariturae Hercule	i&n lu_ce^ mi^se^ro&s vi_ta^ ca^ri^tu&rae& he_rcu^le& 	X_^^^X_^^^X_^X	1.0
@@ -861,7 +861,7 @@ Aut inter umbras uinctus aeterno miser	[au]t i_nte^r u_mbra&s vi_nctu^s [ae]te&r
 Saxo sederem! spolia nunc traxi ultima	sa&xo_ se^de_re&m spo^li^a^ nu&nc tra&xi& u_lti^ma& 	X_^_X^^^_X_^X	0.02
 Fato stupente, nunc ab inferna Styge	fa&to& stu^pe_nte& nu&nc a^b i_nfe&rna& sty^ge& 	X_^_X_^_X_^X	1.0
 Lucem recepi, Ditis euici moras -	lu&ce&m re^ce_pi& di_ti^s [eu]i&ci_ mo^ra&s 	X_^_X_^_X_^X	1.0
-Vbique mors me fugit, ut titulo inclitae	u&bi_qve^ mo&rs me& fu_gi^t u&t ti^tu^lo& i_ncli^tae& 	X_^_X_^_^^_^X	0.24
+Vbique mors me fugit, ut titulo inclitae	u&bi_qve^ mo&rs me& fu_gi^t u&t ti^tu^lo& i_ncli^tae& 	X_^_X_^_^^_^X	0.0
 Mortis carerem. pro ferae, uictae ferae!	mo&rti&s ca^re_re&m pro_ fe^r[ae] vi&ct[ae] fe^r[ae] 	X_^_X_^_X_^X	1.0
 Non me triformis sole conspecto canis	no&n me& tri^fo_rmi&s so_le^ co_nspe&cto_ ca^ni&s 	X_^_X_^_X_^X	0.4
 Ad Styga reuexit, non sub Hesperio polo	a&d sty^ga^ re^ve_xi&t no&n su^b he_spe^ri^o_ po^lo& 	X^^^_X_^_^^_^X	1.0
@@ -949,7 +949,7 @@ Properante morte et occupa hanc laudem tibi.	pro^pe^ra_nte^ mo_rte& e&t o_ccu^pa
 Vel si piget manusque detrectat nefas,	ve&l si_ pi^ge&t ma&nu_sqve^ de_tre&cta_t ne^fa&s 	X_^_X_^_X_^X	1.0
 Emitte Siculo uertice ardentes, pater,	e&mi_tte^ si^cu^lo& ve_rti^ce& a_rde&nte&s pa^te&r 	X_^^^X_^_X_^X	1.0
 Titanas, in me qui manu Pindum ferant	ti&ta_na^s i&n me& qvi_ ma^nu_ pi&ndu_m fe^ra&nt 	X_^_X_^_X_^X	1.0
-Ossaque qui me monte proiecto opprimant.	o_ssa_que^ qui_ me_ mo_nte^ pro_ie_cto& o_ppri^ma&nt. 	X_^_X_^_X_^X	m
+Ossaque qui me monte proiecto opprimant.	o_ssa_que^ qui_ me_ mo_nte^ pro_ie_cto& o_ppri^ma&nt. 	X_^_X_^_X_^X	v
 Abrumpat Erebi claustra, me stricto petat	a&bru_mpa^t e^re^bi& cl[au]stra^ me& stri&cto_ pe^ta&t 	X_^^^X_^_X_^X	1.0
 Bellona ferro; mitte Gradiuum trucem,	be&llo_na^ fe_rro& mi_tte^ gra_di&vu&m tru^ce&m 	X_^_X_^_X_^X	1.0
 Armetur in me dirus: est frater quidem,	a&rme_tu^r i&n me& di_ru^s e&st fra&te&r qvi^de&m 	X_^_X_^_X_^X	1.0
@@ -1020,7 +1020,7 @@ Si me catenis horridus uinctum suis	si& me_ ca^te_ni&s ho_rri^du&s vi&nctu&m su^
 Praeberet auidae Caucasus uolucri dapem,	pr[ae]be_re^t a^vi^d[ae] c[au]ca^su&s vo^lu^cri_ da^pe&m	X_^^^X_^_^^_^X	m
 Scythia gemente flebilis gemitus mihi	scy^thi^a_ ge^me_nte& fle_bi^li&s ge^mi^tu&s mi^hi&	^^_^_X_^_^^_^X	m
 Non excidisset; si uagae Symplegades	no&n e_xci^di_sse&t si_ va^g[ae] sy&mple_ga^de&s 	X_^_X_^_X_^X	1.0
-Vtraque premerent rupe, redeuntis minas	u&tra_qve^ pre^me^re&nt ru_pe^ re^de^u&nti&s mi^na&s 	X_^^^X_^^^X_^X	0.46
+Vtraque premerent rupe, redeuntis minas	u&tra_qve^ pre^me^re&nt ru_pe^ re^de^u&nti&s mi^na&s 	X_^^^X_^^^X_^X	1.0
 Ferrem ruinae; Pindus incumbat mihi	fe&rre&m ru^i_n[ae] pi_ndu^s i_ncu&mba&t mi^hi& 	X_^_X_^_X_^X	1.0
 Atque Haemus et qui Thracios fluctus Athos	a&tqve& h[ae]mu^s e&t qvi& thra_ci^o_s flu&ctu_s a^tho&s 	X_^_X_^_X_^X	0.75
 Frangit Iouisque fulmen excipiens Mimas:	fra&ngi&t jo^vi_sqve& fu_lme^n e_xci^pi^e&ns mi^ma&s 	X_^_X_^_^^_^X	0.94
@@ -1063,7 +1063,7 @@ Nepos supersum; scelere materno hic perit,	ne&po&s su^pe_rsu&m sce^le^re^ ma_te&
 Fraude illa capta est - quis per annorum uices	fr[au]de& i_lla^ ca_pta& e&st qvi&s pe^r a_nno&ru&m vi^ce&s 	X_^_X_^_X_^X	1.0
 Totoque in aeuo poterit aerumnas senex	to&to_qve& i^n [ae]vo& po^te^ri^t [ae]ru&mna_s se^ne&x 	X_^_X^^^_X_^X	1.0
 Referre tantas? unus eripuit dies	re&fe_rre^ ta_nta&s u_nu^s e_ri^pu^i&t di^e&s 	X_^_X_^_^^_^X	1.0
-Parentem utrumque; cetera ut sileam mala	pa&re_nte&m u^tru_mqve& ce_te^ra& u&t si^le^a&m ma^la& 	X_^_X_^_^^_^X	0.79
+Parentem utrumque; cetera ut sileam mala	pa&re_nte&m u^tru_mqve& ce_te^ra& u&t si^le^a&m ma^la& 	X_^_X_^_^^_^X	0.47
 Parcamque fatis, Herculem amitto patrem.	pa&rca_mqve^ fa_ti&s he_rcu^le&m a_mi&tto_ pa^tre&m 	X_^_X_^_X_^X	0.71
 Compesce uoces, inclutum Alcidae genus	co&mpe_sce^ vo_ce&s i_nclu^tu&m a_lci&d[ae] ge^nu&s 	X_^_X_^_X_^X	0.99
 Miseraeque fato similis Alcmenae nepos:	mi^se^r[ae]qve^ fa_to& si^mi^li^s a_lcme&n[ae] ne^po&s 	^^_^_X^^^_X_^X	1.0
@@ -1152,7 +1152,7 @@ Sceptrum et Tonanti nupta? mortali tamen	sce&ptru&m e&t to^na_nti& nu_pta^ mo_rt
 Caelum tenens inuidit, Alciden suum	c[ae]lu&m te^ne&ns i&nvi_di^t a_lci&de&n su^u&m 	X_^_X_^_X_^X	1.0
 Dici esse uoluit. Perage nunc, Titan, uices	di&ci& e_sse^ uo^lu^i&t. pe^ra^ge^ nu&nc, ti&ta_n, ui^ce&s	X_^^^X^^^_X_^X	m
 Solus relictus: ille qui uester comes	so&lu&s re^li_ctu&s i_lle^ qvi_ ve&ste&r co^me&s 	X_^_X_^_X_^X	1.0
-Vbique fueram, Tartara et manes peto.	u&bi_qve^ fu^e^ra&m ta_rta^ra& e&t ma&ne&s pe^to& 	X_^^^X_^_X_^X	1.0
+Vbique fueram, Tartara et manes peto.	u&bi_qve^ fu^e^ra&m ta_rta^ra& e&t ma&ne&s pe^to& 	X_^^^X_^_X_^X	0.0
 Hanc tamen ad imos perferam laudem inclutam,	ha&nc ta^me^n a^d i_mo&s pe_rfe^ra&m l[au]de&m i_nclu^ta&m 	X^^^_X_^_X_^X	1.0
 Quod nulla pestis fudit Alciden palam	qvo&d nu_lla^ pe_sti&s fu_di^t a_lci&de&n pa^la&m 	X_^_X_^_X_^X	1.0
 Omnemque pestem uicit Alcides palam.	o&mne_mqve^ pe_ste&m vi_ci^t a_lci&de&s pa^la&m 	X_^_X_^_X_^X	1.0
@@ -1286,7 +1286,7 @@ Typhon in illo positus immanis rogo	ty&pho_n i^n i_llo& po^si^tu^s i_mma&ni&s ro
 Gemuisset ipse quique conuulsam solo	ge^mu^i_sse^t i_pse& qvi_qve^ co_nvu&lsa&m so^lo& 	^^_^_X_^_X_^X	0.71
 Imposuit umeris Ossan Enceladus ferox.	i&mpo^su^i^t u^me^ri&s o_ssa^n e_nce^la^du&s fe^ro&x 	X^^^^^X_^_^^_^X	1.0
 At ille medias inter exurgens faces,	a&t i_lle^ me^di^a&s i_nte^r e_xu&rge_ns fa^ce&s 	X_^^^X_^_X_^X	0.98
-Semiustus ac laniatus, intrepidum tuens:	se^mi^u_stu^s a&c la^ni^a_tu^s i_ntre^pi^du&m tu^e&ns	^^_^_^^_^_^^_^X	m
+Semiustus ac laniatus, intrepidum tuens:	se^mi^u_stu^s a&c la^ni^a_tu^s i_ntre^pi^du&m tu^e&ns	^^_^_^^_^_^^_^X	v
 "Nunc es parens Herculea: sic stare ad rogum	nu&nc e&s pa^re&ns he&rcu^le^a^ si&c sta&re& a&d ro^gu&m 	X_^_X^^^_X_^X	0.97
 Te, mater" inquit, "sic decet fleri Herculem."	te& ma_te^r i_nqvi&t si&c de^ce&t fle&ri& he_rcu^le&m 	X_^_X_^_X_^X	1.0
 Inter uapores positus et flammae minas	i&nte&r va^po_re&s po^si^tu^s e&t fla&mm[ae] mi^na&s 	X_^_X^^^_X_^X	1.0
@@ -1348,7 +1348,7 @@ Ne parere possim! fecit hic natus mihi	ne_ pa^re^re^ po_ssi&m! fe_ci^t hi&c na_t
 Vterum timendum. Quae petam Alcmene loca?	u^te^ru&m ti^me_ndu&m qv[ae] pe^ta&m a_lcme&ne_ lo^ca& 	^^_^_X_^_X_^X	1.0
 Quis me locus, quae regio, quae mundi plaga	qui&s me_ lo^cu&s, qu[ae] re^gi^o^, qu[ae] mu_ndi& pla^ga& 	X_^_X^^^_X_^X	m
 Defendet aut quas mater in latebras agar	de&fe_nde^t [au]t qva&s ma_te^r i&n la^te^bra_s a^ga&r 	X_^_X_^_^^_^X	0.57
-Vbique per te nota? si patriam petam	u&bi_qve^ pe&r te& no_ta^ si_ pa^tri^a&m pe^ta&m 	X_^_X_^_^^_^X	0.95
+Vbique per te nota? si patriam petam	u&bi_qve^ pe&r te& no_ta^ si_ pa^tri^a&m pe^ta&m 	X_^_X_^_^^_^X	0.0
 Laresque miseros, Argos Eurystheus tenet;	la&re_sqve^ mi^se^ro&s a_rgo^s [eu]ry&sth[eu]s te^ne&t 	X_^^^X_^_X_^X	0.78
 Marita Thebas regna et Ismenon petam	ma&ri_ta^ the_ba&s re_gna& e^t i_sme&no&n pe^ta&m 	X_^_X_^_X_^X	1.0
 Thalamosque nostros, in quibus quondam Iouem	tha^la^mo_sqve^ no_stro&s i&n qvi^bu&s qvo&nda&m jo^ve&m 	^^_^_X_^_X_^X	1.0

@@ -225,7 +225,7 @@ In uota superos uoce sollemni uoca	i&n vo_ta^ su^pe^ro&s vo_ce^ so_lle&mni_ vo^c
 Arasque dono turis Eoi extrue.	a&ra_sqve^ do_no& tu_ri^s e_o&i& e_xtru^e& 	X_^_X_^_X_^X	0.42
 Iam tura sacris caelitum ingessi focis.	ja&m tu_ra^ sa_cri&s c[ae]li^tu&m i_nge&ssi_ fo^ci&s 	X_^_X_^_X_^X	0.88
 Quid flamma? largas iamne comprendit dapes?	qvi&d fla_mma^ la_rga&s ja_mne^ co_mpre&ndi&t da^pe&s 	X_^_X_^_X_^X	1.0
-Subito refulsit lumine et subito occidit.	su^bi^to_ re^fu_lsi&t lu_mi^ne& e&t su^bi^to& o_cci^di&t 	^^_^_X_^_^^_^X	1.0
+Subito refulsit lumine et subito occidit.	su^bi^to^ re^fu_lsi&t lu_mi^ne& e&t su^bi^to& o_cci^di&t	X^^^_X_^_^^_^X	c
 Vtrumne clarus ignis et nitidus stetit	u&tru_mne^ cla_ru&s i_gni^s e&t ni^ti^du&s ste^ti&t 	X_^_X_^_^^_^X	0.84
 Rectusque purum uerticem caelo tulit	re&ctu_sqve^ pu_ru&m ve_rti^ce&m c[ae]lo_ tu^li&t 	X_^_X_^_X_^X	1.0
 Et summam in auras fusus explicuit comam?	e&t su_mma&m i^n [au]ra&s fu_su^s e_xpli^cu^i&t co^ma&m 	X_^_X_^_^^_^X	1.0
@@ -392,7 +392,7 @@ Acheron profundum mente non aequa tulit,	a^che^ro&n pro^fu_ndu&m me_nte^ no_n [a
 Siue ipsa tellus, ut daret functis uiam,	si&ve& i_psa^ te_llu&s u&t da^re&t fu&ncti&s vi^a&m 	X_^_X_^_X_^X	1.0
 Compage rupta sonuit, aut ira furens	co&mpa_ge^ ru_pta& so^nu^i^t [au]t i&ra_ fu^re&ns 	X_^_X^^^_X_^X	1.0
 Triceps catenas Cerberus mouit graues.	tri&ce&ps ca^te_na&s ce_rbe^ru&s mo&vi&t gra^ve&s 	X_^_X_^_X_^X	1.0
-Subito dehiscit terra et immenso sinu	su^bi^to_ de^hi_sci&t te_rra& e^t i_mme&nso_ si^nu& 	^^_^_X_^_X_^X	1.0
+Subito dehiscit terra et immenso sinu	su^bi^to^ de^hi_sci&t te_rra& e^t i_mme_nso_ si^nu&	X^^^_X_^_X_^X	c
 Laxata patuit - ipse pallentes deos	la&xa_ta^ pa^tu^i&t i_pse^ pa_lle&nte&s de^o&s 	X_^^^X_^_X_^X	1.0
 Vidi inter umbras, ipse torpentes lacus	vi&di& i_nte^r u_mbra&s i_pse^ to_rpe&nte&s la^cu&s 	X_^_X_^_X_^X	1.0
 Noctemque ueram; gelidus in uenis stetit	no&cte_mqve^ ve_ra&m ge^li^du^s i&n ve&ni&s ste^ti&t 	X_^_X^^^_X_^X	1.0

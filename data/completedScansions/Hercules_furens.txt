@@ -463,7 +463,7 @@ Pro numinum uis summa, pro caelestium	pro& nu_mi^nu&m vi&s su_mma^ pro_ c[ae]le_
 Rector parensque, cuius excussis tremunt	re&cto&r pa^re_nsqve& cu_ju^s e_xcu&ssi&s tre^mu&nt 	X_^_X_^_X_^X	0.97
 Humana telis, impiam regis feri	hu&ma_na^ te_li&s i_mpi^a&m re&gi&s fe^ri& 	X_^_X_^_X_^X	1.0
 Compesce dextram! - quid deos frustra precor?	co&mpe_sce^ de_xtra&m qvi&d de^o&s fru&stra_ pre^co&r 	X_^_X_^_X_^X	1.0
-Vbicumque es, audi, gnate. - cur subito labant	u^bi^cu_mqve& e^s [au]di& gna_te^ cu&r su^bi^to_ la^ba&nt 	^^_^_X_^_^^_^X	0.96
+Vbicumque es, audi, gnate. - cur subito labant	u^bi^cu_mqve& e^s [au]di& gna_te^ cu&r su^bi^to^ la^ba&nt	^^_^_X_^_X^^^X	c
 Agitata motu templa? cur mugit solum?	a^gi^ta_ta^ mo_tu& te_mpla^ cu&r mu&gi&t so^lu&m 	^^_^_X_^_X_^X	0.37
 Infernus imo sonuit e fundo fragor.	i&nfe_rnu^s i_mo& so^nu^i^t e_ fu&ndo& fra^go&r 	X_^_X^^^_X_^X	1.0
 Audimur! est est sonitus Herculei gradus.	[au]di_mu^r! e&st e&st so^ni^tu^s he_rcu^le^i& gra^du_s. 	X_^_X^^^_^^_^X	m
@@ -787,7 +787,7 @@ Perueniet aut mittetur. Infandos procul	pe&rve^ni^e^t [au]t mi&tte_tu^r i_nfa&nd
 Auerte sensus; pectoris sani parum	[au]e_rte^ se_nsu&s pe_cto^ri&s sa&ni_ pa^ru&m 	X_^_X_^_X_^X	1.0
 Magni tamen compesce dementem impetum.	ma&gni_ ta^me&n co&mpe_sce^ de_me&nte&m i_mpe^tu&m 	X_^_X_^_X_^X	1.0
 Quid hoc? Gigantes arma pestiferi mouent.	qvi&d ho&c gi^ga_nte&s a_rma^ pe_sti^fe^ri_ mo^ve&nt	X_^_X_^_^^_^X	m
-Profugit umbras Tityos ac lacerum gerens	pro&fu_gi^t u_mbra&s ti^ty^o^s a&c la^ce^ru&m ge^re&ns	X_^_X^^^_^^_^X	m
+Profugit umbras Tityos ac lacerum gerens	pro&fu_gi^t u_mbra&s ti^ty^o^s a&c la^ce^ru&m ge^re&ns	X_^_X^^^_^^_^X	v
 Et inane pectus quam prope a caelo stetit.	e^t i^na_ne^ pe_ctu&s qva&m pro^pe& a_ c[ae]lo& ste^ti&t 	^^_^_X_^_X_^X	1.0
 Labat Cithaeron, alta Pallene tremit	la&ba&t ci^th[ae]ro&n a_lta^ pa_lle&ne& tre^mi&t 	X_^_X_^_X_^X	1.0
 Macetumque Tempe. rapuit hic Pindi iuga,	ma^ce^tu_mqve^ te_mpe& ra^pu^i^t hi&c pi&ndi_ ju^ga& 	^^_^_X^^^_X_^X	1.0

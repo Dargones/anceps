@@ -655,7 +655,7 @@ Altrixque prodet quidquid haec fari abnuit.	a&ltri_xqve^ pro_de&t qvi_dqvi^d h[a
 Vincite ferro. uerberum uis extrahat	vi&nci_te^ fe_rro& ve_rbe^ru_m vi&s e_xtra^ha&t 	X_^_X_^_X_^X	0.17
 Secreta mentis. Ipsa iam fabor, mane.	se&cre_ta^ me_nti&s i_psa^ ja&m fa&bo&r ma^ne& 	X_^_X_^_X_^X	0.5
 Quidnam ora maesta auertis et lacrimas genis	qvi&dna&m o_ra^ m[ae]sta [au]e_rti^s e&t la^cri^ma&s ge^ni&s	X_^_X_^_^^_^X	m
-Subito coortas ueste praetenta optegis?	su^bi^to_ co^o_rta&s ve_ste^ pr[ae]te&nta& o_pte^gi&s 	^^_^_X_^_X_^X	1.0
+Subito coortas ueste praetenta optegis?	su^bi^to^ co^o_rta&s ve_ste^ pr[ae]te_nta& o_pte^gi&s	X^^^_X_^_X_^X	c
 Te te, creator caelitum, testem inuoco,	te& te& cre^a_to&r c[ae]li^tu_m te&ste&m i_nvo^co& 	X_^_X_^_X_^X	1.0
 Et te, coruscum lucis aetheriae iubar,	e&t te_ co^ru_scu&m lu_ci^s [ae]the^ri^[ae] ju^ba&r 	X_^_X_^_^^_^X	0.96
 Ex cuius ortu nostra dependet domus:	e&x cu_ju^s o_rtu& no_stra^ de_pe&nde&t do^mu&s 	X_^_X_^_X_^X	1.0

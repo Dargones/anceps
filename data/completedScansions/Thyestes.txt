@@ -452,7 +452,7 @@ Quis me per auras turbo praecipitem uehet	qvi&s me_ pe^r [au]ra&s tu_rbo^ pr[ae]
 Atraque nube inuoluet, ut tantum nefas	a&tra_qve^ nu_be& i&nvo_lve^t u&t ta&ntu&m ne^fa&s 	X_^_X_^_X_^X	1.0
 Eripiat oculis? o domus Pelopi quoque	e&ri^pi^a^t o^cu^li&s o_ do^mu&s pe^lo^pi& qvo^qve& 	X^^^^^X_^_^^_^X	0.93
 Et Tantalo pudenda! Quid portas noui?	e&t ta_nta^lo_ pu&de_nda^ qvi&d po&rta&s no^vi& 	X_^_X_^_X_^X	0.64
-Quaenam ista regio est? Argos et Sparte, pios	qv[ae]na&m i_sta^ re^gi^o& e&st a_rgo^s e&t spa&rte_ pi^o&s 	X_^^^X_^_X_^X	0.78
+Quaenam ista regio est? Argos et Sparte, pios	qv[ae]na&m i_sta^ re^gi^o& e&st a_rgo^s e&t spa_rte_ pi^o&s	X_^^^X_^_X_^X	v
 Sortita fratres, et maris gemini premens	so&rti_ta^ fra_tre&s e&t ma^ri&s ge^mi^ni& pre^me&ns 	X_^_X_^_^^_^X	1.0
 Fauces Corinthos, an feris Hister fugam	f[au]ce&s co^ri_ntho&s a&n fe^ri_s hi&ste&r fu^ga&m 	X_^_X_^_X_^X	1.0
 Praebens Alanis, an sub aeterna niue	pr[ae]be_ns a^la_ni&s a&n su^b [ae]te&rna_ ni^ve& 	X_^_X_^_X_^X	1.0

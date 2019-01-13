@@ -266,7 +266,7 @@ Clarum priusquam Phoebus attollat diem	cla&ru&m pri^u_sqva&m ph[oe]bu^s a_tto&ll
 Nisi cedis Isthmo. - Sacra me thalami uocant,	ni^si^ ce_di^s i_sthmo& sa_cra^ me_ tha^la^mi_ vo^ca&nt 	^^_^_X_^_^^_^X	0.94
 Vocat precari festus Hymenaeo dies.	vo&ca&t pre^ca_ri& fe_stu^s hy^me^n[ae]o_ di^e&s 	X_^_X_^^^X_^X	1.0
 Alumna, celerem quo rapis tectis pedem?	a&lu_mna^ ce^le^re&m qvo_ ra^pi&s te&cti&s pe^de&m 	X_^^^X_^_X_^X	1.0
-Resiste et iras comprime ac retine impetum.	re&si_ste& e^t i_ra&s co_mpri^me& a&c re^ti^ne& i_mpe^tu&m	X_^_X_^_^^_^X	m
+Resiste et iras comprime ac retine impetum.	re&si_ste& e^t i_ra&s co_mpri^me& a&c re^ti^ne& i_mpe^tu&m	X_^_X_^_^^_^X	v
 Incerta qualis entheos gressus tulit	i&nce_rta^ qva_li&s e_nthe^o_s gre&ssu&s tu^li&t 	X_^_X_^_X_^X	1.0
 Cum iam recepto maenas insanit deo	cu&m ja&m re^ce_pto& m[ae]na^s i_nsa&ni&t de^o& 	X_^_X_^_X_^X	1.0
 Pindi niualis uertice aut Nysae iugis,	pi&ndi_ ni^va_li&s ve_rti^ce& [au]t ny&s[ae] ju^gi&s 	X_^_X_^_X_^X	1.0
@@ -332,7 +332,7 @@ Consulere natis malle quam thalamis reor.	co&nsu^le^re^ na_ti&s ma_lle^ qva&m th
 Constituit animus precibus iratam aggredi -	co&nsti^tu^i^t a^ni^mu&s pre^ci^bu^s i_ra&ta&m a_ggre^di& 	X^^^^^X^^^_X_^X	1.0
 Atque ecce, uiso memet exiluit, furit,	a&tqve& e_cce^ vi_so& me_me^t e_xi^lu^i&t fu^ri&t 	X_^_X_^_^^_^X	1.0
 Fert odia prae se: totus in uultu est dolor.	fe&rt o^di^a^ pr[ae] se& to_tu^s i&n vu&ltu& e&st do^lo&r 	X^^^_X_^_X_^X	1.0
-Fugimus, Iason, fugimus - hoc non est nouum,	fu^gi^mu&s i^a_so&n fu^gi^mu^s ho&c no&n e&st no^vu&m 	^^_^_X^^^_X_^X	0.25
+Fugimus, Iason, fugimus - hoc non est nouum,	fu^gi^mu^s i^a_so&n fu^gi^mu^s ho&c no_n e&st no^vu&m	X^^^_X^^^_X_^X	c
 Mutare sedes; causa fugiendi noua est:	mu&ta_re^ se_de&s c[au]sa^ fu^gi^e&ndi_ no^va& e&st 	X_^_X_^^^X_^X	0.98
 Pro te solebam fugere - discedo, exeo,	pro& te_ so^le_ba&m fu^ge^re^ di_sce&do& e_xe^o& 	X_^_X^^^_X_^X	0.29
 Penatibus profugere quam cogis tuis.	pe&na_ti^bu&s pro&fu^ge^re^ qva&m co&gi&s tu^i&s	X_^_X^^^_X_^X	m

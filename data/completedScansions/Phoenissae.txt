@@ -337,7 +337,7 @@ Vnum hoc habet fortuna quo possim capi,	u&nu&m ho_c ha^be&t fo&rtu_na^ qvo_ po&s
 Inuictus aliis: sola tu affectus potes	i&nvi_ctu^s a^li^i&s so_la^ tu& a_ffe&ctu&s po^te&s 	X_^^^X_^_X_^X	0.97
 Mollire duros, sola pietatem in domo	mo&lli_re^ du_ro&s so_la^ pi^e^ta&te&m i&n do^mo& 	X_^_X_^^^X_^X	0.97
 Docere nostra. nil graue aut miserum est mihi	do&ce_re^ no_stra& ni&l gra^ve& [au]t mi^se^ru&m e&st mi^hi& 	X_^_X_^_^^_^X	1.0
-Quod te sciam uoluisse; tu tantum impera:	qvo&d te& sci^a&m vo^lu^i_sse^ tu_ ta&ntu&m i_mpe^ra& 	X_^_^^_^_X_^X	1.0
+Quod te sciam uoluisse; tu tantum impera:	qvo&d te& sci^a&m vo^lu^i_sse^ tu_ ta_ntu&m i_mpe^ra&	X_^_^^_^_X_^X	v
 Hic Oedipus Aegaea transnabit freta	hi&c [oe]di^pu_s [ae]g[ae]a^ tra_nsna&bi_t fre^ta& 	X_^_X_^_X_^X	0.94
 Iubente te, flammasque quas Siculo uomit	ju&be_nte^ te& fla&mma_sqve^ qva&s si^cu^lo_ vo^mi&t 	X_^_X_^_^^_^X	1.0
 De monte tellus igneos uoluens globos	de& mo_nte^ te_llu&s i_gne^o&s vo&lve&ns glo^bo&s 	X_^_X_^_X_^X	1.0

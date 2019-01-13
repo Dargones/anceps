@@ -299,7 +299,7 @@ abundest abundest 1 a^bu_nde&st 1
 abundet abundo 1 a^bu_nde&t 1 
 abuti abutor 1 a^bu_ti& 1 
 abydo abydo 3 a^by_do& 3 
-ac atque 730 a&c 730 
+ac atque 730 a_c 730
 acamans acamans 1 a^ca^ma_ns 1 
 acamanta acamanta 2 a^ca^ma_nta^ 2 
 acamas acamas 1 a^ca^ma_s 1 
