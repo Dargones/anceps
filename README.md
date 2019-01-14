@@ -2,7 +2,7 @@
 
 This repository contains tools for automated scansion of Latin poetry, 
 trimeters in particular. Please, note that the code should be executed from 
-this folder. The desriptions on how to run te hprogram can be found in the src
+this folder. The desriptions on how to run the program can be found in the src
 folder.
 
 ### Dependencies:
