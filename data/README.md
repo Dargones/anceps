@@ -14,6 +14,6 @@ sources. See README.md inside the directory.
 trimeter sections of the 10 (Pseudo-)Senecan plays, and sections from Correr's 
 Procne. There is a subdirectory that has sections from Medea, Agamemnon and 
 Procne with speakers being marked.
-- mqdq - directory containing various data otained from the 
+- mqdq - directory containing various data obtained from the 
 [MusisQue DeoQue database](http://mizar.unive.it/mqdq/public/). See README.md 
 inside.
