@@ -22,8 +22,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.792
-Resolution rate in lines in which speakers remain the same: 0.787
+Resolution rate: 0.791
+Resolution rate in lines in which speakers remain the same: 0.785
 Resolution rate in lines in which speakers change: 0.875
 */
 
@@ -380,7 +380,7 @@ Redire pietas unde summota est solet,	re&di_re^ pi^e^ta&s u_nde^ su_mmo&ta& e&st
 Reparatque uires iustus amissas amor.	re^pa^ra_tqve^ vi_re&s ju_stu^s a_mi&ssa_s a^mo&r 	^^_^_X_^_X_^X	1.0
 Amat Thyesten frater? aetherias prius	a&ma&t thy^e_ste&n fra_te^r [ae]the^ri^a&s pri^u&s 	X_^_X_^_^^_^X	1.0
 Perfundet Arctos pontus et Siculi rapax	pe&rfu_nde^t a_rcto&s po_ntu^s e&t si^cu^li_ ra^pa&x 	X_^_X_^_^^_^X	1.0
-Consistet aestus unda et Ionio seges	co_nsi_ste^t [ae]stu_s u_nda& e^t i_o^ni^o_ se^ge^s 	X_^_X_^_^^_^X	v
+Consistet aestus unda et Ionio seges	co_nsi_ste^t [ae]stu_s u_nda& e^t i_o_njo_ se^ge^s 	X_^_X_^_X_^X	c
 Matura pelago surget et lucem dabit	ma&tu_ra^ pe^la^go& su_rge^t e&t lu&ce&m da^bi&t 	X_^^^X_^_X_^X	1.0
 Nox atra terris, ante cum flammis aquae,	no&x a_tra^ te_rri&s a_nte^ cu&m fla&mmi_s a^qv[ae] 	X_^_X_^_X_^X	1.0
 Cum morte uita, cum mari uentus fidem	cu&m mo_rte^ vi_ta& cu&m ma^ri_ ve&ntu&s fi^de&m 	X_^_X_^_X_^X	1.0

@@ -21,8 +21,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.812
-Resolution rate in lines in which speakers remain the same: 0.804
+Resolution rate: 0.811
+Resolution rate in lines in which speakers remain the same: 0.802
 Resolution rate in lines in which speakers change: 1.091
 */
 
@@ -413,7 +413,7 @@ Volitant et auras libero caelo trahunt.	vo^li^ta&nt e^t [au]ra&s li_be^ro_ c[ae]
 Non tot caducas educat frondes Eryx	no&n to&t ca^du_ca&s e_du^ca&t fro&nde_s e^ry&x 	X_^_X_^_X_^X	1.0
 Nec uere flores Hybla tot medio creat,	ne&c ve_re^ flo_re&s hy_bla^ to&t me^di^o& cre^a&t 	X_^_X_^_^^_^X	0.88
 Cum examen arto nectitur densum globo,	cu&m e&xa_me^n a_rto& ne_cti^tu&r de&nsu&m glo^bo& 	X_^_X_^_X_^X	1.0
-Fluctusque non tot frangit Ionium mare,	flu&ctu_sqve^ no&n to&t fra_ngi^t i_o^ni^u&m ma^re& 	X_^_X_^_^^_^X	1.0
+Fluctusque non tot frangit Ionium mare,	flu_ctu_sqve^ no&n to&t fra_ngi^t i_o_nju&m ma^re&	X_^_X_^_X_^X	c
 Nec tanta gelidi Strymonis fugiens minas	ne&c ta_nta^ ge^li^di& stry_mo^ni_s fu^gi^e&ns mi^na&s 	X_^^^X_^_^^_^X	1.0
 Permutat hiemes ales et caelum secans	pe&rmu_ta^t hi^e^me&s a_le^s e&t c[ae]lu&m se^ca&ns 	X_^^^X_^_X_^X	1.0
 Tepente Nilo pensat Arctoas niues,	te&pe_nte^ ni_lo& pe_nsa^t a_rcto&a&s ni^ve&s 	X_^_X_^_X_^X	1.0
@@ -644,7 +644,7 @@ Inuisa propero tecta penetrauit gradu,	i&nvi_sa^ pro^pe^ro& te_cta^ pe^ne^tr[au]
 Qualis per arua Libycus insanit leo,	qva&li&s pe^r a_rva& li^by^cu^s i_nsa&ni&t le^o& 	X_^_X^^^_X_^X	1.0
 Fuluam minaci fronte concutiens iubam;	fu&lva&m mi^na_ci& fro_nte^ co_ncu^ti^e&ns ju^ba&m 	X_^_X_^_^^_^X	1.0
 Vultus furore toruus atque oculi truces,	vu&ltu&s fu^ro_re& to_rvu^s a_tqve& o^cu^li& tru^ce&s 	X_^_X_^_^^_^X	1.0
-Gemitus et altum murmur, et gelidus uolat	ge^mi^tu_s e^t a_ltu&m mu_rmu^r e&t ge^li^du&s vo^la&t	^^_^_X_^_^^_^X	m
+Gemitus et altum murmur, et gelidus uolat	ge&mi^tu^s e^t a_ltu&m mu_rmu^r e&t ge^li^du&s vo^la&t	X^^^_X_^_^^_^X	m
 Sudor per artus, spumat et uoluit minas	su&do&r pe^r a_rtu&s spu_ma^t e&t vo_lvi&t mi^na&s	X_^_X_^_X_^X	m
 Ac mersus alte magnus exundat dolor.	a&c me_rsu^s a_lte& ma_gnu^s e_xu&nda&t do^lo&r 	X_^_X_^_X_^X	1.0
 Secum ipse saeuus grande nescioquid parat	se&cu&m i_pse^ s[ae]vu&s gra_nde^ ne_sci^o^qvi&d pa^ra&t 	X_^_X_^_^^_^X	1.0
@@ -666,7 +666,7 @@ Gnatis, quid ipsi, quae tuum magna luit	gna&ti&s qvi^d i_psi& qv[ae] tu^u&m ma&g
 Scelus ruina, flebili patriae dabis?	sce&lu&s ru^i_na& fle_bi^li_ pa^tri^[ae] da^bi&s	X_^_X_^_^^_^X	m
 Soluendo non es: illa quae leges ratas	so&lve_ndo^ no_n e&s i_lla^ qv[ae] le&ge&s ra^ta&s 	X_^_X_^_X_^X	1.0
 Natura in uno uertit Oedipoda, nouos	na&tu_ra& i^n u_no& ve_rti^t [oe]di^po^da_ no^vo&s	X_^_X_^_^^_^X	m
-Commenta partus, supplicis eadem meis	co&mme_nta^ pa_rtu&s su_ppli^ci^s e^a&de&m me^i&s 	X_^_X_^^^X_^X	1.0
+Commenta partus, supplicis eadem meis	co_mme_nta^ pa_rtu&s, su_ppli^ci_s e^a^de&m me^i&s	X_^_X_^_^^_^X	c
 Nouetur. iterum uiuere atque iterum mori	no&ve_tu^r i^te^ru&m vi_ve^re& a_tqve& i^te^ru&m mo^ri& 	X_^^^X_^_^^_^X	1.0
 Liceat, renasci semper ut totiens noua	li^ce^a&t re^na_sci& se_mpe^r u&t to^ti^e&ns no^va&	^^_^_X_^_^^_^X	m
 Supplicia pendas - utere ingenio, miser:	su&ppli^ci^a^ pe_nda&s u_te^re& i_nge^ni^o_ mi^se&r 	X^^^_X_^_^^_^X	1.0

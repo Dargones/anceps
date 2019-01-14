@@ -41,7 +41,7 @@ plu&re_s fe^fe_lli&t e_rro^r a_nci^pi^ti_s vi^[ae]
 a&rbi^tri^a^ su_b qvo& re_gi^i_ fu^e^ra_nt gre^gi&s
 qvi&s fu^e^ri^t i_nfa&ns e_do^ce_ pro^hi^be_t fi^de&s
 ja^cu^le_tu^r i_gne&s s[ae]cu^li_ cri&me_n va^go&r
-ge^mi^tu_s e^t a_ltu&m mu_rmu^r e_t ge^li^du_s vo^la&t
+ge&mi^tu^s e^t a_ltu&m mu_rmu^r e_t ge^li^du_s vo^la&t
 e&nse_mqve^ du_ci&t i^ta^ne^ ta_m ma&gni_s bre^ve&s
 sce&lu_s ru^i_na& fle_bi^li_ pa^tri^[ae] da^bi&s
 pa^vi^ta_nte^ gre_ssu& se^qve^re^ fa_lle&nte_s vi^a&s
@@ -85,3 +85,5 @@ se^d u^tru_mqve^ c[ae]su&m te^nu^i^s a_bsco&ndi_t ca^pu&t
 Corrected:
 su^bi^to^ re^fu_lsi&t lu_mi^ne e_t su^bi^to o_cci^di&t
 su^bi^to^ de^hi_sci_t te_rra e^t i_mme_nso_ si^nu&
+flu_ctu_sqve^ no_n to_t fra_ngi^t i_o_nju_m ma^re&
+Co_mme_nta^ pa_rtu_s, su_ppli^ci_s e^a^de_m me^i&s

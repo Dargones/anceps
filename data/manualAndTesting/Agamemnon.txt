@@ -2,7 +2,7 @@ I_nce_rtu^s u_tra&s o_de^ri_m s&ede_s ma^gi&s: | Not enough info about "utras"
 Gna&ti_s ne^po_te_s mi_scu^i_ - no_cti_ di^e&m. | ui problem
 Ia&m ia_m na^ta_bi_t sa_ngui^ne a_lte_rno_ do^mu&s: | A mistake in the algorithm - "natabit" must have first a long
 Pro&i_nde o^mi_si& re^gi^me^n e_ ma^ni^bu_s me^i&s: | Proinde
-Cu&i u_lti^ma e_st fo_rtu_na^, qui_d du^bi^a_m ti^me&t? | Hiatus
+Cu&i u_lti^ma e_st fo_rtu_na^, qui_d du^bi^a_m ti^me&t? | Disyllabic cui
 Quo_d te_mpu^s a^ni^mo_ se_mpe^r a_c me_nte ho_rru^i& | ui problem
 I&ra_mque^ fla_mmi&s ia_m re^si_de_ntem i_nci^ta&s? | Resido, not resideo
 Tra&nqui_lla^ Ze^phy^ri& mo_lli^s a_ffla&tu_ tre^mi&t, | Z does not close the syllable.
@@ -81,3 +81,9 @@ re&pu^di^a^ re_gu&m spe_ me^tu_s fa&lsa_ le^va&s
 
 Gra^ui^s i_lle^ so^ci^i&s sta_nte a^dhu_c Tro_ja_ fu^i&t: | Abl Abs
 Tro&ja_ se^pu_lte&; fra_te^r, [au]xi^li^u_m Phry^gu&m | Abl Abs
+
+Corrected\verified:
+tu^mi^do_ fe^ro_ce_s i_mpe^tu_s a^ni^mo_ ge^ri&s
+I&o_nja^ ju_ngi_ ma^ri^a^ Phri_xe^i_s ue^ta&t,
+se_d tru_nca^ to_to_ pu_ppi^s i_o_njo_ na^ta&t
+Mi^se^ri_s co^le_ndo_s ma_xi^me_ su^pe^ro_s pu^te&m.

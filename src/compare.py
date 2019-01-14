@@ -158,16 +158,17 @@ def compare_winge(native_file, winge_file):
     del native[0:2]
     winge = open(winge_file).readlines()
     assert(len(native) == len(winge))
-    print("Differences: ")
+    print(native_file.split('/')[-1])
     for i in range(len(native)):
         line, _, meter, marks = native[i].split('\t')
         if meter != winge[i].rstrip('\n') and winge[i] != '\n':
-            print(line + '\t' + meter + '\t' + winge[i].rstrip('\n'))
-    print("\n Unscanned: ")
+            print(line + '\t' + meter + '\t' + marks + 'Winge:' + " " * (len(line) - 6) + "\t" + winge[i])
+            # print(line)
+    """print("\n Unscanned: ")
     for i in range(len(native)):
         line, _, meter, marks = native[i].split('\t')
         if winge[i] == '\n':
-            print(line + '\t' + meter + '\t' + marks.rstrip('\n'))
+            print(line + '\t' + meter + '\t' + marks.rstrip('\n'))"""
 
 
 
@@ -272,6 +273,8 @@ def main(path_to_result, path_to_test, path_to_text, format):
 
 
 if __name__ == "__main__":
+    names = ["Medea.txt", "Oedipus.txt", "Hercules_Oetaeus.txt", "Hercules_furens.txt",
+             "Troades.txt", "Phoenissae.txt", "Octavia.txt", "Phaedra.txt"]
     """if len(sys.argv) != 5 or ((sys.argv[4] != 'longshort') and (
                 sys.argv[4] != 'dactylspondee')):
         print("Usage: " + sys.argv[0] + " program_output_file_name " +
@@ -279,7 +282,9 @@ if __name__ == "__main__":
               "[longshort|dactylspondee]")
         sys.exit(-1)
     main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] == 'longshort')"""
-    compare_winge("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/Thyestes.txt",
-                  "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/Thyestes.txt")
+    for name in names:
+        compare_winge("/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/completedScansions/" + name,
+                  "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/" + name)
+        print('\n\n\n\n\n\n\n\n')
     """main("output/input.txt", "testing_data/input_test.txt", "texts/input.txt",
          False)"""

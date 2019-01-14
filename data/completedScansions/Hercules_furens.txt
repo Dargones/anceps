@@ -20,8 +20,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.765
-Resolution rate in lines in which speakers remain the same: 0.754
+Resolution rate: 0.767
+Resolution rate in lines in which speakers remain the same: 0.756
 Resolution rate in lines in which speakers change: 1.056
 */
 
@@ -613,7 +613,7 @@ Rhadamanthus illo, Thetidis hoc audit socer.	rha^da^ma_nthu^s i_llo& the^ti^di^s
 Quod quisque fecit, patitur; auctorem scelus	qvo&d qvi_sqve^ fe_ci&t pa^ti^tu^r [au]cto&re&m sce^lu&s 	X_^_X^^^_X_^X	1.0
 Repetit suoque premitur exemplo nocens:	re^pe^ti&t su^o_qve& pre^mi^tu^r e_xe&mplo_ no^ce&ns 	^^_^_X^^^_X_^X	1.0
 Vidi cruentos carcere includi duces	vi&di& cru^e_nto&s ca_rce^re& i_nclu&di_ du^ce&s 	X_^_X_^_X_^X	1.0
-Et impotentis terga plebeia manu	e&t i_mpo^te_nti&s te_rga^ ple_b[ei]a_ ma^nu& 	X_^_X_^_X_^X	1.0
+Et impotentis terga plebeia manu	e^t i_mpo^te_nti&s te_rga^ ple_be_ja_ ma^nu_	X_^_X_^_X_^X	v
 Scindi tyranni. quisquis est placide potens	sci&ndi_ ty^ra_nni& qvi_sqvi^s e&st pla^ci^de_ po^te&ns 	X_^_X_^_^^_^X	1.0
 Dominusque uitae seruat innocuas manus	do^mi^nu_sqve^ vi_t[ae] se_rva^t i_nno^cu^a&s ma^nu&s 	^^_^_X_^_^^_^X	1.0
 Et incruentum mitis imperium regit	e&t i_ncru^e_ntu&m mi_ti^s i_mpe^ri^u&m re^gi&t 	X_^_X_^_^^_^X	1.0
@@ -740,7 +740,7 @@ Quiesque fessis. Ipse concipiam preces	qvi&e_sqve^ fe_ssi&s i_pse^ co_nci^pi^a&m
 Ioue meque dignas: stet suo caelum loco	jo^ve^ me_qve^ di_gna&s ste&t su^o_ c[ae]lu&m lo^co& 	^^_^_X_^_X_^X	1.0
 Tellusque et aether; astra inoffensos agant	te&llu_sqve& e^t [ae]the&r a_stra& i^no_ffe&nso_s a^ga&nt 	X_^_X_^_X_^X	1.0
 Aeterna cursus, alta pax gentes alat;	[ae]te_rna^ cu_rsu&s a_lta^ pa&x ge&nte_s a^la&t 	X_^_X_^_X_^X	1.0
-Ferrum omne teneat ruris innocui labor	fe&rru&m o_mne^ te^ne^a&t ru_ri^s i_nno&cui_ la^bo&r 	X_^^^X_^_X_^X	0.97
+Ferrum omne teneat ruris innocui labor	fe_rru&m o_mne^ te^ne^a&t ru_ri^s i_nno^cu^i_ la^bo&r	X_^^^X_^_^^_^X	c
 Ensesque lateant. nulla tempestas fretum	e&nse_sqve^ la^te^a&nt nu_lla^ te_mpe&sta&s fre^tu&m 	X_^^^X_^_X_^X	0.96
 Violenta turbet, nullus irato Ioue	vi^o^le_nta^ tu_rbe&t nu_llu^s i_ra&to_ jo^ve& 	^^_^_X_^_X_^X	1.0
 Exiliat ignis, nullus hiberna niue	e&xi^li^a^t i_gni&s nu_llu^s hi_be&rna_ ni^ve& 	X^^^_X_^_X_^X	1.0
@@ -903,7 +903,7 @@ Petas inermem. - cur meos Theseus fugit	pe&ta_s i^ne_rme&m cu&r me^o&s the&s[eu]
 Paterque uultus? ora cur condunt sua?	pa&te_rqve^ vu_ltu&s o_ra^ cu&r co&ndu&nt su^a& 	X_^_X_^_X_^X	1.0
 Differte fletus; quis meos dederit neci	di&ffe_rte^ fle_tu&s qvi&s me^o&s de^de^ri&t ne^ci& 	X_^_X_^_^^_^X	1.0
 Omnis simul, profare. quid, genitor, siles?	o&mni&s si^mu&l pro&fa_re^ qvi&d ge^ni^to&r si^le&s 	X_^_X_^_^^_^X	1.0
-At tu ede, Theseu, sed tua, Theseu, fide. -	a&t tu& e_de^ the_s[eu] se&d tu^a_ the&s[eu] fi^de& 	X_^_X_^_X_^X	0.97
+At tu ede, Theseu, sed tua, Theseu, fide. -	a&t tu& e_de^, the_s[eu], se&d tu^a&, the_s[eu], fi^de&. -	X_^_X_^_X_^X	v
 Vterque tacitus ora pudibunda obtegit	u&te_rqve^ ta^ci^tu&s o_ra^ pu^di^bu&nda& o_bte^gi&t 	X_^^^X_^^^X_^X	1.0
 Furtimque lacrimas fundit. in tantis malis	fu&rti_mqve^ la^cri^ma&s fu_ndi^t i&n ta&nti&s ma^li&s 	X_^^^X_^_X_^X	0.92
 Quid est pudendum? numquid Argiuae impotens	qvi&d e&st pu^de_ndu&m nu_mqvi^d a_rgi&v[ae] i_mpo^te&ns 	X_^_X_^_X_^X	1.0
@@ -964,7 +964,7 @@ Pharetra telis in tuos ibit rogos:	pha&re_tra^ te_li&s i&n tu^o_s i&bi&t ro^go&s
 Dent arma poenas. uos quoque infaustas meis	de&nt a_rma^ p[oe]na&s vo&s qvo^qve& i_nf[au]sta&s me^i&s 	X_^_X_^_X_^X	0.93
 Cremabo telis, o nouercales manus.	cre&ma_bo^ te_li&s o_ no^ve_rca&le&s ma^nu&s 	X_^_X_^_X_^X	1.0
 Quis nomen usquam sceleris errori addidit?	qvi&s no_me^n u_sqva&m sce^le^ri^s e_rro&ri& a_ddi^di&t 	X_^_X^^^_X_^X	1.0
-Saepe error ingens sceleris obtinuit locum.	s[ae]pe& e_rro^r i_nge&ns sce^le^ri^s o_bti&n[ui]t lo^cu&m 	X_^_X^^^_X_^X	1.0
+Saepe error ingens sceleris obtinuit locum.	s[ae]pe& e_rro^r i_nge&ns sce^le^ri^s o_bti^nu^i&t lo^cu&m	X_^_X^^^_^^_^X	c
 Nunc Hercule opus est: perfer hanc molem mali.	nu&nc he_rcu^le& o^pu^s e&st pe_rfe^r ha&nc mo&le&m ma^li& 	X_^^^X_^_X_^X	0.82
 Non sic furore cessit extinctus pudor,	no&n si&c fu^ro_re& ce_ssi^t e_xti&nctu&s pu^do&r 	X_^_X_^_X_^X	1.0
 Populos ut omnes impio aspectu fugem.	po^pu^lo_s u^t o_mne&s i_mpi^o& a_spe&ctu_ fu^ge&m 	^^_^_X_^_X_^X	1.0

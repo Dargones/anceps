@@ -20,8 +20,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.855
-Resolution rate in lines in which speakers remain the same: 0.848
+Resolution rate: 0.853
+Resolution rate in lines in which speakers remain the same: 0.846
 Resolution rate in lines in which speakers change: 1.105
 */
 
@@ -100,7 +100,7 @@ Quid timida loqueris furta et exilium et fugas?	qvi&d ti^mi^da^ lo^qve^ri&s fu_r
 Soror ista fecit: te decet maius nefas.	so^ro^r i_sta^ fe_ci&t te_ de^ce&t ma&ju&s ne^fa&s 	^^_^_X_^_X_^X	1.0
 Regina Danaum et inclitum Ledae genus,	re&gi_na^ da^na^u&m e&t i_ncli^tu&m le&d[ae] ge^nu&s 	X_^^^X_^_X_^X	1.0
 Quid tacita uersas quidue consilii impotens	qvi&d ta^ci^ta^ ve_rsa&s qvi_dve^ co_nsi^li^i& i_mpo^te&ns 	X^^^_X_^_^^_^X	1.0
-Tumido feroces impetus animo geris?	tu^mi^do_ fe^ro_ce&s i_mpe^tu^s a^ni&mo_ ge^ri&s 	^^_^_X_^^^X_^X	1.0
+Tumido feroces impetus animo geris?	tu^mi^do_ fe^ro_ce_s i_mpe^tu_s a^ni^mo_ ge^ri&s	^^_^_X_^_^^_^X	c
 Licet ipsa sileas, totus in uultu est dolor.	li^ce^t i_psa^ si^le^a&s to_tu^s i&n vu&ltu& e&st do^lo&r 	^^_^^^X_^_X_^X	0.99
 Proin quidquid est, da tempus ac spatium tibi:	pr[oi]n qvi_dqvi^d e&st da& te_mpu^s a&c spa^ti^u&m ti^bi& 	X_^_X_^_^^_^X	1.0
 Quod ratio non quit, saepe sanauit mora.	qvo&d ra^ti^o^ no&n qvi&t s[ae]pe^ sa_na&vi_t mo^ra& 	X^^^_X_^_X_^X	0.98
@@ -401,7 +401,7 @@ Submittit undis, fluctus hanc decimus tegit;	su&bmi_tti^t u_ndi&s flu_ctu^s ha&n
 Haec lacera et omni decore populato leuis	h[ae]c la^ce^ra& e^t o_mni& de^co^re^ po^pu^la&to_ le^vi&s 	X^^^_X^^^^^X_^X	0.22
 Fluitat nec illi uela nec tonsae manent	flu^i^ta&t ne^c i_lli& ve_la^ ne&c to&ns[ae] ma^ne&nt 	^^_^_X_^_X_^X	0.97
 Nec rectus altas malus antemnas ferens,	ne&c re_ctu^s a_lta&s ma_lu^s a_nte&mna&s fe^re&ns 	X_^_X_^_X_^X	0.29
-Sed trunca toto puppis Ionio natat.	se&d tru_nca^ to_to& pu_ppi^s i_o^ni^o_ na^ta&t 	X_^_X_^_^^_^X	0.89
+Sed trunca toto puppis Ionio natat.	se&d tru_nca^ to_to_ pu_ppi^s i_o_njo_ na^ta&t	X_^_X_^_X_^X	c
 Nil ratio et usus audet: ars cessit malis;	ni&l ra^ti^o& e^t u_su&s [au]de^t a&rs ce&ssi&t ma^li&s 	X^^^_X_^_X_^X	0.92
 Tenet horror artus, omnis officio stupet	te^ne^t ho_rro^r a_rtu&s o_mni^s o_ffi^ci^o& stu^pe&t 	^^_^_X_^_^^_^X	0.87
 Nauita relicto, remus effugit manus.	n[au]i^ta^ re^li_cto& re_mu^s e_ffu&gi&t ma^nu&s 	X^^^_X_^_X_^X	1.0
@@ -460,7 +460,7 @@ Feruetque semper fluctus alterna uice.	fe&rve_tqve^ se_mpe&r flu_ctu^s a_lte&rna
 Arx imminet praerupta quae spectat mare	a&rx i_mmi^ne&t pr[ae]ru_pta^ qv[ae] spe&cta&t ma^re& 	X_^_X_^_X_^X	1.0
 Vtrimque geminum: Pelopis hinc oras tui	u&tri_mqve^ ge^mi^nu&m pe^lo^pi^s hi&nc o&ra&s tu^i& 	X_^^^X^^^_X_^X	1.0
 Et Isthmon, arto qui recuruatus solo	e&t i_sthmo^n, a_rto& qui_ re^cu_rua&tu&s so^lo&	X_^_X_^_X_^X	m
-Ionia iungi maria Phrixeis uetat,	i&o_ni^a_ ju&ngi_ ma^ri^a^ phri&x[ei]s ve^ta&t 	X_^_X_^^^X_^X	1.0
+Ionia iungi maria Phrixeis uetat,	i&o_nja^ ju_ngi_ ma^ri^a^ phri_xe^i_s ue^ta&t,	X_^_X^^^_X_^X	c
 Hinc scelere Lemnon nobilem, hinc Anthedona	hi&nc sce^le^re^ le_mno&n no_bi^le&m hi&nc a&nthe_do^na& 	X^^^_X_^_X_^X	1.0
 Tardamque ratibus Aulida: hanc arcem occupat	ta&rda_mqve^ ra^ti^bu&s [au]li^da& ha&nc a&rce&m o_ccu^pa&t 	X_^^^X_^_X_^X	1.0
 Palamedis ille genitor et clarum manu	pa^la^me_di^s i_lle& ge^ni^to^r e&t cla&ru&m ma^nu& 	^^_^_X^^^_X_^X	0.01
@@ -490,7 +490,7 @@ Lugete gemitu funera: aerumnae meae	lu&ge_te^ ge^mi^tu& fu_ne^ra& [ae]ru&mn[ae] 
 Socium recusant. cladibus questus meis	so^ci^u&m re^cu_sa&nt cla_di^bu&s qve&stu&s me^i&s 	^^_^_X_^_X_^X	1.0
 Remouete: nostris ipsa sufficiam malis.	re^mo^ve_te^ no_stri&s i_psa^ su_ffi^ci^a&m ma^li&s 	^^_^_X_^_^^_^X	0.92
 Sed cur sacratas deripis capiti infulas?	se&d cu&r sa^cra_ta&s de_ri^pi&s ca^pi^ti& i_nfu^la&s 	X_^_X_^_^^_^X	0.25
-Miseris colendos maxime superos putem.	mi^se^ri&s co^le_ndo&s ma_xi^me^ su^pe&ro&s pu^te&m 	^^_^_X_^^^X_^X	0.98
+Miseris colendos maxime superos putem.	mi^se^ri&s co^le_ndo&s ma_xi^me_ su^pe^ro&s pu^te&m.	^^_^_X_^_^^_^X	c
 Vicere nostra iam metus omnis mala.	vi&ce_re^ no_stra& ja&m me^tu_s o&mni&s ma^la& 	X_^_X_^_X_^X	0.31
 Equidem nec ulla caelites placo prece	e^qvi^de&m ne^c u_lla& c[ae]li^te_s pla&co& pre^ce& 	^^_^_X_^_X_^X	1.0
 Nec, si uelint saeuire, quo noceant habent.	ne&c si_ ve^li&nt s[ae]vi_re^ qvo_ no^ce^a&nt ha^be&nt 	X_^_X_^_^^_^X	1.0

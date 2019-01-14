@@ -69,7 +69,7 @@ qvi&d mi^se^ra^ fe_ci& mi^se^ra^ p[ae]ni^te^a_t li^ce&t
 pe&rfru^e^re^ le_nto& sce^le^re^ ne_ pro^pe^ra_ do^lo&r
 te&sta_re^ nu_llo&s e_sse^ qva_ ve^he^ri_s de^o&s
 qva& c[oe]pi^t i_re& re_gi^a_ di^di^ci_ me^a&
-fa&te_bo^r o_bi^ci^ cri_me^n ho_c so&lu_m po^te&st
+fa&te_bo^r o^bi^ci& cri_me^n ho_c so&lu_m po^te&st
 o&bi^ce^re^ cri_me&n qvo_d po^te_s ta&nde_m mi^hi&
 a&lta e_xti^me_sco& sce_ptra^ ne_ cu^pi^a_s vi^de&
 pha^re^tra_qve^ pu_gna&x me_du^s [au]t pa&rthi_ le^ve&s
@@ -79,5 +79,8 @@ re&ga_li^s i_ra& vi_ncu^li_s o^ne^re_t ma^nu&s
 Ta&le_m sci^e_ba&s e_sse^, cu_m ge^nu^a a_tti^gi&
 Me&cum o_mni^a a^be^a_nt. tra^he^re^, cu_m pe^re^a_s, li^be&t.
 
-Corrections:
+Corrected\verified:
 fu^gi^mu^s i^a_so_n fu^gi^mu^s ho_c no_n e_st no^vu&m
+Mo^ri^e_re^. Cu^pi^o&. Pro^fu^ge^. P[ae]ni^tu^i_t fu^g[ae].
+Qva_scu_mqve a^pe^ru^i& ti^bi^ vi^a_s cl[au]si_ mi^hi& | Wrong quantity inference on aperui
+Vo&ce_tu^r He^ca^te&. sa_cra^ le_ti^fi^ca a_ppa^ra&:

@@ -22,7 +22,7 @@ _ - long syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
 Resolution rate: 0.715
-Resolution rate in lines in which speakers remain the same: 0.714
+Resolution rate in lines in which speakers remain the same: 0.715
 Resolution rate in lines in which speakers change: 0.75
 */
 
@@ -352,7 +352,7 @@ Iratus amor est. Artibus magicis fere	i&ra_tu^s a^mo^r e&st a_rti^bu&s ma^gi^ci&
 Coniugia nuptae precibus admixtis ligant.	co&nju^gi^a^ nu_pt[ae] pre^ci^bu^s a_dmi&xti&s li^ga&nt 	X^^^_X^^^_X_^X	1.0
 Vernare iussi frigore in medio nemus	ve&rna_re^ ju_ssi& fri_go^re& i&n me^di^o_ ne^mu&s 	X_^_X_^_^^_^X	1.0
 Missumque fulmen stare; concussi fretum	mi&ssu_mqve^ fu_lme&n sta_re^ co_ncu&ssi& fre^tu&m 	X_^_X_^_X_^X	0.96
-Cessante uento, turbidum explicui mare	ce&ssa_nte^ ve_nto& tu_rbi^du&m e_xpli&cui_ ma^re& 	X_^_X_^_X_^X	1.0
+Cessante uento, turbidum explicui mare	ce&ssa_nte^ ve_nto& tu_rbi^du&m e_xpli&cu^i_ ma^re&	X_^_X_^_^^_^X	c
 Et sicca tellus fontibus patuit nouis.	e&t si_cca^ te_llu&s fo_nti^bu&s pa^tu^i&t no^vi&s 	X_^_X_^_^^_^X	1.0
 Habuere motum saxa, discussi fores	ha^bu^e_re^ mo_tu&m sa_xa^ di_scu&ssi_ fo^re&s 	^^_^_X_^_X_^X	1.0
 Vmbrasque Ditis, et mea iussi prece	u&mbra_sqve^ di_ti&s e&t me^a_ ju&ssi& pre^ce& 	X_^_X_^_X_^X	1.0
@@ -503,7 +503,7 @@ Abiectus horret uillus et Phoebi coma	a&bje_ctu^s ho_rre&t vi_llu^s e&t ph[oe]bi
 Tepefactus arsit (uix queo monstrum eloqui)	te^pe^fa_ctu^s a_rsi&t vi&x qve^o_ mo&nstru&m e_lo^qvi& 	^^_^_X_^_X_^X	1.0
 Niues ut Eurus soluit aut tepidus Notus,	ni&ve_s u^t [eu]ru&s so_lvi^t [au]t te^pi^du&s no^tu&s 	X_^_X_^_^^_^X	0.55
 Quas uere primo lucidus perdit Mimas,	qva&s ve_re^ pri_mo& lu_ci^du&s pe&rdi&t mi^ma&s 	X_^_X_^_X_^X	0.88
-Vtque euolutos frangit Ionio salo	u&tqve& e_vo^lu_to&s fra_ngi^t i_o^ni^o_ sa^lo& 	X_^_X_^_^^_^X	1.0
+Vtque euolutos frangit Ionio salo	u&tqve& e_vo^lu_to&s fra_ngi^t i_o&njo_ sa^lo& 	X_^_X_^_X_^X	c
 Opposita fluctus Leucas et lassus tumor	o&ppo^si^ta^ flu_ctu&s l[eu]ca^s e&t la&ssu&s tu^mo&r 	X^^^_X_^_X_^X	1.0
 In litore ipso spumat, aut caelestibus	i&n li_to^re& i_pso& spu_ma^t [au]t c[ae]le_sti^bu&s 	X_^_X_^_X_^X	1.0
 Aspersa tepidis tura laxantur focis,	a&spe_rsa^ te^pi^di&s tu_ra^ la_xa&ntu&r fo^ci&s 	X_^^^X_^_X_^X	1.0
@@ -539,7 +539,7 @@ Miseranda, maeres. Quam prope a leto tamen	mi^se^ra_nda^ me_re&s qva&m pro^pe& a
 Ede, ede quaeso iaceat Alcides meus.	e&de& e_de^ qv[ae]so& ja^ce^a^t a_lci&de&s me^u&s 	X_^_X^^^_X_^X	1.0
 Mors refugit illum uicta quae in regno suo	mo&rs re^fu^gi^t i_llu&m vi_cta^ qv[ae] i&n re&gno& su^o& 	X^^^_X_^_X_^X	0.15
 Semel est nec audent fata tam uastum nefas	se^me^l e&st ne^c [au]de&nt fa_ta^ ta&m va&stu&m ne^fa&s 	^^_^_X_^_X_^X	1.0
-Admittere. ipsa forsitan trepida colus	a&dmi_tte^re& i_psa& fo_rsi^ta&n tre^pi^da_ co^lu&s	X_^_X_^_^^_^X	m
+Admittere. ipsa forsitan trepida colus	a&dmi_tte^re& i_psa& fo_rsi^ta&n tre^pi^da_ co^lu&s 	X_^_X_^_^^_^X	m
 Clotho manu proiecit et fata Herculis	clo&tho_ ma^nu& pro&je_ci^t e&t fa&ta& he_rcu^li&s 	X_^_X_^_X_^X	1.0
 Timet peragere. pro diem, infandum diem!	ti&me&t pe^ra^ge^re& pro_ di^e&m i_nfa&ndu&m di^e&m 	X_^^^X_^_X_^X	1.0
 Hocne ille summo magnus Alcides erit?	ho&cne& i_lle^ su_mmo& ma_gnu^s a_lci&de_s e^ri&t 	X_^_X_^_X_^X	1.0
@@ -761,7 +761,7 @@ Quid ora flectis? haec erit pietas scelus.	qvi&d o_ra^ fle_cti&s h[ae]c e^ri&t p
 Ignaue dubitas? Herculem eripui tibi:	i&gn[au]e^ du^bi^ta&s he_rcu^le&m e_ri^pu^i_ ti^bi& 	X_^^^X_^_^^_^X	1.0
 Haec, haec peremit dextra, cui debes patri	h[ae]c h[ae]c pe^re_mi&t de_xtra^ cu_j de&be&s pa^tri& 	X_^_X_^_X_^X	0.54
 Auum Tonantem. maius eripui decus,	a&vu&m to^na_nte&m ma_ju^s e_ri^pu^i_ de^cu&s 	X_^_X_^_^^_^X	1.0
-Quam luce tribui. si tibi ignotum est nefas,	qva&m lu_ce^ tri_b[ui] si_ ti^bi& i_gno&tu&m e&st ne^fa&s 	X_^_X_^_X_^X	1.0
+Quam luce tribui. si tibi ignotum est nefas,	qva&m lu_ce^ tri^bu^i_ si_ ti^bi& i_gno&tu&m e&st ne^fa&s	X_^^^X_^_X_^X	c
 A matre disce. seu tibi iugulo placet	a& ma_tre^ di_sce& s[eu] ti^bi^ ju^gu&lo& pla^ce&t	X_^_X_^^^X_^X	m
 Mersisse ferrum siue maternum libet	me&rsi_sse^ fe_rru&m si_ve^ ma_te&rnu&m li^be&t 	X_^_X_^_X_^X	1.0
 Inuadere uterum, mater intrepidum tibi	i&nva_de^re& u^te^ru&m ma_te^r i_ntre^pi^du&m ti^bi& 	X_^^^X_^_^^_^X	1.0
@@ -841,7 +841,7 @@ Mortem perire? dirus o nobis pudor,	mo&rte&m pe^ri_re& di_ru^s o_ no&bi&s pu^do&
 O turpe fatum: femina Herculeae necis	o& tu_rpe^ fa_tu&m fe_mi^na& he_rcu^le^[ae] ne^ci&s 	X_^_X_^_^^_^X	1.0
 Auctor feretur! morior Alcides quibus!	[au]cto&r fe^re_tu&r mo^ri^o^r a_lci&de&s qvi^bu&s 	X_^_X^^^_X_^X	1.0
 Inuicta si me cadere feminea manu	i&nvi_cta^ si_ me& ca^de^re^ fe_mi^ne^a_ ma^nu&	X_^_X^^^_^^_^X	m
-Voluere fata perque tam turpes colus	vo&lue_re^ fa_ta& pe_rque^ ta&m tu&rpe&s co^lu&s	X_^_X_^_X_^X	m
+Voluere fata perque tam turpes colus	vo^lu^e_re^ fa_ta& pe_rque^ ta&m tu&rpe&s co^lu&s	^^_^_X_^_X_^X	m
 Mea mors cucurrit, cadere placuisset mihi	me^a^ mo&rs cu^cu_rri&t ca^de^re^ pla^cu^i&sse&t mi^hi& 	^^_^_X^^^^^X_^X	1.0
 Iunonis odio: feminae caderem manu,	ju&no_ni^s o^di^o& fe_mi^nae_ ca^de^re&m ma^nu& 	X_^^^X_^_^^_^X	1.0
 Sed caelum habentis. si nimis superis fuit,	se&d c[ae]lu&m ha^be_nti&s si_ ni^mi&s su^pe^ri&s fu^i&t 	X_^_X_^_^^_^X	1.0
@@ -1290,7 +1290,7 @@ Semiustus ac laniatus, intrepidum tuens:	se^mi^u_stu^s a&c la^ni^a_tu^s i_ntre^p
 "Nunc es parens Herculea: sic stare ad rogum	nu&nc e&s pa^re&ns he&rcu^le^a^ si&c sta&re& a&d ro^gu&m 	X_^_X^^^_X_^X	0.97
 Te, mater" inquit, "sic decet fleri Herculem."	te& ma_te^r i_nqvi&t si&c de^ce&t fle&ri& he_rcu^le&m 	X_^_X_^_X_^X	1.0
 Inter uapores positus et flammae minas	i&nte&r va^po_re&s po^si^tu^s e&t fla&mm[ae] mi^na&s 	X_^_X^^^_X_^X	1.0
-Immotus, inconcussus, in neutrum latus	i&mmo_tu^s i_nco&ncu_ssu^s i&n ne^u^tru&m la^tu&s 	X_^_X_^_^^_^X	0.98
+Immotus, inconcussus, in neutrum latus	i&mmo_tu^s i_nco_ncu_ssu^s i&n n[eu]tru&m la^tu&s	X_^_X_^_X_^X	c
 Correpta torquens membra adhortatur, monet,	co&rre_pta^ to_rqve&ns me_mbra& a^dho_rta&tu_r mo^ne&t 	X_^_X_^_X_^X	1.0
 Gerit aliquid ardens. omnibus fortem addidit	ge^ri^t a^li^qvi^d a_rde&ns o_mni^bu&s fo&rte&m a_ddi^di&t 	^^^^^_X_^_X_^X	1.0
 Animum ministris; urere ardentem putes.	a^ni^mu&m mi^ni_stri&s u_re^re& a_rde&nte&m pu^te&s 	^^_^_X_^_X_^X	1.0

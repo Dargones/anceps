@@ -21,8 +21,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.796
-Resolution rate in lines in which speakers remain the same: 0.785
+Resolution rate: 0.795
+Resolution rate in lines in which speakers remain the same: 0.784
 Resolution rate in lines in which speakers change: 1.316
 */
 
@@ -258,7 +258,7 @@ Hastile uibret dextra Thessalicum manus:	ha&sti_le^ vi_bre&t de_xtra^ the_ssa^li
 Talis seueri mater Hippolyti fuit	ta&li&s se^ve_ri& ma_te^r hi_ppo^ly^ti_ fu^i&t	X_^_X_^_^^_^X	m
 Qualis relictis frigidi Ponti plagis	qva&li&s re^li_cti&s fri_gi^di_ po&nti& pla^gi&s 	X_^_X_^_X_^X	0.75
 Egit cateruas Atticum pulsans solum	e&gi&t ca^te_rva&s a_tti^cu_m pu&lsa&ns so^lu&m 	X_^_X_^_X_^X	0.37
-Tanaitis aut Maeotis et nodo comas	ta&n[ai]ti^s [au]t m[ae]o_ti^s e&t no&do_ co^ma&s 	X_^_X_^_X_^X	1.0
+Tanaitis aut Maeotis et nodo comas	ta^na^i_ti^s [au]t m[ae]o_ti^s e&t no&do_ co^ma&s	^^_^_X_^_X_^X	c
 Coegit emisitque, lunata latus	co&e_gi^t e_mi&si_tqve^ lu_na&ta_ la^tu&s 	X_^_X_^_X_^X	0.98
 Protecta pelta, talis in siluas ferar.	pro&te_cta^ pe_lta& ta_li^s i&n si&lva&s fe^ra&r 	X_^_X_^_X_^X	0.87
 Sepone questus: non leuat miseros dolor;	se&po_ne^ qve_stu&s no&n le^va&t mi^se^ro&s do^lo&r 	X_^_X_^_^^_^X	1.0
@@ -750,9 +750,9 @@ Creuitque in astra. nullus inspirat salo	cr[eu]i_tqve& i^n a_stra& nu_llu^s i_ns
 Ventus, quieti nulla pars caeli strepit	ve&ntu&s qvi^e_ti& nu_lla^ pa&rs c[ae]li& stre^pi&t 	X_^_X_^_X_^X	1.0
 Placidumque pelagus propria tempestas agit.	pla^ci^du_mqve^ pe^la^gu&s pro^pri^a^ te_mpe&sta_s a^gi&t 	^^_^^^X^^^_X_^X	1.0
 Non tantus Auster Sicula disturbat freta	no&n ta_ntu^s [au]ste&r si^cu^la^ di_stu&rba&t fre^ta& 	X_^_X^^^_X_^X	0.94
-Nec tam furens Ionius exsurgit sinus	ne&c ta&m fu^re&ns i&o^ni^u^s e_xsu&rgi&t si^nu&s	X_^_X^^^_X_^X	m
+Nec tam furens Ionius exsurgit sinus	ne&c ta&m fu^re&ns i_o_nju^s e_xsu&rgi&t si^nu&s	X_^_X_^_X_^X	m
 Regnante Coro, saxa cum fluctu tremunt	re&gna_nte^ co_ro& sa_xa^ cu&m flu&ctu& tre^mu&nt 	X_^_X_^_X_^X	1.0
-Et cana summum spuma Leucaten ferit.	e&t ca_na^ su_mmu&m spu_ma^ le_u^ca^te&n fe^ri&t 	X_^_X_^_^^_^X	1.0
+Et cana summum spuma Leucaten ferit.	e&t ca_na^ su_mmu&m spu_ma^ l[eu]ca_te&n fe^ri&t	X_^_X_^_X_^X	c
 Consurgit ingens pontus in uastum aggerem,	co&nsu_rgi^t i_nge&ns po_ntu^s i&n va&stu&m a_gge^re&m 	X_^_X_^_X_^X	1.0
 Tumidumque monstro pelagus in terras ruit	tu^mi^du_mqve^ mo_nstro& pe^la^gu^s i&n te&rra&s ru^i&t 	^^_^_X^^^_X_^X	1.0
 Nec ista ratibus tanta construitur lues:	ne&c i_sta^ ra^ti^bu&s ta_nta^ co_nstru^i^tu&r lu^e&s 	X_^^^X_^_^^_^X	1.0

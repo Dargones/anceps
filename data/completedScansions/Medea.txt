@@ -20,8 +20,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.871
-Resolution rate in lines in which speakers remain the same: 0.859
+Resolution rate: 0.873
+Resolution rate in lines in which speakers remain the same: 0.86
 Resolution rate in lines in which speakers change: 1.125
 */
 
@@ -134,7 +134,7 @@ Medea superest: hic mare et terras uides	me&de_a^ su^pe^re&st hi&c ma^re& e&t te
 Ferrumque et ignes et deos et fulmina.	fe&rru_mqve& e^t i_gne&s e&t de^o_s e&t fu_lmi^na& 	X_^_X_^_X_^X	1.0
 Rex est timendus. Rex meus fuerat pater.	re&x e&st ti^me_ndu&s re&x me^u&s fu^e^ra&t pa^te&r 	X_^_X_^_^^_^X	1.0
 Non metuis arma? Sint licet terra edita.	no&n me^tu^i^s a_rma& si&nt li^ce&t te&rra& e_di^ta& 	X^^^_X_^_X_^X	1.0
-Moriere. Cupio. Profuge. Paenituit fugae.	mo^ri^e_re^ cu^pi^o& pro^fu^ge^ p[ae]ni^tu^i&t fu^g[ae] 	^^_^^^X^^^_^^_^X	1.0
+Moriere. Cupio. Profuge. Paenituit fugae.	mo^ri^e_re^. cu^pi^o&. pro^fu^ge^. p[ae]ni^tu^i&t fu^g[ae].	^^_^^^X^^^_^^_^X	v
 Medea Fiam. Mater es. Cui sim uide.	me&de_a^ fi_a&m ma_te^r e&s cu&j si&m vi^de& 	X_^_X_^_X_^X	1.0
 Profugere dubitas? Fugiam, at ulciscar prius.	pro&fu^ge^re^ du^bi^ta&s fu^gi^a&m a^t u_lci&sca&r pri^u&s	X^^^^^X^^^_X_^X	m
 Vindex sequetur. Forsan inueniam moras.	vi&nde&x se^qve_tu&r fo_rsa^n i_nve^ni^a&m mo^ra&s 	X_^_X_^_^^_^X	1.0
@@ -201,7 +201,7 @@ Omnesque Minyae: nam ducum taceo ducem,	o&mne_sqve^ mi^ny^[ae] na&m du^cu&m ta^c
 Pro quo nihil debetur: hunc nulli imputo;	pro& qvo_ ni^hi&l de&be_tu^r hu&nc nu&lli& i_mpu^to& 	X_^_X_^_X_^X	1.0
 Vobis reuexi ceteros, unum mihi.	vo&bi&s re^ve_xi& ce_te^ro_s u&nu&m mi^hi& 	X_^_X_^_X_^X	1.0
 Incesse nunc et cuncta flagitia ingere:	i&nce_sse^ nu&nc e&t cu_ncta^ fla_gi^ti^a& i_nge^re&	X_^_X_^_^^_^X	m
-Fatebor; obici crimen hoc solum potest,	fa&te_bo^r o_bi^ci^ cri_me^n ho&c so&lu&m po^te&st	X_^_^^_^_X_^X	m
+Fatebor; obici crimen hoc solum potest,	fa&te_bo^r o^bi^ci& cri_me^n ho&c so&lu&m po^te&st	X_^^^X_^_X_^X	m
 Argo reuersa. uirgini placeat pudor	a&rgo_ re^ve_rsa& vi_rgi^ni& pla^ce^a&t pu^do&r	X_^_X_^_^^_^X	m
 Paterque placeat: tota cum ducibus ruet	pa&te_rqve^ pla^ce^a&t to_ta^ cu&m du^ci^bu&s ru^e&t 	X_^^^X_^_^^_^X	1.0
 Pelasga tellus, hic tuus primum gener	pe&la_sga^ te_llu&s hi&c tu^u&s pri&mu&m ge^ne&r 	X_^_X_^_X_^X	1.0
@@ -343,7 +343,7 @@ Quae maria monstras? Pontici fauces freti	qv[ae] ma^ri^a^ mo_nstra&s po_nti^ci_ 
 Per quas reuexi nobilem regum manum	pe&r qva&s re^ve_xi& no_bi^le&m re&gu&m ma^nu&m 	X_^_X_^_X_^X	1.0
 Adulterum secuta per Symplegadas?	a&du_lte^ru&m se&cu_ta^ pe&r sy&mple_ga^da&s 	X_^_X_^_X_^X	1.0
 Patruamne Iolcon, Thessala an Tempe petam?	pa^tru^a_mne& i^o_lco&n, the_ssa^la& a&n te_mpe_ pe^ta&m? 	^^_^_X_^_X_^X	m
-Quascumque aperui tibi uias, clausi mihi -	qva&scu_mqve& a^pe_rui& ti^bi^ vi^a&s cl[au]si_ mi^hi& 	X_^_X^^^_X_^X	0.85
+Quascumque aperui tibi uias, clausi mihi -	qva_scu_mqve& a^pe^ru^i& ti^bi^ vi^a&s cl[au]si_ mi^hi& 	X_^^^X^^^_X_^X	c
 Quo me remittis? exuli exilium imperas	qvo& me_ re^mi_tti&s e_xu^li& e_xi^li^u&m i_mpe^ra&s 	X_^_X_^_^^_^X	1.0
 Nec das. eatur. regius iussit gener:	ne&c da_s e^a_tu&r re_gi^u&s ju&ssi&t ge^ne&r 	X_^_X_^_X_^X	1.0
 Nihil recuso. dira supplicia ingere:	ni&hi&l re^cu_so& di_ra^ su_ppli^ci^a& i_nge^re& 	X_^_X_^_^^_^X	1.0
@@ -462,7 +462,7 @@ Monile fulgens quodque gemmarum nitor	mo&ni_le^ fu_lge&ns qvo_dqve^ ge_mma&ru&m 
 Distinguit aurum, quo solent cingi comae.	di&sti_ngvi^t [au]ru&m qvo_ so^le&nt ci&ngi_ co^m[ae] 	X_^_X_^_X_^X	1.0
 Haec nostra nati dona nubenti ferant,	h[ae]c no_stra^ na_ti& do_na^ nu_be&nti_ fe^ra&nt 	X_^_X_^_X_^X	1.0
 Sed ante diris inlita ac tincta artibus.	se&d a_nte^ di_ri&s i_nli^ta& a&c ti&ncta& a_rti^bu&s 	X_^_X_^_X_^X	1.0
-Vocetur Hecate. sacra letifica appara:	vo&ce_tu^r he^ca^te& sa_cra^ le_ti^fi^ca& a_ppa^ra& 	X_^^^X_^_^^_^X	0.97
+Vocetur Hecate. sacra letifica appara:	vo&ce_tu^r he^ca^te&. sa_cra^ le_ti^fi^ca& a_ppa^ra&:	X_^^^X_^_^^_^X	v
 Statuantur arae, flamma iam tectis sonet.	sta^tu^a_ntu^r a_r[ae] fla_mma^ ja&m te&cti&s so^ne&t 	^^_^_X_^_X_^X	1.0
 Pauet animus, horret: magna pernicies adest.	pa^ve^t a^ni^mu^s ho_rre&t ma_gna^ pe_rni^ci^e_s a^de&st	^^^^^_X_^_^^_^X	m
 Immane quantum augescit et semet dolor	i&mma_ne^ qva_ntu&m [au]ge_sci^t e&t se&me&t do^lo&r 	X_^_X_^_X_^X	1.0

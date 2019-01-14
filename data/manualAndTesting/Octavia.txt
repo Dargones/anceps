@@ -10,7 +10,7 @@ C[ae]si_s li^ta_re& ui_cti^mi_s nu_me_n de^u&m, | Wrong quantity inference for l
 o&rba_ta^ fra_tre& mi^se^ri^i_s lu&ctu o_bru^ta&
 sty^gi^[ae] pa^re_nte&m na_tu^s i_mpo^su^i_t ra^ti&
 i&ntr[au]i^t [au]la&m po_llu^i_t sty^gi^a_ fa^ce&
-ma&ne_s pa^re_nti&s ne_ve^ so_lli^ci^ta_ tu^[ae]
+ma&ne_s pa^re_nti&s ne_ve^ so_lli^ci^ta_ tu^[ae] | Imperative
 a&lte e_xtu^li_sti& gra^vi^u^s u_t ru^e^rem e_di^ta&
 ge^ne^re_t re^na_sce&ns me^li^o^r u_t qvo&nda_m tu^li&t
 i&n no_s re^du_nda&nt s[ae]cu^lo_ pre^mi^mu_r gra^vi&
@@ -40,3 +40,6 @@ u^bi^ li_be^r a^ni^mu&s e_t su^i_ ju&ri_s mi^hi&
 
 Corrected:
 su^bi^to^ la^te_nti&s e_cce^ fo_rtu&nae i_mpe^tu&
+t[au]ro_s fe^ro_ce_s vo_me^re i_mmu&ne_m pri^u&s | vomer - ploughshare
+Ta&le_mque^ na_sci_ fa_ta^ uo^lu^e_ru_nt mi^hi&.
+di&ru_m la^bo_re_m si_sy^phi_ ti^ty^i a_li^te&m | a_les - a bird

@@ -11,7 +11,6 @@ Qu[ae] c[au]sa^ co_gi_t, ge^ni^to^r, a_ pa^tri^a_ gra^du&m | genitor
 Ni&hi_l ti^me_ndu_m ui^de^o^, se_d ti^me^o_ ta^me&n. | o in 1st Sg can be short. Is o in timeo long?
 Nu&mqua_m pa^ue_re& de_sti^ti a_tque i_psu_m me^i& | Wrong data on pavere
 A^li^mu_s tri^bu_to& ge_nti^u_m; nu_llu_s mi^hi& | Multiple program errors
-Co_nsi_ste^t [ae]stu_s u_nda e^t I_o^ni^o_ se^ge^s | Problem solved
 Pro_ me_ ni^hi_l ia_m me^tu^o^: uo_s fa^ci^ti_s mi^hi& | o in 1st Sg can be short.
 E&a_tu^r. u_nu_m ge^ni^to^r ho_c te_sto_r ta^me&n: | genitor
 E^go^ uo_s se^quo_r, no_n du_co^. Re_spi^ci^e_t de^u&s | o in 1st Sg can be short.
@@ -85,3 +84,4 @@ Pe^ni^tu_sque^ vo_lvi&t; ra^pi^o^r e_t quo_ ne_sci^o&,
 
 Corrected\verified:
 qv[ae]nam i_sta^ re^gi^o e_st a_rgo^s e_t spa_rte_ pi^o&s
+Co_nsi_ste^t [ae]stu_s u_nda e^t I_o_njo_ se^ge^s | See README.md

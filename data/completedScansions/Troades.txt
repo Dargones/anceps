@@ -21,8 +21,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.85
-Resolution rate in lines in which speakers remain the same: 0.849
+Resolution rate: 0.851
+Resolution rate in lines in which speakers remain the same: 0.85
 Resolution rate in lines in which speakers change: 0.875
 */
 
@@ -38,7 +38,7 @@ Septena Tanain ora pandentem bibit	se&pte_na^ ta^na^i&n o_ra^ pa_nde&nte&m bi^bi
 Et qui renatum primus excipiens diem	e&t qvi_ re^na_tu&m pri_mu^s e_xci^pi^e&ns di^e&m 	X_^_X_^_^^_^X	0.99
 Tepidum rubenti Tigrin inmiscet freto,	te^pi^du&m ru^be_nti& ti_gri^n i_nmi&sce_t fre^to& 	^^_^_X_^_X_^X	1.0
 Et quae uagos uicina prospiciens Scythas	e&t qv[ae] va^go&s vi&ci_na^ pro_spi^ci^e&ns scy^tha&s 	X_^_X_^_^^_^X	1.0
-Ripam cateruis Ponticam uiduis ferit,	ri&pa&m ca^te_rvi&s po_nti^ca_m vi&d[ui]s fe^ri&t 	X_^_X_^_X_^X	1.0
+Ripam cateruis Ponticam uiduis ferit,	ri&pa&m ca^te_rvi&s po_nti^ca&m vi^du^i&s fe^ri&t	X_^_X_^_^^_^X	c
 Excisa ferro est; Pergamum incubuit sibi.	e&xci_sa^ fe_rro& e&st pe_rga^mu&m i_ncu^bu^i&t si^bi& 	X_^_X_^_^^_^X	1.0
 En alta muri decora congestis iacent	e&n a_lta^ mu_ri& de^co^ra^ co_nge&sti&s ja^ce&nt 	X_^_X^^^_X_^X	0.69
 Tectis adusti; regiam flammae ambiunt	te&cti_s a^du_sti& re_gi^a_m fla&mm[ae] a_mbi^u&nt 	X_^_X_^_X_^X	1.0
@@ -304,7 +304,7 @@ Quid, maesta Phrygiae turba, laceratis comas	qvi&d m[ae]sta^ phry^gi^[ae] tu_rba
 Miserumque tunsae pectus effuso genas	mi^se^ru_mqve^ tu_ns[ae] pe_ctu^s e_ffu&so_ ge^na&s 	^^_^_X_^_X_^X	1.0
 Fletu rigatis? leuia perpessae sumus,	fle&tu_ ri^ga_ti&s le^vi^a^ pe_rpe&ss[ae] su^mu&s 	X_^_X^^^_X_^X	0.5
 Si flenda patimur. Ilium uobis modo,	si& fle_nda^ pa^ti^mu&r i_li^u&m vo&bi&s mo^do& 	X_^^^X_^_X_^X	1.0
-Mihi cecidit olim, cum ferus curru incito	mi^hi^ ce^ci^di^t o_li&m cu&m fe^ru&s cu&rru& i_nci^to& 	^^^^^_X_^_X_^X	0.78
+Mihi cecidit olim, cum ferus curru incito	mi^hi^ ce^ci^di^t o_li&m cu&m fe^ru&s cu_rru& i_nci^to&	^^^^^_X_^_X_^X	v
 Mea membra raperet et graui gemeret sono	me^a^ me_mbra^ ra^pe^re&t e&t gra^vi_ ge^me^re&t so^no& 	^^_^^^X_^_^^_^X	1.0
 Peliacus axis pondere Hectoreo tremens.	pe&li^a^cu^s a_xi&s po_nde^re& he_cto^re^o& tre^me&ns	X^^^_X_^_^^_^X	m
 Tunc obruta atque euersa quodcumque accidit	tu&nc o_bru^ta& a_tqve& [eu]e_rsa^ qvo_dcu&mqve& a_cci^di&t 	X_^_X_^_X_^X	1.0
@@ -315,7 +315,7 @@ Morique prohibet; cogit hic aliquid deos	mo&ri_qve^ pro^hi^be&t co_gi^t hi_c a^l
 Adhuc rogare, tempus aerumnae addidit.	a&dhu&c ro^ga_re& te_mpu^s [ae]ru&mn[ae] a_ddi^di&t 	X_^_X_^_X_^X	1.0
 Hic mihi malorum maximum fructum abstulit,	hi&c mi^hi^ ma^lo_ru&m ma_xi^mu&m fru&ctu&m a_bstu^li&t 	X^^^_X_^_X_^X	0.81
 Nihil timere: prosperis rebus locus	ni&hi&l ti^me_re& pro_spe^ri_s re&bu&s lo^cu&s 	X_^_X_^_X_^X	1.0
-Ereptus omnis, dura qua ueniant habent.	e&re_ptu^s o_mni&s du_ra^ qva^ ve^ni&a&nt ha^be&nt	X_^_X_^^^X_^X	m
+Ereptus omnis, dura qua ueniant habent.	e&re_ptu^s o_mni&s du_ra^ qva_ ve^ni^a&nt ha^be&nt 	X_^_X_^_^^_^X	m
 Miserrimum est timere, cum speres nihil.	mi&se_rri^mu&m e&st ti&me_re^ cu&m spe&re&s ni^hi&l 	X_^_X_^_X_^X	1.0
 Quis te repens commouit afflictam metus?	qvi&s te_ re^pe&ns co&mmo_vi^t a_ffli&cta&m me^tu&s 	X_^_X_^_X_^X	1.0
 Exoritur aliquod maius ex magno malum.	e&xo^ri^tu^r a^li^qvo&d ma_ju^s e&x ma&gno_ ma^lu&m 	X^^^^^X_^_X_^X	0.72
@@ -698,7 +698,7 @@ Suam uocabunt, te datam Pyrrho socer	su&a&m vo^ca_bu&nt te_ da^ta&m py&rrho_ so^
 Peleus nurum uocabit et Nereus nurum.	pe&l[eu]s nu^ru&m vo&ca_bi^t e&t ne&r[eu]s nu^ru&m 	X_^_X_^_X_^X	1.0
 Depone cultus squalidos, festos cape,	de&po_ne^ cu_ltu&s sqva_li^do&s fe&sto&s ca^pe& 	X_^_X_^_X_^X	1.0
 Dedisce captam; deprime horrentis comas	de&di_sce^ ca_pta&m de_pri^me& ho_rre&nti&s co^ma&s 	X_^_X_^_X_^X	1.0
-Crinemque docta patere distingui manu.	cri&ne_mqve^ do_cta& pa^te^re^ di_sti&ngvi_ ma^nu&	X_^_X^^^_X_^X	m
+Crinemque docta patere distingui manu.	cri&ne_mqve^ do_cta& pa^te^re^ di_sti&ng[ui] ma^nu&	X_^_X^^^_X_^X	m
 Hic forsitan te casus excelso magis	hi&c fo_rsi^ta&n te& ca_su^s e_xce&lso_ ma^gi&s 	X_^_X_^_X_^X	0.39
 Solio reponet. profuit multis capi.	so^li^o_ re^po_ne&t pro_fu^i&t mu&lti&s ca^pi& 	^^_^_X_^_X_^X	1.0
 Hoc derat unum Phrygibus euersis malum,	ho&c de_ra^t u_nu&m phry^gi^bu^s [eu]e&rsi&s ma^lu&m 	X_^_X^^^_X_^X	0.72
@@ -715,7 +715,7 @@ Incerta uoti - perge, thalamos appara.	i&nce_rta^ vo_ti& pe_rge^ tha^la^mo&s a_p
 Taedis quid opus est quidue sollemni face?	t[ae]di&s qvi^d o^pu^s e&st qvi_dve^ so_lle&mni_ fa^ce& 	X_^^^X_^_X_^X	1.0
 Quid igne? thalamis Troia praelucet nouis.	qvi&d i_gne^ tha^la^mi&s tro_ja^ pr[ae]lu&ce_t no^vi&s 	X_^^^X_^_X_^X	0.68
 Celebrate Pyrrhi, Troades, conubia,	ce^le^bra_te^ py_rrhi& tro_a^de&s co&nu_bi^a& 	^^_^_X_^_X_^X	0.85
-Celebrate digne: planctus et gemitus sonet.	ce^le^bra_te^ di_gne& pla_nctu^s e&t ge^mi^tu^s so^ne&t. 	^^_^_X_^_X^^^X	m
+Celebrate digne: planctus et gemitus sonet.	ce^le^bra_te^ di_gne& pla_nctu^s e&t ge^mi^tu&s so^ne&t.	^^_^_X_^_^^_^X	m
 Ratione quamuis careat et flecti neget	ra^ti^o_ne^ qva_mvi&s ca^re^a^t e&t fle&cti_ ne^ge&t 	^^_^_X^^^_X_^X	1.0
 Magnus dolor sociosque nonnumquam sui	ma&gnu&s do^lo&r so^ci^o_sqve^ no_nnu&mqva_m su^i& 	X_^_^^_^_X_^X	1.0
 Maeroris ipsos oderit, causam tamen	m[ae]ro_ri^s i_pso&s o_de^ri&t c[au]sa&m ta^me&n 	X_^_X_^_X_^X	1.0
@@ -788,7 +788,7 @@ Hanc cara tellus sedibus patriis teget.	ha&nc ca_ra^ te_llu&s se_di^bu&s pa^tri^
 Magis inuidebis, si tuam sortem scies.	ma^gi^s i_nui^de_bi&s, si_ tu^a&m so_rte&m sci^e&s. 	^^_^_X_^_X_^X	m
 An aliqua poenae pars meae ignota est mihi?	a&n a^li^qva^ p[oe]n[ae] pa&rs me^[ae] i_gno&ta& e&st mi^hi& 	X^^^_X_^_X_^X	1.0
 Versata dominos urna captiuis dedit.	ve&rsa_ta^ do^mi^no&s u_rna^ ca_pti&vi&s de^di&t 	X_^^^X_^_X_^X	1.0
-Cui famula trador? ede: quem dominum uoco?	cu&j fa^mu^la^ tra_do&r e_de^ qve&m do^mi^nu&m vo^co& 	X^^^_X_^_^^_^X	1.0
+Cui famula trador? ede: quem dominum uoco?	c[ui] fa^mu^la^ tra_do&r e_de^ qve&m do^mi^nu&m vo^co&	X^^^_X_^_^^_^X	v
 Te sorte prima Scyrius iuuenis tulit.	te& so_rte^ pri_ma& scy_ri^u_s ju^ve^ni&s tu^li&t 	X_^_X_^_^^_^X	1.0
 Cassandra felix, quam furor sorti eximit	ca&ssa_ndra^ fe_li&x qva&m fu^ro&r so&rti& e_xi^mi&t 	X_^_X_^_X_^X	1.0
 Phoebusque. Regum hanc maximus rector tenet.	ph[oe]bu_sqve^ re_gu&m ha&nc ma_xi^mu&s re&cto&r te^ne&t 	X_^_X_^_X_^X	1.0

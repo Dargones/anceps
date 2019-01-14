@@ -335,7 +335,7 @@ Nocentior me. Nata, quid genibus meis	no&ce_nti^o&r me& na_ta^ qvi&d ge^ni^bu&s 
 Fles aduoluta? quid prece indomitum domas?	fle&s a_dvo^lu_ta& qvi&d pre^ce& i_ndo^mi^tu&m do^ma&s 	X_^_X_^_^^_^X	1.0
 Vnum hoc habet fortuna quo possim capi,	u&nu&m ho_c ha^be&t fo&rtu_na^ qvo_ po&ssi&m ca^pi& 	X_^_X_^_X_^X	1.0
 Inuictus aliis: sola tu affectus potes	i&nvi_ctu^s a^li^i&s so_la^ tu& a_ffe&ctu&s po^te&s 	X_^^^X_^_X_^X	0.97
-Mollire duros, sola pietatem in domo	mo&lli_re^ du_ro&s so_la^ pi^e^ta&te&m i&n do^mo& 	X_^_X_^^^X_^X	0.97
+Mollire duros, sola pietatem in domo	mo_lli_re^ du_ro&s so_la^ pi^e^ta_te&m i&n do^mo&	X_^_X_^^^X_^X	v
 Docere nostra. nil graue aut miserum est mihi	do&ce_re^ no_stra& ni&l gra^ve& [au]t mi^se^ru&m e&st mi^hi& 	X_^_X_^_^^_^X	1.0
 Quod te sciam uoluisse; tu tantum impera:	qvo&d te& sci^a&m vo^lu^i_sse^ tu_ ta_ntu&m i_mpe^ra&	X_^_^^_^_X_^X	v
 Hic Oedipus Aegaea transnabit freta	hi&c [oe]di^pu_s [ae]g[ae]a^ tra_nsna&bi_t fre^ta& 	X_^_X_^_X_^X	0.94
@@ -395,7 +395,7 @@ Sceleri occucurrit. hoc leue est quod sum nocens:	sce^le^ri& o_ccu^cu_rri&t ho&c
 Feci nocentes. hoc quoque etiamnunc leue est:	fe&ci_ no^ce_nte&s ho&c qvo^qve& e^ti^a&mnu&nc le^ve& e&st 	X_^_X_^^^X_^X	0.85
 Peperi nocentes. derat aerumnis meis,	pe^pe^ri_ no^ce_nte&s de_ra^t [ae]ru&mni_s me^i&s 	^^_^_X_^_X_^X	1.0
 Vt et hostem amarem. bruma ter posuit niues	u^t e^t ho_ste&m a^ma_re&m bru_ma^ te&r po^su^i&t ni^ve&s 	^^_^_X_^_^^_^X	1.0
-Et tertia iam falce decubuit Ceres,	e&t te_rti^a_ ja&m fa_lce^ de_cu&b[ui]t ce^re&s 	X_^_X_^_X_^X	1.0
+Et tertia iam falce decubuit Ceres,	e&t te_rti^a_ ja&m fa_lce^ de_cu^bu^i&t ce^re&s	X_^_X_^_^^_^X	c
 Vt exul errat natus et patria caret	u&t e_xu^l e_rra&t na_tu^s e&t pa^tri^a_ ca^re&t	X_^_X_^_^^_^X	m
 Profugusque regum auxilia Graiorum rogat.	pro^fu^gu_sqve^ re_gu&m [au]xi^li^a^ gra_jo&ru&m ro^ga&t 	^^_^_X^^^_X_^X	1.0
 Gener est Adrasti, cuius imperio mare	ge^ne^r e&st a^dra_sti& cu_ju^s i_mpe^ri^o_ ma^re& 	^^_^_X_^_^^_^X	0.78
@@ -633,7 +633,7 @@ Maeandros aruis flectit errantes aquas	m[ae]a_ndro^s a_rvi&s fle_cti^t e_rra&nte
 Rapidusque campos fertiles Hermus secat;	ra^pi^du_sqve^ ca_mpo&s fe_rti^le_s he&rmu&s se^ca&t 	^^_^_X_^_X_^X	1.0
 Hinc grata Cereri Gargara et diues solum	hi&nc gra_ta^ ce^re^ri& ga_rga^ra& e&t di&ve&s so^lu&m 	X_^^^X_^_X_^X	0.37
 Quod Xanthus ambit niuibus Idaeis tumens;	qvo&d xa_nthu^s a_mbi&t ni^vi^bu^s i_d[ae]i&s tu^me&ns 	X_^_X^^^_X_^X	1.0
-Hinc qua relinquit nomen Ionii mare	hi&nc qva_ re^li_nqvi&t no_me^n i_o^ni^i_ ma^re& 	X_^_X_^_^^_^X	1.0
+Hinc qua relinquit nomen Ionii mare	hi&nc qva_ re^li_nqvi&t no_me^n i_o&nji_ ma^re&	X_^_X_^_X_^X	c
 Faucesque Abydo Sestos opposita premit,	f[au]ce_sqve& a^by_do& se_sto^s o_ppo&si^ta^ pre^mi&t	X_^_X_^_X^^^X	m
 Aut qua latus iam propius orienti dedit	[au]t qva_ la^tu&s ja&m pro^pi^u^s o^ri^e&nti_ de^di&t 	X_^_X^^^^^X_^X	0.98
 Tutamque crebris portibus Lyciam uidet,	tu&ta_mqve^ cre_bri&s po_rti^bu&s ly^ci^a&m vi^de&t 	X_^_X_^_^^_^X	1.0

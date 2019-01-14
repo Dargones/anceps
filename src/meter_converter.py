@@ -163,7 +163,7 @@ def winge_converter(source):
 
 
 if __name__ == "__main__":
-    name = "Hercules_Oetaeus.txt"
+    name = "Troades.txt"
     merge_data("/Users/alexanderfedchin/PycharmProjects/Scansion_project/output/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/manualAndTesting/" + name,
                "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/trimeters/" + name,
@@ -172,4 +172,4 @@ if __name__ == "__main__":
                TRIMETER)
     """
     winge_converter(
-        "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/Thyestes.txt")"""
+        "/Users/alexanderfedchin/PycharmProjects/Scansion_project/data/winge/" + name)"""

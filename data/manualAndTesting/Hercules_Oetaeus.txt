@@ -96,7 +96,7 @@ o& na_te^ po^pu^lu&s o_mne^ jam i_ngra&tum e_st ge^nu&s
 qvo&t i_lle^ po^te^ra&t ma_tri^bu_s mi^se^ri_s a^dhu&c
 pe^ni^tu_s re^co_nda&s e_t fi^de_ ta^ci^ta_ pre^ma&s
 re^pe^ri_ qvi^d h[ae]re&s i_psa^ ja_m ce&sse_s li^ce&t
-a&dmi_tte^re i_psa& fo_rsi^ta_n tre^pi^da_ co^lu&s
+a&dmi_tte^re i_psa& fo_rsi^ta_n tre^pi^da_ co^lu&s | Abl Abs?
 po^su^i_tqve^ cl[au][ae] po_ndu^s e_t pha^re^tra_ gra^vi&s
 ti&ta_na^ fu^gi^e&s i_pse^ me_ ti&ta_n fu^gi&t
 si& te i_psa^ da_mna&s sce^le^re^ te_ mi^se^ra a_rgu^i&s
@@ -106,6 +106,12 @@ pa^te^r e_ru^be_sco& nu_be^ di_scu&ssa_ di^e&m
 ja^cu^le_tu^r o_rbi&s nu_lla^ nu_nc ce&sse_t ma^nu&s
 ja^cu^la_re^ pa_lla&s su_ppli^ce_s te&ndo_ ma^nu&s
 i&nge^mu^i^t o_mni&s tu_rba^ ne_c la^cri^ma_s do^lo&r
-Vo&lue_re^ fa_ta& pe_rque^ ta_m tu&rpe_s co^lu&s
 Se_pte_mque^ cu_rsu&s uo_lui^t e_t to^ti^de_m re^fe&rt,
 Di&ci e_sse^ uo^lu^i&t. Pe^ra^ge^ nu_nc, Ti&ta_n, ui^ce&s
+
+Corrected\verified:
+u&tqve e_vo^lu_to_s fra_ngi^t i_o&njo_ sa^lo& | See Ionia in README.md
+ce&ssa_nte^ ve_nto& tu_rbi^dum e_xpli&cu^i_ ma^re&
+qva_m lu_ce^ tri^bu^i_ si_ ti^bi i_gno&tum e_st ne^fa&s
+Vo^lu^e_re^ fa_ta& pe_rque^ ta_m tu&rpe_s co^lu&s
+i&mmo_tu^s i_nco_ncu_ssu^s i_n n[eu]tru_m la^tu&s

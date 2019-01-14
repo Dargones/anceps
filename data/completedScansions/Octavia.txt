@@ -198,7 +198,7 @@ Heu, nostra ferro meque perpetuo obruit	h[eu] no_stra^ fe_rro& me_qve^ pe_rpe^tu
 Extincta luctu; coniugem traxit suum	e&xti_ncta^ lu_ctu& co_nju^ge&m tra&xi&t su^u&m 	X_^_X_^_X_^X	1.0
 Natumque ad umbras, prodidit lapsam domum.	na&tu_mqve& a^d u_mbra&s pro_di^di&t la&psa&m do^mu&m 	X_^_X_^_X_^X	1.0
 Renouare luctus parce cum fletu pios,	re^no^va_re^ lu_ctu&s pa_rce^ cu&m fle&tu_ pi^o&s 	^^_^_X_^_X_^X	0.97
-Manes parentis neue sollicita tuae,	ma&ne&s pa^re_nti&s ne_ve^ so_lli^ci^ta_ tu^[ae]	X_^_X_^_^^_^X	m
+Manes parentis neue sollicita tuae,	ma&ne&s pa^re_nti&s ne_ve^ so_lli^ci^ta_ tu^[ae] 	X_^_X_^_^^_^X	m
 Graues furoris quae sui poenas dedit.	gra&ve&s fu^ro_ri&s qv[ae] su^i_ p[oe]na&s de^di&t 	X_^_X_^_X_^X	1.0
 Quid, impotens Fortuna, fallaci mihi	qvi&d i_mpo^te_ns fo&rtu_na^ fa_lla&ci_ mi^hi& 	X_^_X_^_X_^X	1.0
 Blandita uultu, sorte contentum mea	bla&ndi_ta^ vu_ltu& so_rte^ co_nte&ntu&m me^a& 	X_^_X_^_X_^X	1.0
@@ -235,7 +235,7 @@ Mox inquietum quod sequi cursu feras	mo&x i_nqvi^e_tu&m qvo&d se^qvi_ cu&rsu_ fe
 Auderet acres, fluctibus tectos graui	[au]de_re^t a_cre&s flu_cti^bu&s te&cto&s gra^vi& 	X_^_X_^_X_^X	1.0
 Extrahere pisces rete uel calamo leui,	e&xtra^he^re^ pi_sce&s re_te^ ve&l ca^la^mo_ le^vi& 	X^^^_X_^_^^_^X	0.96
 Tenere laqueo, premere subiectos iugo	te&ne_re^ la^qve^o& pre^me^re^ su_bje&cto&s ju^go& 	X_^^^X^^^_X_^X	1.0
-Tauros feroces, uomere immunem prius	t[au]ro&s fe^ro_ce&s vo_me^re& i_mmu&ne&m pri^u&s 	X_^_X_^_X_^X	1.0
+Tauros feroces, uomere immunem prius	t[au]ro&s fe^ro_ce&s vo_me^re& i_mmu&ne&m pri^u&s 	X_^_X_^_X_^X	v
 Sulcare terram, laesa quae fruges suas	su&lca_re^ te_rra&m l[ae]sa^ qv[ae] fru&ge&s su^a&s 	X_^_X_^_X_^X	1.0
 Interior, alte condidit sacro sinu.	i&nte^ri^o^r a_lte& co_ndi^di&t sa&cro_ si^nu& 	X^^^_X_^_X_^X	1.0
 Sed in parentis uiscera intrauit suae	se&d i&n pa^re_nti&s vi_sce^ra& i_ntr[au]i&t su^[ae] 	X_^_X_^_X_^X	1.0
@@ -373,7 +373,7 @@ Placeant marito: sola perpetuo manent	pla^ce^a&nt ma^ri_to& so_la^ pe_rpe^tu^o_ 
 Subiecta nulli mentis atque animi bona;	su&bje_cta^ nu_lli& me_nti^s a_tqve& a^ni^mi_ bo^na& 	X_^_X_^_^^_^X	1.0
 Florem decoris singuli carpunt dies.	flo&re&m de^co_ri&s si_ngu^li_ ca&rpu&nt di^e&s 	X_^_X_^_X_^X	0.22
 Omnes in unam contulit laudes deus	o&mne_s i^n u_na&m co_ntu^li&t l[au]de&s de^u&s 	X_^_X_^_X_^X	1.0
-Talemque nasci fata uoluerunt mihi.	ta&le_mqve^ na_sci& fa_ta^ vo^lu^e&ru&nt mi^hi& 	X_^_X_^^^X_^X	1.0
+Talemque nasci fata uoluerunt mihi.	ta&le_mque^ na_sci_ fa_ta^ uo^lu^e_ru&nt mi^hi&.	X_^_X_^^^X_^X	v
 Recedat a te (temere ne credas) amor.	re&ce_da^t a_ te& te^me^re^ ne& cre&da_s a^mo&r 	X_^_X^^^_X_^X	1.0
 Quem summouere fulminis dominus nequit,	qve&m su_mmo^ve_re& fu_lmi^ni&s do^mi^nu&s ne^qvi&t 	X_^_X_^_^^_^X	1.0
 Caeli tyrannum, saeua qui penetrat freta	c[ae]li_ ty^ra_nnu&m s[ae]va^ qvi_ pe^ne^tra&t fre^ta& 	X_^_X_^_^^_^X	0.94
@@ -443,7 +443,7 @@ Iam parce: dabitur, tempus haud longum peto.	ja&m pa_rce^ da^bi^tu&r te_mpu^s h[
 Vltrix Erinys impio dignum parat	u&ltri&x e^ri_ny&s i_mpi^o_ di&gnu&m pa^ra&t 	X_^_X_^_X_^X	1.0
 Letum tyranno, uerbera et turpem fugam	le&tu&m ty^ra_nno& ve_rbe^ra& e&t tu&rpe&m fu^ga&m 	X_^_X_^_X_^X	1.0
 Poenasque quis et Tantali uincat sitim,	p[oe]na_sqve^ qvi_s e&t ta_nta^li_ vi&nca&t si^ti&m 	X_^_X_^_X_^X	0.24
-Dirum laborem Sisyphi, Tityi alitem	di&ru&m la^bo_re&m si_sy^phi_ ti&ty^i& a^li^te&m 	X_^_X_^_X^^^X	1.0
+Dirum laborem Sisyphi, Tityi alitem	di&ru&m la^bo_re&m si_sy^phi_ ti^ty^i& a_li^te&m 	X_^_X_^_^^_^X	c
 Ixionisque membra rapientem rotam.	i&xi_o^ni_sqve& me_mbra^ ra^pi^e&nte&m ro^ta&m 	X_^_X_^^^X_^X	1.0
 Licet extruat marmoribus atque auro tegat	li^ce^t e_xtru^a&t ma&rmo^ri^bu^s a_tqve& [au]ro_ te^ga&t 	^^_^_X^^^_X_^X	0.99
 Superbus aulam, limen armatae ducis	su&pe_rbu^s [au]la&m li_me^n a_rma&t[ae] du^ci&s 	X_^_X_^_X_^X	0.95
