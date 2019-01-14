@@ -34,7 +34,7 @@ higher accuracy (close or equal to 100%).
 
 # Choices made when creating the scansions
 
- The ancipites are marked with a special sign (*&*), unless resolution takes 
+ The ancipites are marked with a special sign (*X*), unless resolution takes 
  place. This is done so because the quantity of ancipites cannot be identified
  automatically with high accuracy (this would require the program to 
  successfully parse Latin syntax).
@@ -73,7 +73,7 @@ two syllables (cf. *Ag.* 146)
  
 I keep the lines that Zwierlein marks as possibly not genuine, but there is
 sometimes a problem in scanning them (e.g. a syllable that is closed must
- scane short like in *Ag.* 934). For these lines I choose the closest 
+ scan short like in *Ag.* 934). For these lines I choose the closest 
  appropriate Senecan meter pattern, but in two\three cases this means marking
  a long syllable short. I also remove the square brackets from the text, since
 I use them to enclose diphthongs (i.e. the only way to tell that the line is
