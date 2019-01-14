@@ -54,4 +54,4 @@ It also evaluates algorithm's performance,
   ```
   python3 scansion.py file-1 file-2 ... file-n
   ```
-- *analyze* - some tools for conducting analysis (thes might not work at the moment)
+- *analyze* - some tools for conducting analysis (this might not work at the moment)
