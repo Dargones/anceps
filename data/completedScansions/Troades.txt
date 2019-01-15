@@ -2,7 +2,7 @@
 Created by Aleksandr Fedchin on 9/1/2019.
 This is the complete scansion of trimeter sections of Seneca's Troades
 The edition used is that of O. Zwierlein, 1986, source:mqdq.it
-MqDq version was modified whenever there were typos (lines 792, 991).
+MqDq version was modified whenever there were typos (lines 197, 792, 991).
 Estimated accuracy: 98%
 
 Each line contains a verse from the original text, a list of words from that

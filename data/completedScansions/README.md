@@ -8,8 +8,8 @@ digitized versions of these editions are avaliable on
 (as on January 2019), but discovered a few typos which I corrected using the 
 hard copy as a reference.
 These corrections concern the following lines: *Thy.* 91, 272, 421, 711, 736, 
-1044, 1074, *Her. O.* 1171, 1784, *Oed.* 840, 868, *Tro.* 792, 991, *Phoen.* 
-632, *Phaed.* 378, 398, *Ag.* 545.
+1044, 1074, *Her. O.* 1171, 1784, *Oed.* 840, 868, *Tro.* 197, 792, 991, 
+*Phoen.* 632, *Phaed.* 378, 398, *Ag.* 545.
 
 Only trimeter sections of the tragedies are considered. Lines written in 
 other meters or incomplete lines are removed (this mostly concerns choral odes)
