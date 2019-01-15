@@ -126,7 +126,7 @@ Per nostra ituri maria. non paruo luit	pe&r no_stra& i^tu_ri& ma^ri^a^ no&n pa&r
 Iras Achillis Graecia et magno luet:	i&ra_s a^chi_lli&s gr[ae]ci^a& e&t ma&gno_ lu^e&t 	X_^_X_^_X_^X	1.0
 Desponsa nostris cineribus Polyxene	de&spo_nsa^ no_stri&s ci^ne^ri^bu_s po&ly_xe^ne& 	X_^_X^^^_X_^X	1.0
 Pyrrhi manu mactetur et tumulum riget.'	py&rrhi_ ma^nu_ ma&cte_tu^r e&t tu^mu^lu&m ri^ge&t 	X_^_X_^_^^_^X	1.0
-Haec fatus † alta nocte diuisit † diem	h[ae]c fa_tu^s a_lta& no_cte^ di_vi&si&t di^e&m 	X_^_X_^_X_^X	1.0
+Haec fatus † alta nocte dimisit † diem	h[ae]c fa_tu^s a_lta& no_cte^ di_mi&si&t di^e&m 	X_^_X_^_X_^X	1.0
 Repetensque Ditem mersus ingentem specum	re^pe^te_nsqve^ di_te&m me_rsu^s i_nge&nte&m spe^cu&m 	^^_^_X_^_X_^X	1.0
 Coeunte terra iunxit. immoti iacent	co^e^u_nte^ te_rra& ju_nxi^t i_mmo&ti_ ja^ce&nt 	^^_^_X_^_X_^X	1.0
 Tranquilla pelagi, uentus abiecit minas	tra&nqvi_lla^ pe^la^gi& ve_ntu^s a_bje&ci&t mi^na&s 	X_^^^X_^_X_^X	1.0

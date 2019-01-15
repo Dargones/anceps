@@ -2,6 +2,7 @@
 Created by Aleksandr Fedchin on 21/11/2018.
 This is the complete scansion of trimeter sections of Seneca's Agamemnon
 The edition used is that of O. Zwierlein, 1986, source:mqdq.it
+MqDq version was modified whenever there were typos (line 545).
 Estimated accuracy: 98%
 
 Each line contains a verse from the original text, a list of words from that
@@ -20,8 +21,8 @@ _ - long syllable
 ^ - short syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
-Resolution rate: 0.853
-Resolution rate in lines in which speakers remain the same: 0.846
+Resolution rate: 0.855
+Resolution rate in lines in which speakers remain the same: 0.848
 Resolution rate in lines in which speakers change: 1.105
 */
 
@@ -440,7 +441,7 @@ Fluctusque rumpit pectore et nauem manu	flu&ctu_sqve^ ru_mpi&t pe_cto^re& e&t n[
 Complexus ignes traxit et caeco mari	co&mple_xu^s i_gne&s tra_xi^t e&t c[ae]co_ ma^ri& 	X_^_X_^_X_^X	0.86
 Conlucet Aiax; omne resplendet fretum.	co&nlu_ce^t a_ja&x o_mne^ re_sple&nde&t fre^tu&m 	X_^_X_^_X_^X	0.96
 Tandem occupata rupe furibundum intonat:	ta&nde&m o_ccu^pa_ta& ru_pe^ fu^ri^bu&ndu&m i_nto^na&t 	X_^_X_^^^X_^X	1.0
-'Superasse † nunc pelagus atque ignes iuuat,	'su^pe^ra_sse^ † nu&nc pe^la_gu^s a_tque& i_gne_s iu^ua&t, 	^^_^_X_^_X_^X	m
+'Superasse saeuum pelagus atque ignes iuuat,	su^pe^ra_sse^ s[ae]vu&m pe^la^gu^s a_tqve& i&gne&s ju^va&t 	^^_^_X^^^_X_^X	1.0
 Vicisse caelum Palladem fulmen mare.	vi&ci_sse^ c[ae]lu&m pa_lla^de_m fu&lme&n ma^re& 	X_^_X_^_X_^X	1.0
 Non me fugauit bellici terror dei,	no&n me_ fu^g[au]i&t be_lli^ci_ te&rro&r de^i& 	X_^_X_^_X_^X	1.0
 Et Hectorem una solus et Martem tuli	e&t he_cto^re&m u_na& so_lu^s e&t ma&rte&m tu^li& 	X_^_X_^_X_^X	1.0
