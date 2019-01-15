@@ -22,8 +22,8 @@ _ - long syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
 Resolution rate: 0.782
-Resolution rate in lines in which speakers remain the same: 0.785
-Resolution rate in lines in which speakers change: 0.571
+Resolution rate in lines in which speakers remain the same: 0.782
+Resolution rate in lines in which speakers change: 0.833
 */
 
 Caeci parentis regimen et fessi unicum	c[ae]ci_ pa^re_nti&s re^gi^me^n e&t fe&ssi& u_ni^cu&m 	X_^_X^^^_X_^X	1.0

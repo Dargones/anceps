@@ -23,8 +23,8 @@ _ - long syllable
 & - the quantity is unknown (for elided syllables, anceps syllables,
 	or syllables long by position)
 Resolution rate: 0.791
-Resolution rate in lines in which speakers remain the same: 0.785
-Resolution rate in lines in which speakers change: 0.875
+Resolution rate in lines in which speakers remain the same: 0.787
+Resolution rate in lines in which speakers change: 0.851
 */
 
 Quis inferorum sede ab infausta extrahit	qvi&s i_nfe^ro_ru&m se_de& a^b i_nf[au]sta& e_xtra^hi&t 	X_^_X_^_X_^X	0.98

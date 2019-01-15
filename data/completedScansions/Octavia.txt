@@ -22,7 +22,7 @@ _ - long syllable
 	or syllables long by position)
 Resolution rate: 0.819
 Resolution rate in lines in which speakers remain the same: 0.819
-Resolution rate in lines in which speakers change: 0.818
+Resolution rate in lines in which speakers change: 0.826
 */
 
 Fulgore primo captus et fragili bono	fu&lgo_re^ pri_mo& ca_ptu^s e&t fra^gi^li_ bo^no& 	X_^_X_^_^^_^X	1.0
