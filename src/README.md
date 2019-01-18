@@ -1,4 +1,4 @@
-### The code
+### The code is currently under refactoring and is removed from github
 
 This directory contains all the code that it takes to scan a Latin text. Please,
 note that the code should be executed from the parent folder (the repository's 
