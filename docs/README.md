@@ -1,6 +1,7 @@
-## This file describes how the scansions of the (pseudo-)Senecan plays were obtained.
+# This file describes how the scansions of the (pseudo-)Senecan plays were obtained.
+# The data itself can be downloaded [here](https://github.com/Dargones/Scansion-project/blob/master/archives/SenecanCorpus.zip)
 
-# Digitized versions of the tragedies
+## Digitized versions of the tragedies
 
 The editions used for all ten plays are those by O. Zwierlein, 1986. The 
 digitized versions of these editions are avaliable on
@@ -14,7 +15,7 @@ These corrections concern the following lines: *Thy.* 91, 272, 421, 711, 736,
 Only trimeter sections of the tragedies are considered. Lines written in 
 other meters or incomplete lines are removed (this mostly concerns choral odes)
 
-# The process of scansion
+## The process of scansion
 
 About 91% of the lines were scanned automatically by the program. In 5.5% of the
 cases, the program proposed multiple possible scansions of which I had to
@@ -32,7 +33,7 @@ It should be safe to assume that the scansions are correct for at least 98% of
 the lines. The number of syllables should be identified correctly with a much
 higher accuracy (close or equal to 100%).
 
-# Choices made when creating the scansions
+## Choices made when creating the scansions
 
  The ancipites are marked with a special sign (*X*), unless resolution takes 
  place. This is done so because the quantity of ancipites cannot be identified
