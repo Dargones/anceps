@@ -1,4 +1,6 @@
-/archives/*
+/archives/l*
+/archives/v*
+/archives/M*
 /output/
 /.idea/
 /data/diogenes/latin*
