@@ -15,7 +15,7 @@ These corrections concern the following lines: *Thy.* 91, 272, 421, 711, 736,
 Only trimeter sections of the tragedies are considered. Lines written in 
 other meters or incomplete lines are removed (this mostly concerns choral odes)
 
-The four Neo-Latin plays analyzed are Albertino Mussato's *Ecerinis*, Antonio Loschi's *Achilles*, Gregorio Correr's *Procne*, and Leonardo Dati's *Hiemsal*. The digitized versions of the plays were kindly made avaliable to me by the Quantitive Criticism Lab.
+The four Neo-Latin plays analyzed are Albertino Mussato's *Ecerinis*, Antonio Loschi's *Achilles*, Gregorio Correr's *Procne*, and Leonardo Dati's *Hiemsal*. The digitized versions of the plays were kindly made avaliable to me by the [Quantitive Criticism Lab](https://www.qcrit.org/) of which I am a student.
 
 ## The process of scansion
 
