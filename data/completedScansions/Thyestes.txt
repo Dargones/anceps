@@ -202,7 +202,7 @@ Cuius per omne corpus effuso coma	cu&ju&s pe^r o_mne& co_rpu^s e_ffu&so_ co^ma& 
 Dependet auro, cuius e tergo noui	de&pe_nde^t [au]ro& cu_ju^s e_ te&rgo_ no^vi& 	X_^_X_^_X_^X	0.64
 Aurata reges sceptra Tantalici gerunt;	[au]ra_ta^ re_ge&s sce_ptra^ ta_nta^li^ci_ ge^ru&nt	X_^_X_^_^^_^X	m
 Possessor huius regnat, hunc tantae domus	po&sse_sso^r hu_ju&s re_gna^t hu&nc ta&nt[ae] do^mu&s 	X_^_X_^_X_^X	1.0
-Fortuna sequitur. tuta seposita sacer	fo&rtu_na^ se^qvi^tu&r tu_ta^ se_po&si^ta^ sa^ce&r	X_^^^X_^_X^^^X	m
+Fortuna sequitur. tuta seposita sacer	fo&rtu_na^ se^qvi^tu&r tu_ta^ se_po^si^ta_ sa^ce&r	X_^^^X_^_^^_^X	m
 In parte carpit prata, quae cludit lapis	i&n pa_rte^ ca_rpi&t pra_ta^ qv[ae] clu&di_t la^pi&s 	X_^_X_^_X_^X	1.0
 Fatale saxeo pascuum muro tegens.	fa&ta_le^ sa_xe^o^ pa_scu^u&m mu&ro_ te^ge&ns 	X_^_^^_^_X_^X	1.0
 Hunc facinus ingens ausus assumpta in scelus	hu&nc fa^ci^nu^s i_nge&ns [au]su^s a_ssu&mpta& i&n sce^lu&s 	X^^^_X_^_X_^X	1.0
@@ -598,7 +598,7 @@ Bis ter regestus et pati iussus moram	bi&s te&r re^ge_stu&s e&t pa^ti_ ju&ssu&s 
 Inuitus ardet. stridet in ueribus iecur;	i&nvi_tu^s a_rde&t stri_de^t i&n ve^ri^bu&s je^cu&r 	X_^_X_^_^^_^X	1.0
 Nec facile dicas corpora an flammae gemant:	ne&c fa^ci^le^ di_ca&s co_rpo^ra& a&n fla&mm[ae] ge^ma&nt 	X^^^_X_^_X_^X	1.0
 Gemuere. piceos ignis in fumos abit;	ge^mu^e_re^ pi^ce^o&s i_gni^s i&n fu&mo_s a^bi&t 	^^_^^^X_^_X_^X	0.91
-Et ipse fumus, tristis ac nebula grauis,	e&t i_pse^ fu_mu&s tri_sti^s a&c ne&bu^la^ gra^vi&s	X_^_X_^_X^^^X	m
+Et ipse fumus, tristis ac nebula grauis,	e&t i_pse^ fu_mu&s tri_sti^s a&c ne^bu^la_ gra^vi&s	X_^_X_^_^^_^X	m
 Non rectus exit, seque in excelsum leuat:	no&n re_ctu^s e_xi&t se_qve& i^n e_xce&lsu&m le^va&t 	X_^_X_^_X_^X	1.0
 Ipsos penates nube deformi obsidet.	i&pso&s pe^na_te&s nu_be^ de_fo&rmi& o_bsi^de&t 	X_^_X_^_X_^X	1.0
 O Phoebe patiens, fugeris retro licet	o& ph[oe]be^ pa^ti^e&ns fu_ge^ri&s re&tro_ li^ce&t 	X_^^^X_^_X_^X	0.21
@@ -750,7 +750,7 @@ Scidit ore natos impio, sed nesciens,	sci^di^t o_re^ na_to&s i_mpi^o_ se&d ne_sc
 Sed nescientes. Clausa litoribus uagis	se&d ne_sci^e_nte&s cl[au]sa^ li_to^ri^bu&s va^gi&s	X_^_X_^_^^_^X	m
 Audite maria, uos quoque audite hoc scelus,	[au]di_te^ ma^ri^a& vo&s qvo^qve& [au]di&te& ho&c sce^lu&s 	X_^^^X_^_X_^X	0.93
 Quocumque, di, fugistis. audite inferi,	qvo&cu_mqve^ di_ fu&gi_sti^s [au]di&te& i_nfe^ri& 	X_^_X_^_X_^X	1.0
-Audite terrae, Noxque Tartarea grauis	[au]di_te^ te_rr[ae] no_xqve^ ta_rta&re^a^ gra^vi&s	X_^_X_^_X^^^X	m
+Audite terrae, Noxque Tartarea grauis	[au]di_te^ te_rr[ae] no_xqve^ ta_rta^re^a& gra^vi&s	X_^_X_^_^^_^X	m
 Et atra nube, uocibus nostris uaca	e&t a_tra^ nu_be& vo_ci^bu&s no&stri&s va^ca& 	X_^_X_^_X_^X	1.0
 (Tibi sum relictus, sola tu miserum uides,	ti^bi^ su&m re^li_ctu&s so_la^ tu_ mi^se^ru&m vi^de&s 	^^_^_X_^_^^_^X	0.82
 Tu quoque sine astris), uota non faciam improba.	tu& qvo^qve^ si^ne& a_stri&s vo_ta^ no&n fa^ci^a&m i_mpro^ba& 	X^^^_X_^_^^_^X	0.93
