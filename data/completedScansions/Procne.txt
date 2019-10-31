@@ -86,7 +86,7 @@ Obsedit animos impius mentis furor,	o&bse_di^t a^ni^mo&s i_mpi^u&s me&nti&s fu^r
 flagrat cupido turpis. Inventa est via:	fla&gra&t cu^pi_do& tu_rpi^s i_nve&nta& e&st vi^a& 	X_^_X_^_X_^X	0.95
 scelus patebit. Carbasa extendat: Zephirus,	sce^lu&s pa^te_bi&t. ca_rba^sa& e_xte_nda&t: ze^phi^ru^s, 	X_^_X_^_X_^^X	v
 Vellis citatis prospero cursu natet.	ve_lli&s ci^ta_ti&s pro_spe^ro_ cu_rsu_ na^te&t. 	X_^_X_^_X_^X	m
-Tandem favebo Thracio regi: redeat.	ta&nde&m fa^ve_bo& thra_ci^o_ re&gi_ re^de^a&t 	X_^_X_^_X_^^X	1.0
+Tandem favebo Thracio regi: redeat.	ta_nde&m fa^ve_bo& thra_ci^o_ re&gi_: re^de^a&t. 	X_^_X_^_X_^^X	v
 Redisse nollet! Ecce solemni prece	re&di_sse^ no_lle&t e_cce^ so_le&mni_ pre^ce& 	X_^_X_^_X_^X	1.0
 Tereus vocatur. Appara festum diem,	te^re^u&s vo^ca_tu&r a_ppa^ra_ fe_stu&m di^e&m 	^^_^_X_^_X_^X	c
 germana Venit. Ora quis quatit mea?	ge&rma_na^ ve_ni&t o_ra^ qvi&s qva&ti&t me^a& 	X_^_X_^_X_^X	0.43
@@ -582,7 +582,7 @@ humana saevus pabulum diris feris	hu&ma_na^ s[ae]vu&s pa_bu^lu&m di&ri&s fe^ri&s
 secabat ipse viscera et capita sanie	se&ca_ba^t i_pse& vi_sce^ra& e&t ca^pi^ta^ sa^ni^e& 	X_^_X_^_^^^^^X	m
 madida superbus alta figebat manu	ma&di^da^ su^pe_rbu&s a_lta^ fi_ge&ba&t ma^nu& 	X^^^_X_^_X_^X	m
 foribus tremendis; semper infaustus cruor	fo^ri^bu&s tre^me_ndi&s se_mpe^r i_nf[au]stu&s cru^o&r 	^^_^_X_^_X_^X	1.0
-undabat, ipse donec armenti dominus	u&nda_ba^t i_pse& do_ne^c a_rme&nti_ do^mi^nu&s 	X_^_X_^_X_^^X	1.0
+undabat, ipse donec armenti dominus	u_nda_ba^t, i_pse& do_ne^c a_rme_nti_ do^mi^nu^s 	X_^_X_^_X_^^X	v
 suo scelere peremptus ac poena nocens.	su&o& sce^le^re^ pe&re_mptu^s a&c p[oe]na_ no^ce&ns 	X_^^^X_^_X_^X	m
 Hic nocte tota voce ferali gemunt	hi&c no_cte^ to_ta& vo_ce^ fe_ra&li_ ge^mu&nt 	X_^_X_^_X_^X	1.0
 umbrae Vagantes, strepitus horrendum intonat	u_mbr[ae] va^ga_nte&s, stre^pi^tu^s ho_rre_ndu&m i_nto^na&t 	X_^_X^^^_X_^X	m
@@ -705,13 +705,13 @@ Busiris unquam, quae barbara ulla immanitas			u
 commisit? In me natus innocens iacet,	co&mmi_si^t i&n me& na_tu^s i_nno&ce_ns ja^ce&t 	X_^_X_^_X_^X	1.0
 destra parentis caesus. Hoc uno pater	de&stra_ pa^re_nti&s c[ae]su^s ho_c u&no_ pa^te&r 	X_^_X_^_X_^X	1.0
 superos timebam. Genitor explevi sitim	su^pe^ro&s ti^me_ba&m. ge^ni^to^r e_xple_vi_ si^ti&m 	^^_^_X^^^_X_^X	v
-gnati cruore. Da, pater nostri nimium	gna&ti_ cru^o_re& da_ pa^te&r no&stri_ ni^mi^u&m 	X_^_X_^_X_^^X	1.0
+gnati cruore. Da, pater nostri nimium	gna&ti& cru^o_re&. da_, pa^te&r no_stri_ ni^mi^u&m 	X_^_X_^_X_^^X	v
 oblite Mavors, tela, vel coniunx dabit:	o&bli_te^ m[au]o&rs te_la^ ve&l co&nju&nx da^bi&t 	X_^_X_^_X_^X	1.0
 eviscerabo corpus, ut gravis redeat	e&vi_sce^ra_bo^ co_rpu^s, u&t gra&vi&s re^de^a&t 	X_^_X_^_X_^^X	m
 cibus. Negatur.’ Hoc negat Progne mihi?	ci&bu&s ne^ga_tu&r ho&c ne^ga&t pro&gne_ mi^hi& 	X_^_X_^_X_^X	1.0
 Philomoena praebe! Si miser non sum, nega.	phi^lo^m[oe]na^ pr[ae]be& si_ mi^se&r no&n su&m ne^ga& 	^^_^_X_^_X_^X	1.0
 Iam summa voti contigi: Tereus dolet.	ja&m su_mma^ vo_ti& co_nti^gi_ te^re^u&s do^le&t 	X_^_X_^_^^_^X	c
-Nunc restitutum credo germanae penitus	nu&nc re_sti^tu_tu&m cre_do^ ge_rma&n[ae] pe^ni^tu&s 	X_^_X_^_X_^^X	0.43
+Nunc restitutum credo germanae penitus	nu&nc re_sti^tu_tu&m cre_do^ ge_rma_n[ae] pe^ni^tu&s 	X_^_X_^_X_^^X	v
 raptum pudorem, nunc meis thalamis fidem.	ra&ptu&m pu^do_re&m nu&nc me^i&s tha^la^mi&s fi^de&m 	X_^_X_^_^^_^X	1.0
 Erepta ferro lingua nil curo, miserum	e&re_pta^ fe_rro& li_ngva^ ni&l cu&ro_ mi^se^ru&m 	X_^_X_^_X_^^X	m
 dum muta videat. Virgines stupro opprime,	du&m mu_ta^ vi^de^a&t vi_rgi^ne&s stu&pro& o_ppri^me& 	X_^^^X_^_X_^X	1.0

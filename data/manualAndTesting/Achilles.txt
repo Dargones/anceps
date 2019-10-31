@@ -14,19 +14,18 @@ He_cto^ra^, ia^ce_ba_s co_niu&gi_s ra&pte_ si^nu&, | e for ae
 Mi^chi^ re_st^itu_ti_ la^te^ra^ pre_ci_ngu_nt me^a& | Not enough data. Also, e for ae
 [au]di_re^ mi^se^ro_s; nu_lla^ ce_le^tu_r lu^e&s. | Not enough data on cele
 So_rs e_qua^ se_d nu_nc, ce_de^ ge^mi^na&ta_, ca^pi&t | e for ae twice
-e_t ca_sta^, do^lce^o_. Sti^mu^la^t hu_nc ma^gi_s do^lo&r | c is not there
 i_nse^re^re a^re_ne_, de_xtra^ si_ d[ee]sse_t, ma^nu&s. | e for ae - thus problem with harenae. Also, synaeresis
 su_pe_rbe^, cu_rru_s po_nde^re He_cto^re^o_ pre^me&. | superbe - short e
 pla&ca_re^ po^tu^i&t ce_de^ vi_rgi^ne^a_ co^ho&rs
 y&li^a^ca^ pu_lsa&t ma^ri^a^ pu_rpu^re^a_s ve^hi&t
-stru&xi_t ca^no_ra& se_vi^t a_rmi&ge^ra^ po^te&ns
+stru&xi_t ca^no_ra& se_vi^t a_rmi^ge^ra_ po^te&ns
 [au]spi^ci^a^ tro_y^lu^s he_cto^ri_s be&llo_ ge^re&ns
 he&cto^re^a^ tra_xi&t me_mbra^ the_sa^li^ci_ du^ci&s
 phe&bi^ge^ra^ vi_rgo& qva_li^s i_npu&lsu_ de^i&
-pe&rcu_ssa^ ba_cho& fro_nde^ pa_mpi&ne^a^ co^ma&s
+pe&rcu_ssa^ ba_cho& fro_nde^ pa_mp^&ne^a_ co^ma&s
 re^me^a_bi^t i_lle& cu_ju^s he_cto^re^o_ gra^ve&s
-po&mi^ge^ra^qve a_rbo&r sy_si^phu_m la&pi_s gra^va&ns
-a&le_sqve^ ti^ci^i& je^co^re^ fe_cu&ndo_ fu^re&ns 	1.0
+po_mi^ge^ra^qve a_rbo&r sy_si^phu_m la&pi_s gra^va&ns | Short syllable before que
+a&le_sqve^ ti^ci^i& je^co^re^ fe_cu&ndo_ fu^re&ns
 fu^ri^bu_nda^ ge_sta&ns a_ngve^ mo_rti^fe^ro_ co^ho&rs
 [au]t le_ta^ ca_mpo&s qve_ri^t e_li^si^o_s sta^ti&m
 qvo&ru_m re^ve_rti& cla_ra^ pro_spe^ri^ta_s ve^ta&t
@@ -51,9 +50,23 @@ su&pple_bi^t he^le^na& sa_ngvi^ne e_ffu&so_ le^ve&s
 i^ta^ci_qve^ fr[au]de&m ca_lli^da_m se&mpe_r ge^me&t
 ja&m ce_de^t he^le^na& vu_lti^bu_s cla&ri_s ni^te&ns
 q[ui]cu_nque a^chi_li&s he_cto^re_m l[au]di_ ca^ni&t | Fixed
-Occurrere erumnis dulce, prescire est grave. | e for ae
-Si tantus dolor pectus inflamat, parens, | anceps instead of a short ?
-se_di^ci^o_ re_ge_m no_n de^ce_t qvi_cqvi_d li^ce&t | anceps instead of a short
-
-O_ccu_rre^re e^ru^mni_s du_lce^, pre_sci_re e_st gra^ve_.
-Si_ ta_ntu_s do^lo_r pec_tu^s i_nfla_ma_t, pa^re_ns,
+se_di^ci^o^ re_ge_m no_n de^ce_t qvi_cqvi_d li^ce&t | sedicio seems to be nominative with short o in third declension
+Si tantus dolor pectus inflamat, parens,| Problem here. There are 12 syllables and one foot appears to be a chorei
+Occurrere erumnis dulce, prescire est grave. | e in erumna can be short according to the dictionary. MN can be short too?
+e_t ca_sta^, do^lce^o_. Sti^mu^la^t hu_nc ma^gi_s do^lo&r | c is not there as according to the edition
+Ne_pt_une^, quo_ru_m Tro_ia^ mu_ni_tu_ vi^re&t. | program not sure how to scan Troia
+O_ se_gni^s He^cu^ba&, pa^te^ri^s u_ltri_ci_ ma^nu& | Program does not know pateris can end with a short syllable
+Qui_d ta^ci^ta^ vo_lvi_t pe_cto^re a_rde_nti_ pa^re_ns? | voluit vs volvit
+re^ti^ne_re^ vo^lu^i&. Fu_gi^t a_mple_xu_s ce^le&r. | volui vs volvi
+i_ndi_gne^ Pri^a^mo&, nu_lla^ te_ pi^e^ta_s mo^ve&t? | Te is always long
+Sa_lva_nda^ se_d si_ Tro_ia^ te_ ma&gi_s iu^va&t, | Troia + te
+spo^li^a_ta^ ve_stro& Tro_ia^. Te_ ge^ne^ru_m vo^ca&nt | Troia
+si^mu^la_nte^ vu_ltu& the_sa^lo_ pe_rsta_t du^ci&. | Why does the program even allow nt to be short???
+Ma_gna^ni^me^, Pri^a^mi_ sti_rpe^ re_ga_li_ tra^he_ns | Dictionary only has the ablative for magnanime
+e_xi_re^ re_gno&. Ge^ne^ri^s hu_ma_ni_ ca^pa&x | Dictionary only has long generis
+He^cu^be_ mo^ve_bu_nt? Pa^te^ri^s e_rra_nti_ gra^du& | Program does not know pateris can end with a short syllable
+Ti&ra_nnu^s ho_ste_m vi_lli^s h[au]d u_ltu_s si^ne&t. | most likely a problem with villis
+de_xtra i_mpi^a^ so^ro_rum o^pe^re^, su_b cu_iu_s ma^ne&t | Opere only has long e in dictionary
+Vi_nde_x ne^ fu_lme_n stra_vi^t ho_rre_ndu_m ca^pu&t? | Ne
+pe^ri^e_re^ te_mplo&. Pa^te^ri^s ho_c di_vu_m sa^to&r? | Program does not know pateris can end with a short syllable
+pa&re_nti^s u^te^ro_ fa_ta^ vo_lvi_sse_nt tu^o&s | volvo as cause, not volo

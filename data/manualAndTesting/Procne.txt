@@ -1,195 +1,264 @@
-I_n te_ la^ti^ta^t. U&bi e_st Y^thi_s? Sci^e_s. U^bi e_st? | Fixed, OK
-sa^ti_sque_ sce^le^ri&. De_pre^co_r so_nti_s pla^ga&s, | Impure s
-Me^ns[ae] pa^re_ntu_r, sa_cra_ sple_nde_sca_t di^e&s: | Impure s
-o^pi_ma^ fe^ri^e_ns -co_lla_ sta_t co_mptu_s ca^pu&t | Impure s
-ca^da_ve^r u_ri& c[oe]pi^t u^bi_ stra&tu_m su^pe_r, | Impure s
-Se_d cu_r mo^ni_lli& co_lla_ sci_tho^ni^o_ ni^te&nt? | Impure s
-' Vi_ndi_cta_. Sce^le^re& ne_mo^ l[ae]ta&tu_r di^u&. | Impure s
-no^ce_re^ di_ro&? To_ta_ sple_nde_sca_t li^ce&t | Impure s
-Po_st pri_ma_ sce^le^ra& ne_mo^ mi_ra&ri_ so^le&t | Impure s
-u^bi_ Sci_lla^ ca^ni^bu_s la_tra^t a_cci_ncta^ ra^bi^di&s. | Impure s
-ma_io_re_ sce^le^re&, fa_ta^ no_n fa^ci^e_nt ta^me_n | Impure s
-Que_mcu_mque_ sce^le^ri_s mi^se^re^t [au]cto&re_m, mi^se&r | Impure s
-pa&re_ntu^r e^pu^l[ae], sa_cra_ sple_nde_sca_t do^mu_s. | Impure s
-ni&si_ sce^lu^s a_dda_t: vi_rgi^ni_s so^ci^o_s ne^ca&t | Impure s
-fe&ra_le_ sta^bu^lu_m ge^mu^i^t. O_ no^vu_m sce^lu&s! | Impure s
-ta_m gra^vi^a_ sce^le^ra?’ A_n va_nu^s i_n ge_ntri_s ti^mo&r | Impure s
-i_n re_gna^ Te_r[ei]: to_ta_ sple_nde_sca_t do^mu&s | Impure s
-Que_m, si_ re_sci^e^ri_s, sci_re^ p[oe]ni^te^a_t qui^de&m. | Impure s
-sce^lu_s pa^te_bi_t. Ca_rba^sa e_xte_nda_t: Ze^phi^ru^s, | lastAnceps Unconventional spelling of Zephirus
-gna&tam i_mpe^tra_vi_; spo_nde^o_ ce^le^re_m re^di^tu^m | lastAnceps
-Ne_c te_ so^ro_ri_s mo_rte^ cu_lpa&ri_m, Te_r[eu]: | lastAnceps
-Phle^ge^to_nte^?’ Na_mque& te_ quo^que e_xti_nctu_m Te_r[eu]s | lastAnceps
-e&t qu[ae] so^ro_ri& cu_ra^ mo^ri^tu&r[ae] fu^e^ri^t. | lastAnceps
-o_ste_ndi^t. Hi_c no_s po_ne^re a_nte_mna_s Te_r[eu]s, | lastAnceps
-a&bo_mi^na_nda& sce^le^ra^ mo_li&tu_r Te_r[eu]s. | lastAnceps
-fru_stra hu_nc la^ce_ssa_nt. Pa_rthi^ca_s o_li_m ti^mu^i^t | lastAnceps
-au_da_xque^ b[oe]lli& no_tu^s e_st du&du_m Te_r[eu]s | lastAnceps
-Qua_s spe_s i^na_ne_s vo_lvi^s? Ha_ ne_sci_s, mi^se^ra^, | lastAnceps
-A_n no_n ti^me_bi_s Bi_sto^nu_m Vi&re_s, mu^li^e^r? | lastAnceps
-pe_nsa_tu^r u_llo& fi_ne^ ta_m te_tru_m fa^ci^nu^s. | lastAnceps
-di_sce_rptu^s i_pse&: ia_m iu^va_t li&ngua_m tra^he^re^ | lastAnceps
-mi^se^ri_que^ pa_tri_s, vi_rgi^nem o_ppre_ssi_t co^mi^te^m, | lastAnceps
-no_n e_st fu^ro_ri_s ca^pe^re^ me_nsu^ra_m sce^le^ri_. | lastAnceps
-U_tcu_mque^ mo^ri^tu&r i_nno^ce_ns, f[oe]li_x mo^ri^tu^r. | lastAnceps
-Pa_rs h[ae]c a^he_no& Vo_lvi^tu_r, [ae]stu_ la^ti^ce^m | lastAnceps
-Vi_di_ cru^o_re_m ve_rti i^n o_bsce&nu_m pa^ri^te^r | lastAnceps
-va&no_s ti^mo_re_s, me^ru^i^t i_n ve&ro_s ca^de^re^. | lastAnceps
-sa&to_r de^o_ru&m, quo_ tri^u_m mo&le_s ce^ci^di^t, | lastAnceps
-e&vi_sce^ra_bo^ co_rpu^s, u_t gra&vi_s re^de^a^t | lastAnceps
-u&bi^ Di^o^me_de_s, pe^co^ri^s i_mpi^i_ do^mi^nu^s | lastAnceps
-quo_ te_, su^pe_rbe&, du_m ni^hi_l ti^me_s, pre^me^re^m. | lastAnceps
-Pa_rs h[ae]c a^he_no& Vo_lvi^tu_r, [ae]stu_ la^ti^ce^m | lastAnceps
-qu[ae] Cho_lchi^s u_nqua&m ta_nta^ co_mmi&si_t sce^le^ra^? | lastAnceps
-Quo_, quo_ pro^fa_nu_s ci_vi^um a_spe_ctu_s fu^gi^a^m? | lastAnceps
-Po_st i_sta^ du^bi^ta_s sce^le^ri^s u_lci_sci_, mi^se^ra^, | lastAnceps
+Ne_c te_ so^ro_ri_s mo_rte^ cu_lpa&ri_m, Te^re^u&: | last foot. This is based on Progne 79 and some letters of Petrarca
+Phle^ge^to_nte^?’ Na_mque& te_ quo^que e_xti_nctu_m Te^re^u&s | last foot
+o_ste_ndi^t. Hi_c no_s po_ne^re a_nte_mna_s Te^re^u&s, | last foot
+a&bo_mi^na_nda& sce^le^ra^ mo_li&tu_r Te^re^u&s. | last foot
+tu^i_sque^ ma_iu_s vi_ri^bu_s. Re_x e_st Te^re^u&s, | Unconventional Tereus
+au_da_xque^ b[oe]lli& no_tu^s e_st du&du_m Te^re^u&s | last foot
+Qu[ae] p[oe]na^ Te^re^o_ di_gna^? Qui_s re&gi_ qve^a&t | Fixing Tereus
+Te^re^o_ se^ca_tu_r c[ae]te^ra i_n pa_rti_s ra^pi&t | Fixing Tereus
+e_st ne_mpe^ te_re^i& cu_r ne^ce_m me^ru^i_t pu^e&r | Fixing Tereus
+te^re^u_s vo^ca_tu&r a_ppa^ra_ fe_stu_m di^e&m | Fixing Tereus
+te^re^u_ ne^fa_nda& stra_ge^ tu_rba_sti_ do^mu&m | Fixing Tereus
+te^re^u_s su^pe_rsi_t vi_va^t u_t vi&va_t mi^se&r | Fixing Tereus
+ne&fa_nde^ te^re^u_ qvo_d ma^lum [au]di&o^ ne^qve^o& | Fixing Tereus
+ja_m su_mma^ vo_ti& co_nti^gi_ te^re^u_s do^le&t | Fixing Tereus
+pe_rju_re^ te^re^u_ vi_rgi^ne_s stu&pro o_ppri^mi&s | Fixing Tereus
+
+Nu_nc re_sti^tu_tu_m cre_do^ ge_rma_n[ae] pe^ni^tu&s | last foot
+gna&ti_ cru^o_re&. Da_, pa^te_r no_stri_ ni^mi^u&m | last foot
+u_nda_ba^t, i_pse& do_ne^c a_rme_nti_ do^mi^nu^s | last foot
+Ta_nde_m fa^ve_bo& Thra_ci^o_ re&gi_: re^de^a&t. | last foot
+sce^lu_s pa^te_bi_t. Ca_rba^sa e_xte_nda_t: Ze^phi^ru^s, | last foot Unconventional spelling of Zephirus
+e&t qu[ae] so^ro_ri& cu_ra^ mo^ri^tu&r[ae] fu^e^ri^t. | last foot
+fru_stra hu_nc la^ce_ssa_nt. Pa_rthi^ca_s o_li_m ti^mu^i^t | last foot
+A_n no_n ti^me_bi_s Bi_sto^nu_m Vi&re_s, mu^li^e^r? | last foot
+pe_nsa_tu^r u_llo& fi_ne^ ta_m te_tru_m fa^ci^nu^s. | last foot
+di_sce_rptu^s i_pse&: ia_m iu^va_t li&ngua_m tra^he^re^ | last foot
+mi^se^ri_que^ pa_tri_s, vi_rgi^nem o_ppre_ssi_t co^mi^te^m, | last foot
+no_n e_st fu^ro_ri_s ca^pe^re^ me_nsu^ra_m sce^le^ri_. | last foot
+U_tcu_mque^ mo^ri^tu&r i_nno^ce_ns, f[oe]li_x mo^ri^tu^r. | last foot
+Vi_di_ cru^o_re_m ve_rti i^n o_bsce&nu_m pa^ri^te^r | last foot
+va&no_s ti^mo_re_s, me^ru^i^t i_n ve&ro_s ca^de^re^. | last foot
+sa&to_r de^o_ru&m, quo_ tri^u_m mo&le_s ce^ci^di^t, | last foot
+quo_ te_, su^pe_rbe&, du_m ni^hi_l ti^me_s, pre^me^re^m. | last foot
+qu[ae] Cho_lchi^s u_nqua&m ta_nta^ co_mmi&si_t sce^le^ra^? | last foot
+Quo_, quo_ pro^fa_nu_s ci_vi^um a_spe_ctu_s fu^gi^a^m? | last foot
+Po_st i_sta^ du^bi^ta_s sce^le^ri^s u_lci_sci_, mi^se^ra^, | last foot
 Me&, me_ pro^ce_ll[ae] tra_ns quo^que o_cce^a^nu_m ra^pi^te&,
-cri&me_n quo^d o^ri^tu&r: o_bru^i_t re^ce_ns ve^te^ra^ | lastAnceps Uncertain
-qua&cu_mque^ gra^di^o_r fo_nti^bu_sque hu&mo_r so^li^tu^s | Uncertain lastAnceps
-tu^i_sque^ ma_iu_s vi_ri^bu_s. Re_x e_st Te_r[eu]s, | Unconventional Tereus
-au_t O_tri^s i_nge&ns, au_t u^bi i_li^ci^bu_s ni^gri&s | Program mcl
-E_n a_lta^ de^co^ra& pa_tri^[ae] ce_rno_ do^mu&s | Program mcl patriae
-de&mu_m pe^re_mpta&m: la_cri^m[ae] fa^ci^e_nt fi^de&m. | Program mcl
+cri&me_n quo^d o^ri^tu&r: o_bru^i_t re^ce_ns ve^te^ra^ | last foot Uncertain
+ma^gi^s a_n so^ro_re&m su_sti^ne_s re&ru_m sa^to&r
+mo^ri^e_re^ mo^ri^a&r u_lta^ fa_ma& te_ mo^ve^a^t
+e^go^ te_ pe^re_mi& c[au]sa^ no_stra e&st h[ae]c so^ro&r
+a&lu_mna^ qv[ae]so& nu_lla^ te_ pi^e^ta_s mo^ve&t
+Po^te^ra_t si^ne u_lla& c[ae]de^ pu^e^ri_li_ pe^ra^gi_ | last foot?
+pr[ae]ru_pta^ ru_pe&s e_mi^ne_t po_nto_ me^di^a_, | Prolonged short
+
+me& lu_da^t a_mni&s ta_nta^li_ ve&l i_si^o^ni&s | the scansion of ixionis can be compared to line 105. Last foot
+qva&cu_mqve^ gra^di^o&r fo_nti^bu_sqve hu&mo_r so^li^tu&s | Not enough info on gradiot. Last foot
+nu^me^re_tu^r a^li^u&d vi_xqve^ po_ste^ri^ta_s fi^de&m | Not enough on numeretur
+fe&sso_s ju^ga_li&s pa_bu^lo_ re^cre^a_s no^vo& | Not enough on pabulo and recreas. Assuming there is no impure s
+co&nspi^cu^u^s ho_spe&s re^me^o^ to_t spo^li^i_s du^cu_m | Not enough data on remeo
+[au]t e_xu^l u_ndi&s cla_sse^ ba_rba^ri^ca_ pre^me^re&r | classe goes with barbarica (abl). Last foot
+di&u e_xpe^ti_ta&m co_nsi^li^a^ te&ge_nt ne^fa&s | Neuter plural (consilia)
+stri_mo^ni^u^s a^qvi^lo& ve_xi^t a_d so^ce^ri_ do^mo_s | its Strymonius in the dictionary
+gna&tam i_mpe^tra_vi& spo_nde^o_ ce^le^re_m re^di^tu&m | o is taken to be long in first person verbs. Last foot
+so&l pa_ssu^s o^cu^lo&s me_rgi^t o_cce^a^no_ ro^ta&s | spelling of Ocean
+a& ta_m pa^ra_ta& mo_rte^ su_bdu&xi_ pe^di^bu&s | Perfect subduxi has long i. Last foot
+Qua_s spe_s i^na_ne_s vo_lvi^s? Ha_ ne_sci_s, mi^se^ra^, | Last foot.
+sce&le^re^ pa^te_rno& gna_tu^s e_me^ru^i_t mo^ri& | Abl is short in third declension
+da^pi^bu_s ne^fa_ndi&s sa_ngvi^ne_m bi&be_t su^u&m | Assuming there is no impure s
+E_ffa_re a^pe_rte&, no_s pa^ri^te^r e_t te_ le^va_. | There was a typo in the text, which is now fixed
+se&ca_ba^t i_pse& vi_sce^ra e_t ca^pi^ta^ sa^ni^e& | Uncertain about sanie
+pi^e^ta_ti^s i_n quo_ plu_s ta^me_n fu^e^ra^t a^vi&, | Uncertain
+u^ti^na_m sce^le^re^ co&nte_nta^ de_si_sta_t tru^ci_ | E is short in scelere
+qvi&d u_ltra a^tro_ci&u_s po^tu^i^t a&n pa_bu^lu_m | Assuming there is no impure s
+po^ci^u_s re^te_xe& fro_nde^ vi^ri^da&nti_ co^ma&m | = potius???. Assuming there is no impure s
+du&m te_ ne^qvi^ci^[ae] pi^ge^a^t a^li^qva&ndo_ tu^[ae] | Uncertain about nequiciae
+po^ci^u_s pu^do_ri&s nu_me^n i_nta&cti_ vo^ca_ | = potius???. Assuming there is no impure s
+ja^cu^le_tu^r o_rbi&s cre_sca^t i_n p[oe]na_s je^cu&r | jaculetur is subjunctive
+phle^ge^to_n ha^re_na&s i_gne^o_ to&rre_ns va^do& | Not enough info on Phlegeton
+sce^le^ri_s ne^fa_ndi& thra_ce^s a_gno&sco_ sce^lu&s | Assuming there is no impure s
+si^le^a_tu^r o_mne& ve^te^ri^s e_rra&ti_ sce^lu&s | Not enough data on sileatur
+si^mu^la_bo^ vi_cta_m tu_rbi^ne i_mme_nsi_ ma^ri&s | Not enough info on simulabo
+h[ae]c i_nte^r a_cri& pe_rci^ta_ sto^ma^cho_ so^ro&r | Unsure. Assuming there is no impure s
+i&nf[au]sta^ te_llu&s qva_ssa^ di_llu^vi^o_ ra^ti&s | Ablative dilluvio <- diluvium
+a&c fu_mu^s a_te&r nu_be^ fu_ne^re^a_ co^i&t | nube agrees with funerea
+cri&me_nqve^ no_stru&m na_mqve^ du_m pro^pe^ro_ ni^mi&s | Not enough data on propero
+e&t mu_rmu^r h[eu] me& vo_ce^ pro_ so^li^ta_ de^di&t | voce agrees with solita
+ca&mpi_s co^lo_nu&s a_rma^ bi_sto^ni^i_s fe^ra&t | Assuming there is no impure s
+qvo& mi^se^ra^ pe_rgi_s qvo_ve^ fu^ri^bu_nda_m ra^pi&s | Not enough data on furibundam
+ma^cu^la_re^ du_ra&s i_mpi^a_ na&ti_ ne^ce& | maculo is first conjugation
+pi^e^ta_te^ ma_tri&s vi_nco^ si_ pro^pe^ro_ sce^lu&s | Not enough data on propero
+vi&ndi_cta^ qvo_vi&s a^be^a^t ha_nc pa&rte_m si^ne& | Not enough info on quovis, abeo
+di&ro_ pa^re_nti& si^mi^li^s ha_ ni^mi^u_m pu^e&r | Exclamation!
+sa^ci^a_re^ me_nte&m qvo_d ta^me_n ve_nte_r tu^li&t | Not enough info on saciare
+te_rro_re^ qva^ti^o_r sce^le^ri^s a_nte o^cu^lo_s tru^ci&s | Not enough info on quatior
+i&n pa_rte^ re_gi&ae u_lti^ma_ sta^bu^lu_m la^te&t | Ablative + no impure s
+Phi^lo^me_na^ su^bi^i_t. Spe_cta^t ha_nc pri_mu_m so^ro&r, | Not enough info on Philomena
+i&gna_ru^s e^ti^am ho&c de_e^ri^t e_t sci&e_s mi^se&r | Anapest in even foot
+nu&mi^ni^bu^s i_psi_s mi^se^ra^ ne_ tre^pi^da_ do^mu&s | Imperative
+a^de^ri_tqve^ pro_gne& qva_s mi^se^ra^ vo&ce_s da^bi&t | Nominative
+ju&va_t vi^de_re& nu_nc re^ju^ve^ne_sco_ se^ne&x | Not enough info on rejuvenesce
+a&ni^ma^ pe^r o_ra& fle_nti^s a_d ma_ne_s fu^gi&t | anima has shor a, because it is nominative
+po^su^i_t re^se_di&t o_mni^s e_xte_mplo_ fu^ro&r | Uncertain due to McL
+su_bse_di^t a_ncho&ri_s la^te^re^ po&nte_s ca^du&nt | latere is ablative, Assuming there is no impure s
+tu&nc fu_nu^s e^go^me_t ma^ni^bu^s i_nstru_xi_ me^i&s | manibus are hands here
+qva&li_s se^cu_re_m t[au]ru^s a_tto^ni^tu_s fu^gi&t | Assuming there is no impure s
+fe&ri^a_t la^ce_rto&s i_nvi^cem e_xe_rto_s ma^nu&s | Subjunctive -> feriat has long a
+te_nta_re^ la^te^bra&s e_de^ fo_rtu&na_m se^ne&x | Not enough info on tentare. Latebra has short e (compare to line 1047)
+e&re_xi^t hu^me^ri&s u_mbra^ re_ma&ta_ sti^ge& | humeris is shoulders -> e is short
+qve&m si_ re^sci^e^ri_s sci_re^ p[oe]ni^te^a_t qvi^de&m | Uncertain, but rescieris seems to be subjunctive
+i&nsta_t pu^e_ll[ae] qva_li^s a_rme^ni^u_s le^o& | Assuming there is no impure s
+o_btru_nca^t i_pse& ca_ssa^ pr[ae]si^di^a^ co^mi^tu^m, | praesidia is acc pl neuter
+ge_rma_na^ nu_do& re^cu^ba^t u^bi^ sve&ti_ gre^ge&s | i in ubi is short in many other places in the text
+si^mu^la_bo^ ba_cchi& ma_jo^r hi_c la^te^a_t fu^ro&r | simulare is first declension, hic is always long
+i&ni_qva^ ra^ci^o e_st cri_mi^ne a^li^e&no_ pa^ti& | racio <- ratio??
+po^te^ri_s ne^fa_nda& c[ae]de^ pu^e^ri&li_ ma^nu&s | Assuming there is no impure s
+u&bi^ Di^o^me_de_s, pe^co^ri^s i_mpi^i_ do^mi^nu&s | Last foot + i in ubi is short in many other places in the text
+ma&di^da^ su^pe_rbu&s a_lta^ fi_ge&ba_t ma^nu& | Agrees with capita above
+su&o_ sce^le^re^ pe&re_mptu^s a_c p[oe]na_ no^ce&ns | scelere is ablative -> short
+di&mi_tte^ no_n e_st ma_te^r i_ra_ta^ mu^li^e&r | irata is nominative
+hu^me^ri_s la^ce_rto&s a_mpu^ta_t fe_rro_ le^vi&s | humeris is shoulders -> e is short, Assuming there is no impure s
+mi_sce_nte a^t i_lla& ve^ru^bu^s a_ffi_xa i_nge^mi&t | Not enough info on veru
+re&pe_nte^ ce^ci^di&t re_gi^i_ ca^pi^ti_s de^cu&s | cecidit is to fall, regii is genitive, Assuming there is no impure s
+stu_pro_ so^ro_re&m qvi_ vi^o^la^t e_ffe_r qvo^qve& | a is short in third sg
+me&a_s mi^se^ri^a&s tu^mu^lu^s e_st na&ti_ pa^te&r | Not enough info on miseria
+e&vi_sce^ra_bo^ co_rpu^s, u_t gra&vi_s re^de^a&t | last foot, Assuming there is no impure s
+e_vi_ci^t i_lle& si_qva^ fi_t sce^le^ri_s mo^ra& | Assuming there is no impure s
+o&tri^si^a^ fa^ci^nu&s pri_ma^ co_nci^pi^a_t do^mu&s | Uncertain about otrisia
+ci_rcum o_mni^s a_dsta_t ve_ste^ fu_ne^re^a_ ca^pu&t | funerea is ablative and agrees with vesta
+qvi&d tu_rba^ co^mi^tu_m su^pe^ra^t u^bi^ pi_stu_s se^ne&x | i in ubi is short in many other places in the text
+re&ga_li^s [au]ri& ve_ste^ fu_ne^re^a_ do^lo&r | funerea is ablative and agrees with vesta
+te&nta_re^ la^te^bra&s [au]su^s i_gno&ta_s mi^hi& | Latebra has short e (compare to line 1047)
+no&n si_c ja^ce_bi_t cla_ra^ pa_ndi^o^ni_s do^mu&s | The scansion of Pandionis must be analogues to Isionis, Assuming there is no impure s
+Ne_c ta_le^ fa^ci^nu_s cla_ra^ Pa_ndi^o^ni_s do^mu&s | The scansion of Pandionis must be analogues to Isionis, Assuming there is no impure s
+so^ci^a_ta^ ce_ssi& su^pe^ra^t hi_c a^ni^mu_s si^bi& | hic is always long in Correr
+ma^cu^la_re^ po^te^ri&s i_psa^ pe_r pu^e^ri_ ca^pu&t | Maculare is first conjugation
+u&bi_ ca^ri_bdi_s sci^cu^la^ di_stu&rba_t fre^ta& | Strange ubi example -> question all of the uni data
+pa&rvi_s la^ce_rti_s ge^nu^a^ co_mple_xu_s pu^e&r. | genua has three syllables
+I_n te_ la^ti^ta^t. U&bi e_st Y^thi_s? Sci^e_s. U^bi e_st? | a is short in third sg
+e&re_pta^ fe_rro& li_ngva^ ni_l cu&ro_ mi^se^ru&m |  Uncertain -> there are two options
+no&n ce_rni^s a_lta& de^co^ra^ na_ta&li_s so^li& | Uncertain as to whether o should be long or short
+mo&rs qvo^qve^ pla^ce_ba&t ta_li^s i_n vi^o^la_ ni^to&r | quoqye is and, viola is dative
+u&bi_ ni^ve_s a_lta^ ca^ne^t [ae]te&rno_ ge^lu& | alta means "high places" here
+so&l u^bi^ ve^ne_na u&bi he_rba^ pe_sti&fe^ra^ vi^re&t | pestifera is nominative and agrees with herba
+su^pe^r i_psa^ ja^ci^a&r [ei]a^ me_mbra&tim o_cci^da&t | [ei]a is the only option in other lines.
+o&bli_tu^s i_lle& de^co^ri^s e_t no&stri_ qvo^qve& | Uncertain as to whether o should be long or short (decus has short)
+e&n a_lta^ ce_rno& de^co^ra^ na_ta&li_s so^li& | Uncertain as to whether o should be long or short (decus has short)
+Re&pe_nte^ plu^vi^[ae], nu_bi^bu_s ru_pti_s, ca^du&nt; | Not enough data on pluviae
+o^cu^lo_sque^ pre_ssi&s u_ngvi^bu_s ru^e^re [au]t a^li^qua&m | Last foot, Assuming there is no impure s
+Ma^ni^bu_s pa^re_nti&s ce^ci^di^t hi_s na&tu_s tu^u&s, | cecidit = fell = died.
+Ma^ni^bu_s pa^re_nti&s i_nno^ce_ns ca&da_t pu^e&r, | By analogy with the line above. Assuming there is no impure s
+Qui^s i^nho_spi^ta_li_s C[au]ca^su_s ta_ntu_m ne^fa&s, | Not enough data on inhospitalis
+vo&ce_tu^r u^bi^ na&tu_s la^te_t di&u_ mi^hi& | vocetur - subjunctive, ubi is usually short
+Ho_rta_mu^r. [Ei]a&, quo_d ma^re e_t te_rra ho_rre^a&t, | [ei]a is the only option in other lines.
+a^ni^mu_s, re^li_qui&t o_ssa^ co_nsue&tu_s ca^lo&r. | Assuming there is no impure s
+Ho_rro_re^ qua^ti^o_r, cri_ni^s e_re_ctu_s, pa^ve&t | No anapest here
+sa_lvo_ pu^do_re&: co_rpo^ri_s pe^ri^i_t quo^que& | Assuming there is no impure s
+C[ui] lu_ci^s o^di^u&m? C[ui] de^cu_s, me^li^o_r su^i& | Assuming there is no impure s
+spa_rsu_s pe^r hu^me^ro_s cri_ni^s, a_ttra_ct[ae] ga^me& | Assuming there is no impure s
+
+ne^qve e^nim i_nte^r u_mbra_s no_xi^u_s Vi&su_s fu^ro&r | Fixed
+e_st u_llu^s [ae]que&. Thra_ci^a, h[eu], so&lu_s po&te_st | Fixed
+Gra_di_vu^s i_pse& li_mi^na ho_rre_ndu_s te^ne&t. | Fixed
+ve^ni^o_ co^a_ctu&s. Qui_s no^vu_s co&gi_t fu^ro&r | Fixed
+
+le&va_me^n, e_tsi& ge^ni^to^r i_nvi_su_s mi^hi& | Genitor
+su^pe^ro_s ti^me_ba&m. Ge^ni^to^r e_xple_vi_ si^ti&m | Genitor
+No_n si i_pse^ cli^pe^u&m ge^ni^to^r o_ppo_na_t si^bi&, | Genitor
+te_, te_ pa^re_nte_m! Ge^ni^to^r e_vi_xi_t su^pe&r, | Genitor
+
+mi^se^ru_mque^ pa_tre_m. Vi^de^o^ cru_de_li_s fo^co_s | 1st person short, Also, long patrem.
+a_gno_sco^ te_mplu_m, sce_ptra^ ge_sta_nte_s, da^re&. | 1st person short
+e_re_psi^t. E_tsi_ ti^me^o^ ni_l, pi^ge_t ta^me^n | 1st person short
+Hu_ju_s di^e_i& fa_xo^ si_t se_mpe_r me^mo&r! | 1st person short?
+
+Sa&ti_s ne^ di_xi_? Ia_m sa^ti_s: fa_cto e_st o^pu&s. | Interrogative ne
+Va&le_t ne^ Pro_gne&? Su^pe^ra^t e_t ca_ru_s ne^po&s?“ | Interrogative ne
+i^n o_ra^ pa_tri&s. Hu_nc ne^ co_gno_sci_s, pa^te&r, | Interrogative ne
+
+Thra_ce_s e^t o_mni_s re^gi^o^ gla^ci^a_li_s po^li_ | regio
+qu[ae] re^gi^o^ ta_ntu_m fe_ci^t [au]t cre_de_t: ne^fa_s? | regio
+Vi&de u_t su^pe_rbu_s re_gi^o_ so^li^o i_ncu^be&t, | Program: not enough data on regio
+
 No_n hi_c A^the_n[ae]! Pa_tri^o_ tu&ta_m si^nu_ | Program patrio mcl
 La_ssa_t sa^cri^le^ga&s u_rna^ Be_lli&de_s ne^que& | Unconventional Program sacrilegas mcl
 fe_rru_m? Tre^mi_sco&. Qui_s ma^trem i_mpe_lli_t ma^nu&s | Program Unconventinal matris mcl
 si^mu^la_tque^ mo_rte^m, la_cri^ma_s stru_xi_t quo^que& | Program Unconventional lacrimas mcl
-u^te^ro_ ca^pa_ci&, po_sse^t u_t nu^me^ru_s ma^tri&s | Program Unconventinal matris mcl
-hy_rca_na^ ti_gri&s. I_lle^ bla_ndi&tu_r ma^tri& | Program Unconventinal matri mcl
-no_n iu_ra^ po^pu^li_s pa_tri^o_ so^li^o_ da^bi&s, | Program Unconventional patrio mcl
 a&mi_cta^ tu_rba&, la_cri^mae e_t pla_nctu_s so^na&nt. | Program mcl
-qui_cqui_d mo^ra_bo_r. Cri_mi^ni_ ta_ntum ho_c de^tu&r. | Unconventional detur Uncertain
+au_t O_tri^s i_nge&ns, au_t u^bi i_li^ci^bu_s ni^gri&s | Program mcl
+de&mu_m pe^re_mpta&m: la_cri^m[ae] fa^ci^e_nt fi^de&m. | Program mcl
+hy_rca_na^ ti_gri&s. I_lle^ bla_ndi&tu_r ma^tri& | Program Unconventinal matri mcl
+u^te^ro_ ca^pa_ci&, po_sse^t u_t nu^me^ru_s ma^tri&s | Program Unconventinal matris mcl
+E_n a_lta^ de^co^ra& pa_tri^[ae] ce_rno_ do^mu&s | Program mcl patriae
+no_n iu_ra^ po^pu^li_s pa_tri^o_ so^li^o_ da^bi&s, | Program Unconventional patrio mcl
+
+E&ry_nni^s. O^ne^re& te_llu^s i_nf[ae]sto_ di^u& | A rare scansion of tellus
+U^ti^na_m de^hi_sce_ns te_llu^s ho_c o_li_m ca^pu&t | A rare scansion of tellus
+a_cthe_a^ fe_rro& te_llu^s e_t su_mm[ae] pa^re&nt | A rare scansion of tellus
+fo_rta_sse^ cre_di&s? Te_llu^s ho_sti_li_s pre^me&t. | A rare scansion of tellus
+
+co_mple_xu^s: 'U_t, u_t te_, ge^ne_r, du_m spi_ro a^dhu_c, | Long ut - uncommon
+No_n i_s ge^na_ru&m fu_lgo^r, u_t o_li_m de^ce_ns: | Long ut - uncommon
+re_sta_re^t u_t ho_c te_mpo^re i_nf[oe]li_x pa^te&r: | Long ut
+
+i_ndu_lge^ Ba_ccho_, Vo_ce^ f[ae]sti&va_ ca^ne&. | Short second conjugation imperative
+I_ndu_lge^, qu[ae]so&, fa^ci^nu^s ho_c nu_pe_r, so^ro&r, | Short second conjugation imperative
+co_nta_mi^na_ti&s [au]de^ pro_ tha^la^mi_s a^li^qui&d | last foot + Short second conjugation imperative
+I_ndu_lge^, so^ro^r, ha&, po^ti^u^s i_mpu_ne ho_c fe^ra&t. | Short second conjugation imperative
+i_gno_ro^. Pe_rge^, fu^ro_r, pro^pe e_st, pa&r e_st sce^lu&s. | ...
+
+sa^ti_sque^ sce^le^ri&. De_pre^co_r so_nti_s pla^ga&s, | Impure s
+o^pi_ma^ fe^ri^e_ns -co_lla^ sta_t co_mptu_s ca^pu&t | Impure s
+ca^da_ve^r u_ri& c[oe]pi^t u^bi^ stra&tu_m su^pe_r, | Impure s or alternatively and anapest
+' Vi_ndi_cta^. Sce^le^re& ne_mo^ l[ae]ta&tu_r di^u&. | Impure s
+no^ce_re^ di_ro&? To_ta^ sple_nde_sca_t li^ce&t | Impure s
+Po_st pri_ma^ sce^le^ra& ne_mo^ mi_ra&ri_ so^le&t | Impure s
+ma_io_re^ sce^le^re&, fa_ta^ no_n fa^ci^e_nt ta^me_n | Impure s
+Que_mcu_mque^ sce^le^ri_s mi^se^re^t [au]cto&re_m, mi^se&r | Impure s
+pa&re_ntu^r e^pu^l[ae], sa_cra^ sple_nde_sca_t do^mu_s. | Impure s
+ni&si^ sce^lu^s a_dda_t: vi_rgi^ni_s so^ci^o_s ne^ca&t | Impure s
+fe&ra_le^ sta^bu^lu_m ge^mu^i^t. O_ no^vu_m sce^lu&s! | Impure s
+ta_m gra^vi^a^ sce^le^ra?’ A_n va_nu^s i_n ge_ntri_s ti^mo&r | Impure s
+i_n re_gna^ Te^re^i&: to_ta^ sple_nde_sca_t do^mu&s | Impure s
+Me^ns[ae] pa^re_ntu_r, sa_cra^ sple_nde_sca_t di^e&s: | Impure s
+Que_m, si_ re^sci^e^ri_s, sci_re^ p[oe]ni^te^a_t qui^de&m. | Impure s. Special case of within a word
+ne& quo_ re^sci_sca_s nu_nti^o_ ta_ntu_m sce^lu&s. | Impure s. Special case of within a word
+Se_d cu_r mo^ni_lli& co_lla^ sci^tho^ni^o_ ni^te_nt? | Impure s. Not sure about the scansion of Scithonio
+u^bi^ Sci_lla^ ca^ni^bu_s la_tra^t a_cci_ncta^ ra^bi^di&s. | Impure s, accincta has short a, necause it is nominative
+
+Ca^ri_na.’ E^t e_cce^ de_su^pe_r tu_rbo_ ra^pa_x | Third declension o
 c[ae]lo_ re^be_lle&s, [ae]ne^i_s no_di_s pre^ma&r. | No data aeneis
 nu&nqua_m no^ce_nte&s le_vi^te_r Thra&ce_s e^ru_nt. | Unconventional leviter
 Ve_lli_s ci^ta_ti&s pro_spe^ro_ cu_rsu_ na^te&t. | Program natet
+E_rra_mu^s, a^de^o& cu_rsu^s i_nce_rti_, ne^que& | Not sure what the problem is
+no_cte_m di^a_m ve& di_ge^ri_ si&ni_t po^lu&s. | Program PROBLEM HERE
+[au]t i_nli^ga_to& Rho^do^pe^ su_b Thre_ss[ae] iu^gi&s | Unconventional Rhodope
+Po_st h[ae]c cru^o_re_m mi_scu^i_ sa&cro_ me^ro_. | Program: check why is this happening
+Pa_rs h[ae]c a^he_no& Vo_lvi^tu_r, [ae]stu_ la^ti^ce&m | Last foot. Not sure what the problem is
+cru&de_le^ g[au]diu_m fe_rre^; pe_r to_to_s ri^go&r | iu as one syllable??
+a^ni^mo_s fe^ro_ce&s qua_mvi^s a_ sti_rpe^ tra^he^re^s. | Two possibilities, uncertain. Sounds weird
+Spe_s va_na^ pa^tri^[ae], de_pe^ri_s pa_rvu_s Y^thi&s, | Anapest
+Pau_lu_m mo^ra_ta&: 'Qui_d,' i^nqui_t, 'te_mpu_s iu^va&t | Uncertain Unconventional inquit. Uncertain
+de&i_nde^ na_tu_m ma_te^r a_spe_ctu_ tru^ci&. | Unconventional deinde
+u_mbr[ae] Va^ga_nte_s, stre^pi^tu^s ho_rre_ndum i_nto^na&t | Not enough info on strepitus
+so&le_t se^ne_ctu_s ta_rda^; pr[ae]sta^bo_ fi^de&m. | Program: o is marked short in praestabo
+qui_cqui_d mo^ra_bo_r. Cri_mi^ni_ ta_ntum ho_c de^tu&r. | Unconventional detur Uncertain
 s[ae]pe e_t so^ro_re_, stu_pra^ vi^o^le_nte_ pa^ti&. | Program violente
 A_t nu_nc su^pe_rbu_s re_gi^o_ lu_xu i_ncu^ba&s; | Program: regio
 i_nve_ni^t o^di^u_m s[ae]pe^ quem a_rma& ne_que^u_nt. | Uncertain nequerunt Unconventional
 hi_nc va_sta^ Sy_rti&s ge_ti^cum i_nve_rsa_t ma^re&, | Program unconventional geticum
 Be&ne i_nsti^tu_to& fi_a^t e_xe_mplo_ no^ce&ns | Program instituto
-so&le_t se^ne_ctu_s ta_rda^; pr[ae]sta^bo_ fi^de&m. | Program: o is marked short in praestabo
-de&i_nde^ na_tu_m ma_te^r a_spe_ctu_ tru^ci&. | Unconventional deinde
-Pau_lu_m mo^ra_ta&: 'Qui_d,' i^nqui_t, 'te_mpu_s iu^va&t | Uncertain Unconventional inquit
-Vi&de u_t su^pe_rbu_s re_gi^o_ so^li^o i_ncu^be&t, | Program: not enough data on regio
-no_cte_m di^a_m ve& di_ge^ri_ si&ni_t po^lu&s. | Program PROBLEM HERE
-Ta_nde^m re^vo^lu_ta& po^su^i^t i_n si^nu_ ca^pu&t | Program PROBLEM HERE
+Ta_nde^m re^vo^lu_ta& po^su^i^t i_n si^nu_ ca^pu&t | Questinable case
 u&na_m vi^de_re&, pe_ne^ di_spe_rsi_ du^o&s. | Program: strange data on videre
-ne& quo_ re^sci_sca_s nu_nti^o_ ta_ntu_m sce^lu&s. | Impure s Uncertain
 Co_mmi_ssa^, nu_tri_x, o_ccu^le! Ho_c a_nni_s me^a& | Program: occule - occult problem
 de&hi_sce^ te_llu_s, Ta_rta^ri_ fo_ndo o_ccu^le&. | Program: occule - occult problem
-cru&de_le^ ga_udiu_m fe_rre^; pe_r to_to_s ri^go&r | iu as one syllable
-Po_st h[ae]c cru^o_re_m mi_scu^i_ sa&cro_ me^ro_. | Program: check why is this happening
-Phi^lo^me_na^ su^bi^i_t. Spe_cta^t ha_nc pri_mu_m so^ro&r,
-pi^e^ta_ti^s i_n quo_ plu_s ta^me_n fu^e^ra^t a^vi&, | Uncertain
-mi_sce_nte, a^t i_lla&, ve^ru^bu^s a_ffi_xa, i_nge^mi&t.
-re&pe_nte^ ce^ci^di&t re_gi^i_ ca^pi^ti_s de^cu&s.
-mi_sce_nte, a^t i_lla&, ve^ru^bu^s a_ffi_xa, i_nge^mi&t.
-me& lu_da^t a_mni_s Ta_nta^li_, ve^l I_si^o^ni^s | Uncertain Unconventional spelling
-di^mi_tte^. No_n e_st ma_te^r i_ra&ta^ mu^li^e&r,
-a^ni^mo_s fe^ro_ce&s qua_mvi^s a_ sti_rpe^ tra^he^re^s. | Two possibilities, uncertain
-o_btru_nca^t i_pse& ca_ssa^ prae_si^di^a^ co^mi^tu^m,
-me& lu_da^t a_mni&s ta_nta^li_ ve&l i^si^o^ni&s
-ja^cu^le_tu^r o_rbi&s cre_sca^t i_n p[oe]na_s je^cu&r
-phle^ge^to_n ha^re_na&s i_gne^o_ to&rre_ns va^do&
-nu&mi^ni^bu^s i_psi&s mi^se^ra^ ne_ tre&pi^da^ do^mu&s
-o&tri^si^a^ fa^ci^nu&s pri_ma^ co_nci^pi^a_t do^mu&s
-nu^me^re_tu^r a^li^u&d vi_xqve^ po_ste^ri^ta_s fi^de&m
-si^le^a_tu^r o_mne& ve^te^ri^s e_rra&ti_ sce^lu&s
-fe&sso_s ju^ga_li&s pa_bu^lo_ re^cre^a_s no^vo&
-[au]t e_xu^l u_ndi&s cla_sse^ ba_rba^ri^ca_ pre^me^re^r
-si^mu^la_bo^ vi_cta&m tu_rbi^ne i_mme&nsi_ ma^ri&s
-stri&mo_ni^u^s a^qvi^lo^ ve_xi^t a_d so^ce^ri_ do^mo&s
-gna&tam i_mpe^tra_vi& spo_nde^o_ ce^le^re_m re^di^tu^m
-so&l pa_ssu^s o^cu^lo&s me_rgi^t o_cce^a^no_ ro^ta&s
-h[ae]c i_nte^r a_cri& pe_rci^ta_ sto^ma^cho_ so^ro&r
-a&ni^ma^ pe^r o_ra& fle_nti^s a_d ma&ne_s fu^gi&t
-mo&rs qvo^qve^ pla^ce_ba&t ta_li^s i_n vi^o^la_ ni^to&r
-po^su^i_t re^se_di&t o_mni^s e_xte&mplo_ fu^ro&r
-i&nf[au]sta^ te_llu&s qva_ssa^ di_llu^vi^o_ ra^ti&s
-a&c fu_mu^s a_te&r nu_be^ fu_ne^re^a_ co^i&t
-ci&rcum o_mni^s a_dsta&t ve_ste^ fu_ne^re^a_ ca^pu&t
-cri&me_nqve^ no_stru&m na_mqve^ du_m pro^pe^ro_ ni^mi&s
-so&l u^bi^ ve^ne_na u&bi he_rba^ pe_sti&fe^ra^ vi^re&t
-re&ga_li^s [au]ri& ve_ste^ fu_ne^re^a_ do^lo&r
-fe&ri^a^t la^ce_rto&s i_nvi^cem e_xe&rto_s ma^nu&s
-e&t mu_rmu^r h[eu] me& vo_ce^ pro_ so^li^ta_ de^di&t
-a& ta_m pa^ra_ta& mo_rte^ su_bdu&xi_ pe^di^bu^s
-si^mu^la_bo^ ba_cchi& ma_jo^r hi_c la^te^a_t fu^ro&r
-su^pe^r i_psa^ ja^ci^a&r [ei]a^ me_mbra&tim o_cci^da&t
-ma^cu^la_re^ du_ra&s i_mpi^a_ na&ti_ ne^ce&
-vi&ndi_cta^ qvo_vi&s a^be^a^t ha_nc pa&rte_m si^ne&
-di&ro_ pa^re_nti& si^mi^li^s ha_ ni^mi^u_m pu^e&r
-sa^ci^a_re^ me_nte&m qvo_d ta^me_n ve&nte_r tu^li&t
-sce^le^re_ pa^te_rno& gna_tu^s e_me^ru^i_t mo^ri&
-ma^cu^la_re^ po^te^ri&s i_psa^ pe_r pu^e^ri_ ca^pu&t
-u&bi^ di^o^me_de&s pe^co^ri^s i_mpi&i_ do^mi^nu^s
-ma^di^da_ su^pe_rbu&s a_lta^ fi_ge&ba_t ma^nu&
-phi^lo^me_na^ su^bi^i&t spe_cta^t ha_nc pri&mu_m so^ro&r
-di&mi_tte^ no_n e&st ma_te^r i_ra&ta^ mu^li^e&r
-pi^e^ta_ti^s i_n qvo& plu_s ta^me_n fu&e^ra^t a^vi&
-a^ni^mo_s fe^ro_ce&s qva_mvi^s a_ sti&rpe^ tra^he^re&s
-mi&sce_nte a^t i_lla& ve^ru^bu^s a_ffi&xa i_nge^mi&t
-re&pe_nte^ ce^ci^di&t re_gi^i_ ca^pi^ti_s de^cu&s
-ma^gi^s a_n so^ro_re&m su_sti^ne_s re&ru_m sa^to&r
-e&re_pta^ fe_rro& li_ngva^ ni_l cu&ro_ mi^se^ru^m
-te&nta_re^ la^te^bra&s e_de^ fo_rtu&na_m se^ne&x
-du&m te_ ne^qvi^ci^[ae] pi^ge^a^t a^li^qva&ndo_ tu^[ae]
-te&nta_re^ la^te^bra&s [au]su^s i_gno&ta_s mi^hi&
-so^ci^a_ta^ ce_ssi& su^pe^ra^t hi_c a^ni^mu_s si^bi&
-mo^ri^e_re^ mo^ri^a&r u_lta^ fa_ma& te_ mo^ve^a^t
-vo&ce_tu^r u^bi^ na&tu_s la^te_t di&u_ mi^hi&
-no&n ce_rni^s a_lta^ de^co_ra^ na_ta&li_s so^li&
-e^go^ te_ pe^re_mi& c[au]sa^ no_stra e&st h[ae]c so^ro&r
-o&bli_tu^s i_lle& de^co^ri^s e_t no&stri_ qvo^qve&
-a&lu_mna^ qv[ae]so& nu_lla^ te_ pi^e^ta_s mo^ve&t
-e&n a_lta^ ce_rno^ de^co_ra^ na_ta&li_s so^li&
-A^ge^du_m, so^ro_re_m qu[ae]re^ pe_r mo_nti_s o_ci^u^s, | Prolonged short and lastAnceps
-re^de^a_t i_n pa_tre&m: ni_l si^t e_x i_llo_ me^u&m. | 508 Prolonged short
-Po^te^ra_t si^ne u_lla& c[ae]de^ pu^e^ri_li_ pe^ra^gi_ | Last anceps?
-so&ro_r vi^de_re_m. Qua_mvi_s ho_c ve^tu^i_t d^eu&s, | Prolonged short
-sta^tu^a_m? So^ro_re& qui_d e^ni_m re_sta_t mi^hi& | Unconventional long quid?
-pr[ae]ru_pta^ ru_pe&s e_mi^ne_t po_nto_ me^di^a_, | Prolonged short
-I_ndu_lge_, qu[ae]so&, fa^ci^nu^s ho_c nu_pe_r, so^ro&r, | Prolonged short
-i_ndu_lge_ Ba_ccho_, Vo_ce^ f[ae]sti&va_ ca^ne&. | Prolonged short
-I_ndu_lge^, so^ro^r, ha&, po^ti^u^s i_mpu_ne ho_c fe^ra&t. | Prolonged short
-co_nta_mi^na_ti&s [au]de_ pro_ tha^la^mi_s a^li^qui&d | Prolonged short Last anceps
-Qu[ae] cla_de^s i_sta&? Nu_mqui^d e_t p[ei]u_s ne^ce^? | Nom 3rd declension?
-pa_rs, pe^ri^i^t. U^ti^na_m co_rpu^s e_xti_nctu_m ne^ce&,
-flu_ctu_ pro^te_rvo& ru_pe^s e_xe_su_m la^tu&s | Nom 3rd declension?
-te_, te_ pa^re_nte_m! Ge^ni^to^r e_vi_xi_t su^pe&r, | Genitor
-re_sta_re^t u_t ho_c te_mpo^re i_nf[oe]li_x pa^te&r: | Long ut
-U^ti^na_m de^hi_sce_ns te_llu^s ho_c o_li_m ca^pu&t | Either a rare scansion of tellus, or a prolonged short
-a_cthe_a^ fe_rro& te_llu^s e_t su_mm[ae] pa^re&nt | Either a rare scansion of tellus, or a prolonged short
-fo_rta_sse^ cre_di&s? Te_llu^s ho_sti_li_s pre^me&t. | Either a rare scansion of tellus, or a prolonged short
-E&ry_nni^s. O^ne^re& te_llu^s i_nf[ae]sto_ di^u& | Either a rare scansion of tellus, or a prolonged short
-No_n si i_pse^ cli^pe^u&m ge^ni^to^r o_ppo_na_t si^bi&, | Genitor
-Ho_rta_mu^r. [Ei]a&, quo_d ma^re e_t te_rra ho_rre^a&t,
 Ho_c, ho_c li^be_t quo_d ti^me^o^, ve_l si_qui_d ma^li_ | 1st person short
-le&va_me^n, e_tsi& ge^ni^to^r i_nvi_su_s mi^hi& | Genitor
-Hu_ju_s di^e_i& fa_xo^ si_t se_mpe_r me^mo&r! | Future, Short verb?
-qu[ae] re^gi^o^ ta_ntu_m fe_ci^t [au]t cre_de_t: ne^fa_s? | Third declension o
-u_mbr[ae] Va^ga_nte_s, stre^pi^tu^s ho_rre_ndum i_nto^na&t | Not enugh info on strepitus
-pa&rvi_s la^ce_rti_s ge^nu^a^ co_mple_xu_s pu^e&r.
-e_re_psi^t. E_tsi_ ti^me^o^ ni_l, pi^ge_t ta^me^n | 1st person short
-i^n o_ra^ pa_tri&s. Hu_nc ne^ co_gno_sci_s, pa^te&r, | Short ne long patris
-su^pe^ro_s ti^me_ba&m. Ge^ni^to^r e_xple_vi_ si^ti&m | Genitor
-[au]t i_nli^ga_to& Rho^do^pe^ su_b Thre_ss[ae] iu^gi&s | Unconventional Rhodope
-mi^se^ru_mque^ pa_tre_m. Vi^de^o^ cru_de_li_s fo^co_s | Short verb. Also, long patrem
-Sa&ri_s ne^ di_xi_? Ia_m sa^ti_s: fa_cto e_st o^pu&s. | Short ne
-a_gno_sco^ te_mplu_m, sce_ptra^ ge_sta_nte_s, da^re&. | 1st person short
-co_mple_xu^s: 'U_t, u_t te_, ge^ne_r, du_m spi_ro a^dhu_c, | Long ut - uncommon
-Va&le_t ne^ Pro_gne&? Su^pe^ra^t e_t ca_ru_s ne^po&s?“ | Ne should not be separated
-Ca^ri_na.’ E^t e_cce^ de_su^pe_r tu_rbo_ ra^pa_x | Third declension o
-No_n i_s ge^na_ru&m fu_lgo^r, u_t o_li_m de^ce_ns: | Long ut - uncommon
 tu^mo_r pe^r a_rtu_s a^bi^i^t a_ffli_cto_s gra^vi&s. | Not enough info on adeo
-Thra_ce_s e^t o_mni_s re^gi^o^ gla^ci^a_li_s po^li_ | regio
-Verum minime in patriam reducis animum gero:
-dum es innocens adhuc. Fieri nocens
-Busiris unquam, quae barbara ulla immanitas | Substitution of cyclic anapest?
-desiste coeptis. Quae barbara ulla immanitas | Substitution of cyclic anapest?
-sed dii dedere: testor imperii decus.
-Spes vana patriae, deperis parvus Ythis,
-Hunc te, Ythi, genitor video? Quis fleat satis | Genitor
-ignoro. Perge, furor, prope est, par est scelus.
-[au]la_mque^ Te_r[ei]. Qui_d ho_c e_st? Fu^gi^u_nt re^tro_ | Prolonged anceps quid?
-i_rru_mpi^t i_gni_ se_que^ i^n e^o_de_m ia^ci&t. | 192 Hiatus?
+[au]de_re^, Pro_gne&! Flu_ctu^a_t pe_ctu_s ne^que& | Not sure what the problem is
+no_n de_stra^, no_n co_gna_ta^ pro_xi^mi^ta_s ne^que& | Not sure what the problem is
+flu_ctu_ pro^te_rvo& ru_pe^s e_xe_su_m la^tu&s | Nom 3rd declension?
+pa_rs, pe^ri^i^t. U^ti^na_m co_rpu^s e_xti_nctu_m ne^ce&, | Not sure what the problem is
+Qu[ae] cla_de^s i_sta&? Nu_mqui^d e_t p[ei]u_s ne^ce^? | Nom 3rd declension?
+
+Agedum, sororem quaere per montis ocius, | A^ge^du_m, so^ro_re_m qu[ae]re^ pe_r mo_nti_s o_ci^u^s, Dactyl in the last foot???
+irrumpit igni seque in eodem iacit. | i_rru_mpi^t i_gni_ se_que^ i^n e^o_de_m ia^ci_t, 192 Hiatus?
+redeat in patrem: nil sit ex illo meum. | re^de^a_t i^n pa_tre_m: ni_l si^t e_x i_llo_ me^u&m., 508 Prolonged short
+aulamque Terei. Quid hoc est? Fugiunt retro | [au]la_mque^ Te^re^i_. Qui_d ho^c e_st? Fu^gi^u_nt re^tro&, Short hoc??
+statuam? Sorore quid enim restat mihi | sta^tu^a_m? So^ro_re& qui_d e^ni_m re&sta_t mi^hi&, Unconventional long quid?
+Verum minime in patriam reducis animum gero: | Ve&ru_m mi^ni^me i_n pa^tri^a_m re^du^ci^s a^ni^mu_m ge^ro&:, Potentially two anapests
+Busiris unquam, quae barbara ulla immanitas | Bu_si_ri^s u_nqua&m, qu[ae] ba^rba^ra u_lla i_mma_ni^ta&s, Substitution anapest (short bar)?
+desiste coeptis. Quae barbara ulla immanitas | de&si_ste^ c[oe]pti&s. Qu[ae] ba^rba^ra u_lla i_mma_ni^ta&s, Substitution of anapest (shoar bar)?
+Hunc te, Ythi, genitor video? Quis fleat satis | Hu_nc te_, Y^thi_, ge^ni^to^r vi^de^o_? Qui^s fle^a_t sa^ti&s, ???
+soror viderem. Quamvis hoc vetuit deus, | so&ro_r vi^de_re&m. Qua_mvi^s ho_c ve^tu^i_t de^u&s, Prolonged short???
+dum es innocens adhuc. Fieri nocens | du__m e^s i_nno&ce_ns a^dhu_c. Fi^e^ri_ no^ce&ns, Too short
