@@ -37,7 +37,7 @@ yliaca pulsat maria; purpureas vehit	y&li^a^ca^ pu_lsa&t ma^ri^a^ pu_rpu^re^a&s 
 Simois procellas cede nec dudum labat	si^mo^i&s pro^ce_lla&s ce_de^ ne&c du&du&m la^ba&t 	^^_^_X_^_X_^X	1.0
 fortuna belli. Victor Atrides premit	fo&rtu_na^ be_lli& vi_cto^r a_tri&de&s pre^mi&t 	X_^_X_^_X_^X	0.57
 menia deorum Clara, que Phebus cheli	me&ni^a^ de^o_ru&m cla_ra^ qve_ phe&bu&s che^li& 	X^^^_X_^_X_^X	0.99
-struxit canora. Sevit armigera potens	stru&xi&t ca^no_ra& se_vi^t a_rmi&ge^ra^ po^te&ns	X_^_X_^_X^^^X	m
+struxit canora. Sevit armigera potens	stru&xi&t ca^no_ra& se_vi^t a_rmi^ge^ra_ po^te&ns	X_^_X_^_^^_^X	m
 Europa classe; quelibet nostram lues	[eu]ro_pa^ cla_sse& qve_li^be&t no&stra&m lu^e&s 	X_^_X_^_X_^X	1.0
 affligit Asiam. Vincimur bello Friges.	a&ffli_gi^t a^si^a&m vi_nci^mu&r be&llo& fri^ge&s 	X_^^^X_^_X_^X	1.0
 Sed maior Hecubam torquet infaustam dolor;	se&d ma_jo^r he^cu^ba&m to_rqve^t i_nf[au]sta&m do^lo&r 	X_^^^X_^_X_^X	1.0
@@ -69,7 +69,7 @@ Quid tacita volvit pectore ardenti parens?	qui&d ta^ci^ta^ vo_lvi&t pe_cto^re& a
 Flamata vultus regiam frontem quatit:	fla&ma_ta^ vu_ltu&s re_gi^a_m fro&nte&m qva^ti&t 	X_^_X_^_X_^X	1.0
 Phebigera virgo qualis inpulsu dei	phe&bi^ge^ra^ vi_rgo& qva_li^s i_npu&lsu_ de^i&	X^^^_X_^_X_^X	m
 lacerata crines, qualis aut Menas furens,	la^ce^ra_ta^ cri_ne&s qva_li^s [au]t me&na&s fu^re&ns 	^^_^_X_^_X_^X	1.0
-percussa Bacho, fronde pampinea comas	pe&rcu_ssa^ ba_cho& fro_nde^ pa_mpi&ne^a^ co^ma&s	X_^_X_^_X^^^X	m
+percussa Bacho, fronde pampinea comas			u
 impressa fervet, auget atque iras dolor.	i&mpre_ssa^ fe_rve&t [au]ge^t a_tqve& i&ra&s do^lo&r 	X_^_X_^_X_^X	1.0
 Regina, quis te versat amentem furor?	re&gi_na^ qvi&s te& ve_rsa^t a_me&nte&m fu^ro&r 	X_^_X_^_X_^X	1.0
 Quisve urget estus? Cohibe vesanum impetum!	qvi&sve& u_rge^t e_stu&s co^hi^be^ ve_sa&nu&m i_mpe^tu&m 	X_^_X^^^_X_^X	1.0
@@ -127,9 +127,9 @@ animosus Hector, sicca dum fluctu carens	a^ni^mo_su^s he_cto&r si_cca^ du&m flu&
 lucebit Ursa, pulcra dum Phebum dies	lu&ce_bi^t u_rsa& pu_lcra^ du&m phe&bu&m di^e&s 	X_^_X_^_X_^X	1.0
 et nox sororem sentiet, mundi vices	e&t no&x so^ro_re&m se_nti^e&t mu&ndi_ vi^ce&s 	X_^_X_^_X_^X	1.0
 dum volvet annus. Tantali lusor latex	du&m vo_lve^t a_nnu&s ta_nta^li_ lu&so_r la^te&x 	X_^_X_^_X_^X	1.0
-pomigeraque arbor, Sysiphum lapis gravans	po&mi^ge^ra^qve& a_rbo&r sy_si^phu&m la&pi&s gra^va&ns	X^^^_X_^_X_^X	m
+pomigeraque arbor, Sysiphum lapis gravans	po_mi^ge^ra^qve& a_rbo&r sy_si^phu&m la&pi&s gra^va&ns 	X^^^_X_^_X_^X	m
 celerique cursu raptus Ysion rote	ce^le^ri_qve^ cu_rsu& ra_ptu^s y_si&o_n ro^te& 	^^_^_X_^_X_^X	0.71
-alesque Ticii iecore fecundo furens	a&le_sqve^ ti^ci^i& je^co^re^ fe_cu&ndo_ fu^re&ns 	1.0	X_^^^X^^^_X_^X	m
+alesque Ticii iecore fecundo furens	a&le_sqve^ ti^ci^i& je^co^re^ fe_cu&ndo_ fu^re&ns	X_^^^X^^^_X_^X	m
 et ceca Ditis regio ac pinum manu	e&t ce_ca^ di_ti&s re_gi^o& a&c pi&nu&m ma^nu& 	X_^_X_^_X_^X	m
 furibunda gestans angue mortifero cohors	fu^ri^bu_nda^ ge_sta&ns a_ngve^ mo_rti^fe^ro_ co^ho&rs	^^_^_X_^_^^_^X	m
 tricepsque custos Tartari, Caron senex:	tri&ce_psqve^ cu_sto&s ta_rta^ri_ ca&ro_n se^ne&x 	X_^_X_^_X_^X	1.0
