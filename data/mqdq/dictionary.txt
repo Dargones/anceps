@@ -30284,7 +30284,7 @@ omnes omnes 266 o_mne_s 266
 omnesque omnes 5 o_mne_sqve^ 5 
 omnest omne 1 o_mne_st 1 
 omni omne 82 o_mni_ 82 
-omnia omne 280 o_mni^a^ 279 o_mnja^ 1 
+omnia omne 280 o_mni^a^ 279
 omniaque omne 3 o_mni^a^qve& 3 
 omnibus omne 123 o_mni^bu^s 123 
 omnigenumque omnigenus1 1 o_mni^ge^nu_mqve^ 1 
