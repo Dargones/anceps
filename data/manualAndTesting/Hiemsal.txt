@@ -1,111 +1,210 @@
-Heu, Zama, purpureis madescis imbribus!
-matresque nurusque misere, complete, io,
-Verum, ut aiunt, quod agas agito pro viribus.
-spelunca opaca intra nemus Ericthonium.
+Unproblematic lines:
+de&la_psa^ te_rri&s hu_c a^d ho_s ve^te^ri_s me^o&s | Assuming there is no impure s
+qv[ae] re_gna^ sci_ndi&t fu_ndi^tu_s fra&tre_s ne^ca&t | regna is neuter plural
+u&t vi^ti^a^ ta_ntu&m c[ae]te^ra e_xce&da_t lu^e&  | vitia is neuter plural. caetera = cetera
+vi&rtu_te^ qva_ntu&m pro_spe^r e_xce&lli_t vi^ro&s | virtute is abl
+pe&r e_t pro^fu_ndum e&t fu_lgi^dum e_t ca&stu_m po^lu&m | not enough data on fulgidum
+pa&rtu_ sa^ta^ me^o i&nvi^di^a^ pro_se^qvi^tu_r do^li&s | invidia is nom
+o& me_ pa^re_nte_m mi^se^ram i^te^rum e^t i^te^ru_m mi^se& | Fixed
+o a&mbi_ti^o_ si& te_mpo^ri^bu^s o&bte_mpe^re&s | Not enough data on obtemperes
+mo&nstra a_tqve^ cu_ra&s pro_gre^di_ ve^tu^i_t gra^ve&s | Infinitive has long i
+pro& ma_xi^mo_ be&ne^fi^ci^i_ me^ri^to e_xi^ma&r | ...
+de_vi_nxe^ri_t ne&mpe i_nso^le_ns di&vum e_st ge^nu&s | ...
+de&di_sci^mu_s su^pe^ri a_t qvi^d a_lta&s [ae]di^u&m | 3rd declension imus is short
+a&st e^go^ me^a_m qvo& me u_rbi^s a_rti^fi^ce_s pi^i& | Assuming no impure s
+lo&ca_ve^ra_nt su&do_re^ so_rdi&da_m pe^ta&m | plup short
+ru&e_ntem i^n e_xci^di^u_m su^bi_nde& ri_de^a&m | Not enough info
+i^ta^ nu_nc co^le_ndi& ra^ti^o^ cu_ra&ve e_xci^di&t
+qvi [ae]the^ra^ po^te_s ma&ri a_tqve^ te_rra&s [ae]the^ri&
+e&xpi_cta^ lu_stra&s fe_rvi^di_s pr[ae]ce_ps ro^ti&s | expicta agrees with neuter templa in the line before
+vi&nci_sqve^ du_m li^be^t a_tqve^ pro_ste&rni_s fe^ra&s | supposing e is short before mcl
+e&t qvo_s tu a^ga_s e&xe_rce^a_sqve^ la^bo_ri^bu&s
+mo&nstri_s su^b o^cu^lo& g[au]de^a_s tu&o_ pre^mi&
+fa^ci^le_s ha^be_bi&t u_sqve^ tam e_xo&su_s di^i&s
+i&mmo e_t qvi^de_m su&b so_le^ de_li^ti^[ae] de^u&m | t for c in delitiae
+qvo&dcu_nqve^ ve_sci^tu^r [au]ra e^t i_nco&li_t glo^bu&m
+qve&m pre^mi^mu^s i_psi& plu_s di^i_s co&rdi e_st qvam ho^mo&
+u_nde [au]t i^ni_bi&s [au]t a^ce_rbo_s fi_ni^e&s | Very strange - should not be a problem
+Se_d fa^mi^li^[ae] no_stro_s Pe^na_te_s a_c de^o&s
+du_ra i_mpi^a_que& sti_rpe^ Ge_tu_la! O_ fe^ru&m, | Case problem
+Do^le_bi^s i_n di^e_s mi^nu_s, cu_m plu_s sa^pi^s. | not enough info on sapis
+si&c e_t vi^ro_ru_m s[ae]pi^u^s a^ni&mi e_xci^ti& | exciti can have long or short i, but the dictionary only has long i
+ma&lu_m fe^re_ndo_ de_ni^que a_ssve_sca_s ma^gi&s. | Should have dound assvescat in the dictionary
+vo_sqve^ pa^tri&i o_bte_sto_r di^i e_t de^[ae] li^be&s
+pa^tri^o_s de^o_s pla&ca_te& vo_ti&s thu_re^qve&
 
-io demus hunc celebrem simul Baccho diem!
-Ite io, matronae, et sacrum et opacum in nemus
-
+Impure s:
 qv[ae] re_gna^ sci_ndi_t fu_ndi^tu_s, fra_tre_s ne^ca&t; | Impure s
 Sta_nt lu_bri^ci u_nda_nte_sque^ sca_la&rum o_mni^u&m | Impure s
 re_sci_ssa^ stu^de^a^t i_mpu^de_ns, e&t i_mpu^de_ns | Impure s
 cru^o_re^ spa_rso_s re_gi^o_s iu^ve^ne_s su^o_. | Impure s
-te^ne_te^: ru^o^, ru^o^. Qui_ppe^ spi_ri&tu_s fu^gi&t, | Impure s or prolonged short
-Re_gni_ la_be_s e_st pri_nci^pu_m di_sco_rdi^a&. | Prolonged short and a quotation from Sallust
-Iu&va_bi^t i_nte&ri_m si^mu^la_sse i&d a_rti^bu&s. | Prolonged short
-I^o_ Ba_cche_, fo_rmo_se i^o_ ma_tro_ne i^o_! | Long Vocative Prolonged Short
-o_mne_s e^t i_mpe^tu e_t mu^cro_ne^ co_mpe^tu_nt, | Unconventional muta cum liquida or Prolonged short
-e_xe_rcu^i a_c pa_ssi_m pa_lla_nte_s la_te a^gro&s | Unconventional muta cum liquida. Prolonged short
-O_ te_mpo^ra, o_ mo_re&s! I^ta^ ne_ fra_te_r ne^ce&m | Prolonged short and a quoatation from Cicero
-du_lci a_ so^po_re& ma_tu_ti_nu&s e_xci^te&t, | Prolonged short
-[eu]h[oe] li^be_s ma_tre_sque^ nu^ru_sque& h[eu] li^be&s | Prolonged short
-I_nde a^de^o^ ia_m, quoa_d fo_rs fe^re_t, mi^hi^ co_nsu^la&m. | Prolonged short or a rare scansion of adeo
-cri&ni_te^ ph[oe]be u&sqve a^de^o^ ne ho&s mi^se^ro_s po^te&s | Prolonged short or a rare scansion of adeo
-no_stram hu_nc ca_lo_ne_m pe_ne^ co_nve_nti_ti^u&m. | Incorrect use of cognates in the program and Prolonged short
-u_ltro^ ci^tro_ mu_ta_ti_s Pe^na_te_s pro_pa^la&m | Uncertain Prolonged short and unconventional scansion of ultro and citro
-i_n ma_rmo^r; A_le_cto_que a_tque i_pse& mu_tu^i&s | No diphthong in mutuis + Prolonged short
+te^ne_te^: ru^o^, ru^o^. Qui_ppe^ spi_ri&tu_s fu^gi&t, | Impure s + short o in first conjugation
+
+Unusual vowel quantities:
+quoa_d po^te^ri^s, i_psa& co_nsu^le_s. Sta^t e^ni_m mi^hi& | Monosyllabic quoad attested in Lucretius
+H[eu], Za_ma^, pu_rpu^re^i_s ma^de_sci&s i_mbri^bu&s! | Long a in Zama contradicting Punica 3.261
+O&e^ mi^se^ra_m ma_tre_m! Se^d e_ccum e&t a_lte^ru&m | Weird exclamation. Is it O he?
 Di&ti_que^ Ma_ni^bu_sque^ li_ta_ndu_m ti^bi&! | Manes the souls, not the hands, unconventional lito with long i
+u_ltro^ ci^tro& mu_ta_ti_s Pe^na_te_s pro_pa^la&m | Lucretius (4.32) has Ci^tro, ultro^ is possible according to dictionary
+La&re_s, Pe^na_te_s Ma_si_ni_sse& di_ssi^pe&t. | Prolonged short, According to Ovidius and Silius, it should be Ma^si^ni_sse
+Vo_sque^ ve^te^ri_s Ma_ne_s Ma_si_ni_sse_ pi^i&, | Prolonged short
+U&te_r Ma_si_ni_ssae e_st a^vo_  si^mi^li_s ma^gi&s, | Prolonged short
+
+On the assumption that Hyemsal is to be scanned with short y:
+a&d pro_spe^ru_m te&nde_s hy^e_mpsa&l e_t pe^de& | The assumption is somewhat supported by Punica 16.461
 ca^de_nti^um e_x cu^mu^li_s Hy^e_mpsa_l di_ffu^gi&t. | Program: difference between the presence and the past
-u_nde [au]t i^ni_bi&s [au]t a^ce_rbo_s fi_ni^e&s | Very strange - should not be a problem
+
+Simple program problems:
+e_x i_nsti^tu_to_ re^li^qua, u^t hi_nc e_t ple_ni^u&s |  Not enough data on instituto
 co&e_xe^que_ndu_m fa^ci^nu^s e_du_cto_s a^ge_ns | No diphthong
-du_ra i_mpi^a_que& sti_rpe^ Ge_tu_la! O_ fe^ru&m, | Case problem
-Do^le_bi^s i_n di^e_s mi^nu_s, cu_m plu_s sa^pi^s. | not enough info on sapis
-si&c e_t vi^ro_ru_m s[ae]pi^u^s a^ni&mi e_xci^ti& | exciti can have long or short i, but the dictionary only has long i
+Pro^i_nde^ pri_va_ti_ do^mu_m cu_re_nt su^a&m, | Dysyllabic proin
+Pro^i_nde^ de_cre_tum e_st a^pu_d me_ fu_ndi^tu^s | Dysyllabic proin
 co&li^tu^r ho^no_ri^bu^s, [au]re^o_ pr[ae]sta_ns gra^du_. | Fixed
+fa^ci^lem a_tque^: mo_ri&ge^ram! O^pu^s e_st a^d i_d re^i& | Not enough info on moriger
+a_rse_re^ fla_mm[ae]. Fe_rtu^r e_t fo_rmi_ce^i&s | Not a diphtong
+E_x u_lti^mo [ae]ne^i_ co^lo_ssi_ ve_rti^ce& | no diphtong in aeneus (or, possibly, hiatus)
+Spe&ra_sse^que e_t de& fo_rti^bu_s vi&ri_s be^ne& | Fixed
 sta_t fro_ns e^i_ vu_ltu_sque^ pa_lle_nte_s gra^vi_ | Disyllabic ei
 se_nte_nti^i_s, u_t de^ce^t, e^i_ ta^me^n, u_t re^o^r, | | Disyllabic ei
 e&i_que^ tha_la&re_s fe^ro_ mo_nstro_ le^ve&s | Disyllabic ei
-Pro^i_nde^ pri_va_ti_ do^mu_m cu_re_nt su^a&m, | Dysyllabic proin
-Pro^i_nde^ de_cre_tum e_st a^pu_d me_ fu_ndi^tu^s | Dysyllabic proin
+I_nde a^de^o^ ia_m, quoa_d fo_rs fe^re_t, mi^hi^ co_nsu^la&m. | Prolonged short or a rare scansion of adeo
+cri&ni_te^ ph[oe]be u&sqve a^de^o^ ne ho_s mi^se^ro_s po^te&s | Prolonged short or a rare scansion of adeo, crinite is vocative
+spe&ra_sse e^t a^de^o& bo^na^ be^ne^ me^re_ndo_ li^ce&t. | No problem here
+Qui^s a^de^o^ fo_rti&s e_st, qui^s e_st ta_m fe_rre^u&s | Long or short adeo?
+o&di_sse^ mo_rta_li_s, u^t e_t quo_s Lu_ci^fe&r | mortalis is acc
+spe&lu_nca o^pa_ca i_ntra_ ne^mu^s E^ri_ctho_ni^u&m. | See no problem here
+qvi e_xo_rdi^u_m re&gni e_ru^e_ndi_ pa_tri^i&s | MCL
 a_rbi^tro^r e^o_s, qvi_ tam i_mpa^re_s se_ pri_sti^ni&s | arbitror not in dict
-ma&lu_m fe^re_ndo_ de_ni^que a_ssve_sca_s ma^gi&s. | Should have dound assvescat in the dictionary
-a_rse_re^ fla_mm[ae]. Fe_rtu^r e_t fo_rmi_ce^i&s | Not a diphtong
-e_x i_nsti^tu_to_ re^li^qua, u^t hi_nc e_t ple_ni^u&s |  Not enough data on instituto
-qvi e_xo_rdi^u_m re_gni e_ru^e_ndi_ pa_tri^i&s | Muta cum liquida
-quoa_d po^te^ri^s, i_psa& co_nsu^le_s. Sta^t e^ni_m mi^hi& | Monosyllabic quoad
-Spe&m e_sse^ me^ri^ti_ fi_li^a_m vu_lgo_ fe^ru_nt, | Hiatus
-E_x u_lti^mo a_e_n[ei] co^lo_ssi_ ve_rti^ce& | no diphtong in aeneus (or, possibly, hiatus)
-u_mbri_s gra^ve i_nfe_sti_s, pro^pe^re^ h[ae]re_ns lo^co_ | Hiatus
-qua_rum o^pe^ra^ hu_i_c ca^la^mi^ta_s ge_nti_ ma^gi&s | Dysyllabic huic? Uncertain Hiatus?
-Iu&gu_rtha he^ru_m fe_rro_ he^ e_xti_nxi_t me^u&m. | Hiatus in exclamation
-te_rri_s fe^ra_s? O_ e_t tu, o^ly_mpi^cu_m de^cu&s, | Hiatus in exclamation
-i&nju_ri^i_s, i_nvi_ti i^nho_rre_scu_nt he^ h[eu]. | Hiatus in exclamation
-He^ he^ he^! A^de_ste, a_ccu_rri^te^, he^ su_cce_di^te&, | Hiatus in exclamation Uncertain
-'O_,’ i_nqvi^t, 'o_mne, o_ u_ni^cu_m de&cu_s me^u&m, |  Hiatus Uncertain
-O_ Po_ly^mi_te_s, o_ e^t i_nte_rpre_s de^u&m, | Hiatus in exclamation
-pa_rti_s vi^de^o^. Tu_ Ci_rtha^ pro^fu^gu&m, he^ he^, tu^o& | Hiatus in exclamation Uncertain
-O_ i_mpi^u_m di_ru_mque^ pro_du_ctum e_x e^a& | Hiatus in exclamation
+O_ te_mpo^ra, o_ mo_re_s! I^ta^ ne^ fra_te_r ne^ce&m | EITHER Prolonged short or fr not closing the syllable
+
+Hiatus:
+qua_ru^m o^pe^ra^ hu^i_c ca^la^mi^ta_s ge_nti_ ma^gi&s | Dysyllabic huic (cmp. Sidonius carm. 7.145) + 2 Hiatus
+sa&crum, a^gi^te^ fe_stum, i^o_ a^gi^te^ Ba_cho_ di^e&m! | Hiaatus is exclamation
 [Eu]h[oe]! U^t i_nte_r cla_mi^ta_ndum o_bmu_tu^i&t | Hiatus in exclamation
-O&e^ mi^se^ra_m ma_tre_m! Se^d e_ccum e&t a_lte^ru&m | Weird exclamation. Is it O he?
-mo&nstra a_tqve^ cu_ra&s pro_gre^di_ ve^tu^i_t gra^ve&s
-pro& ma_xi^mo_ be&ne^fi^ci^i_ me^ri^to e_xi^ma&r
-du^ri^u^s ho^mi^ne_ ve&l qvo_s ho^mo_ ta&nde_m si^bi&
-i&mmo e_t qvi^de_m su&b so_le^ de_li^ti^[ae] de^u&m
-o& du_lce^ le_tu&m re^fu^gi^um a_ di&i_s da^tu&m
+te_rri_s fe^ra_s? O_ e_t tu, o^ly_mpi^cu_m de^cu&s, | Hiatus in exclamation
+O_ i_mpi^u_m di_ru_mque^ pro_du_ctum e_x e^a& | Hiatus in exclamation
+O_ Po_ly^mi_te_s, o_ e^t i_nte_rpre_s de^u&m, | Hiatus in exclamation
+'O_,’ i_nqvi^t, 'o_mne, o_ u_ni^cu_m de&cu_s me^u&m, |  2 Hiatus Uncertain
+Iu&gu_rtha he^ru_m fe_rro_ he^ e_xti_nxi_t me^u&m. | 2 Hiatus in exclamation
+He^ he^ he^! A^de_ste, a_ccu_rri^te^, he^ su_cce_di^te&, | 4 Hiatus in exclamation Uncertain
+i&nju_ri^i_s, i_nvi_ti i^nho_rre_scu_nt he^ h[eu]. | Hiatus in exclamation
+qva&ti^te^ i^o_ thy&rso_s qva^ti^te^ pu&lchro_ de^o& | Hiatus in exclamation
+Spe&m e_sse^ me^ri^ti_ fi_li^a_m vu_lgo_ fe^ru_nt, | Hiatus
+
+Long where it shouldn't be:
+Ve_ru^m, u^t a_ju_nt, quo^d a^ga_s a^gi^to_ pro_ vi_ri^bu&s. | Hiatus + resolution
+nam e&t mi_ti^s e_st e&t me_ da_thu_m va&lde_ pro^ba&t | Dathus writes in his own letters: Horrere Dathum, mox meam...
+e_xe_rcu^i a_c pa_ssi_m pa_lla_nte_s la_te a^gro&s | Prolonged short
+fa^ci^em i_n su^a_m pro&nu_s pro^pe^re_ la&psu_s ge^mi&t | Resolution in place of a short
+Fa&stu_m qui^dem o_bse^qvi^o_ pro^pe^re_ vi_nce_s tu^o&. | Resolution
+u&mbri_s gra^ve i_nfe_sti_s, pro^pe^re_ h[ae]re_ns lo^co&
+Iu&va_bi^t i_nte&ri_m si^mu^la_sse i&d a_rti^bu&s. | Prolonged short
+pa_rti_s vi^de^o_. Tu_ Ci_rtha^ pro^fu^gu&m, he^ he^, tu^o& | 2 Hiatus in exclamation + prolonged short
+[eu]h[oe] li^be_s ma_tre_sque^ nu^ru_sque& h[eu] li^be&s!
+no_stram hu_nc ca_lo_ne_m pe_ne^ co_nve_nti_ti^u&m. | Incorrect use of cognates in the program and Prolonged short
+i_n ma_rmo^r; A_le_cto_que a_tque i_pse& mu_tu^i&s | No diphthong in mutuis + Prolonged short
+Re_gni_ la_be_s e_st pri_nci^pu_m di_sco_rdi^a&. | Prolonged short and a quotation from Sallust
+Iu&va_bi^t i_nte&ri_m si^mu^la_sse i&d a_rti^bu&s. | Prolonged short
+o_mne_s e^t i_mpe^tu e_t mu_cro_ne^ co_mpe^tu_nt, | Unconventional muta cum liquida or Prolonged short
+du_lci a_ so^po_re& ma_tu_ti_nu&s e_xci^te&t, | Prolonged short
+Qui&d i_nde a^ga_m ne_sci^o^. Ne_ ve_ro& no_n fe^ra&m | Prolonged short or is it interrogative ne???
+no&n i_d me&um e_st se&d pa_tri^s hy^e_mpsa&l de_de^cu&s | Assuming patris is scanned in the same way as in line 317 (mqdq number)
+o&b re_s tum e&o_ qvo&d a_mbi^ti^o_ de^a^ qvam u_ni^ce& | Not 100% sure about this one, but ambitio seems to be long in line 13 (mqdq)
+e&rgo_ li^be^t hi_nc e&ffu^ge^re a&b o_mni ho^mi^nu_m gre^ge& | Not sure, but ergo seems to predominantly have long o
+a_t ve_ro e^go^ pa_tre^ pro^i_nde^ no_n ce_rto_ sa^to&s | Long a in patre by analogy with line 313 (mqdq number)
+se&d e_cce& pe_rfi^di^a u_ti_ pro_na e&st a_d sce^lu&s | uti has long i here
+ma&tre_sque^ nu^ru_sque^ mi^se^re_, co_mple&te_, i^o&, | Two prolonged shorts. Based on scansion of the previou line (346)
+o& pa_tri^a^ pa_tri^a^ si_c ne& sa_cra&rum [ae]di^u&m | if patriis has long a, so should patira???
+Pro_fe_cto_ co_nsi^li^i_s bo^ni_s ni&si u_ltro^ re_x | Prolonged short, ultro^ is possible according to dictionary
+u_t so_le^ pi_x qu[ae] li_qui^tu^r, e^a^de^m a^b [ae]sti^bu&s | resolution
+
+Old scansions reused (for Dati type of trimeter):
+mo&nstra a_tqve^ cu_ra&s pro_gre^di_ ve^tu^i_t gra^ve&s | Infinitive\imperative
+pro& ma_xi^mo_ be&ne^fi^ci^i_ me^ri^to e_xi^ma&r | Not enough info in dictionary
+o& du_lce^ le_tu&m re^fu^gi^um a_ di&i_s da^tu&m | Not enough info on refugium
+m[ae]ro_rem i&no^pi^a_m po_ni&mu_s pe_r te_ fe^ra& | Not enough info on inopiam
 pu&bli^ca^qve^ pri_va&ta^qve^ vo^lu_ta&nte_m lo^ca&
 qva&ndo^qvi^dem i^n ho^mi^nu&m ge^ne^re^ ta_m ma^le^ li_be^ro&s
-a&li^tu^r a^bi_nde^ ca^da_ve^re a_dve&ctu_s pe^ti&t
-o^pe^r[ae] pre^ci^um a^bi&i_sse^ si^t e^u&m tri_sti^u&s
+o^pe^r[ae] pre^ci^um a^bi&i_sse^ si^t e^u&m tri_sti^u&s | pretium?
 be&ne^fi^ci^i_s cla&rum e_sse^ pu_lchre& co_nde^ce&t
-be&ne^fi^ci^o_ ne& tu_ sa^ti^s ho^mi&ne_m tu^o&
 qvi&n fa_stu^s o_bse^qvi^o_ pro^ca_ci^u^s i_ntu^me&t
 de&me^ru^e^ri_s rem e&gi_sse^ pro o_ffi^ci^o_ sa^t e&st
-o&bli_qva^ lu_mi&na^ mo^do^ su_bre&pta a_lti^u&s
-i&gne^ ti^bi^ ta^la^ fa&ci_s te^ne_bra&s u_lti^ma&s
 ne& cre_de^ ne_ cre&de^ ve^te^ri a^ta^vo&rum ho_spi^ti&
-o& ple_na^ nu_mi^ne^ cu_j fu^tu_ra& phy_ti^u&s
-ci&vi^bu^s e^t i_nti&mi_s do^le_re^ pro^bo_s a^ni&
-mi&s re_gu^lo_s ga&za a_tqve^ se_di^bu^s o_cy^u&s
-cu&ra i_gne^o_qve^ fu^ro_re^ su_ffu&se_ ge^n[ae]
+ci&vi^bu^s e^t i_nti&mi_s do^le_re^ pro^bo_s a^ni& | Acc pl is long
 u&bi^li^be^t i_ndi&ce_ndum e^t i_nde e&go hi_nc si^mu&l
 vo&s e_t se^qvi^mi^ni& su_ppli^ce_s mo&ve_nt de^o&s
-co&mple_xa^ du_dum e&t sva_vi^o_ li&ba_ns su^o&
-e&t i^no^pi^am e_t fu&rtum e_t ra^pi_na&m co_nci^ta&s
-qva&ti^te^ i^o_ thy&rso_s qva^ti^te^ pu&lchro_ de^o&
-si&mu_l i^o_ ma&tro^ne^ i^o_ ba&cche i_ncli^te&
-fe&ra_le^ phy^to^ni&ss[ae] a_bi^gi_te o&me_n de^i&
+fe&ra_le^ phy^to^ni&ss[ae] a_bi^gi_te o&me_n de^i& | Not sure about the scansion of phytonissae
 i&s co_mmo^du^s e^ti&a_m si e^a_t mo&le_stu^s e&st
+du_ri^u^s ho&mi^ne^ ve&l qvo_s ho&mo_ ta_nde_m si^bi&
+a&li^tu^r a^bi_nde^ ca^da_ve^re a_dve&ctu_s pe^ti&t
+be&ne^fi^ci^o_ ne& tu_ sa^ti^s ho^mi&ne_m tu^o&
 ho&ste_m pu^ta_re^ pi^u_mqve^ du_ci&to_ fo^re&
-fa^ci^em i_n su^a_m pro&nu_s pro^pe^re^ la&psu_s ge^mi&t
-odisse mortalis, ut et quos Lucifer
-non dubito quin audax comam Baccho secet,
-monstris nefandis: nam ultro monstra hi provocant
-Quis adeo fortis est, quis est tam ferreus
-qui non ut ego scelus in Micissa fulminet?
-Eum ne Iugurtham patre incerto editum
-Et quem ille tu ne, tu ne regem, tu parem
-Profecto consiliis bonis nisi ultro rex
-Frater ne fratrem non colet? Colet? Ubi nam
-ut subiit, heu, Livor inimicus appulit
-Consilia probet eventus. Interim hac mea
-medio ne consessu quasi et parentem eum
-dignabimur nostro, ne sordidum in domum
-Fastum quidem obsequio propere vinces tuo.
-Semper ne perferemus hoc: ut qui modis
-Nunquam ne te tot atque tantis obrutum
-Nunquam ne te posse aliquid in petulantium
-illi ne qui superbia atque ignavia
-O patria, patria, sic ne sacrarum aedium
-facilem atque morigeram! Opus est ad id rei
-Sed ecce Perfidia uti prona est ad scelus!
-Qui&d i_nde a^ga_m ne_sci^o^. Ne_ ve_ro& no_n fe^ra&m | Prolonged short
+mi&s re_gu^lo_s ga&za a_tqve^ se_di^bu^s o_cy^u&s
+cu&ra i_gne^o_qve^ fu^ro_re^ su_ffu&se_ ge^n[ae]
+e&t i^no^pi^am e_t fu&rtum e_t ra^pi_na&m co_nci^ta&s
+o&bli_qva^ lu_mi&na^ mo^do^ su_bre&pta a_lti^u&s
+
+o& ple_na^ nu_mi^ne^ cu_j fu^tu_ra& phy_ti^u&s
+co&mple_xa^ du_dum e&t sva_vi^o_ li&ba_ns su^o&
+
+New Quick scansions:
+ci&rcu_mru&e^re^ cu&lmi^na e^t a&b i_mi&s se_di^bu&s
+to&tu_m pe&r o_rbe&m pe_rse^qvi^tu^r o^di^i_s de^a&m
+qv[ae]qve i_nsti&tu^e^ri&s ri_te& fa^ci^le e&st e_xe^qvi& | perf subj
+sa&ncti_sqve& ve_rte&ndi_s ca&pi^a^t a& le_gi^bu&s
+e&n u^t re^pe&nte_ qva&si o_bvi&i_s e&xte_rri^ta& | repente - adverb
+ve&rba^ ne^ga&t u_t se& se_ pre&me_ns to&ti_s si^mu&l
+no&cte_m ju&ba^re^ fu&sca^t a^la&cre_m ti&ta_n su^o&
+plu&ra^ ve^ta&t ha_c i&n pa_rte& ph[oe]bu&s pro_lo^qvi&
+su&mpsi_sse o&di^a^ se&d [eu]e&ni^t i^d u&su_ qvi^de&m
+no&str[ae] fa&mi^li^[ae] mo_ri&bu_s nu&nc pr[ae]be^a&nt
+no&strae a_d fa&mi^li^[ae] co_ntu&li_ ce&rtu_m de^cu&s
+e&xte_rri&tum a_nte o&ra^ po^si&t[ae] lo&nge_ pre^mu&nt | ora - neuter pl
+cre^pi^tu_ stre&pe_nti&qve^ so^ni&tu_ tri_cli_ni^a&
+cu&ncta^ la^be&fa_cta&re a_tqve& mi_xti&m se_di^bu&s
+na&m me i_nvi&di^a^ ma&te^r he^re&bo a_cci&tam u_lti^mo& | invidia - nom
+qvi&d pe_ndi&ti_s ma&tro_nae a&gi^te^ ba&ccho_ di^e&m
+fra&cti_s fo&ri^bu^s i&ntro_ sa&te_lli&te_s glo^bi&s
+to&ta_m pe&ni^tu^s hy&e_mpsa&li_s ve&xa_nt do^mu&m
+tu_m pa_nde& qva_nti e&st i_nvi&di^a^ te&na_x ma^li& | invidia - nom
+e&st ho^mo^ mo&do^ se ho^mi&ne_m ve&li_t no&n be_llu^a&m | modo = so long as
+a^de^o a_ngi&mu_r so&lli^ci^ti e&t i_nnu^me^ri_s ma^li&s
+ph[oe]be^ ly^ram a&lti_bo&a_nte&qve a_ ma&ri_s de^o&
+i^ta^ qva_m ti&me_nt lu&em e^t re^le&ga_nt di&i_ pro^cu&l | Assuming mcl does not close the syllable
+mo^do^ ne ho_c a&ga_s i&nvi_tu&s e_t re&gum o_mni^u&m
+qvo& nam hi_nc a&gi^tu^r [au]t a^bi^t hy&e_mpsa&l qvi_d fu^ri&t
+su&bi_nde& no_stra&m re_gi&am a_mbi^ti^o h[ae]c pa^re&ns
+no&n ta_nta& qva_nta&m qvi i_ntu&le^ri^t i&nju_ri^a e&st
+co&nsi^li^a& pro^be^t e_ve_ntu&s i_nte&rim ha_c me^a& | subj 3rd sg is short
+ta&ndem i^s ve^re&o_r ne&qvi_d fe&ru^s a^ce&rbi_ pa^re&t | Not sure about this one
+[ae]qve a_tqve& di_cti&s e^s e^te&nim e_x di&cti_s pro^be& | es is necessary short
+co&nste_rno&r e^t o^cu&li e_t ge&nu^a^ flu&u_nt si^mu&l | genua = knees
+o&rco_ mi&hi^ so^ci&o_s tru&ce_s a&d ho_rri^du&m
+te&cta^qve^ fu&ro_re e&t pe_ssi&ma o_pple&vi_ lu^e& | tecta - acc pl
+fe&rro a_mpu&ta_nt re&s hu_nc i&gi^tu^r a&cta i_n mo^dum e&st | Not sure about igitur
+u&bi^ pi^e&ta_s a&pu^d ho^mi&ne_s ta&nde_m si^ta& | Cf. ubi^ in line 215 (mqdq indexing)
+ma&lum i_nvi&di^a^ po&ssi_t pe&r h[ae]c a&gno_sci^te& | invidia - nom
+sa&cra e_t pro&pha_na o&mni^a^ pe&do_re& po_llu^a&t | prophana = profana
+sa^pi^e_ns sta&tu^e^t ho&c mu_nu&s i_n vi&ta_ si^bi& | fut 3rd sg is short
+tu&tu^s e^ri&t a^mo^r o&di_sse& cu_m po&ssi_s ho^mo&
+i&gne^ ti^bi^ ta^la^ fa&ci_s te^ne_bra&s u_lti^ma&s | Not sure about this
+si^bi^ qvi_sqve& to_rme_ntum a_lte&ri^u^s o&pte_t ma^gi&s
+sple&ndo_re& do^mu^s o&mni^s e^t ho&no_s ti^tu^li_s ni^te&t
+si&bi u_ni&co h[au]d du&ro_s pu^te^t e^o&s pri_nci^pe&s
+i&nce_ndi&a_ri&a^qve a^vi&s a_lta a& po_rti^cu& | nom
+sa&ncta^qve^ se&pu_lcra& spo_nte a&pe_rta e&x u_lti^mi&s | neuter plural
+di&sco_rdi&a^ mo^do& pre_be&a_s te i&psa_m mi^hi& | Vocative (discordia)
+u&t si_qvi&d o^pi^s ha&be_t pe&ro_ccu&rra_t ma^li&s | ops, opis = strength
+a&ngu_sti&i_s o&bme_rsa& no_n ma^la^ pri_ma^ su&nt |  abls/dat pl has long is
+i&o_ li&be_s mi^se^re_ li&be_s mi^se^re_ li^be&s
+cl[au]sa^ lo^ca^ no_n ce&ssa_nt do&mu_sqve o&mni_s si^mu&l | clausa loca is neuter plural
+Iu^va^t i^n ho^mi^nu_m vi&ta_ mi&nu_s ve&lle a_c mi^nu&s
+Ho^mi^ne_s ve^l o_de&ru_nt ve^l o_pta_nt quo_d ne^que&
+
+Si_ du_ra^ te_mpo&ra^ fu^e^ri_nt e_t pri_nci^pe&s
+qua&, si_ si^t o^pu^s, e^qui^dem e_t mo&ri, u_t ta_nde_m me^o&
+
+Too weird:
+I^o_ Ba_cche_, fo_rmo_se i^o_ ma_tro_ne i^o_! | Long Vocative Prolonged Short
+simul io matrone io bacche inclite | Weird length for simul, si^mu_l i^o_ ma_tro_ne i^o_ ba_cche i_ncli^te&
+io demus hunc celebrem simul Baccho diem! | Very weird io, io_ de_mu^s hu_nc ce^le^bre_m si^mu_l Ba_ccho_ di^e&m!
