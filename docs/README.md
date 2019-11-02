@@ -1,5 +1,5 @@
 # This file describes how the scansions of the (pseudo-)Senecan/Neo-Latin plays were obtained.
-# The data on Senecan tragedies can be downloaded [here](https://github.com/Dargones/Scansion-project/blob/master/archives/AllCorpus.zip)
+# The data can be downloaded [here](https://github.com/Dargones/Scansion-project/blob/master/archives/AllCorpus.zip)
 
 ## Digitized versions of the tragedies
 
