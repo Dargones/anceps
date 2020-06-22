@@ -26,8 +26,8 @@ used to macronize prose.
 2) **Using period- and author-specific frequency-based dictionaries.** The 
 traditional approach to automated scansion is to use a dictionary that lists all
 theoretically possible ways a word can be macronized. For this purpose, **anceps** 
-uses the dictionary based on queries to [Morpheus](https://github.com/PerseusDL) which was created by Alatius 
-for his scansion tool. However, theory-guided dictionaries like this one are not
+uses the dictionary based on queries to [Morpheus](https://github.com/PerseusDL) which was created by Johan Winge 
+for [his scansion tool](https://github.com/Alatius/latin-macronizer). However, theory-guided dictionaries like this one are not
 always reliable because they do not specify how frequent a particular scansion
 is. Consider `patris`, the genetive of `pater`. The `a` in `patris` can be
 either long or short depending on the author and the period. Poets of the 
