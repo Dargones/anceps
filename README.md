@@ -9,8 +9,8 @@ automatically scan the majority of verses in any Latin meter and can greatly
 speed up the process of manual scansion of difficult lines. Additionally, it
 can identify scansions that are inconsistent with the historical period during 
 which the given text was written and is otherwise helpful for identifying
-metrical anomalies. **Anceps** is being developed by Aleksandr Fedchin ([Bard College](https://www.bard.edu/), 
-[Tufts University](https://www.tufts.edu/), [Quantitative Criticism Lab](https://www.qcrit.org/).
+metrical anomalies. **Anceps** is being developed by Sasha Fedchin ([Bard College](https://www.bard.edu/), 
+[Tufts University](https://www.tufts.edu/), [Quantitative Criticism Lab](https://www.qcrit.org/)).
 
 **Anceps** differs from existing scansion tools in several respects:
 
