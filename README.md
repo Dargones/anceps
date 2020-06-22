@@ -1,5 +1,7 @@
 # Anceps - a Latin scansion tool
 
+![Anceps](SenecaSocrates.jpg)
+
 ## About
 
 **Anceps** is a tool for computer-assisted scansion of Latin poetry. It can 
@@ -12,8 +14,7 @@ metrical anomalies. **Anceps** is being developed by Aleksandr Fedchin ([Bard Co
 
 **Anceps** differs from existing scansion tools in several respects:
 
-1) **Using meter as a constraint.** Many scansion tools (e.g. [Alatius' Latin
-macronizer](https://github.com/Alatius/latin-macronizer) or [CLTK](https://github.com/cltk/cltk)'s prosody module) begin by using a POS tagger to macronize 
+1) **Using meter as a constraint.** Many scansion tools begin by using a POS tagger to macronize 
 all the words in a verse and only then proceed to scanning the verse. 
 By contrast, **anceps** uses meter as a constraint by considering all the possible 
 ways the words in a verse might be macronized that lead to the verse being 
@@ -125,6 +126,8 @@ python -m src.mqdq.dictionary data/MqDq/ data/MqdqMacrons.json
 ### Dependencies and Versions
 
 **Anceps** should be run with `python3` with the following packages installed: `tqdm, requests, selenium`
+
+Firefox is also required as a driver that `selenium` can use to download MqDq data.
 
 
 
