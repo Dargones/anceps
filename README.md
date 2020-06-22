@@ -106,7 +106,7 @@ download the database in full or specify a particular set of authors you wish
 to download as shown below:
 
 ```bash
-python -m src.mqdq.scraping mqdq -dir=data/test -authors Vergilius Horatius
+python -m src.mqdq.scraping mqdq -dir=data/MqDq/ -authors Vergilius Horatius
 ```
 
 The full set of authors currently available on MqDq can be obtained by running 
