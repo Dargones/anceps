@@ -199,6 +199,8 @@ class Verse:
             return None
         if len(manual_options) != 1:
             self.scansion_method = "failed"
+            Verse.DICT[self.verse_key] = {"scansion": self.unaltered,
+                                          "comment": "toBeScanned"}
             return None
         scansion = manual_options.pop()
         if len(auto_options) == 0:
