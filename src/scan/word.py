@@ -96,11 +96,14 @@ class Word:
         """
         prefixes = set()
         non_mqdq = set()
-        for option in self.scansions:
-            prefix = Word.PREFIX.match(option.scansion).group()
-            if not option.isMqDq:
-                non_mqdq.add(prefix)
-            prefixes.add(prefix)
+        if self.word == "":
+            prefixes.add(Word.PREFIX.match(self.postfix).group())
+        else:
+            for option in self.scansions:
+                prefix = Word.PREFIX.match(option.scansion).group()
+                if not option.isMqDq:
+                    non_mqdq.add(prefix)
+                prefixes.add(prefix)
         if len(prefixes) != 1:
             if len(non_mqdq) == 1:
                 return non_mqdq.pop()
@@ -199,6 +202,8 @@ class Word:
             scansion = Word.__u_to_v(scansion)
             scansion = Word.DIPHTH_REGEX.sub(r"[\1]", scansion)  # marking all diphthongs
             scansion = Word.VOWELS_REGEX.sub(r"\1*", scansion)  # marking all vowels
+            if not DIPHTHONGS:
+                scansion = re.sub("(\[ae\]|\[oe\])", "e_", scansion)
             Word.MORPHEUS_DICT[key].add(scansion.lower())
         # joblib.dump(Word.MORPHEUS_DICT, "../../data/morpheusdict")
         # Word.MORPHEUS_DICT = joblib.load("../../data/morpheusdict")

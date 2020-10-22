@@ -184,7 +184,7 @@ class Verse:
                                 manual file
         :return:
         """
-        if len(manual_options) != 1:
+        if self.verse_key not in Verse.DICT and len(manual_options) != 1:
             if len(auto_options) == 1:
                 self.scansion_method = "automatic"
                 scansion = auto_options.pop()
@@ -196,6 +196,9 @@ class Verse:
                 self.scansion_method = "failed"
             else:
                 self.scansion_method = "failed (many options)"
+            return None
+        if len(manual_options) != 1:
+            self.scansion_method = "failed"
             return None
         scansion = manual_options.pop()
         if len(auto_options) == 0:

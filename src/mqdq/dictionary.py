@@ -38,8 +38,8 @@ class MqDqDictionary:
     LONG_BY_POS = re.compile("_(" + CLOSE_SYLLABLE + "|[" + CONSONANTS_NOT_H + "]{3})(["
                              + CONSONANTS + "]*)$")
     PREFIX = re.compile("^[" + DOUBLE_CONSONANTS + CONSONANTS + "]*")
-    ERROR = re.compile("(?<!\[)[oyea](?![*_^])")
-    U_ERROR = re.compile("[*_\^]u([" + VOWELS + "]|$)")
+    ERROR = re.compile("(?<!\[)[oyea](?![*_^\]])")  # no quantity specified
+    U_ERROR = re.compile("[*_\^]u([" + VOWELS + "]|$)")  # does not work wel with novum
 
     def __init__(self):
         self.data = defaultdict(dict)
@@ -70,12 +70,13 @@ class MqDqDictionary:
         key = multireplace(key, {"v": "u", "j": "i"})
         return self.data.get(key, {})
 
-    def add_word(self, word, next_word, author):
+    def add_word(self, word, next_word, author, diphthongs):
         """
         Add a particular word-scansion to a dictionary
         :param word:        the word-scansion
         :param next_word    the following word
         :param author:      the author of that word-scansion
+        :param diphthongs: if True, replace [ae] and [oe] with e
         :return:
         """
         if next_word is None or word[-1] == "‿" or next_word == "est":
@@ -87,24 +88,29 @@ class MqDqDictionary:
                 word += prefix
                 word = MqDqDictionary.LONG_BY_POS.sub(r"*\1\2", word)
                 word = word[:-len(prefix)]
-        if MqDqDictionary.ERROR.search(word) is not None or MqDqDictionary.U_ERROR.search(word) is not None:
+        if MqDqDictionary.ERROR.search(word) is not None:
+            # if MqDqDictionary.ERROR.search(word) is not None or MqDqDictionary.U_ERROR.search(word) is not None:
             return
         if len(word) > 4 and word[-4:] in ["que^", "que*", "qve^", "qve*"]:
-            self.add_word(word[:-4], "qv", author)
+            self.add_word(word[:-4], "qv", author, diphthongs)
             return
         word = re.sub("u([^\]\^*_])", r"v\1", word)
         word = re.sub("i([^\]\^*_])", r"j\1", word)
+        if not diphthongs:
+            word = re.sub("(\[ae\]|\[oe\])", "e_", word)
+
         key = re.sub("[^a-z]", "", word.lower())
         key = multireplace(key, {"v": "u", "j": "i"})
         if word not in self.data[key]:
             self.data[key][word] = defaultdict(int)
         self.data[key][word][author] += 1
 
-    def add_verse(self, verse, author):
+    def add_verse(self, verse, author, diphthongs):
         """
         Take a scanned verse of poetry and record all the word scansions in it in the dictionary
         :param verse:   the verse to record the scansions from
         :param author:  the author of the verse
+        :param diphthongs: if True, replace [ae] and [oe] with e
         :return:
         """
         verse = re.sub("[\^_*\[\]\n\t]", "", verse)
@@ -119,14 +125,15 @@ class MqDqDictionary:
         words = verse.split(" ")
         words.append(None)  # marks the end of the line
         for i, word in enumerate(words[:-1]):
-            self.add_word(word, words[i+1], author)
+            self.add_word(word, words[i+1], author, diphthongs)
 
-    def augment(self, dir, authors):
+    def augment(self, dir, authors, diphthongs):
         """
         Augment the dictionary with scansions of all the texts written by the specified set of
         authors
         :param dir:     the directory with the scansions (where scraping.py downloads them to)
         :param authors: list of authors. If authors == [], all authors will be considered
+        :param diphthongs: if True, replace [ae] and [oe] with e
         :return:        None
         """
         authors_list = [str(x).split("/")[-1] for x in list(Path(dir).glob("*"))]
@@ -140,7 +147,7 @@ class MqDqDictionary:
                 with open(file, "r", encoding="utf-8") as f:
                     verses = f.readlines()
                 for verse in verses:  # for any line in that text
-                    self.add_verse(verse, author)  # add the word scansions to the dictionary
+                    self.add_verse(verse, author, diphthongs)  # add the word scansions to the dictionary
 
 
 if __name__ == "__main__":
@@ -153,8 +160,11 @@ if __name__ == "__main__":
     p.add_argument("-authors", type=str, nargs="*", default=[],
                    help="set of authors to consider when constructing the dictionary. Leave "
                         "blank to include all authors")
+    p.add_argument("--no_diphthongs", dest="diphthongs", action="store_false",
+                   help="use to build a dictionary where 'ae' and 'oe' is replaced with 'e'")
+    p.set_defaults(diphthongs=True)
     args = p.parse_args(sys.argv[1:])
 
     dictionary = MqDqDictionary()
-    dictionary.augment(args.dir, args.authors)
+    dictionary.augment(args.dir, args.authors, args.diphthongs)
     dictionary.save(args.output)

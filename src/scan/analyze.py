@@ -27,6 +27,14 @@ def analyse(data):
     return stats
 
 
+def record_trimeterDATI(decomposition, verse, stats):
+    return record_trimeter(decomposition, verse, stats)
+
+
+def record_trimeterCORRER(decomposition, verse, stats):
+    return record_trimeter(decomposition, verse, stats)
+
+
 def record_trimeter(decomposition, verse, stats):
     """
     Function called to record statistics about a verse of trimeter
@@ -41,6 +49,14 @@ def record_trimeter(decomposition, verse, stats):
     stats["patterns"].add(verse["pattern"], 1)
     for i, foot in enumerate(decomposition):
         stats["resolution"].add(i, len(foot.pattern) - 2)
+
+
+def finalize_trimeterDATI(stats):
+    return finalize_trimeter(stats)
+
+
+def finalize_trimeterCORRER(stats):
+    return finalize_trimeter(stats)
 
 
 def finalize_trimeter(stats):

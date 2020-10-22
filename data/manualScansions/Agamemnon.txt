@@ -14,7 +14,7 @@ i_li^a^de^s a_dsu*nt qua_s su^pe_r ce_lso_ gra^du_	Plural of Greek nouns can hav
 ti*me_te^ re_ge_s mo^ne^o^ fu_rti_uu_m ge^nu^s	Short 1St Person Sg
 co_ngre_ss(e) a^chi_lli_ tro_i^le i_nce_rto_s ge^ri*s	
 io*ue_m pre^ce_mu_r pa^ri^te^r he_rce^u_m io^ue*m	
-su^a_ne^ cu_rra_t a_n thy^e_ste^a_ ui^a*	
+su^a_ne^ cu_rra_t a_n thy^e_ste_a_ ui^a*	
 fi^de_m se^cu_nda* po_scu^nt a_due_rs(a) e_xi^gu*nt	Does not scan and is therefore marked as ingenuine
 u_t pa^ri^a^ fa_ta* tro_i^ci_s lu^e^re_t ma^li*s	
 tri^ge^mi^na^ ni_gri_s co_lla^ ia_cta_nte_m iu^bi*s	
@@ -48,7 +48,7 @@ re^pu^te_mu^s o_mne*s quo_s o^b i_nfa*nda_s ma^nu*s
 da* fre_n(a) e^t o_mne*m pro_na^ ne_qui^ti^(a)m i_nci^ta*	
 o* sce^le^ra^ se_mpe*r sce^le^ri^bu_s ui*nce_ns do^mu*s	
 pe*lo^pi^a^ phry^gi^[ae] sce_ptra^ du_m te^ne^a_nt nu^ru*s	
-me*nte_mque^ ti^bi^me*t i_psa^ pa_ci*fi^ca^ tu^a*m	
+me*nte_mque^ ti^bi^me*t i_psa^ pa_ci^fi^ca_ tu^a*m	
 i*gno_ui^t he^le^n[ae] iu_ncta^ me^ne^la*o_ re^di*t	
 qui^d ho^ne_sta^ pro_de*st ui_ta^ fla_gi^ti^o_ ua^ca*ns	
 que*m ue^ne^re^ ta_ntu*m sci_mu^s i_nli^ci^ta_ ui^ru*m	
@@ -105,7 +105,7 @@ a*bri^pi^te^ fa^mu^li* mo_nstr(u)m e^t a_ve*cta_m pro^cu*l
 i*nce_rta^ du^bi^ta*t u_nda^ cu_j ce*da*t ma^lo*	
 cu*m ste^ti^t a^d a_ra*s o_re^ sa_cri^fi^co_ pa^te*r	
 a^si^[ae] fe^ro_ci*s u_lto^r [eu]ro*p[ae] tra^hi*t	
-qv(ae) [eu]ro_pa*m e^t a^si^a_m pa^ri^bu^s a_ffli*xi*t ma^li*s	
+qv(ae) [eu]ro_p(a)m e^t a^si^a_m pa^ri^bu^s a_ffli*xi*t ma^li*s	
 spa*rte_nne^ re^pe^te*s spre_t(a) e^t [eu]ro*ta*n tu^u*m	
 a_dve_rsu^s [eu]ro* ze^phy^ru^s e_t bo^re^[ae] no^tu*s	
 s[eu] mo_re^ pe^cu^du*m co_lla^ re^se^ca*ri* pla^ce*t	
