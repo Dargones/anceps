@@ -35,7 +35,7 @@ class MqDqDictionary:
     # elision, etc.
     ELIDE = re.compile("([" + VOWELS + "])(["+ CONSONANTS + "]|"+"|".join(SHORT_COMBINATIONS)+ "|)‿?$")
     ELIDE_LONG = re.compile("([" + VOWELS + "])([" + CONSONANTS + "]*)‿?$")
-    LONG_BY_POS = re.compile("_(" + CLOSE_SYLLABLE + "|[" + CONSONANTS_NOT_H + "]{3})(["
+    LONG_BY_POS = re.compile("_(" + MIGHT_CLOSE_SYLLABLE + "|[" + CONSONANTS_NOT_H + "]{3})(["
                              + CONSONANTS + "]*)$")
     PREFIX = re.compile("^[" + DOUBLE_CONSONANTS + CONSONANTS + "]*")
     ERROR = re.compile("(?<!\[)[oyea](?![*_^\]])")  # no quantity specified
@@ -90,10 +90,9 @@ class MqDqDictionary:
                 word = word[:-len(prefix)]
         if MqDqDictionary.ERROR.search(word) is not None:
             # if MqDqDictionary.ERROR.search(word) is not None or MqDqDictionary.U_ERROR.search(word) is not None:
-            return
+            return word
         if len(word) > 4 and word[-4:] in ["que^", "que*", "qve^", "qve*"]:
-            self.add_word(word[:-4], "qv", author, diphthongs)
-            return
+            return self.add_word(word[:-4], "qv", author, diphthongs)
         word = re.sub("u([^\]\^*_])", r"v\1", word)
         word = re.sub("i([^\]\^*_])", r"j\1", word)
         if not diphthongs:
@@ -104,6 +103,7 @@ class MqDqDictionary:
         if word not in self.data[key]:
             self.data[key][word] = defaultdict(int)
         self.data[key][word][author] += 1
+        return word
 
     def add_verse(self, verse, author, diphthongs):
         """
@@ -123,9 +123,9 @@ class MqDqDictionary:
         if len(verse) == 0:
             return
         words = verse.split(" ")
-        words.append(None)  # marks the end of the line
-        for i, word in enumerate(words[:-1]):
-            self.add_word(word, words[i+1], author, diphthongs)
+        next = None  # marks the end of the line
+        for i in range(len(words) - 1, 0, -1):
+            next = self.add_word(words[i], next, author, diphthongs)
 
     def augment(self, dir, authors, diphthongs):
         """

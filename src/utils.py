@@ -22,6 +22,8 @@ CLOSE_SYLLABLE = '|'.join([''.join(x) for x in product(CONSONANTS, CONSONANTS)
                   if ''.join(x) not in SHORT_COMBINATIONS]) + '|' + \
                       '|'.join(DOUBLE_CONSONANTS)
 
+MIGHT_CLOSE_SYLLABLE = '|'.join([''.join(x) for x in product(CONSONANTS, CONSONANTS) if x[1] != 'h']) + '|'.join(DOUBLE_CONSONANTS)
+
 
 def multireplace(string, replacements):
     """
