@@ -69,11 +69,11 @@ To scan a text containing one verse of poetry per line, run the following comman
 python -m src.scan.scan fileToScan outputFile meter -manual_file=fileWithManualScansions -dictionary=MqDqDictionary
 ```
 
-For instance, to scan trimeter sections of Seneca's *Agamemnon* included in this 
+For instance, to scan an excerpt from Seneca's *Agamemnon* included in this 
 repository, run:
 
 ```bash
-python -m src.scan.scan data/texts/Agamemnon.txt data/fullScansions/Agamemnon.json trimeter -manual_file=data/manualScansions/Agamemnon.txt -dictionary=data/MqDqMacrons.txt
+python -m src.scan.scan data/texts/Agamemnon.txt data/fullScansions/Agamemnon.json trimeter -manual_file=data/manualScansions/Agamemnon.txt -dictionary=data/MqDqMacrons.json
 ```
 
 There are various argument that can be passed to *scan.py*. For example, you can
