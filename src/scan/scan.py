@@ -68,6 +68,7 @@ Word.AUTHOR_COUNT = args.ac
 Word.TOTAL_COUNT = args.tc
 Word.load_mqdq_dict(args.dictionary)
 Word.load_morpheus_dict("data/MorpheusMacrons.txt")
+# Word.load_morpheus_dict("../../data/MorpheusMacrons.txt")
 Verse.CUTOFF = args.cutoff
 
 args.meter = Meter.METERS[args.meter]
