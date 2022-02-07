@@ -25,11 +25,12 @@ class Word:
         :param word:        a word, which may comprise of lowercase alphabetical characters only
         :param next_word:   next word in the line, which is used to detect elisions
         """
+        self.next_word_prefix = None
         if next_word:
-            self.next_word_prefix = next_word.__get_prefix()
-        else:
-            self.next_word_prefix = None
-
+            try:
+                self.next_word_prefix = next_word.__get_prefix()
+            except:
+                self.next_word_prefix = None
         # checking if the word has a postfix like que
         self.word = word  # word - postfix like que, if there is one
         self.scansions = self.__look_up()
